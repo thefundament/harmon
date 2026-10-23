@@ -4,6 +4,7 @@ import json
 import pathlib
 import tempfile
 import unittest
+import wave
 from unittest import mock
 
 FILE=pathlib.Path(__file__).resolve().parents[1]/"collector"/"local_worker.py"
@@ -71,16 +72,24 @@ class LocalWorkerTests(unittest.TestCase):
      template=argv[argv.index("-o")+1]
      pathlib.Path(template.replace("%(ext)s","mp4")).write_bytes(b"fake video")
     elif head=="fake-ffmpeg":
-     pathlib.Path(argv[-1]).write_bytes(b"RIFF"+b"x"*200)
+     with wave.open(str(argv[-1]), "wb") as audio:
+      audio.setnchannels(1);audio.setsampwidth(2);audio.setframerate(1)
+      audio.writeframes(b"\0"*1200)
     elif head=="fake-whisper":
      prefix=pathlib.Path(argv[argv.index("-of")+1])
      pathlib.Path(str(prefix)+".txt").write_text("Synthetic test fixture says streets.")
      pathlib.Path(str(prefix)+".srt").write_text("1\n00:00:00,000 --> 00:00:02,000\nSynthetic test fixture says streets.\n")
     else:raise AssertionError(head)
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg","whisper":"fake-whisper","model":"fake-model"}
+   model=root/"ggml-large-v3-turbo-q5_0.bin";model.write_bytes(b"model weights")
+   tools["model"]=str(model)
    with mock.patch.object(worker,"run_command",side_effect=fake):
     result=worker.process_task(VOD,tools,out,work,threads=3)
    self.assertEqual(result["processing_status"],"transcribed")
+   self.assertEqual(result["recognition_model"],"whisper.cpp ggml-large-v3-turbo-q5_0")
+   self.assertEqual(result["model_sha256"],hashlib.sha256(b"model weights").hexdigest())
+   self.assertEqual(result["processed_audio_seconds"],600)
+   self.assertGreaterEqual(result["transcription_seconds"],0)
    self.assertFalse(result["speaker_verified"])
    self.assertFalse(result["training_ready"])
    self.assertTrue(worker.completed(VOD,out))
@@ -103,5 +112,50 @@ class LocalWorkerTests(unittest.TestCase):
  def test_space_guard_reports_real_disk_space(self):
   with tempfile.TemporaryDirectory() as td:
    self.assertGreater(worker.free_disk_bytes(pathlib.Path(td)),0)
+ def test_rejects_unwindowed_long_form(self):
+  with tempfile.TemporaryDirectory() as td:
+   p=pathlib.Path(td)/"manifest.jsonl"
+   for kind in ("vod","youtube"):
+    p.write_text(json.dumps({**TASK,"kind":kind}))
+    with self.assertRaisesRegex(RuntimeError,"complete time window"):
+     worker.load_manifest(p)
+ def run_fixture(self, root, outcomes, min_successes=0, push=False):
+  tasks=[{**TASK,"task_id":f"clip:fixture-{i}"} for i in range(len(outcomes))]
+  manifest=root/"manifest.jsonl";manifest.write_text("".join(json.dumps(t)+"\n" for t in tasks))
+  args=worker.parser().parse_args(["run","--manifest",str(manifest),"--work-dir",str(root/"work"),
+       "--output",str(root/"out"),"--min-successes",str(min_successes),"--commit-every","1","--min-free-gb","0"])
+  args.push=push
+  def process(task,*a):
+   outcome=outcomes.pop(0)
+   if isinstance(outcome,BaseException):raise outcome
+   return {"recognized_words":7}
+  with mock.patch.object(worker,"OUTPUT",root/"out"), mock.patch.object(worker,"find_tools",return_value={}), \
+       mock.patch.object(worker,"process_task",side_effect=process):
+   return worker.execute(args)
+ def test_min_successes_and_ordinary_unavailable_batch(self):
+  for required,expected in ((1,1),(0,0)):
+   with tempfile.TemporaryDirectory() as td:
+    self.assertEqual(self.run_fixture(pathlib.Path(td),[RuntimeError("source unavailable")],required),expected)
+  with tempfile.TemporaryDirectory() as td:
+   self.assertEqual(self.run_fixture(pathlib.Path(td),[True],1),0)
+ def test_local_checkpoints_continue_after_upload_failure(self):
+  with tempfile.TemporaryDirectory() as td, \
+       mock.patch.object(worker,"checkpoint") as checkpoint, \
+       mock.patch.object(worker,"push_commits",side_effect=RuntimeError("upload offline")) as push:
+   self.assertEqual(self.run_fixture(pathlib.Path(td),[True,True,True],push=True),0)
+   self.assertEqual(push.call_count,1)
+   self.assertGreaterEqual(checkpoint.call_count,3)
+ def test_interrupt_checkpoints_completed_results(self):
+  with tempfile.TemporaryDirectory() as td, \
+       mock.patch.object(worker,"checkpoint") as checkpoint, \
+       mock.patch.object(worker,"push_commits",return_value="test upload"):
+   self.assertEqual(self.run_fixture(pathlib.Path(td),[True,KeyboardInterrupt()],push=True),130)
+   self.assertGreaterEqual(checkpoint.call_count,2)
+ def test_explicit_model_path_overrides_name(self):
+  with tempfile.TemporaryDirectory() as td:
+   model=pathlib.Path(td)/"ggml-custom.bin";model.write_bytes(b"real weights fixture")
+   tools=worker.find_tools(model, __file__, __file__, __file__, "small.en")
+   self.assertEqual(tools["model"],str(model))
+   self.assertEqual(tools["model_sha256"],hashlib.sha256(model.read_bytes()).hexdigest())
 if __name__=="__main__":
  unittest.main()

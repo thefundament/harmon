@@ -63,7 +63,7 @@ def build(root,window=600):
  tasks=[]
  for (kind,sid),obj in sorted(seen.items()):
   duration=obj["duration_s"]
-  ranges=[(a,min(a+window,duration)) for a in range(0,math.ceil(duration),window)] if kind=="vod" and duration else [(None,None)]
+  ranges=[(a,min(a+window,duration)) for a in range(0,math.ceil(duration),window)] if kind in ("vod","youtube") and duration else [(None,None)]
   for start,end in ranges:
    task_id=f"{kind}:{sid}:{start}-{end}" if start is not None else f"{kind}:{sid}"
    if kind=="clip" and sid in completed["clip"]:state="asr_completed_unreviewed"
@@ -76,6 +76,8 @@ def build(root,window=600):
           "mode":"finite historical snapshot; NO recurrence",
           "sources":{k:sum(a=="%s"%k for a,b in seen) for k in ("clip","vod","youtube")},
           "listed_vod_hours":round(sum(o["duration_s"] or 0 for o in seen.values() if o["kind"]=="vod")/3600,2),
+          "listed_youtube_hours":round(sum(o["duration_s"] or 0 for o in seen.values() if o["kind"]=="youtube")/3600,2),
+          "listed_total_hours":round(sum(o["duration_s"] or 0 for o in seen.values())/3600,2),
           "window_seconds":window,"work_items":len(tasks),"states":counts,
           "warning":"Source durations may overlap; previous VOD transcripts lack source time offsets. No work is scheduled by this manifest."}
  return tasks,summary

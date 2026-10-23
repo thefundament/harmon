@@ -25,4 +25,29 @@ class HistoryTests(unittest.TestCase):
    (m/"clip_Test-1.metadata.json").write_text(json.dumps({"kind":"clips","source_key":"clip_Test-1","url":"https://www.twitch.tv/simplez4ck/clip/Test-1","transcription_ok":True}))
    rows,s=mod.build(root)
    self.assertEqual(rows[0]["state"],"asr_completed_unreviewed")
+ def test_youtube_windows_cover_full_duration_and_keep_other_ids(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=pathlib.Path(tmp);d=root/"corpus"/"discovery";d.mkdir(parents=True)
+   (d/"youtube.jsonl").write_text(json.dumps({"id":"abcdefghijk","duration":1250.5})+"\n")
+   (d/"twitch_vods.jsonl").write_text(json.dumps({"id":"v99","duration":1250})+"\n")
+   (d/"twitch_clips.jsonl").write_text(json.dumps({"url":"https://clips.twitch.tv/Test-1"})+"\n")
+   rows,_=mod.build(root)
+   yt=[r for r in rows if r["kind"]=="youtube"]
+   self.assertEqual([(r["start_s"],r["end_s"]) for r in yt],[(0,600),(600,1200),(1200,1250.5)])
+   self.assertEqual(yt[-1]["task_id"],"youtube:abcdefghijk:1200-1250.5")
+   self.assertEqual([r["task_id"] for r in rows if r["kind"]=="vod"],
+                    ["vod:99:0-600","vod:99:600-1200","vod:99:1200-1250.0"])
+   self.assertEqual(rows[0]["task_id"],"clip:Test-1")
+ def test_frozen_inventory_coverage(self):
+  root=p.parents[1]
+  rows,_=mod.build(root)
+  self.assertEqual(len(rows),1134)
+  self.assertEqual(sum(r["state"]!="asr_completed_unreviewed" for r in rows),994)
+  for source in {r["source_id"] for r in rows if r["kind"]=="youtube"}:
+   windows=[r for r in rows if r["kind"]=="youtube" and r["source_id"]==source]
+   self.assertEqual(windows[0]["start_s"],0)
+   self.assertEqual(windows[-1]["end_s"],windows[0]["duration_s"])
+   for i,r in enumerate(windows):
+    self.assertLessEqual(r["end_s"]-r["start_s"],600)
+    if i:self.assertEqual(windows[i-1]["end_s"],r["start_s"])
 if __name__=="__main__":unittest.main()

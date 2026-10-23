@@ -1,82 +1,57 @@
-# Harmon historical corpus — deterministic local-agent handoff
+# Harmon finite local transcription handoff
 
-**Mission:** Finish the prebuilt **one-time** historical worklist with no media discovery and no human-curated next-task selection. Use a local machine with Internet access. Do **not** use GitHub-hosted Actions for the bulk transcription; hosted Actions run only lightweight repository CI.
+The inventory is frozen. Do not discover new sources or start recurring jobs. This session authorizes setup, a sequential model comparison and a pilot capped at 20 source attempts. **Leave the ten-hour batch unstarted.** Do not use hosted Actions for transcription.
 
-## Machine and model
+`corpus/history/manifest.jsonl` contains 1,134 tasks, initially 994 eligible and 140 legacy clips skipped. VOD and YouTube tasks cover their complete listed durations in contiguous ten-minute windows (with shorter final windows). Existing clip and VOD task IDs are preserved. Unwindowed long-form tasks are rejected. The inventory lists 127.79 hours including clips; duplicates and unavailable material can reduce actual work.
 
-- Recommended environment: **Ubuntu Linux**, including Ubuntu under WSL2 on Windows. Bash, Python 3, Git, FFmpeg, CMake, C++ build tools and curl required.
-- Default recognizer: **Whisper `ggml-small.en.bin`** (about 466–488 MB; better accuracy than our original Base English model, reasonable on a modern CPU). The bootstrap fetches it automatically. No API key or cloud inference service.
-- Use one worker instance per checkout. Default `6` CPU threads; can adjust `HARMON_THREADS` if host resources permit.
-- Source inventory is already frozen in `corpus/history/manifest.jsonl`. **Do not run discovery** or replace it with a fresh dynamic channel listing.
+## Setup on this host
 
-## Exact first-run commands
+Ubuntu Linux needs Python 3 with venv, Git, CMake, C++, Make, curl, FFmpeg, Vulkan headers/loader and `glslc`. The host Radeon 8060S supports Vulkan. Bootstrap pins whisper.cpp `v1.9.5`, builds with `GGML_VULKAN=ON` and at most two Make jobs, and caps the upstream shader compiler helper to one subprocess (otherwise it bypasses Make's limit). That build-only throttle does not change inference code. Set `HARMON_VULKAN=OFF` only when deliberately choosing CPU inference.
 
 ```bash
-git clone git@github.com:thefundament/harmon.git
-cd harmon
-bash scripts/bootstrap_linux.sh
+HARMON_MODEL=small.en bash scripts/run_limited.sh bash scripts/bootstrap_linux.sh
+HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/bootstrap_linux.sh
 .venv/bin/python collector/local_worker.py status
-bash scripts/run_archive.sh --max-items 5
 ```
 
-The five-item initial run is a bounded smoke test. If it passes, proceed:
+Models are verified against the upstream SHA1 and their SHA256 is printed. `HARMON_MODEL` selects the model for setup and launch; `--model-name` selects a downloaded model for the worker, and explicit `--model /path/to/weights.bin` takes precedence. The default remains `small.en` until the live comparison is reviewed. Quantized Turbo is preferred only if it fits the budget, runs faster than real time, takes at most twice Small's measured time on identical audio, and has no obvious output regression. There are no verified reference transcripts: report differences and defects, never WER or measured accuracy.
+
+## Memory and logging
+
+`run_limited.sh` creates a transient user systemd service with `MemoryMax=6G`, `MemorySwapMax=0`. Its guard samples every 250 ms and stops our workload if cgroup usage plus positive GPU VRAM/GTT growth exceeds 8 GiB, or host `MemAvailable` falls below 2 GiB. Summing both can count some pages twice; GPU counters are global and other GPU workloads can cause a conservative stop. The guard requires readable counters and checks that the cgroup limits are active. Logs and peak metrics go to `.harmon-work/logs/`; set an absolute `HARMON_LOG` for a chosen log filename. No swap is permitted for this job even when other host jobs use swap.
+
+## Validation and batch commands
+
+For a validation run, choose a frozen subset manifest under `.harmon-work/` and use `--min-successes`. `--max-items` counts source attempts, including failures. Success requirements count new durable TXT/SRT/metadata outputs, including explicit no-speech results; inspect the requested speech outputs separately.
 
 ```bash
-bash scripts/run_archive.sh --max-hours 10
+HARMON_MODEL=small.en bash scripts/run_limited.sh bash scripts/run_archive.sh \
+  --manifest .harmon-work/pilot.jsonl --max-items 20 --min-successes 7 --commit-every 1
 ```
 
-To run through the whole remaining worklist without the ten-hour limit:
+Pilot acceptance requires five successful clips, one complete VOD window and one YouTube window, using the selected model. Verify hashes, timestamps, durations, cleanup, publishing and resumption. Do not exceed 20 total download attempts across comparison and acceptance. Account for unavailable sources explicitly.
+
+**Prepared ten-hour command; do not execute as part of this session:**
 
 ```bash
-bash scripts/run_archive.sh
+HARMON_MODEL=small.en HARMON_LOG="$PWD/.harmon-work/logs/ten-hour.log" \
+  bash scripts/run_limited.sh bash scripts/run_archive.sh --max-hours 10 --commit-every 10
 ```
 
-Authentication: ensure the Git SSH key (or credential manager for HTTPS clone) already has push permission to `thefundament/harmon`. The worker commits **only** `corpus/local_transcripts/` and periodically pushes to `main`. If pushing fails, transcription continues, local commits are retained, and `publish` can retry later.
+Use the final validation report's model selection when running later. The wall-time cap prevents starting another task after ten hours; a task already running can finish and checkpoint afterward.
 
-If missing Linux dependencies, Ubuntu/Debian setup is:
+## Completion, recovery and publishing
+
+One worker may run per checkout, enforced by an advisory lock. A hash-valid TXT/SRT/metadata trio is the durable completion marker and is skipped on resumption even without a journal. Metadata records the actual model filename and SHA256, processed audio duration, transcription time, requested source window and hashes. Audio shorter than a requested long-form window by more than two seconds fails instead of marking the window complete. Source cuts and SRT timestamps remain relative to downloaded sections; keyframe cuts can be imprecise.
+
+Media and WAVs live only in `.harmon-work/tmp/`, are removed on success/failure/handled interruption, and orphaned task directories are reclaimed on resumption. No media/model binaries are committed. Downloads are capped at 384 MiB, free disk must stay above 2 GiB, and failures receive backoff and at most three attempts. `--no-push` leaves results as local files without automatic commits. Custom output paths require `--no-push`.
+
+With publishing enabled, completed results are committed every `--commit-every` successes and on graceful SIGINT/SIGTERM. An upload failure disables further network attempts for that run but **local checkpoint commits continue**. The worker refuses to commit unrelated staged files. Commit tested code and handoff changes before validating publishing: dirty tracked files can prevent rebasing. Only `corpus/local_transcripts/` is staged by the worker.
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y git python3 python3-venv python3-pip cmake build-essential curl ffmpeg
-bash scripts/bootstrap_linux.sh
+.venv/bin/python collector/local_worker.py publish
 ```
 
-## Agent's instructions (no independent decisions required)
+`publish` retries upload of preserved local commits through the configured `origin` to `main`, fetching/rebasing first. The journal `.harmon-work/state.json` retains unavailable-source errors; ordinary batch source failures do not make the command fail, whereas insufficient `--min-successes` returns 1. A handled interruption returns 130 after checkpointing. CI updates only repository indexes.
 
-1. Pull the repo, confirm `main` and the frozen manifest are present.
-2. Run bootstrap once (it is idempotent).
-3. Run `status`, then `bash scripts/run_archive.sh --max-items 5` as acceptance.
-4. Inspect that `corpus/local_transcripts` contains TXT, SRT, metadata JSON; **no MP4, WAV or partial downloads**. Check `git log -1` or the remote branch for successful upload.
-5. Run the bounded ten-hour batch command repeatedly while eligible work remains, without redoing completed task IDs. The worker itself selects tasks in manifest order and moves past failed downloads.
-6. Report final counts, hard failures, skipped existing clips, and whether Git commits reached remote. **Do not invent transcripts, identify speakers by upload channel, or mark any data training-ready.**
-7. After the one-time source list is exhausted, stop. Do not install a recurring scheduler or poll for new videos.
-
-## Resumption and fault handling
-
-- A fully written TXT+SRT+metadata trio with matching hashes is the durable completion marker. Restarting the command skips these tasks even if local journal state was lost.
-- Each task gets a unique ID: Twitch clip, YouTube video, or VOD recording **plus start/end seconds**.
-- Each temporary download and PCM WAV lives in `.harmon-work/tmp/<task-hash>-*/`. **Video and audio are deleted** after transcription, after a failure, and whenever the temporary directory closes. The next run reclaims leftover per-task directories after an interrupted process. No media is committed.
-- By default the worker refuses to begin a new task under **2 GiB free disk** and caps individual downloaded files to **384 MB**. Override the free-space floor only with a compelling reason: `--min-free-gb 4` is safer on a small drive.
-- Each unavailable source is logged in `.harmon-work/state.json` with an attempt count and backoff. After three failures it is skipped until `--retry-exhausted` is deliberately used. Other sources continue unaffected.
-- Completed tasks are not re-downloaded. Earlier short VOD samples are **not** counted as proof that the whole VOD was completed; their precise sample offsets were not recorded.
-- Interrupted git pushes retain local files and commits. Retry ` .venv/bin/python collector/local_worker.py publish ` after restoring credentials/network.
-- An active worker uses a POSIX advisory lock on `.harmon-work/worker.lock`. The lock is released automatically after crashes; **do not manually delete it**. The worker cleans orphaned media automatically when it starts again.
-
-## Transcription quality and provenance
-
-The output under `corpus/local_transcripts/` includes:
-- `*.txt` — machine-recognized text
-- `*.srt` — timestamps relative to the downloaded segment, which may have imprecise cut boundaries
-- `*.metadata.json` — source URL, exact requested window, recognized word count, SHA256 hashes, Whisper model, and explicit `speaker_verified=false`, `training_ready=false`
-
-GitHub CI rebuilds `corpus/combined/` and `corpus/quality/` indexes automatically after new transcripts are pushed. Scores are **review priorities**, not probabilities that words are correct or belong to the primary streamer.
-
-Copyright, platform rights, and permission to train or redistribute a likeness remain separate requirements.
-
-## Checkpoint economics
-
-Each 10 completed work items generates one Git commit/push by default. On interrupted batch, the final partial batch is pushed. This bounds data loss to the item currently running and avoids committing individual tiny files repeatedly.
-
-### Stop conditions
-
-Stop normally when no eligible work remains or the caller's `--max-hours`/`--max-items` limit is reached. On disk shortage, stop before another download; make space before retrying. On repeated failures, carry on through other sources and leave a final error report for the operator.
+Keep `speaker_verified=false`, `training_permission_verified=false`, `training_ready=false`. Channel identity is not speaker verification. Stop after the frozen inventory; no scheduler or new discovery.

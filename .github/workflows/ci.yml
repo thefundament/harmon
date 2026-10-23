@@ -6,6 +6,8 @@ on:
       - 'collector/local_worker.py'
       - 'scripts/bootstrap_linux.sh'
       - 'scripts/run_archive.sh'
+      - 'scripts/run_limited.sh'
+      - 'collector/memory_guard.py'
       - 'collector/history_plan.py'
       - 'collector/combined_index.py'
       - 'tests/**'

@@ -11,6 +11,8 @@ import os
 from pathlib import Path
 import re
 import shutil
+import signal
+import wave
 import subprocess
 import sys
 import tempfile
@@ -62,9 +64,9 @@ def load_manifest(path=PLAN):
             if kind == "clip":
                 if start is not None or end is not None:
                     raise ValueError("clip has time window")
-            elif start is not None or end is not None:
+            else:
                 if not isinstance(start, (int, float)) or not isinstance(end, (int, float)):
-                    raise ValueError("incomplete time window")
+                    raise ValueError("long-form tasks require a complete time window")
                 if not (0 <= start < end <= 24*3600 or kind == "vod" and 0 <= start < end <= 72*3600):
                     raise ValueError("invalid time window")
                 if end-start > 1200:
@@ -114,22 +116,39 @@ def eligible(task, journal, output, include_existing=False, retry_exhausted=Fals
         return False, "deferred_retry"
     return True, "pending"
 
+def sha256_file(path):
+    digest = hashlib.sha256()
+    with Path(path).open("rb") as handle:
+        for block in iter(lambda: handle.read(1024*1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
 def run_command(argv, timeout, cwd=None):
+    proc = None
     try:
-        proc=subprocess.run([str(a) for a in argv], cwd=cwd, text=True,
-            capture_output=True, timeout=timeout, check=False)
+        proc = subprocess.Popen([str(a) for a in argv], cwd=cwd, text=True,
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                start_new_session=True)
+        stdout, stderr = proc.communicate(timeout=timeout)
+        if proc.returncode:
+            message=(stderr or stdout)[-450:].replace("\n", " ").strip()
+            raise RuntimeError(f"{Path(str(argv[0])).name} failed ({proc.returncode}): {message}")
     except subprocess.TimeoutExpired as exc:
         raise RuntimeError(f"{Path(str(argv[0])).name} timed out after {timeout}s") from exc
     except OSError as exc:
         raise RuntimeError(f"{Path(str(argv[0])).name} could not start: {exc}") from exc
-    if proc.returncode:
-        # Do not emit full downloaded-media URLs, cookies or megabytes of raw output.
-        message=(proc.stderr or proc.stdout)[-450:].replace("\n", " ").strip()
-        raise RuntimeError(f"{Path(str(argv[0])).name} failed ({proc.returncode}): {message}")
+    finally:
+        if proc is not None and proc.poll() is None:
+            os.killpg(proc.pid, signal.SIGTERM)
+            try:
+                proc.communicate(timeout=5)
+            except subprocess.TimeoutExpired:
+                os.killpg(proc.pid, signal.SIGKILL)
+                proc.communicate()
 
-def find_tools(model_dir=None, whisper_cli=None, yt_dlp=None, ffmpeg=None):
+def find_tools(model_dir=None, whisper_cli=None, yt_dlp=None, ffmpeg=None, model_name=MODEL_NAME):
     tools_dir=REPO / ".harmon-tools"
-    model=Path(model_dir) if model_dir else tools_dir / "whisper.cpp" / "models" / "ggml-small.en.bin"
+    model=Path(model_dir) if model_dir else tools_dir / "whisper.cpp" / "models" / f"ggml-{model_name}.bin"
     exe="whisper-cli.exe" if os.name=="nt" else "whisper-cli"
     compiled=(tools_dir/"whisper.cpp"/"build"/"bin"/exe)
     whisper=whisper_cli or (str(compiled) if compiled.is_file() else shutil.which("whisper-cli"))
@@ -138,12 +157,12 @@ def find_tools(model_dir=None, whisper_cli=None, yt_dlp=None, ffmpeg=None):
     if not Path(yt).is_file() and shutil.which("yt-dlp"):
         yt=shutil.which("yt-dlp")
     missing=[]
-    for label,path in (("yt-dlp",yt),("ffmpeg",ffmpeg_path),("whisper-cli",whisper),("ggml-small.en.bin",model)):
+    for label,path in (("yt-dlp",yt),("ffmpeg",ffmpeg_path),("whisper-cli",whisper),(model.name,model)):
         if not path or (not Path(path).is_file() and not shutil.which(str(path))):
             missing.append(label)
     if missing:
-        raise RuntimeError("Missing tools: "+", ".join(missing)+". Run scripts/bootstrap_linux.sh or scripts/bootstrap_windows.ps1.")
-    return {"yt_dlp":str(yt),"ffmpeg":str(ffmpeg_path),"whisper":str(whisper),"model":str(model)}
+        raise RuntimeError("Missing tools: "+", ".join(missing)+". Run scripts/bootstrap_linux.sh.")
+    return {"yt_dlp":str(yt),"ffmpeg":str(ffmpeg_path),"whisper":str(whisper),"model":str(model),"model_sha256":sha256_file(model)}
 
 def clean_orphaned_media(work_dir):
     """With the worker lock held, remove abandoned per-task downloads from crashes.
@@ -191,19 +210,25 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
         if not downloaded:
             raise RuntimeError("yt-dlp exited successfully but produced no media file")
         media=downloaded[0]
-        digest=hashlib.sha256(media.read_bytes()).hexdigest()
+        digest=sha256_file(media)
         wav=d/"speech.wav"
-        clip_limit=min(1210, int((end-start)+15)) if start is not None else 180
+        clip_limit=end-start if start is not None else 180
         run_command([tools["ffmpeg"],"-y","-nostdin","-hide_banner","-loglevel","error",
                      "-i",str(media),"-vn","-t",str(clip_limit),
                      "-ar","16000","-ac","1","-c:a","pcm_s16le",str(wav)], 120)
         media.unlink(missing_ok=True)
         if not wav.is_file() or wav.stat().st_size < 44:
             raise RuntimeError("conversion produced no valid WAV")
+        with wave.open(str(wav), "rb") as audio:
+            audio_seconds=audio.getnframes()/audio.getframerate()
+        if start is not None and audio_seconds < clip_limit - 2:
+            raise RuntimeError(f"incomplete window: {audio_seconds:.2f}s audio for {clip_limit:g}s request")
         transcript_prefix=d/"transcript"
+        asr_started=time.monotonic()
         run_command([tools["whisper"],"-m",tools["model"],"-f",str(wav),
                      "-t",str(threads),"-otxt","-osrt","-of",str(transcript_prefix),
-                     "-nt","-np"], timeout=max(240,clip_limit*5))
+                     "-l","en","-np"], timeout=max(240,clip_limit*5))
+        asr_seconds=time.monotonic()-asr_started
         source_txt=d/"transcript.txt";source_srt=d/"transcript.srt"
         if not (source_txt.is_file() and source_srt.is_file()):
             raise RuntimeError("whisper exited successfully but TXT/SRT missing")
@@ -216,7 +241,11 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
             "source_window_start_s":start,"source_window_end_s":end,
             "time_alignment":"relative_to_downloaded_section; source cut may start at an earlier keyframe",
             "processing_status":"transcribed" if speech else "no_speech",
-            "recognition_model":"whisper.cpp ggml-small.en",
+            "recognition_model":"whisper.cpp " + Path(tools["model"]).stem,
+            "model_file":Path(tools["model"]).name,
+            "model_sha256":tools.get("model_sha256") or sha256_file(tools["model"]),
+            "processed_audio_seconds":round(audio_seconds,3),
+            "transcription_seconds":round(asr_seconds,3),
             "speaker_status":"unverified","speaker_verified":False,
             "training_permission_verified":False,"training_ready":False,
             "retrieved_at_utc":now(),"media_sha256_not_retained":digest,
@@ -243,17 +272,20 @@ def git_cmd(args, timeout=90, capture=False):
         raise RuntimeError("git "+args[0]+" failed: "+(proc.stderr or proc.stdout)[-500:])
     return proc.stdout if capture else ""
 
-def publish():
+def checkpoint():
     # Only the worker-owned directory may be committed, and no user-staged work is touched.
     staged=git_cmd(["diff","--cached","--name-only"],capture=True).splitlines()
     foreign=[x for x in staged if not x.startswith("corpus/local_transcripts/")]
     if foreign:
         raise RuntimeError("Refusing to commit: unrelated staged files: "+str(foreign[:5]))
-    git_cmd(["add","--","corpus/local_transcripts"])
+    if OUTPUT.exists():
+        git_cmd(["add","--","corpus/local_transcripts"])
     if git_cmd(["diff","--cached","--name-only"],capture=True).strip():
         git_cmd(["-c","user.name=harmon-local-agent","-c",
              "user.email=harmon-local-agent@users.noreply.github.com",
                  "commit","-m","Add locally transcribed archival work units"])
+
+def push_commits():
     # Avoid losing locally committed results if push or authentication fails.
     git_cmd(["fetch","origin","main"],timeout=120)
     git_cmd(["rebase","origin/main"],timeout=120)
@@ -262,6 +294,10 @@ def publish():
         return "up to date"
     git_cmd(["push","origin","HEAD:main"],timeout=120)
     return f"pushed {ahead} commit(s)"
+
+def publish():
+    checkpoint()
+    return push_commits()
 
 def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False):
     counts={}
@@ -285,7 +321,9 @@ def execute(args):
             yes,reason=eligible(t,journal,args.output,args.include_existing,args.retry_exhausted)
             if yes:print(t["task_id"])
         return 0
-    tools=find_tools(args.model,args.whisper_cli,args.yt_dlp,args.ffmpeg)
+    if args.push and args.output.resolve() != OUTPUT.resolve():
+        raise RuntimeError("Publishing requires the worker-owned default output directory; use --no-push for custom output")
+    tools=find_tools(args.model,args.whisper_cli,args.yt_dlp,args.ffmpeg,args.model_name)
     args.work_dir.mkdir(parents=True,exist_ok=True)
     # POSIX advisory lock automatically releases if the process crashes, avoiding manual stale-lock repairs.
     lock=args.work_dir/"worker.lock"
@@ -303,6 +341,27 @@ def execute(args):
     if removed:
         print(f"CLEANUP: removed {removed} stale temporary media directories",flush=True)
     processed=0;completed_count=0;failures=0;since_commit=0;started=time.monotonic()
+    upload_enabled=args.push
+    interrupted=False
+    def save_checkpoint():
+        nonlocal since_commit, upload_enabled
+        try:
+            checkpoint()
+            since_commit=0
+        except Exception as exc:
+            print("LOCAL CHECKPOINT ERROR, files retained: "+str(exc),file=sys.stderr,flush=True)
+            return
+        if upload_enabled:
+            try:
+                print("CHECKPOINT",push_commits(),flush=True)
+            except Exception as exc:
+                print("UPLOAD ERROR, continuing local checkpoints: "+str(exc),file=sys.stderr,flush=True)
+                upload_enabled=False
+    old_term=signal.getsignal(signal.SIGTERM)
+    old_int=signal.getsignal(signal.SIGINT)
+    def interrupt(signum, frame):
+        raise KeyboardInterrupt
+    signal.signal(signal.SIGTERM, interrupt)
     try:
         for i,task in enumerate(tasks):
             yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted)
@@ -329,22 +388,30 @@ def execute(args):
                 atomic_json(journal_file,journal)
                 print(f"[{processed}] FAILED {task['task_id']}: {exc}",file=sys.stderr,flush=True)
             if args.push and since_commit>=args.commit_every:
-                try:
-                    print("CHECKPOINT",publish(),flush=True)
-                    since_commit=0
-                except Exception as exc:
-                    print("CHECKPOINT ERROR, local files retained: "+str(exc),file=sys.stderr,flush=True)
-                    # Avoid spamming credential prompts or repeated failed pushes.
-                    args.push=False
-        if args.push and since_commit:
-            try:print("FINAL CHECKPOINT",publish(),flush=True)
-            except Exception as exc:
-                print("PUSH FAILED, local results preserved: "+str(exc),file=sys.stderr)
-        print(json.dumps({"attempted":processed,"produced":completed_count,"failed":failures,
-             "remaining":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted)},indent=2))
+                save_checkpoint()
+    except KeyboardInterrupt:
+        interrupted=True
+        print("INTERRUPTED: checkpointing completed results",file=sys.stderr,flush=True)
     finally:
-        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-        lock_handle.close()
+        # Ignore a second termination signal while preserving the completed checkpoint.
+        signal.signal(signal.SIGTERM, signal.SIG_IGN)
+        signal.signal(signal.SIGINT, signal.SIG_IGN)
+        try:
+            if args.push:
+                save_checkpoint()
+            print(json.dumps({"attempted":processed,"produced":completed_count,"failed":failures,
+                 "interrupted":interrupted,"min_successes":args.min_successes,
+                 "remaining":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted)},indent=2))
+        finally:
+            signal.signal(signal.SIGTERM, old_term)
+            signal.signal(signal.SIGINT, old_int)
+            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
+            lock_handle.close()
+    if interrupted:
+        return 130
+    if completed_count < args.min_successes:
+        print(f"VALIDATION FAILED: produced {completed_count}, required {args.min_successes}",file=sys.stderr)
+        return 1
     # Source failures are recorded; don't fail the whole batch over ordinary unavailable media.
     return 0
 
@@ -354,7 +421,9 @@ def parser():
     p.add_argument("--manifest",type=Path,default=PLAN)
     p.add_argument("--output",type=Path,default=OUTPUT)
     p.add_argument("--work-dir",type=Path,default=WORK)
-    p.add_argument("--model",type=Path,help="path to ggml-small.en.bin")
+    p.add_argument("--model",type=Path,help="explicit GGML model path; overrides --model-name")
+    p.add_argument("--model-name",default=os.environ.get("HARMON_MODEL",MODEL_NAME),help="GGML model name (default: HARMON_MODEL or small.en)")
+    p.add_argument("--min-successes",type=int,default=0,help="fail validation unless this many new results are produced")
     p.add_argument("--whisper-cli",help="path to whisper-cli")
     p.add_argument("--yt-dlp",help="path to yt-dlp executable")
     p.add_argument("--ffmpeg",help="path to ffmpeg")
@@ -372,7 +441,7 @@ def parser():
 if __name__=="__main__":
     try:
         options=parser().parse_args()
-        if options.threads<1 or options.threads>64 or options.commit_every<1 or options.max_items<0 or options.max_hours<0 or options.min_free_gb<0:
+        if options.threads<1 or options.threads>64 or options.commit_every<1 or options.max_items<0 or options.max_hours<0 or options.min_free_gb<0 or options.min_successes<0:
             raise RuntimeError("invalid threads, commit-every, max-hours, or max-items")
         sys.exit(execute(options))
     except (RuntimeError, OSError, subprocess.TimeoutExpired) as exc:
