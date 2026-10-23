@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-10-23T21:52:44.699631+00:00",
+  "legacy_asr_outputs": 165,
+  "local_window_asr_outputs": 0,
+  "total_asr_outputs": 165,
+  "total_recognized_words_not_deduplicated": 5963,
+  "source_kinds_raw": {
+    "clips": 140,
+    "vods": 25,
+    "youtube": 5
+  },
+  "warning": "VOD windows can overlap old VOD samples. These counts are NOT unique streamer speech or training-ready words.",
+  "speaker_verified_words": 0,
+  "training_ready_words": 0
+}
