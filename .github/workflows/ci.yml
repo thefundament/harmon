@@ -7,6 +7,7 @@ on:
       - 'tests/**'
       - '.github/workflows/ci.yml'
       - 'corpus/unreviewed/**'
+      - 'corpus/local_transcripts/**'
   workflow_dispatch:
 permissions:
   contents: write
@@ -26,6 +27,7 @@ jobs:
       - name: Rebuild finite historical source worklist
         run: python collector/history_plan.py
       - name: Commit metadata-only quality index
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name harmon-corpus-bot
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
