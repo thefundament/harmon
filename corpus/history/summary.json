@@ -3,17 +3,17 @@
   "sources": {
     "clip": 355,
     "vod": 31,
-    "youtube": 12
+    "youtube": 450
   },
   "listed_vod_hours": 111.21,
-  "listed_youtube_hours": 14.25,
-  "listed_total_hours": 127.79,
+  "listed_youtube_hours": 351.87,
+  "listed_total_hours": 465.4,
   "window_seconds": 600,
-  "work_items": 1134,
+  "work_items": 3404,
   "states": {
     "asr_completed_unreviewed": 140,
     "legacy_sample_range_unknown": 682,
-    "pending": 312
+    "pending": 2582
   },
   "warning": "Source durations may overlap; previous VOD transcripts lack source time offsets. No work is scheduled by this manifest."
 }
