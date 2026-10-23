@@ -82,6 +82,12 @@ if SEEDS.exists():
         line=line.strip()
         if line.startswith("https://") and safe_url(line):
             pool.append({"url":line, "kind":"clips", "discovery":"seed"})
+historical=ROOT/"requests"/"historical_vods.txt"
+if historical.exists():
+    for line in historical.read_text().splitlines():
+        line=line.strip()
+        if line.startswith("https://www.twitch.tv/videos/") and safe_url(line):
+            pool.append({"url":line,"kind":"vods","discovery":"verified_historical_vod_seed"})
 for kind, rows in (("clips",clips),("vods",vods),("youtube",youtube)):
     for obj in rows:
         url=extract_url(obj,kind)
