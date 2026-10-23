@@ -428,5 +428,7 @@
     6,
     10
   ],
-  "ten_hour_batch_started": false
+  "ten_hour_batch_started": false,
+  "offline_tests_at_pilot": 24,
+  "offline_tests_final_integrated_checkout": 27
 }

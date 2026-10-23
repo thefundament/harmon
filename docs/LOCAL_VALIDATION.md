@@ -8,7 +8,7 @@
 - Reject unwindowed long-form tasks and downloads more than two seconds short of their requested windows. `--min-successes` fails validation when insufficient new outputs are produced; ordinary unavailable-source handling remains unchanged.
 - Setup and launch select models through `HARMON_MODEL`; the worker accepts `--model-name` and gives the existing `--model` path precedence. Outputs record the actual filename and SHA256, processed audio duration, transcription time and content hashes.
 - Checkpointing continues locally after an upload failure. Graceful SIGINT/SIGTERM checkpoints completed results and cleans active child processes/media. New guards enforce the process/GPU/host memory limits.
-- **24 offline tests passed**, including complete YouTube coverage, stable IDs, actual model metadata, short-window rejection, insufficient successes, interruption and a real local Git repository recovering after failed upload. Shell syntax and Git whitespace checks passed. Code commits `5f6a7c3` and `43ff1f1` preceded the publishing validation.
+- **24 offline tests passed**, including complete YouTube coverage, stable IDs, actual model metadata, short-window rejection, insufficient successes, interruption and a real local Git repository recovering after failed upload. Shell syntax and Git whitespace checks passed. Code commits `5f6a7c3` and `43ff1f1` preceded the publishing validation. After publishing fetched concurrent CI fixes from `main`, the final integrated checkout also passed **27 tests**, including three new CI publishing regressions.
 
 ## Setup and memory
 
