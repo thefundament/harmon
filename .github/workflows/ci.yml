@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - 'collector/quality_gate.py'
+      - 'collector/local_worker.py'
+      - 'scripts/bootstrap_linux.sh'
+      - 'scripts/run_archive.sh'
       - 'collector/history_plan.py'
       - 'collector/combined_index.py'
       - 'tests/**'
