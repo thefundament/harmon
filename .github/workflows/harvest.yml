@@ -3,6 +3,29 @@ name: Public video corpus harvest — historic VODs
 # Github-hosted Actions must be used in connection with software development/testing.
 on:
   workflow_dispatch:
+    inputs:
+      max_clips:
+        description: 'Number of new Twitch clips (0-70); bounded prototype only'
+        type: number
+        default: 0
+      max_vods:
+        description: 'Number of VOD excerpts (0-20); bounded prototype only'
+        type: number
+        default: 1
+      whisper_model:
+        description: 'English ASR model'
+        type: choice
+        options:
+          - small.en
+          - base.en
+        default: small.en
+      vod_window:
+        description: 'Sample time range in each video'
+        type: choice
+        options:
+          - '00:01:00-00:05:00'
+          - '00:10:00-00:15:00'
+        default: '00:01:00-00:05:00'
 permissions:
   contents: write
 concurrency:
@@ -13,11 +36,11 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     env:
-      MAX_CLIPS: '0'
-      MAX_VODS: '16'
+      MAX_CLIPS: ${{ inputs.max_clips }}
+      MAX_VODS: ${{ inputs.max_vods }}
       MAX_YOUTUBE: '0'
-      VOD_SEGMENT: '00:01:00-00:05:00'
-      WHISPER_MODEL: 'base.en'
+      VOD_SEGMENT: ${{ inputs.vod_window }}
+      WHISPER_MODEL: ${{ inputs.whisper_model }}
     steps:
       - uses: actions/checkout@v4
       - name: Install binaries and yt-dlp
@@ -31,16 +54,16 @@ jobs:
         with:
           path: |
             whisper.cpp/build
-            whisper.cpp/models/ggml-base.en.bin
-          key: harmon-whisper-v1.9.5-base-en-linux-1
+            whisper.cpp/models/ggml-${{ inputs.whisper_model }}.bin
+          key: harmon-whisper-v1.9.5-${{ inputs.whisper_model }}-linux-2
       - name: Prepare recognizer
         run: |
           if [ ! -x whisper.cpp/build/bin/whisper-cli ]; then
             cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DWHISPER_BUILD_TESTS=OFF
             cmake --build whisper.cpp/build --target whisper-cli --parallel 4
           fi
-          if [ ! -s whisper.cpp/models/ggml-base.en.bin ]; then
-            curl --fail --location --retry 2 -o whisper.cpp/models/ggml-base.en.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin
+          if [ ! -s "whisper.cpp/models/ggml-${WHISPER_MODEL}.bin" ]; then
+            curl --fail --location --retry 2 -o "whisper.cpp/models/ggml-${WHISPER_MODEL}.bin" "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-${WHISPER_MODEL}.bin"
           fi
       - name: Discover accessible videos and transcribe bounded samples
         run: python collector/harvest.py
