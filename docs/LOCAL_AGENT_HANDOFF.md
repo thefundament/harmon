@@ -2,7 +2,9 @@
 
 The inventory is frozen. Do not discover new sources or start recurring jobs. This session authorizes setup, a sequential model comparison and a pilot capped at 20 source attempts. **Leave the ten-hour batch unstarted.** Do not use hosted Actions for transcription.
 
-`corpus/history/manifest.jsonl` contains 1,134 tasks, initially 994 eligible and 140 legacy clips skipped. VOD and YouTube tasks cover their complete listed durations in contiguous ten-minute windows (with shorter final windows). Existing clip and VOD task IDs are preserved. Unwindowed long-form tasks are rejected. The inventory lists 127.79 hours including clips; duplicates and unavailable material can reduce actual work.
+**Historical source expansion completed:** `corpus/history/manifest.jsonl` now contains **3,404 tasks**: 355 Twitch clips, 31 Twitch VOD entries, and **450 official-channel YouTube videos**. Of these, 140 existing clips were already transcribed, and 682 VOD windows are flagged because old short samples lack exact offsets; these windows are still eligible for full processing. The manifest lists **465.4 hours** of source durations, including **351.87 hours of YouTube**, before overlap, unavailability and non-speech. VOD and YouTube tasks use ten-minute sections (shorter final sections). **Immutable task IDs are preserved.** Newly prioritized YouTube sections are spread across distinct videos before later sections. Unwindowed long-form tasks remain disallowed. The 27 unattributed or duration-unknown playlist candidates are excluded.
+
+**Do not expand this session's authorization:** the local agent is paused pending these source-list changes. Preserve its current capped pilot, local commits and checkpoints; **do not start the prepared ten-hour/overnight command** until the user separately authorizes it. On resumption, fetch/rebase latest `origin/main` without force or destructive reset, verify `local_worker.py status`, and keep any saved `.harmon-work/pilot.jsonl` if the pilot was already prepared. Historical source discovery was already completed on GitHub; do not repeat it locally.
 
 ## Setup on this host
 
