@@ -1,7 +1,6 @@
 """Offline integrity checks of a completed STT comparison and its cleanup."""
 from __future__ import annotations
 
-import hashlib
 import json
 import math
 from pathlib import Path

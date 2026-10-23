@@ -18,7 +18,10 @@ import sys
 import tempfile
 import time
 from urllib.parse import urlparse
-from source_gate import authorize, SourceRejected
+try:
+    from .source_gate import authorize, SourceRejected
+except ImportError:
+    from source_gate import authorize, SourceRejected
 
 REPO = Path(__file__).resolve().parents[1]
 PLAN = REPO / "corpus/history/manifest.jsonl"

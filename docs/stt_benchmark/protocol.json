@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "corpus_sources": "corpus_sources.jsonl",
+  "reference_samples": "reference_samples.json",
+  "source_attempt_cap": 10,
+  "threads": 6,
+  "asr_concurrency": 1,
+  "timed_repetitions": 3,
+  "quality_pass": 1,
+  "normalization": "harmon-english-v1",
+  "speed_eligibility": {
+    "panel": "corpus",
+    "baseline": "small.en-unsegmented",
+    "maximum_median_ratio": 1.5,
+    "costs": "CLI load/startup + decoding + timestamp serialization/offsets + VAD/extraction + TXT/SRT writing"
+  },
+  "reference_quality_eligibility": {
+    "baseline": "small.en-unsegmented",
+    "minimum_relative_aggregate_wer_improvement": 0.1,
+    "maximum_each_dataset_wer_increase": 0.01,
+    "paired_bootstrap_95_lower_relative_improvement_must_exceed": 0
+  },
+  "selection": "lowest aggregate reference WER among complete eligible configurations; provisional outside reference domain",
+  "fallback": {
+    "model": "large-v3-q5_0",
+    "when": "fewer than two of the three additional models finish all repetitions"
+  },
+  "limits": {
+    "cgroup_gib": 6,
+    "job_swap_bytes": 0,
+    "combined_gib": 8,
+    "host_available_floor_gib": 2
+  },
+  "production_default": "small.en",
+  "ten_hour_batch_started": false
+}

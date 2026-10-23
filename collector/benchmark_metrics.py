@@ -94,8 +94,13 @@ def offset_segments(segments, start, end, kind):
     result, adjustments = [], []
     for segment in segments:
         a, b = float(segment["start"]), float(segment["end"])
-        if not math.isfinite(a + b) or a < 0 or b <= a:
-            raise ValueError("invalid native timestamp")
+        if not math.isfinite(a + b) or a < 0 or b < a:
+            raise ValueError(f"invalid native timestamp {a} -> {b}: {segment['text'][:80]}")
+        if b == a:
+            adjustments.append({"reason": "zero_duration_native_segment_omitted_from_srt",
+                                "native_start": start + a, "native_end": start + b,
+                                "text": segment["text"]})
+            continue
         clipped_a, clipped_b = min(end, start + a), min(end, start + b)
         if clipped_b != start + b:
             adjustments.append({"native_end": start + b, "clamped_end": clipped_b})

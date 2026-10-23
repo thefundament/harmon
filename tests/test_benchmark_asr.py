@@ -53,6 +53,13 @@ class TimestampTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 metrics.offset_segments([dict(start=start, end=end, text="x")], 0, 10, "native_segment")
 
+    def test_zero_duration_native_cue_is_explicit_without_dropping_text(self):
+        segments, adjustments = metrics.offset_segments([dict(start=2, end=2, text="[Music]")], 10, 20, "native_segment")
+        self.assertEqual(segments, [])
+        self.assertEqual(adjustments[0]["text"], "[Music]")
+        self.assertEqual(adjustments[0]["native_start"], 12)
+        self.assertIn("zero_duration", adjustments[0]["reason"])
+
     def test_qwen_uses_region_times_without_alignment_claim(self):
         sample = dict(id="sample", dataset="corpus", audio_seconds=30, audio_sha256="frozen")
         vad = {"samples": {"sample": [dict(start=12, end=20, path="unused.wav")]}}
@@ -71,6 +78,14 @@ class TimestampTests(unittest.TestCase):
 
 
 class AdapterTests(unittest.TestCase):
+    def test_resumption_retains_only_unique_completed_repetitions(self):
+        trials = [dict(configuration="x", repetition=1, status="complete"),
+                  dict(configuration="x", repetition=2, status="failed"),
+                  dict(configuration="x", repetition=2, status="complete")]
+        self.assertEqual(benchmark.completed_repetitions(trials, "x"), {1, 2})
+        with self.assertRaisesRegex(RuntimeError, "Duplicate"):
+            benchmark.completed_repetitions([*trials, trials[0]], "x")
+
     def test_whisper_gpu_confirmation_requires_logs(self):
         model = {"id": "small.en", "runtime": "whisper.cpp", "path": "weights.bin"}
         lock = {"runtimes": {"whisper.cpp": {"executable": "whisper-cli"}}}

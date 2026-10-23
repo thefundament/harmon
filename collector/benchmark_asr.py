@@ -24,6 +24,13 @@ ADDITIONAL = ("medium.en-q8_0", "parakeet-tdt-0.6b-v3", "qwen3-asr-0.6b")
 CONFIGURATIONS = ("small.en-unsegmented", "small.en", "large-v3-turbo-q5_0", *ADDITIONAL)
 
 
+def completed_repetitions(trials, configuration):
+    repetitions = [t["repetition"] for t in trials if t["configuration"] == configuration and t["status"] == "complete"]
+    if len(set(repetitions)) != len(repetitions):
+        raise RuntimeError("Duplicate completed repetitions: " + configuration)
+    return set(repetitions)
+
+
 def trial(configuration, samples, vad, lock, repetition):
     model = adapters.model_for(configuration, lock)
     result = {"configuration": configuration, "repetition": repetition, "model": model["id"],
@@ -59,7 +66,7 @@ def summarize(trials, samples):
     summary = {}
     for configuration in dict.fromkeys(t["configuration"] for t in trials):
         passes = [t for t in trials if t["configuration"] == configuration and t["status"] == "complete"]
-        row = {"complete": len(passes) == 3, "completed_repetitions": len(passes)}
+        row = {"complete": completed_repetitions(trials, configuration) == {1, 2, 3}, "completed_repetitions": len(passes)}
         summary[configuration] = row
         if not row["complete"]:
             continue
@@ -83,7 +90,7 @@ def summarize(trials, samples):
     return summary
 
 
-def run():
+def run(resume=False):
     adapters.require_guards()
     lock = json.loads(inputs.LOCK.read_text())
     samples = json.loads((REPORT / "inputs.json").read_text())["samples"]
@@ -94,8 +101,9 @@ def run():
     for sample in samples:
         if inputs.worker.sha256_file(ROOT / sample["path"]) != sample["audio_sha256"]:
             raise RuntimeError("Input checksum mismatch: " + sample["id"])
+    provenance = adapters.verify_provenance(lock)
     result = {"schema_version": 1, "normalization": metrics.NORMALIZATION,
-              "provenance": adapters.verify_provenance(lock),
+              "provenance": provenance,
               "inputs_sha256": inputs.worker.sha256_file(REPORT / "inputs.json"),
               "reference_manifest_sha256": inputs.worker.sha256_file(REPORT / "reference_samples.json"),
               "ten_hour_batch_started": False, "production_default": "small.en", "smoke": [], "trials": [],
@@ -104,21 +112,49 @@ def run():
               "started_utc": inputs.worker.now()}
     output = REPORT / "results.json"
     if output.exists():
-        raise RuntimeError("Results exist; preserve them before an explicit new comparison")
+        if not resume:
+            raise RuntimeError("Results exist; use --resume for incomplete configurations or preserve them before a new comparison")
+        result = json.loads(output.read_text())
+        if (result["inputs_sha256"] != inputs.worker.sha256_file(REPORT / "inputs.json") or
+                result["reference_manifest_sha256"] != inputs.worker.sha256_file(REPORT / "reference_samples.json")):
+            raise RuntimeError("Cannot resume: frozen inputs changed")
+        for name, runtime in result["provenance"]["runtimes"].items():
+            if runtime["executable_sha256"] != provenance["runtimes"][name]["executable_sha256"]:
+                raise RuntimeError("Cannot resume: runtime binary changed")
+        if any(model != provenance["models"].get(name) for name, model in result["provenance"]["models"].items()):
+            raise RuntimeError("Cannot resume: model provenance changed")
+        result.setdefault("resumptions", []).append({"utc": inputs.worker.now(), "previous_status": result.get("status"),
+            "previous_error": result.pop("error", None), "policy": "Keep complete repetitions; retry missing/failed repetitions. Zero-duration native cues retained as defects, omitted from SRT; transcript text retained."})
+        result["status"] = "resumed"
     def save():
         inputs.worker.atomic_json(output, result)
     save()
     try:
-        vads = []
-        for repetition in (1, 2, 3):
-            vad = adapters.prepare_vad(samples, lock, repetition)
-            if vads and vad["samples"] != vads[0]["samples"]:
-                raise RuntimeError("VAD regions changed between repetitions")
-            vads.append(vad)
-            print("VAD", repetition, {p: round(vad["panels"][p]["seconds"], 3) for p in PANELS}, flush=True)
+        vads = result.get("shared_vad", [])
+        if vads:
+            # Validate the retained regions against the frozen source PCM; this
+            # is outside timing and cannot silently substitute different audio.
+            import wave
+            for sample in samples:
+                with wave.open(str(ROOT / sample["path"]), "rb") as original:
+                    for region in vads[0]["samples"][sample["id"]]:
+                        a, b = round(region["start"] * 16000), round(region["end"] * 16000)
+                        original.setpos(a)
+                        expected = original.readframes(b - a)
+                        with wave.open(str(ROOT / region["path"]), "rb") as retained:
+                            if retained.readframes(retained.getnframes()) != expected:
+                                raise RuntimeError("Cannot resume: shared region PCM changed")
+        else:
+            for repetition in (1, 2, 3):
+                vad = adapters.prepare_vad(samples, lock, repetition)
+                if vads and vad["samples"] != vads[0]["samples"]:
+                    raise RuntimeError("VAD regions changed between repetitions")
+                vads.append(vad)
+                print("VAD", repetition, {p: round(vad["panels"][p]["seconds"], 3) for p in PANELS}, flush=True)
         result["shared_vad"] = vads
         save()
-        configurations = list(CONFIGURATIONS)
+        complete = summarize(result["trials"], samples)
+        configurations = [c for c in CONFIGURATIONS if not complete.get(c, {}).get("complete")]
         while configurations:
             configuration = configurations.pop(0)
             model = adapters.model_for(configuration, lock)
@@ -139,6 +175,8 @@ def run():
             save()
             if smoke["status"] == "complete":
                 for repetition, vad in enumerate(vads, 1):
+                    if repetition in completed_repetitions(result["trials"], configuration):
+                        continue
                     measured = trial(configuration, samples, vad, lock, repetition)
                     result["trials"].append(measured)
                     save()
@@ -177,11 +215,12 @@ def run():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=("run",))
-    parser.parse_args()
+    parser.add_argument("--resume", action="store_true", help="Retain completed repetitions and retry incomplete configurations")
+    args = parser.parse_args()
     WORK.mkdir(parents=True, exist_ok=True)
     with (WORK / "comparison.lock").open("a+") as handle:
         fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        run()
+        run(args.resume)
 
 
 if __name__ == "__main__":

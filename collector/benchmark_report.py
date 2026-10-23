@@ -10,7 +10,7 @@ except ImportError:
     import benchmark_metrics as metrics
 
 
-def render(result, source):
+def render(result, source, execution=None, findings=None):
     summary = result["summary"]
     samples = source["samples"]
     corpus = [s for s in samples if s["dataset"] == "corpus"]
@@ -24,7 +24,7 @@ def render(result, source):
              "it does not sample or start the expanded inventory. [corpus_sources.jsonl](corpus_sources.jsonl) "
              "and the original inventory commit/hash in the lock preserve that boundary.", "",
              "## Measured quality and throughput", "",
-             "Reference WER uses the first timed pass, 100 LibriSpeech test-other recordings and 100 FLEURS English test recordings. "
+             "Reference WER uses the first complete timed repetition, 100 LibriSpeech test-other recordings and 100 FLEURS English test recordings. "
              "Throughput uses the median of three complete passes on the same ten corpus sources, including full 600-second VOD "
              "and YouTube windows. A ratio at most 1.5 is eligible. Lower WER is better.", "",
              "| Configuration | LibriSpeech WER | FLEURS WER | Overall WER | Corpus median s | Time / current Small | Audio / wall | Combined peak GiB | Eligible speed |",
@@ -132,6 +132,8 @@ def render(result, source):
               "`vad_region_no_word_alignment`, spanning the detected region. They are not word alignment. "
               "Timing includes generating those region cues.",
               "- Native timestamp endpoints are clamped to actual region/audio bounds and every adjustment is recorded. "
+              "Zero-duration native segments retain their text and original times in the adjustment records and full transcript; "
+              "they are omitted from SRT because they cannot form a positive subtitle interval. "
               "Source times are relative to the downloaded section; source keyframe cuts can be imprecise.", "",
               "Sources: [speech.cpp CLI](https://github.com/nyosegawa/speech.cpp/blob/v0.8.11/docs/cli.md), "
               "[model catalog](https://github.com/nyosegawa/speech.cpp/blob/v0.8.11/docs/models.md), "
@@ -160,10 +162,13 @@ def render(result, source):
               "An initial preparation check found non-unique FLEURS sentence IDs and stopped before model execution; "
               "unique recording filenames were frozen instead. An initial smoke attempt rejected Whisper because its quiet flag "
               "suppressed backend diagnostics; the run was stopped, its records preserved, and the adapter corrected before this "
-              "measurement. These are harness failures, not measured model-quality failures.", ""]
+              "measurement. A later shared-VAD Small pass exposed zero-duration native cues in the full YouTube window. "
+              "That incomplete attempt remains in the records; after handling the cues explicitly, only unfinished configurations "
+              "were resumed. Completed baseline repetitions and the frozen PCM/VAD regions were preserved and verified. "
+              "These are harness failures, not measured model-quality failures.", ""]
     failures = [s for s in result["smoke"] if s["status"] != "complete"] + [t for t in result["trials"] if t["status"] != "complete"]
     if failures:
-        lines += ["Measured-run failures:", ""]
+        lines += ["Retained incomplete/failed attempts (excluded from medians and reference scores):", ""]
         lines += [f"- `{f['configuration']}`: {f.get('error', 'incomplete')}" for f in failures]
     else:
         lines += ["All configurations completed smoke testing and three timed repetitions. At least two additional models completed, "
@@ -179,15 +184,79 @@ def render(result, source):
               "The launcher is finite, has no discovery or scheduler, and cleans benchmark audio on exit. "
               "The source-attempt ledger prevents an implicit second set of downloads; a new acquisition requires an explicit new ledger. "
               "Existing result files are never overwritten by another run. GitHub's benchmark workflow runs only offline checks.", ""]
+    if findings:
+        lines += ["## Findings from the corpus inspection", ""]
+        lines += ["- " + note for note in findings.get("findings", [])]
+        lines += ["", "[Per-source coverage and truncation flags](corpus_inspection.json) retain the automatic inspection. "
+                  "Examples above are unverified transcript differences, not adjudicated commentary accuracy.", ""]
+    if execution:
+        lines += ["## Execution and publication record", ""]
+        for name, phase in execution.get("guard_phases", {}).items():
+            if name in ("stt-provision", "stt-inputs", "stt-inputs-retry", "stt-ownership"):
+                lines.append(f"- `{name}`: {phase['elapsed_seconds']:.3f} s wall time, excluded from model timing.")
+        lines += ["", "The runtime archive transfer/unpacking and isolated PyArrow installation were not separately timed. "
+                  "The first input phase includes the aborted non-unique-ID check; the retry reuses the pinned dataset downloads.", ""]
+        publishing = execution.get("publishing", {})
+        if publishing.get("status") == "published":
+            lines += [f"Publication of the benchmark/report commit took {publishing['elapsed_seconds']:.3f} s for fetch/rebase/push, "
+                      "separate from inference. A subsequent small verification commit records that observation.", ""]
+        else:
+            lines += ["Publication timing is pending in execution.json and will be recorded after the benchmark/report push.", ""]
+        if execution.get("validation"):
+            lines += [f"Final validation checked {execution['validation']['checked_transcript_records']} complete transcript records "
+                      f"and {execution['validation']['checked_timestamp_cues']} timestamp cues; "
+                      f"{execution['offline_tests']['passed']} offline tests passed. Temporary benchmark media were removed.", ""]
+    lines += ["Dataset attribution: [LibriSpeech / OpenSLR 12](https://www.openslr.org/12), "
+              "Vassil Panayotov, Guoguo Chen, Daniel Povey and Sanjeev Khudanpur, *LibriSpeech: An ASR corpus based on "
+              "public domain audio books* (2015), via the [CC-BY-4.0 Hugging Face distribution](https://huggingface.co/datasets/openslr/librispeech_asr); "
+              "[FLEURS](https://huggingface.co/datasets/google/fleurs), Alexis Conneau et al., *FLEURS: Few-shot Learning "
+              "Evaluation of Universal Representations of Speech* (2022), CC-BY-4.0. Only sampled reference text and provenance "
+              "are committed; source audio and dataset archives are temporary.", ""]
     return "\n".join(lines), examples
+
+
+def inspect_corpus(result):
+    rows = []
+    for trial in result["trials"]:
+        if trial["status"] != "complete" or trial["repetition"] != 1:
+            continue
+        for sample in trial["samples"]:
+            if sample["dataset"] != "corpus":
+                continue
+            tails = []
+            if trial["model"] != "qwen3-asr-0.6b":
+                for region in sample["voiced_regions"]:
+                    if not metrics.normalize(region["text"]):
+                        continue
+                    native = [s for s in sample["segments"] if region["start"] <= s["start"] < region["end"]]
+                    last = max((s["end"] for s in native if metrics.normalize(s["text"])), default=region["start"])
+                    if region["end"] - last > 2:
+                        tails.append({"region_start": region["start"], "region_end": region["end"],
+                                      "last_native_text_end": last, "gap_s": region["end"] - last})
+            rows.append({"configuration": trial["configuration"], "id": sample["id"],
+                         "normalized_words": len(metrics.normalize(sample["text"])),
+                         "voiced_regions": len(sample["voiced_regions"]),
+                         "empty_voiced_regions": sample["diagnostics"]["empty_voiced_regions"],
+                         "repeated_5grams": sample["diagnostics"]["repeated_5grams"],
+                         "potential_uncovered_native_tails": tails,
+                         "tail_alignment_assessable": trial["model"] != "qwen3-asr-0.6b",
+                         "zero_duration_native_cues": [s for s in sample["timestamp_adjustments"] if s.get("reason", "").startswith("zero_duration")],
+                         "speaker_verified": False,
+                         "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."})
+    return rows
 
 
 def main():
     result = json.loads((inputs.REPORT / "results.json").read_text())
     source = json.loads((inputs.REPORT / "inputs.json").read_text())
-    report, differences = render(result, source)
+    execution_path = inputs.REPORT / "execution.json"
+    findings_path = inputs.REPORT / "findings.json"
+    report, differences = render(result, source,
+        json.loads(execution_path.read_text()) if execution_path.exists() else None,
+        json.loads(findings_path.read_text()) if findings_path.exists() else None)
     (inputs.REPORT / "REPORT.md").write_text(report)
     inputs.worker.atomic_json(inputs.REPORT / "differences.json", differences)
+    inputs.worker.atomic_json(inputs.REPORT / "corpus_inspection.json", inspect_corpus(result))
 
 
 if __name__ == "__main__":
