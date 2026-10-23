@@ -1,0 +1,432 @@
+{
+  "date_utc": "2026-10-23",
+  "host_gpu": "Radeon 8060S Graphics",
+  "backend": "Vulkan",
+  "whisper_cpp_tag": "v1.9.5",
+  "whisper_cpp_commit": "d1be6fde11ac6e0407606b4e42fe72d34add8037",
+  "local_build_patch": "Limit shader compiler helper to one glslc process so Make parallelism stays at two",
+  "recommended_model": "small.en",
+  "recommendation_reason": "Turbo repeats outro text in the YouTube sample; performance and memory criteria passed but the output-regression criterion did not.",
+  "source_attempt_limit": 20,
+  "source_attempts_used": 10,
+  "source_failures": [],
+  "inventory": {
+    "total_tasks": 1134,
+    "initially_eligible": 994,
+    "completed": 7,
+    "remaining_eligible": 987,
+    "legacy_skipped": 140,
+    "listed_hours": 127.79
+  },
+  "comparison": {
+    "verified_reference_transcripts": false,
+    "source_attempts": [
+      {
+        "task_id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "source_url": "https://clips.twitch.tv/AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "status": "success"
+      },
+      {
+        "task_id": "vod:1633410828:0-600",
+        "source_url": "https://www.twitch.tv/videos/1633410828",
+        "status": "success"
+      },
+      {
+        "task_id": "youtube:-4sAT9-sacM:0-600",
+        "source_url": "https://www.youtube.com/watch?v=-4sAT9-sacM",
+        "status": "success"
+      }
+    ],
+    "samples": [
+      {
+        "task_id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "kind": "clip",
+        "audio_seconds": 17.9413125,
+        "audio_sha256": "c6328828d3b875fd270d3555acdfdabd97c294bfd692e167ad44f9e7d1032588",
+        "models": {
+          "small.en": {
+            "seconds": 2.473,
+            "realtime_factor": 0.1378,
+            "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+            "memory": {
+              "peak_cgroup_bytes": 216223744,
+              "peak_gpu_delta_bytes": 934486016,
+              "peak_combined_bytes": 1124720640
+            },
+            "text_sha256": "2ecc248c50c6455caaa0bd2fec79faabb82b7b7683007ad66ca8ccd9c4bf830a"
+          },
+          "large-v3-turbo-q5_0": {
+            "seconds": 1.443,
+            "realtime_factor": 0.0804,
+            "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+            "memory": {
+              "peak_cgroup_bytes": 755130368,
+              "peak_gpu_delta_bytes": 1022431232,
+              "peak_combined_bytes": 1724035072
+            },
+            "text_sha256": "705d56756f9823e1a2880df3bc5345048ff57020fc396ad3f2c919d58c42e8b9"
+          }
+        }
+      },
+      {
+        "task_id": "vod:1633410828:0-600",
+        "kind": "vod",
+        "audio_seconds": 90.0,
+        "audio_sha256": "e46dc70a6c0a63d24cbba2d39a13ea3c01d4c0985ab7be30e8f48f799089b8a5",
+        "models": {
+          "small.en": {
+            "seconds": 4.07,
+            "realtime_factor": 0.0452,
+            "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+            "memory": {
+              "peak_cgroup_bytes": 1242013696,
+              "peak_gpu_delta_bytes": 936448000,
+              "peak_combined_bytes": 2130812928
+            },
+            "text_sha256": "b885bb890aaeb3b6e9aede165df4185c14465e2c46ddd624aceef0f19eb20612"
+          },
+          "large-v3-turbo-q5_0": {
+            "seconds": 4.133,
+            "realtime_factor": 0.0459,
+            "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+            "memory": {
+              "peak_cgroup_bytes": 1217396736,
+              "peak_gpu_delta_bytes": 1022431232,
+              "peak_combined_bytes": 2147004416
+            },
+            "text_sha256": "cfee96db0463af0b630b30085485b0e381f5ae94b107a399aea0471ca1a9fdc0"
+          }
+        }
+      },
+      {
+        "task_id": "youtube:-4sAT9-sacM:0-600",
+        "kind": "youtube",
+        "audio_seconds": 90.0,
+        "audio_sha256": "29a4cca51cd0c8e4d341467d90ba6d4819da6e29cf01f5a86fd9c58019a3b0b2",
+        "models": {
+          "small.en": {
+            "seconds": 3.144,
+            "realtime_factor": 0.0349,
+            "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+            "memory": {
+              "peak_cgroup_bytes": 1284648960,
+              "peak_gpu_delta_bytes": 940163072,
+              "peak_combined_bytes": 2104496128
+            },
+            "text_sha256": "e8bf346eeadfe9d79a8befaec67da02c591224ec86d9d9ee26e6167b3f6d2358"
+          },
+          "large-v3-turbo-q5_0": {
+            "seconds": 5.26,
+            "realtime_factor": 0.0584,
+            "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+            "memory": {
+              "peak_cgroup_bytes": 1251655680,
+              "peak_gpu_delta_bytes": 1022275584,
+              "peak_combined_bytes": 2095800320
+            },
+            "text_sha256": "1415cffe4e51c5c1ccdb71eb9bb6f6c3a4b6fb8b3553a55c930063f8a543e193"
+          }
+        }
+      }
+    ]
+  },
+  "pilot": {
+    "validated_outputs": 7,
+    "kind_counts": {
+      "clip": 5,
+      "youtube": 1,
+      "vod": 1
+    },
+    "records": [
+      {
+        "task_id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "source_id": "AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "source_url": "https://clips.twitch.tv/AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "kind": "clip",
+        "source_window_start_s": null,
+        "source_window_end_s": null,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 17.941,
+        "transcription_seconds": 0.912,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:41:48.271620+00:00",
+        "media_sha256_not_retained": "4fde9bf17e9a5ac028b793b4a88f1332ce6a01c2c4f17b894d9ee0fdb27a6220",
+        "text_sha256": "2ecc248c50c6455caaa0bd2fec79faabb82b7b7683007ad66ca8ccd9c4bf830a",
+        "srt_sha256": "db448b412e2cb2f40dc292273c17c4a067a95991e044d6b363699b977064956f",
+        "recognized_words": 41,
+        "elapsed_seconds": 1.88,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 5
+      },
+      {
+        "task_id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "source_id": "AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "source_url": "https://clips.twitch.tv/AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "kind": "clip",
+        "source_window_start_s": null,
+        "source_window_end_s": null,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 21.803,
+        "transcription_seconds": 0.597,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:41:51.685198+00:00",
+        "media_sha256_not_retained": "62ef353491079478896ba02c8c33a81c5a0c574b304b51dca51c2ea038e8c009",
+        "text_sha256": "4a1bac9d6fa68a27d497cf52eeb1433864ce78f7c819aa52a58b661e05d64732",
+        "srt_sha256": "552b07ac57e728191c599f207652316e4b5cb4f657b57d6d0d56404603ccc0f2",
+        "recognized_words": 16,
+        "elapsed_seconds": 1.7,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 1
+      },
+      {
+        "task_id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "source_id": "AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "source_url": "https://clips.twitch.tv/AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "kind": "clip",
+        "source_window_start_s": null,
+        "source_window_end_s": null,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 8.235,
+        "transcription_seconds": 0.655,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:41:54.981273+00:00",
+        "media_sha256_not_retained": "9929666820a14c97e5b7cb63726a00a35a65ae3412441c18ab4279507cd0b1f7",
+        "text_sha256": "927c9a1577c287c988f34025596226c027b641d5cf749f1e84d8b784cf2c518f",
+        "srt_sha256": "66e060bdb93c034ad1583f1a1daa3ba3eea210bd08ed1e47adb48333922ccc52",
+        "recognized_words": 24,
+        "elapsed_seconds": 1.79,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 2
+      },
+      {
+        "task_id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "source_id": "AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "source_url": "https://clips.twitch.tv/AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "kind": "clip",
+        "source_window_start_s": null,
+        "source_window_end_s": null,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 29.269,
+        "transcription_seconds": 1.457,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:41:59.038413+00:00",
+        "media_sha256_not_retained": "16eb810dd4f35d31f9f772dfd065d95724bec779c4f1cfaa6f28f115b54bcb96",
+        "text_sha256": "81766a9beab12b3661bbcee53bc4133d56df0e85b1935f9241fc56bc7898fcf3",
+        "srt_sha256": "268a9237e252abe91a296256f3161a87895a55007b95529b4ee54cfd49dc458b",
+        "recognized_words": 92,
+        "elapsed_seconds": 2.58,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 6
+      },
+      {
+        "task_id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "source_id": "AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "source_url": "https://clips.twitch.tv/AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "kind": "clip",
+        "source_window_start_s": null,
+        "source_window_end_s": null,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 26.005,
+        "transcription_seconds": 1.381,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:42:03.050482+00:00",
+        "media_sha256_not_retained": "10d76951ed1a47fdca2e008da53be6f3f5e37b2adec4e5365ae91ea9b908924e",
+        "text_sha256": "26fd29bb329256434e07ca85f5cd928acfd9a0fd12b8496ef7219f8d65f04ea0",
+        "srt_sha256": "7f6e10b919879efa934fc03588d1a46bf0263fc59d434a5644c6aeb9ea6a1049",
+        "recognized_words": 71,
+        "elapsed_seconds": 2.55,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 5
+      },
+      {
+        "task_id": "vod:1633410828:0-600",
+        "source_id": "1633410828",
+        "source_url": "https://www.twitch.tv/videos/1633410828",
+        "kind": "vod",
+        "source_window_start_s": 0,
+        "source_window_end_s": 600,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 600.0,
+        "transcription_seconds": 23.478,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:42:34.842963+00:00",
+        "media_sha256_not_retained": "b44877994848defb5be13ed892b60817b3dd186713dd26a76e008a0a69f1c643",
+        "text_sha256": "48a84d93792c2c46ad2e2a064c4e89cb66bd92a7a4802879d3111a579c03da36",
+        "srt_sha256": "e91e4556d9f861a6d60f5cb09291c2ff563396a0cab20dec48ea943eacd26601",
+        "recognized_words": 620,
+        "elapsed_seconds": 30.28,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 62
+      },
+      {
+        "task_id": "youtube:-4sAT9-sacM:0-600",
+        "source_id": "-4sAT9-sacM",
+        "source_url": "https://www.youtube.com/watch?v=-4sAT9-sacM",
+        "kind": "youtube",
+        "source_window_start_s": 0,
+        "source_window_end_s": 600,
+        "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+        "processing_status": "transcribed",
+        "recognition_model": "whisper.cpp ggml-small.en",
+        "model_file": "ggml-small.en.bin",
+        "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+        "processed_audio_seconds": 600.0,
+        "transcription_seconds": 9.761,
+        "speaker_status": "unverified",
+        "speaker_verified": false,
+        "training_permission_verified": false,
+        "training_ready": false,
+        "retrieved_at_utc": "2026-10-23T22:42:52.283349+00:00",
+        "media_sha256_not_retained": "383910dd18533dd8eb13c1809e40728e73f1aeaa88bebcb564f03eab0938b3ec",
+        "text_sha256": "2e51dc51d49420b844b6f36d6e931b99bb0d54de05f8e1d679abb7cbe962661c",
+        "srt_sha256": "d01410daf3b44c232dd5aee5b6587b75b1b556a8bfd1453ddc43e5f62abfc01c",
+        "recognized_words": 120,
+        "elapsed_seconds": 15.84,
+        "source_provenance": "frozen_manifest",
+        "validated_subtitle_cues": 43
+      }
+    ],
+    "timestamp_defects": [
+      {
+        "task_id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "cue": 2,
+        "end_overshoot_seconds": 0.765
+      },
+      {
+        "task_id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "cue": 5,
+        "end_overshoot_seconds": 0.035
+      }
+    ],
+    "temporary_media_removed": true
+  },
+  "measurements": {
+    "setup-throttled": {
+      "gpu_baseline_bytes": {
+        "/sys/class/drm/card1/device/mem_info_gtt_used": 72524476416,
+        "/sys/class/drm/card1/device/mem_info_vram_used": 312233984
+      },
+      "peak_cgroup_bytes": 3617865728,
+      "peak_gpu_delta_bytes": 0,
+      "peak_combined_bytes": 3617865728,
+      "minimum_host_available_bytes": 8484749312,
+      "limits": {
+        "cgroup_bytes": 6442450944,
+        "combined_bytes": 8589934592,
+        "host_floor_bytes": 2147483648
+      },
+      "stop_reason": null,
+      "elapsed_seconds": 81.184,
+      "child_returncode": 0,
+      "cgroup_peak_bytes": 3654303744,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0\n"
+    },
+    "comparison": {
+      "gpu_baseline_bytes": {
+        "/sys/class/drm/card1/device/mem_info_gtt_used": 72524476416,
+        "/sys/class/drm/card1/device/mem_info_vram_used": 312233984
+      },
+      "peak_cgroup_bytes": 1260474368,
+      "peak_gpu_delta_bytes": 1022431232,
+      "peak_combined_bytes": 2145701888,
+      "minimum_host_available_bytes": 10867134464,
+      "limits": {
+        "cgroup_bytes": 6442450944,
+        "combined_bytes": 8589934592,
+        "host_floor_bytes": 2147483648
+      },
+      "stop_reason": null,
+      "elapsed_seconds": 33.429,
+      "child_returncode": 0,
+      "cgroup_peak_bytes": 1284911104,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0\n"
+    },
+    "pilot": {
+      "gpu_baseline_bytes": {
+        "/sys/class/drm/card1/device/mem_info_gtt_used": 72524476416,
+        "/sys/class/drm/card1/device/mem_info_vram_used": 312233984
+      },
+      "peak_cgroup_bytes": 363425792,
+      "peak_gpu_delta_bytes": 944046080,
+      "peak_combined_bytes": 1307471872,
+      "minimum_host_available_bytes": 10809536512,
+      "limits": {
+        "cgroup_bytes": 6442450944,
+        "combined_bytes": 8589934592,
+        "host_floor_bytes": 2147483648
+      },
+      "stop_reason": null,
+      "elapsed_seconds": 68.129,
+      "child_returncode": 0,
+      "cgroup_peak_bytes": 364355584,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0\n"
+    },
+    "resume": {
+      "gpu_baseline_bytes": {
+        "/sys/class/drm/card1/device/mem_info_gtt_used": 72524476416,
+        "/sys/class/drm/card1/device/mem_info_vram_used": 312233984
+      },
+      "peak_cgroup_bytes": 19009536,
+      "peak_gpu_delta_bytes": 0,
+      "peak_combined_bytes": 19009536,
+      "minimum_host_available_bytes": 11077115904,
+      "limits": {
+        "cgroup_bytes": 6442450944,
+        "combined_bytes": 8589934592,
+        "host_floor_bytes": 2147483648
+      },
+      "stop_reason": null,
+      "elapsed_seconds": 0.504,
+      "child_returncode": 0,
+      "cgroup_peak_bytes": 19288064,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0\n"
+    }
+  },
+  "estimated_127_hour_processing_range_hours": [
+    6,
+    10
+  ],
+  "ten_hour_batch_started": false
+}
