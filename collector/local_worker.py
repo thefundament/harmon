@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import fcntl
 import hashlib
 import json
 import os
@@ -235,7 +236,9 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
 
 def git_cmd(args, timeout=90, capture=False):
     proc=subprocess.run(["git", *args], cwd=REPO, text=True,
-                        capture_output=True, timeout=timeout)
+                        capture_output=True, timeout=timeout,
+                        stdin=subprocess.DEVNULL,
+                        env={**os.environ,"GIT_TERMINAL_PROMPT":"0"})
     if proc.returncode:
         raise RuntimeError("git "+args[0]+" failed: "+(proc.stderr or proc.stdout)[-500:])
     return proc.stdout if capture else ""
@@ -284,13 +287,18 @@ def execute(args):
         return 0
     tools=find_tools(args.model,args.whisper_cli,args.yt_dlp,args.ffmpeg)
     args.work_dir.mkdir(parents=True,exist_ok=True)
-    # Refuse overlapping processes. A crash leaves an explicit stale lock to remove.
+    # POSIX advisory lock automatically releases if the process crashes, avoiding manual stale-lock repairs.
     lock=args.work_dir/"worker.lock"
+    lock_handle=lock.open("a+",encoding="utf-8")
     try:
-        with lock.open("x",encoding="utf-8") as f:
-            f.write(json.dumps({"pid":os.getpid(),"started_utc":now()})+"\n")
-    except FileExistsError:
-        raise RuntimeError("Another worker may be running. Check then manually remove "+str(lock))
+        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError as exc:
+        lock_handle.close()
+        raise RuntimeError("Another local worker is already running on this checkout") from exc
+    lock_handle.seek(0)
+    lock_handle.truncate()
+    lock_handle.write(json.dumps({"pid":os.getpid(),"started_utc":now()})+"\n")
+    lock_handle.flush()
     removed=clean_orphaned_media(args.work_dir)
     if removed:
         print(f"CLEANUP: removed {removed} stale temporary media directories",flush=True)
@@ -335,7 +343,8 @@ def execute(args):
         print(json.dumps({"attempted":processed,"produced":completed_count,"failed":failures,
              "remaining":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted)},indent=2))
     finally:
-        lock.unlink(missing_ok=True)
+        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
+        lock_handle.close()
     # Source failures are recorded; don't fail the whole batch over ordinary unavailable media.
     return 0
 
