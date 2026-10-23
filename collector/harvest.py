@@ -10,7 +10,7 @@ DISC = OUT / "discovery"
 for d in (TEXT, DISC):
     d.mkdir(parents=True, exist_ok=True)
 MAX_CLIPS = max(0, min(70, int(os.getenv("MAX_CLIPS", "45"))))
-MAX_VODS = max(0, min(12, int(os.getenv("MAX_VODS", "8"))))
+MAX_VODS = max(0, min(20, int(os.getenv("MAX_VODS", "8"))))
 MAX_YOUTUBE = max(0, min(10, int(os.getenv("MAX_YOUTUBE", "0"))))
 VOD_SEGMENT = os.getenv("VOD_SEGMENT", "00:01:00-00:05:00")
 MODEL = os.getenv("WHISPER_MODEL", "base.en")
