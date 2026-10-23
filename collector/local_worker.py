@@ -18,6 +18,7 @@ import sys
 import tempfile
 import time
 from urllib.parse import urlparse
+from source_gate import authorize, SourceRejected
 
 REPO = Path(__file__).resolve().parents[1]
 PLAN = REPO / "corpus/history/manifest.jsonl"
@@ -108,6 +109,8 @@ def eligible(task, journal, output, include_existing=False, retry_exhausted=Fals
     if task.get("state")=="asr_completed_unreviewed" and not include_existing:
         return False, "existing_legacy_clip"
     state=journal.get(task["task_id"], {})
+    if state.get("source_rejected"):
+        return False, "source_rejected"
     attempts=int(state.get("attempts", 0))
     if attempts>=MAX_ATTEMPTS and not retry_exhausted:
         return False, "exhausted_retries"
@@ -195,6 +198,9 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
     tmpbase.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=task_key(task)+"-", dir=tmpbase) as td:
         d=Path(td)
+        # Fast, cached uploader/broadcaster check before any media bytes are fetched.
+        # An upload-channel match is NOT a speaker/voice match.
+        source_evidence=authorize(task,tools["yt_dlp"],work/"source_checks")
         filename=str(d/"source.%(ext)s")
         cmd=[tools["yt_dlp"],"--no-playlist","--no-progress","--no-part",
              "--socket-timeout","20","--retries","2","--fragment-retries","2",
@@ -254,6 +260,8 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
             "recognized_words":len(raw_text.split()),
             "elapsed_seconds":round(time.monotonic()-started,2),
             "source_provenance":"frozen_manifest",
+            "source_owner_verified":bool(source_evidence.get("owner_verified")),
+            "source_owner_evidence":source_evidence.get("proof"),
         }
         # Metadata LAST is the completion marker. Interrupted writes get retried.
         txt_tmp=txt.with_name(txt.name+".tmp")
@@ -378,6 +386,12 @@ def execute(args):
                 atomic_json(journal_file,journal)
                 completed_count+=1;since_commit+=1
                 print(f"[{processed}] OK {task['task_id']} {record['recognized_words']} words",flush=True)
+            except SourceRejected as exc:
+                # Permanent fail-closed quarantine: no download, no ASR, no retry.
+                journal[task["task_id"]]={"source_rejected":True,"reason":str(exc)[:120],
+                     "last_attempt_utc":now()}
+                atomic_json(journal_file,journal)
+                print(f"[{processed}] SOURCE SKIPPED {task['task_id']}: {exc}",file=sys.stderr,flush=True)
             except Exception as exc:
                 failures+=1
                 old=journal.get(task["task_id"],{})

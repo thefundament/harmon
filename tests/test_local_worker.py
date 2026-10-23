@@ -2,6 +2,7 @@ import importlib.util
 import hashlib
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
 import wave
@@ -9,6 +10,7 @@ import subprocess
 from unittest import mock
 
 FILE=pathlib.Path(__file__).resolve().parents[1]/"collector"/"local_worker.py"
+sys.path.insert(0,str(FILE.parent))
 spec=importlib.util.spec_from_file_location("harmon_local_worker",FILE)
 worker=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(worker)
@@ -84,7 +86,7 @@ class LocalWorkerTests(unittest.TestCase):
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg","whisper":"fake-whisper","model":"fake-model"}
    model=root/"ggml-large-v3-turbo-q5_0.bin";model.write_bytes(b"model weights")
    tools["model"]=str(model)
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     result=worker.process_task(VOD,tools,out,work,threads=3)
    self.assertEqual(result["processing_status"],"transcribed")
    self.assertEqual(result["recognition_model"],"whisper.cpp ggml-large-v3-turbo-q5_0")
@@ -105,11 +107,26 @@ class LocalWorkerTests(unittest.TestCase):
     else:
      raise RuntimeError("synthetic failure")
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg","whisper":"fake-whisper","model":"fake-model"}
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     with self.assertRaisesRegex(RuntimeError,"synthetic failure"):
      worker.process_task(TASK,tools,out,work)
    self.assertFalse(list((work/"tmp").iterdir()))
    self.assertFalse(worker.completed(TASK,out))
+ def test_source_rejected_before_downloading_any_media(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);out=root/"out";work=root/"work"
+   with mock.patch.object(worker,"authorize",side_effect=worker.SourceRejected("youtube_foreign_channel")):
+    with mock.patch.object(worker,"run_command") as downloader:
+     with self.assertRaisesRegex(worker.SourceRejected,"youtube_foreign_channel"):
+      worker.process_task(VOD,{"yt_dlp":"fake-yt-dlp"},out,work)
+     downloader.assert_not_called()
+   self.assertFalse(list((work/"tmp").iterdir()))
+   self.assertFalse(list(out.iterdir()))
+ def test_journal_blocks_rejected_source_permanently(self):
+  with tempfile.TemporaryDirectory() as td:
+   out=pathlib.Path(td)
+   state={VOD["task_id"]:{"source_rejected":True,"reason":"twitch_foreign_vod"}}
+   self.assertEqual(worker.eligible(VOD,state,out),(False,"source_rejected"))
  def test_space_guard_reports_real_disk_space(self):
   with tempfile.TemporaryDirectory() as td:
    self.assertGreater(worker.free_disk_bytes(pathlib.Path(td)),0)
@@ -169,7 +186,7 @@ class LocalWorkerTests(unittest.TestCase):
       audio.setnchannels(1);audio.setsampwidth(2);audio.setframerate(1);audio.writeframes(b"\0"*20)
     else:self.fail("Incomplete audio must never reach transcription")
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg"}
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     with self.assertRaisesRegex(RuntimeError,"incomplete window"):
      worker.process_task(VOD,tools,root/"out",root/"work")
    self.assertFalse(worker.completed(VOD,root/"out"))
