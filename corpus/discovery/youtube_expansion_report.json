@@ -1,0 +1,60 @@
+{
+  "official_channel": "https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q",
+  "listed_video_ids": 477,
+  "eligible_creator_video_ids": 450,
+  "candidate_only": 27,
+  "total_known_hours": 351.87,
+  "surfaces": {
+    "videos": {
+      "records": 429,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "streams": {
+      "records": 21,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "shorts": {
+      "records": 9,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlists": {
+      "records": 16,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a_hlYw9Kzp8BuMJiIA2F_ap": {
+      "records": 3,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a8RjItGwuNyzNJrlWXJYWXC": {
+      "records": 12,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a9HEv71HUTRQO0pXM1TJZOf": {
+      "records": 18,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a9aOj57yyBhguDuFpGmNPUj": {
+      "records": 9,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a-K91hoQzmKqCX9on7DpiFw": {
+      "records": 6,
+      "exit_code": 0,
+      "error_tail": ""
+    },
+    "playlist:PLY7HlmJU23a-O279iCchL-5zv0FbY3JfO": {
+      "records": 27,
+      "exit_code": 0,
+      "error_tail": ""
+    }
+  },
+  "note": "Metadata only, not proof of availability. Playlist items without creator attribution are held as candidates."
+}
