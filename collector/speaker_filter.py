@@ -212,9 +212,14 @@ def segments_with_match(pcm,centroid,threshold,embedder=None,vad=None):
     kept=[];unknown=[]
     for start,end in regions:
         try:
-            score=dot(model(pcm[start:end]),centroid)
+            candidate=model(pcm[start:end])
+            if len(candidate)!=len(centroid):
+                raise UncalibratedProfile("Speaker profile embedding dimension does not match the encoder")
+            score=dot(candidate,centroid)
             if score>=threshold:kept.append((start,end,score))
             else:unknown.append((start,end,score))
+        except UncalibratedProfile:
+            raise  # malformed or incompatible reference must not produce empty transcripts
         except (ValueError,RuntimeError) as exc:
             unknown.append((start,end,None))
     return kept,unknown
