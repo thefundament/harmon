@@ -104,9 +104,20 @@ def completed(task, output=OUTPUT):
     except (ValueError, OSError):
         return False
 
-def eligible(task, journal, output, include_existing=False, retry_exhausted=False, clock=None):
+def eligible(task, journal, output, include_existing=False, retry_exhausted=False,
+             clock=None, required_speaker_profile_hash=None):
     if completed(task, output):
-        return False, "completed"
+        if required_speaker_profile_hash:
+            meta,_,_=result_paths(task,output)
+            previous=json.loads(meta.read_text(encoding="utf-8"))
+            previous_hash=(previous.get("voice_filter") or {}).get("speaker_profile_sha256")
+            if previous_hash==required_speaker_profile_hash:
+                return False, "completed_voice_filtered"
+            # A previous unfiltered transcript or older profile does not satisfy
+            # current target-voice requirements. Preserve it until replacement
+            # completes; do not misreport that the new profile has been applied.
+        else:
+            return False, "completed"
     if task.get("state")=="asr_completed_unreviewed" and not include_existing:
         return False, "existing_legacy_clip"
     state=journal.get(task["task_id"], {})
@@ -333,10 +344,10 @@ def publish():
     checkpoint()
     return push_commits()
 
-def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False):
+def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False, required_speaker_profile_hash=None):
     counts={}
     for t in tasks:
-        _,reason=eligible(t,journal,output,include_existing,retry_exhausted)
+        _,reason=eligible(t,journal,output,include_existing,retry_exhausted,required_speaker_profile_hash=required_speaker_profile_hash)
         counts[reason]=counts.get(reason,0)+1
     return counts
 
@@ -344,24 +355,27 @@ def execute(args):
     tasks=load_manifest(args.manifest)
     journal_file=args.work_dir/"state.json"
     journal=load_journal(journal_file)
+    filtered=bool(getattr(args,"speaker_filter",False))
+    chosen_profile=getattr(args,"speaker_profile",None)
+    profile_path=(chosen_profile if chosen_profile is not None
+                  else args.work_dir/"speaker_profile.json")
+    required_hash=None
+    if filtered:
+        load_profile(profile_path)
+        required_hash=hashlib.sha256(profile_path.read_bytes()).hexdigest()
     if args.command=="status":
-        print(json.dumps({"total_tasks":len(tasks),"states":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted)},indent=2))
+        print(json.dumps({"total_tasks":len(tasks),"states":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted,required_hash)},indent=2))
         return 0
     if args.command=="publish":
         print(publish())
         return 0
     if args.command=="plan":
         for t in tasks:
-            yes,reason=eligible(t,journal,args.output,args.include_existing,args.retry_exhausted)
+            yes,reason=eligible(t,journal,args.output,args.include_existing,args.retry_exhausted,required_speaker_profile_hash=required_hash)
             if yes:print(t["task_id"])
         return 0
     # Fail closed before network downloads on unattended/full-archive runs.
-    filtered=bool(getattr(args,"speaker_filter",False))
-    chosen_profile=getattr(args,"speaker_profile",None)
-    profile_path=(chosen_profile if chosen_profile is not None
-                  else args.work_dir/"speaker_profile.json")
     if filtered:
-        load_profile(profile_path)
         load_speaker_encoder()  # fail before ANY downloads if dependencies/weights are absent
     elif (args.command=="run" and args.max_items==0
           and args.manifest.resolve()==PLAN.resolve()
@@ -411,7 +425,7 @@ def execute(args):
     signal.signal(signal.SIGTERM, interrupt)
     try:
         for i,task in enumerate(tasks):
-            yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted)
+            yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted,required_speaker_profile_hash=required_hash)
             if not yes:continue
             if free_disk_bytes(args.work_dir)<args.min_free_gb*1024**3:
                 print("DISK GUARD: insufficient free space; stopping before download",file=sys.stderr,flush=True)
