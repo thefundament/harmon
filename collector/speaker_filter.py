@@ -13,6 +13,7 @@ import hashlib
 import json
 import math
 import os
+import re
 from pathlib import Path
 import statistics
 import sys
@@ -231,6 +232,47 @@ def compact_accepted(pcm,spans,pad_s=.30):
                         "source_start_s":round(start/RATE,5),
                         "source_end_s":round(end/RATE,5)})
     return combined,mapping
+
+SRT_TIMING=re.compile(r"(\d\d):(\d\d):(\d\d),(\d\d\d)\s+-->\s+(\d\d):(\d\d):(\d\d),(\d\d\d)")
+
+def _srt_ms(groups):
+    a,b,c,ms=map(int,groups)
+    return ((a*60+b)*60+c)*1000+ms
+
+def _srt_time(ms):
+    ms=max(0,int(round(ms)))
+    h,rest=divmod(ms,3600000);m,rest=divmod(rest,60000)
+    sec,millis=divmod(rest,1000)
+    return f"{h:02d}:{m:02d}:{sec:02d},{millis:03d}"
+
+def map_time(t,mapping,start_side=True):
+    """Approximate source time, even if ASR crosses compacted speech boundaries."""
+    if not mapping:
+        return t
+    for i,region in enumerate(mapping):
+        a,b=region["compact_start_s"],region["compact_end_s"]
+        if a<=t<=b:
+            return region["source_start_s"]+max(0,min(t-a,b-a))
+        if t<a:
+            # A short inserted silence between segments is not source speech.
+            prev=mapping[max(i-1,0)]
+            return (region["source_start_s"] if start_side
+                    else prev["source_end_s"])
+    return mapping[-1]["source_end_s"]
+
+def remap_srt(srt,mapping):
+    """Map Whisper subtitles from compact target-only audio back to source-relative time.
+
+    The returned SRT is approximate where one subtitle spans multiple trimmed
+    gaps. Precise compact-to-source intervals are preserved in metadata.
+    """
+    def change(match):
+        start=_srt_ms(match.groups()[:4])/1000
+        end=_srt_ms(match.groups()[4:])/1000
+        a=map_time(start,mapping,True)
+        b=map_time(end,mapping,False)
+        return _srt_time(a*1000)+" --> "+_srt_time(max(a,b)*1000)
+    return SRT_TIMING.sub(change,srt)
 
 def filter_wav(source,out,profile,embedder=None,vad=None):
     centroid,threshold,reference=load_profile(profile)
