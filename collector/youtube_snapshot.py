@@ -85,6 +85,10 @@ def normalize(obj,surface,old=None):
         result["candidate_only"]=False
     if surface in TABS[:3] and not foreign:
         result["candidate_only"]=False
+    # Local worker requires bounded start/end offsets for long videos.
+    # Never enqueue a YouTube page that lacks a trusted duration.
+    if result["duration"] is None:
+        result["candidate_only"]=True
     return result
 
 def create_inventory(root=ROOT,probe=cmd_rows,max_playlists=12):
