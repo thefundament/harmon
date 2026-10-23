@@ -14,13 +14,15 @@ sources=[p for p in out.iterdir() if p.name.startswith("clip.") and p.suffix not
 if sources:
  if True:
   try:
-   from faster_whisper import WhisperModel
-   model=WhisperModel("tiny.en",device="cpu",compute_type="int8",download_root="model_cache")
-   segments,info=model.transcribe(str(sources[0]),beam_size=1,vad_filter=True)
-   rows=[{"start":round(s.start,2),"end":round(s.end,2),"text":s.text.strip()} for s in segments]
-   (out/"transcript.json").write_text(json.dumps({"source_url":url,"speaker_verified":False,"training_permission_verified":False,"segments":rows},indent=2))
-   (out/"transcript.txt").write_text(" ".join(x["text"] for x in rows)+"\n")
+   wav=out/"clip.wav"
+   cv=cmd(["ffmpeg","-y","-hide_banner","-loglevel","error","-i",str(sources[0]),"-t","60","-ar","16000","-ac","1",str(wav)],90)
+   if cv.get("code")!=0: raise RuntimeError("audio conversion failed: "+str(cv))
+   t=cmd(["whisper.cpp/build/bin/whisper-cli","-m","whisper.cpp/models/ggml-tiny.en.bin","-f",str(wav),"-otxt","-osrt","-of","output/transcript","-nt","-np"],150)
+   if t.get("code")!=0: raise RuntimeError("whisper failed: "+str(t))
    report["words"]=len((out/"transcript.txt").read_text().split())
+   report["transcript_engine"]="whisper.cpp ggml-tiny.en"
+   (out/"transcript.json").write_text(json.dumps({"source_url":url,"speaker_verified":False,"training_permission_verified":False,"text":(out/"transcript.txt").read_text()},indent=2))
+   wav.unlink(missing_ok=True)
    print("TRANSCRIBED WORDS:",report["words"],flush=True)
   except Exception as e:report["transcription_error"]=str(e)
  sources[0].unlink(missing_ok=True)
