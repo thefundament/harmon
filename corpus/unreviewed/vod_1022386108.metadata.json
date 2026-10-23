@@ -1,0 +1,19 @@
+{
+  "url": "https://www.twitch.tv/videos/1022386108",
+  "kind": "vods",
+  "discovery": "verified_historical_vod_seed",
+  "source_key": "vod_1022386108",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:34:40.267774+00:00",
+  "word_count_raw": 20,
+  "word_count_nonplaceholder": 20,
+  "srt": "vod_1022386108.srt",
+  "text_file": "vod_1022386108.txt",
+  "text_sha256": "ac77149d3a7fc63c678fb04bb49e4af5d0d9ebaaa0b390e373edbef530e76e79",
+  "seconds_elapsed": 23.1
+}

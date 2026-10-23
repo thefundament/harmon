@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-10-23T20:27:38.038615+00:00",
-  "unique_sources": 154,
-  "videos_transcribed": 149,
-  "raw_recognized_words": 4452,
-  "nonplaceholder_recognized_words": 4448,
+  "generated_utc": "2026-10-23T20:35:26.741369+00:00",
+  "unique_sources": 170,
+  "videos_transcribed": 165,
+  "raw_recognized_words": 5967,
+  "nonplaceholder_recognized_words": 5963,
   "speaker_verified": 0,
   "training_permission_verified": 0,
   "corpus_status": "unreviewed ASR / not training-ready",
   "video_source_types": {
     "clips": 140,
-    "vods": 9,
+    "vods": 25,
     "youtube": 0
   }
 }

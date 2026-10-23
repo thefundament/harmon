@@ -8,7 +8,7 @@
     },
     "vods": {
       "url": "https://www.twitch.tv/simplez4ck/videos?filter=all&sort=time",
-      "found": 0,
+      "found": 31,
       "rc": 0,
       "error": ""
     },
@@ -20,10 +20,10 @@
     }
   },
   "unique": {
-    "clips": 354,
-    "vods": 0,
+    "clips": 355,
+    "vods": 31,
     "youtube": 12
   },
-  "selected": 65,
-  "previously_transcribed": 84
+  "selected": 16,
+  "previously_transcribed": 149
 }
