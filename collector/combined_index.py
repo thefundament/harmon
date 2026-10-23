@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Index both historical hosted-runner transcripts and newer local-worker outputs."""
 from __future__ import annotations
-import argparse, datetime as dt, json, pathlib
+import argparse, json, pathlib
 
 def run(root: pathlib.Path):
     base=root/"corpus"
@@ -50,7 +50,6 @@ def run(root: pathlib.Path):
     for row in entries:
         grouped[row["source_kind"]]=grouped.get(row["source_kind"],0)+1
     summary={
-        "generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
         "legacy_asr_outputs":sum(x["key"].startswith("legacy:") and x["asr_completed"] for x in entries),
         "local_window_asr_outputs":sum(x["key"].startswith("local:") and x["asr_completed"] for x in entries),
         "total_asr_outputs":sum(x["asr_completed"] for x in entries),
