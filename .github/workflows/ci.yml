@@ -5,6 +5,7 @@ on:
       - 'collector/quality_gate.py'
       - 'collector/publish_indexes.py'
       - 'collector/local_worker.py'
+      - 'collector/source_gate.py'
       - 'scripts/bootstrap_linux.sh'
       - 'scripts/run_archive.sh'
       - 'scripts/run_limited.sh'
