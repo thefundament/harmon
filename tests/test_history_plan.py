@@ -42,7 +42,7 @@ class HistoryTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp:
    root=pathlib.Path(tmp);d=root/"corpus"/"discovery";d.mkdir(parents=True)
    (d/"youtube.jsonl").write_text("\n".join(json.dumps({"id":id_,"duration":1250}) for id_ in ["abcdefghijk","lmnopqrstuv"])+"\n")
-   (d/"twitch_clips.jsonl").write_text(json.dumps({"url":"https://clips.twitch.tv/Test-1"})+"\\n")
+   (d/"twitch_clips.jsonl").write_text(json.dumps({"url":"https://clips.twitch.tv/Test-1"})+"\n")
    rows,_=mod.build(root)
    self.assertEqual([r["kind"] for r in rows[:2]],["youtube","youtube"])
    self.assertEqual([r["start_s"] for r in rows if r["kind"]=="youtube"],[0,0,600,600,1200,1200])
