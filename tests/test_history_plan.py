@@ -37,7 +37,16 @@ class HistoryTests(unittest.TestCase):
    self.assertEqual(yt[-1]["task_id"],"youtube:abcdefghijk:1200-1250.5")
    self.assertEqual([r["task_id"] for r in rows if r["kind"]=="vod"],
                     ["vod:99:0-600","vod:99:600-1200","vod:99:1200-1250.0"])
-   self.assertEqual(rows[0]["task_id"],"clip:Test-1")
+   self.assertIn("clip:Test-1",{r["task_id"] for r in rows})
+ def test_prioritize_youtube_and_round_robin_time_windows(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=pathlib.Path(tmp);d=root/"corpus"/"discovery";d.mkdir(parents=True)
+   (d/"youtube.jsonl").write_text("\n".join(json.dumps({"id":id_,"duration":1250}) for id_ in ["abcdefghijk","lmnopqrstuv"])+"\n")
+   (d/"twitch_clips.jsonl").write_text(json.dumps({"url":"https://clips.twitch.tv/Test-1"})+"\\n")
+   rows,_=mod.build(root)
+   self.assertEqual([r["kind"] for r in rows[:2]],["youtube","youtube"])
+   self.assertEqual([r["start_s"] for r in rows if r["kind"]=="youtube"],[0,0,600,600,1200,1200])
+   self.assertEqual(rows[-1]["task_id"],"clip:Test-1")
  def test_expanded_youtube_keeps_old_ids_and_excludes_playlist_foreigners(self):
   root=p.parents[1]
   expanded=root/"corpus"/"discovery"/"youtube_expanded.jsonl"
