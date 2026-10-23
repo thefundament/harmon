@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnjoyableSpikyCucumberDoubleRainbow-uYjuUMIVQlwmNLvc",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Drop Them Cold",
+  "duration": 15.0,
+  "timestamp": 1741285910,
+  "source_key": "clip_EnjoyableSpikyCucumberDoubleRainbow-uYjuUMIVQlwmNLvc",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:18.081048+00:00",
+  "word_count_raw": 26,
+  "word_count_nonplaceholder": 26,
+  "srt": "clip_EnjoyableSpikyCucumberDoubleRainbow-uYjuUMIVQlwmNLvc.srt",
+  "text_file": "clip_EnjoyableSpikyCucumberDoubleRainbow-uYjuUMIVQlwmNLvc.txt",
+  "text_sha256": "6c4671b700f9da6950167008636861e05d9846ff217528101d22810db3ba1130",
+  "seconds_elapsed": 2.4
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BumblingObedientLettuceImGlitch--4nLRVQUwI2aPRES",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Drong hit",
+  "duration": 36.0,
+  "timestamp": 1697496697,
+  "source_key": "clip_BumblingObedientLettuceImGlitch--4nLRVQUwI2aPRES",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:58.466850+00:00",
+  "word_count_raw": 4,
+  "word_count_nonplaceholder": 4,
+  "srt": "clip_BumblingObedientLettuceImGlitch--4nLRVQUwI2aPRES.srt",
+  "text_file": "clip_BumblingObedientLettuceImGlitch--4nLRVQUwI2aPRES.txt",
+  "text_sha256": "bca8f5ac2238d2a1c62af7750a4faf7078bd1adb76859935ea9a55ff539e37c4",
+  "seconds_elapsed": 4.9
+}

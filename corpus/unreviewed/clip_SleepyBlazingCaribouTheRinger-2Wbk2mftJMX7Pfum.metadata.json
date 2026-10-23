@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SleepyBlazingCaribouTheRinger-2Wbk2mftJMX7Pfum",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "the what community?",
+  "duration": 20.0,
+  "timestamp": 1747756228,
+  "source_key": "clip_SleepyBlazingCaribouTheRinger-2Wbk2mftJMX7Pfum",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:31.728880+00:00",
+  "word_count_raw": 46,
+  "word_count_nonplaceholder": 46,
+  "srt": "clip_SleepyBlazingCaribouTheRinger-2Wbk2mftJMX7Pfum.srt",
+  "text_file": "clip_SleepyBlazingCaribouTheRinger-2Wbk2mftJMX7Pfum.txt",
+  "text_sha256": "60051b9a455ddee3e1ef35be340fdcf4fa26af3078e40623a6cbe96398448326",
+  "seconds_elapsed": 2.7
+}

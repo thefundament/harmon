@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FurtiveFaithfulChinchillaNomNom-UcicSTCpqmbWjPCz",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "elmo",
+  "duration": 5.0,
+  "timestamp": 1745163523,
+  "source_key": "clip_FurtiveFaithfulChinchillaNomNom-UcicSTCpqmbWjPCz",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:45.173684+00:00",
+  "word_count_raw": 9,
+  "word_count_nonplaceholder": 9,
+  "srt": "clip_FurtiveFaithfulChinchillaNomNom-UcicSTCpqmbWjPCz.srt",
+  "text_file": "clip_FurtiveFaithfulChinchillaNomNom-UcicSTCpqmbWjPCz.txt",
+  "text_sha256": "4300e4c698bcf3d35089736a35dd3bbd7a55cedf54aef7e7e6d6e990b0ff0e7d",
+  "seconds_elapsed": 2.1
+}

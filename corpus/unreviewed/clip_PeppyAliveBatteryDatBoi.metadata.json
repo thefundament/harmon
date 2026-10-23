@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/PeppyAliveBatteryDatBoi",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "blown away",
+  "duration": 20.0,
+  "timestamp": 1551380677,
+  "source_key": "clip_PeppyAliveBatteryDatBoi",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:35.957818+00:00",
+  "word_count_raw": 11,
+  "word_count_nonplaceholder": 11,
+  "srt": "clip_PeppyAliveBatteryDatBoi.srt",
+  "text_file": "clip_PeppyAliveBatteryDatBoi.txt",
+  "text_sha256": "6b9177fd9b80f554b524f4a57c3ed25f05f96609498eb71e51aab937d319979c",
+  "seconds_elapsed": 3.9
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnergeticDelightfulGiraffeBigBrother-yGmMChzB2hLbn2dM",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Ravioli Licks",
+  "duration": 58.0,
+  "timestamp": 1730140497,
+  "source_key": "clip_EnergeticDelightfulGiraffeBigBrother-yGmMChzB2hLbn2dM",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:34.768441+00:00",
+  "word_count_raw": 36,
+  "word_count_nonplaceholder": 36,
+  "srt": "clip_EnergeticDelightfulGiraffeBigBrother-yGmMChzB2hLbn2dM.srt",
+  "text_file": "clip_EnergeticDelightfulGiraffeBigBrother-yGmMChzB2hLbn2dM.txt",
+  "text_sha256": "92a46d32898dd4d2ee445caa98f822b6348ae95a8728de4a6b7a42a2310347e2",
+  "seconds_elapsed": 3.6
+}

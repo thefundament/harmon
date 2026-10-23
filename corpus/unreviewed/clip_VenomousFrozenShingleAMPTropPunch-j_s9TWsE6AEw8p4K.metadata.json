@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/VenomousFrozenShingleAMPTropPunch-j_s9TWsE6AEw8p4K",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "mark my words",
+  "duration": 28.0,
+  "timestamp": 1690412968,
+  "source_key": "clip_VenomousFrozenShingleAMPTropPunch-j_s9TWsE6AEw8p4K",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:49.295865+00:00",
+  "word_count_raw": 34,
+  "word_count_nonplaceholder": 34,
+  "srt": "clip_VenomousFrozenShingleAMPTropPunch-j_s9TWsE6AEw8p4K.srt",
+  "text_file": "clip_VenomousFrozenShingleAMPTropPunch-j_s9TWsE6AEw8p4K.txt",
+  "text_sha256": "762a7a415cd44f9831308b9331c01b73863f11a72d589b34e1b429d43db93bb7",
+  "seconds_elapsed": 2.7
+}

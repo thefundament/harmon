@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/GlamorousGoldenManateeSoBayed-0iD5GUeV2nX7Jgod",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Already Feeling the Job Loss",
+  "duration": 49.0,
+  "timestamp": 1714770548,
+  "source_key": "clip_GlamorousGoldenManateeSoBayed-0iD5GUeV2nX7Jgod",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:30.031947+00:00",
+  "word_count_raw": 61,
+  "word_count_nonplaceholder": 61,
+  "srt": "clip_GlamorousGoldenManateeSoBayed-0iD5GUeV2nX7Jgod.srt",
+  "text_file": "clip_GlamorousGoldenManateeSoBayed-0iD5GUeV2nX7Jgod.txt",
+  "text_sha256": "32fd1d10a328724aef899386ee35207c828d77035188a4b022a2532bc93d4526",
+  "seconds_elapsed": 3.9
+}

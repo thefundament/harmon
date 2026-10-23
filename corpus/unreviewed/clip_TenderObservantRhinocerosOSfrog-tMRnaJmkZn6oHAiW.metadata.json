@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/TenderObservantRhinocerosOSfrog-tMRnaJmkZn6oHAiW",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "You talkin' SCUBA DIVING?",
+  "duration": 35.0,
+  "timestamp": 1751772915,
+  "source_key": "clip_TenderObservantRhinocerosOSfrog-tMRnaJmkZn6oHAiW",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:04.722802+00:00",
+  "word_count_raw": 29,
+  "word_count_nonplaceholder": 29,
+  "srt": "clip_TenderObservantRhinocerosOSfrog-tMRnaJmkZn6oHAiW.srt",
+  "text_file": "clip_TenderObservantRhinocerosOSfrog-tMRnaJmkZn6oHAiW.txt",
+  "text_sha256": "8c8d44572713585f1e1692b80576d1de88045a055b9e024dc43aec387eecafb5",
+  "seconds_elapsed": 3.6
+}

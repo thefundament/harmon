@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FaintVictoriousClipsmomCoolStoryBob-pWlu1obqqnznpR5i",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Drop em",
+  "duration": 54.0,
+  "timestamp": 1742706951,
+  "source_key": "clip_FaintVictoriousClipsmomCoolStoryBob-pWlu1obqqnznpR5i",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:59.392628+00:00",
+  "word_count_raw": 61,
+  "word_count_nonplaceholder": 61,
+  "srt": "clip_FaintVictoriousClipsmomCoolStoryBob-pWlu1obqqnznpR5i.srt",
+  "text_file": "clip_FaintVictoriousClipsmomCoolStoryBob-pWlu1obqqnznpR5i.txt",
+  "text_sha256": "436f1dbf7157fc63f284d7eac97f741b3ea744eb7ae80942b735d0494aec1bbb",
+  "seconds_elapsed": 4.2
+}

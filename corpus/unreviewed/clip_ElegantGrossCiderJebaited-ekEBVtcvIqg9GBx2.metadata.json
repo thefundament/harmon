@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ElegantGrossCiderJebaited-ekEBVtcvIqg9GBx2",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon's Eddy Impression",
+  "duration": 18.0,
+  "timestamp": 1690240884,
+  "source_key": "clip_ElegantGrossCiderJebaited-ekEBVtcvIqg9GBx2",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:23.100750+00:00",
+  "word_count_raw": 33,
+  "word_count_nonplaceholder": 33,
+  "srt": "clip_ElegantGrossCiderJebaited-ekEBVtcvIqg9GBx2.srt",
+  "text_file": "clip_ElegantGrossCiderJebaited-ekEBVtcvIqg9GBx2.txt",
+  "text_sha256": "d7fa671d70222b3d701f4647bd6cb1e72385e8164916ca477daabe52a94349aa",
+  "seconds_elapsed": 2.5
+}

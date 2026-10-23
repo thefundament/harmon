@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CleanAbstruseNostrilSeemsGood-VWOZZMPNCXxkMrCI",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Message for Poon",
+  "duration": 13.0,
+  "timestamp": 1747920246,
+  "source_key": "clip_CleanAbstruseNostrilSeemsGood-VWOZZMPNCXxkMrCI",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:00.076910+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_CleanAbstruseNostrilSeemsGood-VWOZZMPNCXxkMrCI.srt",
+  "text_file": "clip_CleanAbstruseNostrilSeemsGood-VWOZZMPNCXxkMrCI.txt",
+  "text_sha256": "8658b7f1738690924c10b2e837d9caa1e34cbe6cd4789820a82ac51a4b363d5f",
+  "seconds_elapsed": 2.2
+}

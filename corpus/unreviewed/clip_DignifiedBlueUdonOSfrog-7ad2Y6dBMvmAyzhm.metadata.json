@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DignifiedBlueUdonOSfrog-7ad2Y6dBMvmAyzhm",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "im crying its so beautiful",
+  "duration": 11.0,
+  "timestamp": 1663782382,
+  "source_key": "clip_DignifiedBlueUdonOSfrog-7ad2Y6dBMvmAyzhm",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:32.721410+00:00",
+  "word_count_raw": 7,
+  "word_count_nonplaceholder": 7,
+  "srt": "clip_DignifiedBlueUdonOSfrog-7ad2Y6dBMvmAyzhm.srt",
+  "text_file": "clip_DignifiedBlueUdonOSfrog-7ad2Y6dBMvmAyzhm.txt",
+  "text_sha256": "f38a5433095baaebee18583487e52e6ac10686d001ec97577ee10b0d3d992461",
+  "seconds_elapsed": 2.0
+}

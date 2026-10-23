@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CallousShyZebraShadyLulu-CVJCmqaqUwU9q9q0",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Geography lessons with Zack",
+  "duration": 26.0,
+  "timestamp": 1673913325,
+  "source_key": "clip_CallousShyZebraShadyLulu-CVJCmqaqUwU9q9q0",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:36.401551+00:00",
+  "word_count_raw": 18,
+  "word_count_nonplaceholder": 18,
+  "srt": "clip_CallousShyZebraShadyLulu-CVJCmqaqUwU9q9q0.srt",
+  "text_file": "clip_CallousShyZebraShadyLulu-CVJCmqaqUwU9q9q0.txt",
+  "text_sha256": "f632fde1708485ef23a805aff110b50818fb92426631cec546cbcef9e275711a",
+  "seconds_elapsed": 2.3
+}

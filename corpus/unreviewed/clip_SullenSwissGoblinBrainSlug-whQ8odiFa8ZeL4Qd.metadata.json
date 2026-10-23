@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SullenSwissGoblinBrainSlug-whQ8odiFa8ZeL4Qd",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "He's having fun",
+  "duration": 8.0,
+  "timestamp": 1738000687,
+  "source_key": "clip_SullenSwissGoblinBrainSlug-whQ8odiFa8ZeL4Qd",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:14.280969+00:00",
+  "word_count_raw": 12,
+  "word_count_nonplaceholder": 12,
+  "srt": "clip_SullenSwissGoblinBrainSlug-whQ8odiFa8ZeL4Qd.srt",
+  "text_file": "clip_SullenSwissGoblinBrainSlug-whQ8odiFa8ZeL4Qd.txt",
+  "text_sha256": "cfca90e2bba5d6b4f6f814c2bf0923b51d3aaf294787c01488eac7d40b24c991",
+  "seconds_elapsed": 2.3
+}

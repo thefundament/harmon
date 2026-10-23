@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/NastyIncredulousNeanderthalStrawBeary-RDQPGqFcvQlaOjcw",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "I wanna get busy!",
+  "duration": 14.0,
+  "timestamp": 1748146339,
+  "source_key": "clip_NastyIncredulousNeanderthalStrawBeary-RDQPGqFcvQlaOjcw",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:22.645732+00:00",
+  "word_count_raw": 17,
+  "word_count_nonplaceholder": 17,
+  "srt": "clip_NastyIncredulousNeanderthalStrawBeary-RDQPGqFcvQlaOjcw.srt",
+  "text_file": "clip_NastyIncredulousNeanderthalStrawBeary-RDQPGqFcvQlaOjcw.txt",
+  "text_sha256": "4284a22e3fcbf69ff461cdd9b17e01effa05ecfed900dee38d8ffb3a80087a17",
+  "seconds_elapsed": 2.3
+}

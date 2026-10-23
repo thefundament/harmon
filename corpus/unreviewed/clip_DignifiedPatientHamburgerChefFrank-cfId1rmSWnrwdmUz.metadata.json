@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DignifiedPatientHamburgerChefFrank-cfId1rmSWnrwdmUz",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon jumpscared",
+  "duration": 19.0,
+  "timestamp": 1740524660,
+  "source_key": "clip_DignifiedPatientHamburgerChefFrank-cfId1rmSWnrwdmUz",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:44.401157+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_DignifiedPatientHamburgerChefFrank-cfId1rmSWnrwdmUz.srt",
+  "text_file": "clip_DignifiedPatientHamburgerChefFrank-cfId1rmSWnrwdmUz.txt",
+  "text_sha256": "2f98b8bfbf44f05dc341c2818cf5c93ad13f525a7e59b8c9348b62c925ac77f9",
+  "seconds_elapsed": 2.1
+}

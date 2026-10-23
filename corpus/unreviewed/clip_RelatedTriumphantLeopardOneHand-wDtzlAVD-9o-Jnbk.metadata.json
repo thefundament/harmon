@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/RelatedTriumphantLeopardOneHand-wDtzlAVD-9o-Jnbk",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Self-conscious about the skirt",
+  "duration": 21.0,
+  "timestamp": 1725040005,
+  "source_key": "clip_RelatedTriumphantLeopardOneHand-wDtzlAVD-9o-Jnbk",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:22.960456+00:00",
+  "word_count_raw": 29,
+  "word_count_nonplaceholder": 29,
+  "srt": "clip_RelatedTriumphantLeopardOneHand-wDtzlAVD-9o-Jnbk.srt",
+  "text_file": "clip_RelatedTriumphantLeopardOneHand-wDtzlAVD-9o-Jnbk.txt",
+  "text_sha256": "4997bb2d1395fc66e057c26db97c5bcbc990637d955c0e58a2d93fe6e1d1880e",
+  "seconds_elapsed": 3.7
+}

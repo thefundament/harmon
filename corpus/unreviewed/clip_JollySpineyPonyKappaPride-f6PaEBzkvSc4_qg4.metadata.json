@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/JollySpineyPonyKappaPride-f6PaEBzkvSc4_qg4",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "REALLLY GET IN THERE",
+  "duration": 7.0,
+  "timestamp": 1728072172,
+  "source_key": "clip_JollySpineyPonyKappaPride-f6PaEBzkvSc4_qg4",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:47.318068+00:00",
+  "word_count_raw": 1,
+  "word_count_nonplaceholder": 1,
+  "srt": "clip_JollySpineyPonyKappaPride-f6PaEBzkvSc4_qg4.srt",
+  "text_file": "clip_JollySpineyPonyKappaPride-f6PaEBzkvSc4_qg4.txt",
+  "text_sha256": "ee6ba21ef6c1d60787b2db86606817990a3ca99675d918858cbf73aa1ad942ac",
+  "seconds_elapsed": 2.0
+}

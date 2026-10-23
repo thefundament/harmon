@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnchantingPuzzledRatThisIsSparta-VxvV_WFdf-Oh0rgP",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon breaks his most prized piece of glass",
+  "duration": 13.0,
+  "timestamp": 1720555949,
+  "source_key": "clip_EnchantingPuzzledRatThisIsSparta-VxvV_WFdf-Oh0rgP",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:52.297567+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_EnchantingPuzzledRatThisIsSparta-VxvV_WFdf-Oh0rgP.srt",
+  "text_file": "clip_EnchantingPuzzledRatThisIsSparta-VxvV_WFdf-Oh0rgP.txt",
+  "text_sha256": "9d354c382598030f13395e77ffff1ce3321fb040312dbbaeb1ea9433ed45246a",
+  "seconds_elapsed": 2.1
+}

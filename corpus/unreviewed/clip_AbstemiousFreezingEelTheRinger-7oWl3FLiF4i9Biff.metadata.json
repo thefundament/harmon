@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AbstemiousFreezingEelTheRinger-7oWl3FLiF4i9Biff",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon Calls Aqua a Pu***",
+  "duration": 12.0,
+  "timestamp": 1747276745,
+  "source_key": "clip_AbstemiousFreezingEelTheRinger-7oWl3FLiF4i9Biff",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:05.718583+00:00",
+  "word_count_raw": 20,
+  "word_count_nonplaceholder": 20,
+  "srt": "clip_AbstemiousFreezingEelTheRinger-7oWl3FLiF4i9Biff.srt",
+  "text_file": "clip_AbstemiousFreezingEelTheRinger-7oWl3FLiF4i9Biff.txt",
+  "text_sha256": "2ea984ccffbed8659c6460cdb1250e974580848920774cd65633154560fab5e6",
+  "seconds_elapsed": 2.3
+}

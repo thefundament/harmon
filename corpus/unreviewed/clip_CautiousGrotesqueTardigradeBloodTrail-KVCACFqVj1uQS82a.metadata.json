@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CautiousGrotesqueTardigradeBloodTrail-KVCACFqVj1uQS82a",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Eggy",
+  "duration": 58.0,
+  "timestamp": 1715748397,
+  "source_key": "clip_CautiousGrotesqueTardigradeBloodTrail-KVCACFqVj1uQS82a",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:41.329504+00:00",
+  "word_count_raw": 6,
+  "word_count_nonplaceholder": 6,
+  "srt": "clip_CautiousGrotesqueTardigradeBloodTrail-KVCACFqVj1uQS82a.srt",
+  "text_file": "clip_CautiousGrotesqueTardigradeBloodTrail-KVCACFqVj1uQS82a.txt",
+  "text_sha256": "cf344207dc28a733c12adfb5c275fc179b8ebf18c8c045d9fb46f307ee3e69da",
+  "seconds_elapsed": 3.1
+}

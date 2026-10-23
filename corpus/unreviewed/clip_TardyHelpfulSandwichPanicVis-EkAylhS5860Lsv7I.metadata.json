@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/TardyHelpfulSandwichPanicVis-EkAylhS5860Lsv7I",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "SMOKED EM",
+  "duration": 6.0,
+  "timestamp": 1742659829,
+  "source_key": "clip_TardyHelpfulSandwichPanicVis-EkAylhS5860Lsv7I",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:54.386617+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_TardyHelpfulSandwichPanicVis-EkAylhS5860Lsv7I.srt",
+  "text_file": "clip_TardyHelpfulSandwichPanicVis-EkAylhS5860Lsv7I.txt",
+  "text_sha256": "08718978b27b5c9eef09112ded144e2701a830eef710802a00493765c31935b2",
+  "seconds_elapsed": 2.0
+}

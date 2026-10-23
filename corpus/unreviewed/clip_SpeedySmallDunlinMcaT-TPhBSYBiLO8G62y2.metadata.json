@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SpeedySmallDunlinMcaT-TPhBSYBiLO8G62y2",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Such Anticipation",
+  "duration": 12.0,
+  "timestamp": 1713055510,
+  "source_key": "clip_SpeedySmallDunlinMcaT-TPhBSYBiLO8G62y2",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:34.383756+00:00",
+  "word_count_raw": 6,
+  "word_count_nonplaceholder": 6,
+  "srt": "clip_SpeedySmallDunlinMcaT-TPhBSYBiLO8G62y2.srt",
+  "text_file": "clip_SpeedySmallDunlinMcaT-TPhBSYBiLO8G62y2.txt",
+  "text_sha256": "c1c3057cb8b06b45b75055bfb9ea55be5cd8bda2751e9f8761e7cebcb1bf661e",
+  "seconds_elapsed": 2.0
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FairSavoryCheddarBibleThump-Qg-sKC3IZz_ffNI8",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Latin America",
+  "duration": 26.0,
+  "timestamp": 1671503263,
+  "source_key": "clip_FairSavoryCheddarBibleThump-Qg-sKC3IZz_ffNI8",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:12.036919+00:00",
+  "word_count_raw": 8,
+  "word_count_nonplaceholder": 8,
+  "srt": "clip_FairSavoryCheddarBibleThump-Qg-sKC3IZz_ffNI8.srt",
+  "text_file": "clip_FairSavoryCheddarBibleThump-Qg-sKC3IZz_ffNI8.txt",
+  "text_sha256": "5fa6a8fceb3c0e5daf699c29b3642ab6391e74ec07c73eb350cbe0f4ed80d056",
+  "seconds_elapsed": 2.2
+}

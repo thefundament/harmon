@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DifferentDeafAdminPicoMause-LxzcWMxGbSOpwP7F",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon poos himself",
+  "duration": 5.0,
+  "timestamp": 1726366323,
+  "source_key": "clip_DifferentDeafAdminPicoMause-LxzcWMxGbSOpwP7F",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:56.406272+00:00",
+  "word_count_raw": 8,
+  "word_count_nonplaceholder": 8,
+  "srt": "clip_DifferentDeafAdminPicoMause-LxzcWMxGbSOpwP7F.srt",
+  "text_file": "clip_DifferentDeafAdminPicoMause-LxzcWMxGbSOpwP7F.txt",
+  "text_sha256": "cb37f1aa2b6be700afba72c00713c7080a8438cb01067ba0b8dfa7702782440d",
+  "seconds_elapsed": 2.1
+}

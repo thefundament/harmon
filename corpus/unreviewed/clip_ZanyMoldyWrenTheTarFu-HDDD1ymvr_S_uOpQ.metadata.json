@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ZanyMoldyWrenTheTarFu-HDDD1ymvr_S_uOpQ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "What Harmon says to EGirls...",
+  "duration": 51.0,
+  "timestamp": 1740607764,
+  "source_key": "clip_ZanyMoldyWrenTheTarFu-HDDD1ymvr_S_uOpQ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:39.900923+00:00",
+  "word_count_raw": 69,
+  "word_count_nonplaceholder": 69,
+  "srt": "clip_ZanyMoldyWrenTheTarFu-HDDD1ymvr_S_uOpQ.srt",
+  "text_file": "clip_ZanyMoldyWrenTheTarFu-HDDD1ymvr_S_uOpQ.txt",
+  "text_sha256": "d54c7fbb70fa1fe7c307f27b695eb74ecbb033c800cd249219e3196e0c4f4c64",
+  "seconds_elapsed": 3.8
+}

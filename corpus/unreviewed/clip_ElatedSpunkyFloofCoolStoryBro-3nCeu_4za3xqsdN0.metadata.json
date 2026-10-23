@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ElatedSpunkyFloofCoolStoryBro-3nCeu_4za3xqsdN0",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "HOLY",
+  "duration": 21.0,
+  "timestamp": 1739563378,
+  "source_key": "clip_ElatedSpunkyFloofCoolStoryBro-3nCeu_4za3xqsdN0",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:16.562949+00:00",
+  "word_count_raw": 10,
+  "word_count_nonplaceholder": 10,
+  "srt": "clip_ElatedSpunkyFloofCoolStoryBro-3nCeu_4za3xqsdN0.srt",
+  "text_file": "clip_ElatedSpunkyFloofCoolStoryBro-3nCeu_4za3xqsdN0.txt",
+  "text_sha256": "a4fc131869439cd1f0b808cb7968beca04ee69b1c73d4b14337cb71d52823465",
+  "seconds_elapsed": 3.4
+}

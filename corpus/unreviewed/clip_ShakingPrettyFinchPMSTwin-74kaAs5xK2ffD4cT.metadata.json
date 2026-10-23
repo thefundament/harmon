@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ShakingPrettyFinchPMSTwin-74kaAs5xK2ffD4cT",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "chocobo zack",
+  "duration": 5.0,
+  "timestamp": 1709684974,
+  "source_key": "clip_ShakingPrettyFinchPMSTwin-74kaAs5xK2ffD4cT",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:26.707821+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_ShakingPrettyFinchPMSTwin-74kaAs5xK2ffD4cT.srt",
+  "text_file": "clip_ShakingPrettyFinchPMSTwin-74kaAs5xK2ffD4cT.txt",
+  "text_sha256": "dcab3c777ae6a5d2cd0769698126dd9a2cb583e2e8fafc366e42cacfeaa96b01",
+  "seconds_elapsed": 2.0
+}

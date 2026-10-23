@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/JoyousAntediluvianPresidentSuperVinlin-1GmTTLR5dYDFE6_U",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "harmon finally confesses",
+  "duration": 5.0,
+  "timestamp": 1687993411,
+  "source_key": "clip_JoyousAntediluvianPresidentSuperVinlin-1GmTTLR5dYDFE6_U",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:15.537702+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_JoyousAntediluvianPresidentSuperVinlin-1GmTTLR5dYDFE6_U.srt",
+  "text_file": "clip_JoyousAntediluvianPresidentSuperVinlin-1GmTTLR5dYDFE6_U.txt",
+  "text_sha256": "dba31caad3774a2ac8d789316103ea7d600658f76c168cf33f804806a49d2d5e",
+  "seconds_elapsed": 2.0
+}

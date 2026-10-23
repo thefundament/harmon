@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ArborealRamshackleTomatoBCouch",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon Pushup",
+  "duration": 13.0,
+  "timestamp": 1575166722,
+  "source_key": "clip_ArborealRamshackleTomatoBCouch",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:38.727916+00:00",
+  "word_count_raw": 15,
+  "word_count_nonplaceholder": 15,
+  "srt": "clip_ArborealRamshackleTomatoBCouch.srt",
+  "text_file": "clip_ArborealRamshackleTomatoBCouch.txt",
+  "text_sha256": "1f5aa67103838cf8140e3abed07f7943222adc60a316bd1b40aecb04d4c1a406",
+  "seconds_elapsed": 2.3
+}

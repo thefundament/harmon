@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ThirstyHilariousDurianVoteYea-9rY-8af1ic64dODa",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "2 Elmos 1 Room",
+  "duration": 13.0,
+  "timestamp": 1742070857,
+  "source_key": "clip_ThirstyHilariousDurianVoteYea-9rY-8af1ic64dODa",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:27.629669+00:00",
+  "word_count_raw": 24,
+  "word_count_nonplaceholder": 24,
+  "srt": "clip_ThirstyHilariousDurianVoteYea-9rY-8af1ic64dODa.srt",
+  "text_file": "clip_ThirstyHilariousDurianVoteYea-9rY-8af1ic64dODa.txt",
+  "text_sha256": "ed80fd3ae11d03a6b71f1b98319a4a200de0b4c421789c913dddcdf7eeb7f90b",
+  "seconds_elapsed": 2.4
+}

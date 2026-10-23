@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SpinelessBrightCakeDxCat-EKsg7c9D0h8caUqM",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "third times the charm",
+  "duration": 60.0,
+  "timestamp": 1715047042,
+  "source_key": "clip_SpinelessBrightCakeDxCat-EKsg7c9D0h8caUqM",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:06.631721+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_SpinelessBrightCakeDxCat-EKsg7c9D0h8caUqM.srt",
+  "text_file": "clip_SpinelessBrightCakeDxCat-EKsg7c9D0h8caUqM.txt",
+  "text_sha256": "b8b931ec5d24a046fa859426caba8fda241638aa8c8ceba7e0f9b3bebd523b57",
+  "seconds_elapsed": 3.2
+}

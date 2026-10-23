@@ -2,13 +2,13 @@
   "listing": {
     "clips": {
       "url": "https://www.twitch.tv/simplez4ck/clips?filter=clips&range=all",
-      "found": 180,
+      "found": 350,
       "rc": 0,
       "error": ""
     },
     "vods": {
       "url": "https://www.twitch.tv/simplez4ck/videos?filter=all&sort=time",
-      "found": 30,
+      "found": 0,
       "rc": 0,
       "error": ""
     },
@@ -20,10 +20,10 @@
     }
   },
   "unique": {
-    "clips": 185,
-    "vods": 30,
+    "clips": 354,
+    "vods": 0,
     "youtube": 12
   },
-  "selected": 53,
-  "previously_transcribed": 31
+  "selected": 65,
+  "previously_transcribed": 84
 }

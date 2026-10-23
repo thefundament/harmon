@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BeautifulCredulousJackalEleGiggle-3hd22SatY3tvRQZt",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "what happened?",
+  "duration": 54.0,
+  "timestamp": 1675177059,
+  "source_key": "clip_BeautifulCredulousJackalEleGiggle-3hd22SatY3tvRQZt",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:46.538614+00:00",
+  "word_count_raw": 167,
+  "word_count_nonplaceholder": 167,
+  "srt": "clip_BeautifulCredulousJackalEleGiggle-3hd22SatY3tvRQZt.srt",
+  "text_file": "clip_BeautifulCredulousJackalEleGiggle-3hd22SatY3tvRQZt.txt",
+  "text_sha256": "3907986b82d41e4f2b2c3eaddb7f4677e1389b0f22a6b70946971ed295b7d09d",
+  "seconds_elapsed": 5.3
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/KnottyReliableAntRlyTho-jc0A1PQGBeVugmrs",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon loses 5th ATM card in 3 weeks",
+  "duration": 26.0,
+  "timestamp": 1748382035,
+  "source_key": "clip_KnottyReliableAntRlyTho-jc0A1PQGBeVugmrs",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:51.986029+00:00",
+  "word_count_raw": 71,
+  "word_count_nonplaceholder": 71,
+  "srt": "clip_KnottyReliableAntRlyTho-jc0A1PQGBeVugmrs.srt",
+  "text_file": "clip_KnottyReliableAntRlyTho-jc0A1PQGBeVugmrs.txt",
+  "text_sha256": "27e3980939f7d06b4929b7dcedca9d8e207446d0549b6965b0e0d090d6923fb1",
+  "seconds_elapsed": 3.2
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Dodgin' Bears",
+  "duration": 34.0,
+  "timestamp": 1699550186,
+  "source_key": "clip_GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:11.573130+00:00",
+  "word_count_raw": 13,
+  "word_count_nonplaceholder": 13,
+  "srt": "clip_GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G.srt",
+  "text_file": "clip_GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G.txt",
+  "text_sha256": "c4e4922ff2b2926e83c5d67670069a94ff61faca8ead54fdb17df9c55110e81f",
+  "seconds_elapsed": 3.3
+}

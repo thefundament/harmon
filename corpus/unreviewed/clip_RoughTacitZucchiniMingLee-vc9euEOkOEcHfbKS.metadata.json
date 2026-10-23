@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/RoughTacitZucchiniMingLee-vc9euEOkOEcHfbKS",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "I Can Say It",
+  "duration": 7.0,
+  "timestamp": 1721314575,
+  "source_key": "clip_RoughTacitZucchiniMingLee-vc9euEOkOEcHfbKS",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:02.312578+00:00",
+  "word_count_raw": 27,
+  "word_count_nonplaceholder": 27,
+  "srt": "clip_RoughTacitZucchiniMingLee-vc9euEOkOEcHfbKS.srt",
+  "text_file": "clip_RoughTacitZucchiniMingLee-vc9euEOkOEcHfbKS.txt",
+  "text_sha256": "b8469de0b14eba9c4ad4c0d935ccdac64d3cda7771ed40f0ddeed61314f9923d",
+  "seconds_elapsed": 2.4
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/TastySarcasticShrewFreakinStinkin-kw1RaDFX1FyFZZNe",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "League is a healthy videogame",
+  "duration": 8.0,
+  "timestamp": 1727203710,
+  "source_key": "clip_TastySarcasticShrewFreakinStinkin-kw1RaDFX1FyFZZNe",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:07.991551+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_TastySarcasticShrewFreakinStinkin-kw1RaDFX1FyFZZNe.srt",
+  "text_file": "clip_TastySarcasticShrewFreakinStinkin-kw1RaDFX1FyFZZNe.txt",
+  "text_sha256": "2f51afc001e36401667883a1492afd0f3668a5b4ddd673600c579dd6ff4b893d",
+  "seconds_elapsed": 2.1
+}

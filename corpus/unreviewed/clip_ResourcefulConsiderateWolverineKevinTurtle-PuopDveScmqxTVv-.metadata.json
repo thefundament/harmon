@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ResourcefulConsiderateWolverineKevinTurtle-PuopDveScmqxTVv-",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "drink the sauce",
+  "duration": 25.0,
+  "timestamp": 1690841399,
+  "source_key": "clip_ResourcefulConsiderateWolverineKevinTurtle-PuopDveScmqxTVv-",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:33.925810+00:00",
+  "word_count_raw": 1,
+  "word_count_nonplaceholder": 1,
+  "srt": "clip_ResourcefulConsiderateWolverineKevinTurtle-PuopDveScmqxTVv-.srt",
+  "text_file": "clip_ResourcefulConsiderateWolverineKevinTurtle-PuopDveScmqxTVv-.txt",
+  "text_sha256": "ee6ba21ef6c1d60787b2db86606817990a3ca99675d918858cbf73aa1ad942ac",
+  "seconds_elapsed": 2.0
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SlipperyPolishedCasetteBabyRage-3-JP0PPDMiYONBbA",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "POV: You tune in for Schedule I but get Tism Wizard learning Physics 101 in Hindu/ENG",
+  "duration": 30.0,
+  "timestamp": 1745199132,
+  "source_key": "clip_SlipperyPolishedCasetteBabyRage-3-JP0PPDMiYONBbA",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:24:47.312834+00:00",
+  "word_count_raw": 8,
+  "word_count_nonplaceholder": 8,
+  "srt": "clip_SlipperyPolishedCasetteBabyRage-3-JP0PPDMiYONBbA.srt",
+  "text_file": "clip_SlipperyPolishedCasetteBabyRage-3-JP0PPDMiYONBbA.txt",
+  "text_sha256": "f4e6846392bd179b6040761ded621b5c4a5191885f0778b8052bf1b05635691d",
+  "seconds_elapsed": 5.0
+}

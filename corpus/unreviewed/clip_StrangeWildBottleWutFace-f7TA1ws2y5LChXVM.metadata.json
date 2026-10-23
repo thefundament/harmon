@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/StrangeWildBottleWutFace-f7TA1ws2y5LChXVM",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "*backs away slowly*",
+  "duration": 11.0,
+  "timestamp": 1672101922,
+  "source_key": "clip_StrangeWildBottleWutFace-f7TA1ws2y5LChXVM",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:54.195157+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_StrangeWildBottleWutFace-f7TA1ws2y5LChXVM.srt",
+  "text_file": "clip_StrangeWildBottleWutFace-f7TA1ws2y5LChXVM.txt",
+  "text_sha256": "b02c8fd77cc4b51a7087d5666805ed58f91998714a11c847aef3e5b2530a28a1",
+  "seconds_elapsed": 2.4
+}

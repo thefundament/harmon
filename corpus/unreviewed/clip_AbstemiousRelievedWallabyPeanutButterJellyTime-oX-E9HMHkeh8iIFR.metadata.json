@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AbstemiousRelievedWallabyPeanutButterJellyTime-oX-E9HMHkeh8iIFR",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "This bicycle doesn't have city limits!",
+  "duration": 27.0,
+  "timestamp": 1727033422,
+  "source_key": "clip_AbstemiousRelievedWallabyPeanutButterJellyTime-oX-E9HMHkeh8iIFR",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:27:19.917990+00:00",
+  "word_count_raw": 44,
+  "word_count_nonplaceholder": 44,
+  "srt": "clip_AbstemiousRelievedWallabyPeanutButterJellyTime-oX-E9HMHkeh8iIFR.srt",
+  "text_file": "clip_AbstemiousRelievedWallabyPeanutButterJellyTime-oX-E9HMHkeh8iIFR.txt",
+  "text_sha256": "5cfd922cd41239b00821d75bad1ea0984df219318a451a432c39192108a87b54",
+  "seconds_elapsed": 2.7
+}

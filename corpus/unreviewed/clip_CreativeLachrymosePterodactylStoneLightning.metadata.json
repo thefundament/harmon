@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CreativeLachrymosePterodactylStoneLightning",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "monkaBald",
+  "duration": 4.0,
+  "timestamp": 1552081788,
+  "source_key": "clip_CreativeLachrymosePterodactylStoneLightning",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:43.161492+00:00",
+  "word_count_raw": 8,
+  "word_count_nonplaceholder": 8,
+  "srt": "clip_CreativeLachrymosePterodactylStoneLightning.srt",
+  "text_file": "clip_CreativeLachrymosePterodactylStoneLightning.txt",
+  "text_sha256": "271d8467c4fc3956dd389e7380ae335fcf1110620c976568a007f0ccfeee40ab",
+  "seconds_elapsed": 2.0
+}

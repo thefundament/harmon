@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ObliqueLachrymoseAyeayeLeeroyJenkins-Dpi0ndRohSSJyzeZ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Scared to absolute death",
+  "duration": 5.0,
+  "timestamp": 1747538678,
+  "source_key": "clip_ObliqueLachrymoseAyeayeLeeroyJenkins-Dpi0ndRohSSJyzeZ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:17.495144+00:00",
+  "word_count_raw": 4,
+  "word_count_nonplaceholder": 4,
+  "srt": "clip_ObliqueLachrymoseAyeayeLeeroyJenkins-Dpi0ndRohSSJyzeZ.srt",
+  "text_file": "clip_ObliqueLachrymoseAyeayeLeeroyJenkins-Dpi0ndRohSSJyzeZ.txt",
+  "text_sha256": "13f963f8bd27ef4bc5c1ce356f1f420efe2d63badf63ae4c27098542a248862f",
+  "seconds_elapsed": 3.4
+}

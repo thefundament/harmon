@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BumblingDoubtfulGerbilRedCoat--t4X2MpJ2pihEvHa",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Highly Regarded",
+  "duration": 30.0,
+  "timestamp": 1691624313,
+  "source_key": "clip_BumblingDoubtfulGerbilRedCoat--t4X2MpJ2pihEvHa",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:38.396847+00:00",
+  "word_count_raw": 9,
+  "word_count_nonplaceholder": 9,
+  "srt": "clip_BumblingDoubtfulGerbilRedCoat--t4X2MpJ2pihEvHa.srt",
+  "text_file": "clip_BumblingDoubtfulGerbilRedCoat--t4X2MpJ2pihEvHa.txt",
+  "text_sha256": "72c5a71acfc1567291ebf6d4eaefcfa8796610fdcbbd19f2983a4c77e8f8f550",
+  "seconds_elapsed": 2.9
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/HonestRefinedMosquitoDerp-zeqzAJr45pFNIWZG",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "jerkin it then smellin it",
+  "duration": 7.0,
+  "timestamp": 1717885251,
+  "source_key": "clip_HonestRefinedMosquitoDerp-zeqzAJr45pFNIWZG",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:51.845221+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_HonestRefinedMosquitoDerp-zeqzAJr45pFNIWZG.srt",
+  "text_file": "clip_HonestRefinedMosquitoDerp-zeqzAJr45pFNIWZG.txt",
+  "text_sha256": "040c7a5a29225f6470266cab3ae02877fabfdd7f062ddf683b49fe99f4d24e28",
+  "seconds_elapsed": 2.3
+}

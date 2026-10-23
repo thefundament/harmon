@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/IronicInterestingHerdPupper-aME2R8UEQcFtEqfF",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "gottem",
+  "duration": 60.0,
+  "timestamp": 1684204168,
+  "source_key": "clip_IronicInterestingHerdPupper-aME2R8UEQcFtEqfF",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:10.052745+00:00",
+  "word_count_raw": 58,
+  "word_count_nonplaceholder": 58,
+  "srt": "clip_IronicInterestingHerdPupper-aME2R8UEQcFtEqfF.srt",
+  "text_file": "clip_IronicInterestingHerdPupper-aME2R8UEQcFtEqfF.txt",
+  "text_sha256": "935db4275a3923898c956f43f404fba345bc73f7546098a09afb31ee1a854a9c",
+  "seconds_elapsed": 5.5
+}

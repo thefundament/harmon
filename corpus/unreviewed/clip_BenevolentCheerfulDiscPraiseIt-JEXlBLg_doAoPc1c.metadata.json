@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BenevolentCheerfulDiscPraiseIt-JEXlBLg_doAoPc1c",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Smirkge",
+  "duration": 15.0,
+  "timestamp": 1734655249,
+  "source_key": "clip_BenevolentCheerfulDiscPraiseIt-JEXlBLg_doAoPc1c",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:30.117766+00:00",
+  "word_count_raw": 40,
+  "word_count_nonplaceholder": 40,
+  "srt": "clip_BenevolentCheerfulDiscPraiseIt-JEXlBLg_doAoPc1c.srt",
+  "text_file": "clip_BenevolentCheerfulDiscPraiseIt-JEXlBLg_doAoPc1c.txt",
+  "text_sha256": "d48e62475791fc9b9fae1830f22aee5391c27e4aa531642f71603d9f48f4e879",
+  "seconds_elapsed": 2.6
+}

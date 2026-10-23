@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BombasticHonorableGuanacoBudStar-CEp_qUG8C_QZ3jU1",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "I'd Do Me",
+  "duration": 21.0,
+  "timestamp": 1717009519,
+  "source_key": "clip_BombasticHonorableGuanacoBudStar-CEp_qUG8C_QZ3jU1",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:55.196236+00:00",
+  "word_count_raw": 24,
+  "word_count_nonplaceholder": 24,
+  "srt": "clip_BombasticHonorableGuanacoBudStar-CEp_qUG8C_QZ3jU1.srt",
+  "text_file": "clip_BombasticHonorableGuanacoBudStar-CEp_qUG8C_QZ3jU1.txt",
+  "text_sha256": "ede0fa30837e1b0266cce938d265933375a63041302209a299f20a9f02296db9",
+  "seconds_elapsed": 2.4
+}

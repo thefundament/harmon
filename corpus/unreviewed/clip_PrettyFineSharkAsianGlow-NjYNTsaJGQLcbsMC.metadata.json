@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/PrettyFineSharkAsianGlow-NjYNTsaJGQLcbsMC",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Woods’d (echo lol)",
+  "duration": 30.0,
+  "timestamp": 1673911675,
+  "source_key": "clip_PrettyFineSharkAsianGlow-NjYNTsaJGQLcbsMC",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:57.606457+00:00",
+  "word_count_raw": 24,
+  "word_count_nonplaceholder": 24,
+  "srt": "clip_PrettyFineSharkAsianGlow-NjYNTsaJGQLcbsMC.srt",
+  "text_file": "clip_PrettyFineSharkAsianGlow-NjYNTsaJGQLcbsMC.txt",
+  "text_sha256": "d7deed9fa6434c2640c5ad4c839ebf46441e025382025c4a439907d510fa0fc7",
+  "seconds_elapsed": 2.5
+}

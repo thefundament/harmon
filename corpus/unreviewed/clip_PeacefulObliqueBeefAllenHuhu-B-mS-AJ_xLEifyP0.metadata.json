@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/PeacefulObliqueBeefAllenHuhu-B-mS-AJ_xLEifyP0",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Ron Weasley",
+  "duration": 27.0,
+  "timestamp": 1673912043,
+  "source_key": "clip_PeacefulObliqueBeefAllenHuhu-B-mS-AJ_xLEifyP0",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:28.738879+00:00",
+  "word_count_raw": 54,
+  "word_count_nonplaceholder": 54,
+  "srt": "clip_PeacefulObliqueBeefAllenHuhu-B-mS-AJ_xLEifyP0.srt",
+  "text_file": "clip_PeacefulObliqueBeefAllenHuhu-B-mS-AJ_xLEifyP0.txt",
+  "text_sha256": "08e4072b78612f033e6399007cc71669306894d03ee74206c9f3389f70171ba4",
+  "seconds_elapsed": 3.0
+}

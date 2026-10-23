@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CrowdedMoldyFloofJonCarnage-XOrISemJ6Jz0hE8F",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "interesting",
+  "duration": 26.0,
+  "timestamp": 1710469282,
+  "source_key": "clip_CrowdedMoldyFloofJonCarnage-XOrISemJ6Jz0hE8F",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:25:41.035288+00:00",
+  "word_count_raw": 7,
+  "word_count_nonplaceholder": 7,
+  "srt": "clip_CrowdedMoldyFloofJonCarnage-XOrISemJ6Jz0hE8F.srt",
+  "text_file": "clip_CrowdedMoldyFloofJonCarnage-XOrISemJ6Jz0hE8F.txt",
+  "text_sha256": "6feddeb86c325ef12602430e12ec5d9531a9a6478f74b541c2cbacba9073014a",
+  "seconds_elapsed": 2.1
+}

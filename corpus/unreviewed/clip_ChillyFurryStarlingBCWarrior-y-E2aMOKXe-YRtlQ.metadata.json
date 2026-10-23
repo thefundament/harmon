@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ChillyFurryStarlingBCWarrior-y-E2aMOKXe-YRtlQ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon hates dekie",
+  "duration": 14.0,
+  "timestamp": 1662519443,
+  "source_key": "clip_ChillyFurryStarlingBCWarrior-y-E2aMOKXe-YRtlQ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:20.503051+00:00",
+  "word_count_raw": 31,
+  "word_count_nonplaceholder": 31,
+  "srt": "clip_ChillyFurryStarlingBCWarrior-y-E2aMOKXe-YRtlQ.srt",
+  "text_file": "clip_ChillyFurryStarlingBCWarrior-y-E2aMOKXe-YRtlQ.txt",
+  "text_sha256": "0fdca35821d1dd9be19516dea7816cb74b143f7334c447ac9be068b2d84b2b4d",
+  "seconds_elapsed": 2.6
+}

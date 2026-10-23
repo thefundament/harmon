@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/TiredSillyCaterpillarBudBlast-_bKejtY05CG2Iron",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Where am I aiming",
+  "duration": 26.0,
+  "timestamp": 1728598755,
+  "source_key": "clip_TiredSillyCaterpillarBudBlast-_bKejtY05CG2Iron",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:56.618031+00:00",
+  "word_count_raw": 44,
+  "word_count_nonplaceholder": 44,
+  "srt": "clip_TiredSillyCaterpillarBudBlast-_bKejtY05CG2Iron.srt",
+  "text_file": "clip_TiredSillyCaterpillarBudBlast-_bKejtY05CG2Iron.txt",
+  "text_sha256": "d1a73380ac9827698fe6527b0c6691896e96c9dff01bfd7cd92080d1113f23a0",
+  "seconds_elapsed": 2.8
+}

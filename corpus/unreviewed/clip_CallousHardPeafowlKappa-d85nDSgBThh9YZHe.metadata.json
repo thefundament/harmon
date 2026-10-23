@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CallousHardPeafowlKappa-d85nDSgBThh9YZHe",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon's neighbors making sweet lovin'",
+  "duration": 21.0,
+  "timestamp": 1700704926,
+  "source_key": "clip_CallousHardPeafowlKappa-d85nDSgBThh9YZHe",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:26:27.800932+00:00",
+  "word_count_raw": 19,
+  "word_count_nonplaceholder": 19,
+  "srt": "clip_CallousHardPeafowlKappa-d85nDSgBThh9YZHe.srt",
+  "text_file": "clip_CallousHardPeafowlKappa-d85nDSgBThh9YZHe.txt",
+  "text_sha256": "dee6b6e2ee157fd6e0a152fb90e75952089f8aea75fc6490870b0bfbe298f366",
+  "seconds_elapsed": 2.3
+}
