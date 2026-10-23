@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-23T21:34:41.328332+00:00",
+  "mode": "finite historical snapshot; NO recurrence",
+  "sources": {
+    "clip": 355,
+    "vod": 31,
+    "youtube": 12
+  },
+  "listed_vod_hours": 111.21,
+  "window_seconds": 600,
+  "work_items": 1055,
+  "states": {
+    "asr_completed_unreviewed": 140,
+    "legacy_sample_range_unknown": 682,
+    "pending": 233
+  },
+  "warning": "Source durations may overlap; previous VOD transcripts lack source time offsets. No work is scheduled by this manifest."
+}
