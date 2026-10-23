@@ -37,12 +37,36 @@ class HistoryTests(unittest.TestCase):
    self.assertEqual(yt[-1]["task_id"],"youtube:abcdefghijk:1200-1250.5")
    self.assertEqual([r["task_id"] for r in rows if r["kind"]=="vod"],
                     ["vod:99:0-600","vod:99:600-1200","vod:99:1200-1250.0"])
-   self.assertEqual(rows[0]["task_id"],"clip:Test-1")
+   self.assertIn("clip:Test-1",{r["task_id"] for r in rows})
+ def test_prioritize_youtube_and_round_robin_time_windows(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=pathlib.Path(tmp);d=root/"corpus"/"discovery";d.mkdir(parents=True)
+   (d/"youtube.jsonl").write_text("\n".join(json.dumps({"id":id_,"duration":1250}) for id_ in ["abcdefghijk","lmnopqrstuv"])+"\n")
+   (d/"twitch_clips.jsonl").write_text(json.dumps({"url":"https://clips.twitch.tv/Test-1"})+"\n")
+   rows,_=mod.build(root)
+   self.assertEqual([r["kind"] for r in rows[:2]],["youtube","youtube"])
+   self.assertEqual([r["start_s"] for r in rows if r["kind"]=="youtube"],[0,0,600,600,1200,1200])
+   self.assertEqual(rows[-1]["task_id"],"clip:Test-1")
+ def test_expanded_youtube_keeps_old_ids_and_excludes_playlist_foreigners(self):
+  root=p.parents[1]
+  expanded=root/"corpus"/"discovery"/"youtube_expanded.jsonl"
+  if not expanded.exists():
+   self.skipTest("Expanded inventory not checked in yet")
+  candidates=[json.loads(x) for x in expanded.read_text().splitlines() if x.strip()]
+  eligible={x["id"] for x in candidates if not x.get("candidate_only")}
+  rejected={x["id"] for x in candidates if x.get("candidate_only")}
+  self.assertGreaterEqual(len(eligible),450)
+  rows,_=mod.build(root)
+  actual={x["source_id"] for x in rows if x["kind"]=="youtube"}
+  self.assertEqual(actual,eligible)
+  self.assertFalse(actual & rejected)
+  self.assertIn("X12hkzBWoTw",actual)
+  self.assertEqual(len(rows),len({x["task_id"] for x in rows}))
  def test_frozen_inventory_coverage(self):
   root=p.parents[1]
   rows,_=mod.build(root)
-  self.assertEqual(len(rows),1134)
-  self.assertEqual(sum(r["state"]!="asr_completed_unreviewed" for r in rows),994)
+  self.assertGreaterEqual(len(rows),1134)
+  self.assertGreaterEqual(sum(r["state"]!="asr_completed_unreviewed" for r in rows),994)
   for source in {r["source_id"] for r in rows if r["kind"]=="youtube"}:
    windows=[r for r in rows if r["kind"]=="youtube" and r["source_id"]==source]
    self.assertEqual(windows[0]["start_s"],0)

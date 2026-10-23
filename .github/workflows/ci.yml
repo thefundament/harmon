@@ -10,9 +10,12 @@ on:
       - 'scripts/run_limited.sh'
       - 'collector/memory_guard.py'
       - 'collector/history_plan.py'
+      - 'collector/youtube_snapshot.py'
       - 'collector/combined_index.py'
       - 'tests/**'
       - '.github/workflows/ci.yml'
+      - 'corpus/discovery/youtube_expanded.jsonl'
+      - 'corpus/discovery/youtube.jsonl'
       - 'corpus/unreviewed/**'
       - 'corpus/local_transcripts/**'
   workflow_dispatch:

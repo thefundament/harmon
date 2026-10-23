@@ -47,8 +47,12 @@ def build(root,window=600):
   if key not in seen:
    seen[key]={"kind":kind,"source_id":sid,"source_url":url,"duration_s":duration,"title":str(obj.get("title") or "")[:160]}
   elif duration and not seen[key]["duration_s"]:seen[key]["duration_s"]=duration
- for kind,file in [("clip","twitch_clips.jsonl"),("vod","twitch_vods.jsonl"),("youtube","youtube.jsonl")]:
-  for obj in read_jsonl(d/file):add(kind,obj)
+ for kind,file in [("clip","twitch_clips.jsonl"),("vod","twitch_vods.jsonl"),
+                   ("youtube","youtube.jsonl"),("youtube","youtube_expanded.jsonl")]:
+  for obj in read_jsonl(d/file):
+   if obj.get("candidate_only"):
+    continue
+   add(kind,obj)
  completed={"clip":set(),"vod":set(),"youtube":set()}
  for p in metadata.glob("*.metadata.json"):
   try:obj=json.loads(p.read_text(encoding="utf-8"))
@@ -71,6 +75,14 @@ def build(root,window=600):
    else:state="pending"
    tasks.append({**obj,"task_id":task_id,"start_s":start,"end_s":end,"state":state,
                  "speaker_verified":False,"training_permission_verified":False})
+ # Favor the underrepresented YouTube corpus first. Among long-form sources,
+ # spread the first 10-minute sample over many different recordings before
+ # processing second/third windows. Existing immutable task IDs are unchanged.
+ priority={"youtube":0,"vod":1,"clip":2}
+ tasks.sort(key=lambda r:(priority[r["kind"]],
+                          r["start_s"] if r["start_s"] is not None else 0,
+                          r["source_id"],
+                          r["end_s"] if r["end_s"] is not None else 0))
  counts={st:sum(r["state"]==st for r in tasks) for st in sorted(set(r["state"] for r in tasks))}
  summary={"mode":"finite historical snapshot; NO recurrence",
           "sources":{k:sum(a=="%s"%k for a,b in seen) for k in ("clip","vod","youtube")},

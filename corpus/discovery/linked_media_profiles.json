@@ -1,0 +1,54 @@
+{
+  "method": "official Linktree links only, retrieved October 23 2026",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q",
+      "relation": "creator-linked official channel",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "automated first-party channel Videos/Live/Shorts/playlists",
+      "status": "executable only for confirmed video IDs"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/simplez4ck/",
+      "relation": "creator-linked profile",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "Reels and public posted videos",
+      "status": "candidate profile, no authenticated video IDs verified"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/Simplez4ck-103743422342616/",
+      "relation": "creator-linked page",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "public videos and reels if accessible",
+      "status": "candidate profile, no authenticated video IDs verified"
+    },
+    {
+      "platform": "snapchat",
+      "url": "https://www.snapchat.com/@simplez4ck",
+      "relation": "creator-linked profile",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "public Spotlight/Stories if present",
+      "status": "candidate profile, no authenticated video IDs verified"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/simplez4ck",
+      "relation": "creator-linked profile",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "public videos if attached to posts",
+      "status": "candidate profile, no authenticated video IDs verified"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/sabertoothtigger",
+      "relation": "secondary profile labeled Tigger's Instagram",
+      "evidence": "https://linktr.ee/simplez4ck",
+      "video_discovery": "unknown",
+      "status": "not assumed to contain target-speaker recordings; excluded"
+    }
+  ],
+  "policy": "Profile URLs are NOT media items. They are not placed in the local agent worklist without specific publicly accessible video URLs and creator attribution."
+}
