@@ -58,7 +58,9 @@ def verify(result, source, references, lock, attempts):
                 previous_start = cue["start"]
                 if trial["model"] == "qwen3-asr-0.6b":
                     assert cue["timestamp_kind"] == "vad_region_no_word_alignment"
-                    assert any(cue["start"] == r["start"] and cue["end"] == r["end"] for r in sample["voiced_regions"])
+                    assert any(math.isclose(cue["start"], r["start"], abs_tol=1e-9) and
+                               math.isclose(cue["end"], r["end"], abs_tol=1e-9)
+                               for r in sample["voiced_regions"])
                 else:
                     assert cue["timestamp_kind"] == "native_segment"
                 cues += 1

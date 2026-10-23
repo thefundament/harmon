@@ -90,6 +90,19 @@ class TimestampTests(unittest.TestCase):
 
 
 class AdapterTests(unittest.TestCase):
+    def test_early_stop_requires_fixed_quality_failure_or_proven_median_failure(self):
+        def trial(name, repetition, seconds, hypothesis):
+            return dict(configuration=name, repetition=repetition, status="complete",
+                panels={"corpus": {"processing_seconds": seconds}},
+                samples=[dict(dataset=p, score=metrics.score("one two three four", hypothesis)) for p in adapters.PANELS[:2]])
+        base = [trial("small.en-unsegmented", i, 10, "one two three five") for i in (1, 2, 3)]
+        bad_quality = trial("candidate", 1, 5, "one two three five")
+        self.assertIn("quality", benchmark.ineligibility_reason([*base, bad_quality], "candidate"))
+        slow = trial("candidate", 1, 16, "one two three four")
+        self.assertIsNone(benchmark.ineligibility_reason([*base, slow], "candidate"))
+        self.assertIsNone(benchmark.ineligibility_reason([*base, slow, trial("candidate", 2, 14, "one two three four")], "candidate"))
+        self.assertIn("median", benchmark.ineligibility_reason([*base, slow, trial("candidate", 2, 16, "one two three four")], "candidate"))
+
     def test_resumption_retains_only_unique_completed_repetitions(self):
         trials = [dict(configuration="x", repetition=1, status="complete"),
                   dict(configuration="x", repetition=2, status="failed"),

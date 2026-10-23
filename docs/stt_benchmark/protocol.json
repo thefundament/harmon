@@ -23,7 +23,7 @@
   "selection": "lowest aggregate reference WER among complete eligible configurations; provisional outside reference domain",
   "fallback": {
     "model": "large-v3-q5_0",
-    "when": "fewer than two of the three additional models finish all repetitions"
+    "when": "fewer than two additional models produce an evaluable complete pass (early disqualification counts as evaluated)"
   },
   "limits": {
     "cgroup_gib": 6,
@@ -32,5 +32,6 @@
     "host_available_floor_gib": 2
   },
   "production_default": "small.en",
-  "ten_hour_batch_started": false
+  "ten_hour_batch_started": false,
+  "early_stop_amendment": "User requested stopping conclusively ineligible candidates: stop after the fixed quality pass fails thresholds, or two corpus timings prove a three-pass median cannot meet the ceiling. Three passes remain required for eligible candidates."
 }

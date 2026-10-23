@@ -128,7 +128,7 @@ def choose(summary):
         return {"model": "small.en", "reason": "Fresh baseline incomplete; retain production default."}
     eligible = []
     for name, row in summary.items():
-        if not row.get("complete") or name == "small.en-unsegmented":
+        if not (row.get("complete") or row.get("evaluated")) or name == "small.en-unsegmented":
             continue
         row["time_ratio_to_current_small"] = row["corpus_median_seconds"] / baseline["corpus_median_seconds"]
         row["speed_eligible"] = row["time_ratio_to_current_small"] <= 1.5
@@ -138,7 +138,7 @@ def choose(summary):
             row["quality"][key]["wer"] <= baseline["quality"][key]["wer"] + .01
             for key in ("librispeech-test-other", "fleurs-en_us-test")))
         row["uncertainty_eligible"] = row.get("paired_bootstrap", {}).get("relative_improvement_95_ci", [0])[0] > 0
-        if row["speed_eligible"] and row["quality_eligible"] and row["uncertainty_eligible"]:
+        if row.get("complete") and row["speed_eligible"] and row["quality_eligible"] and row["uncertainty_eligible"]:
             eligible.append(name)
     if not eligible:
         return {"model": "small.en", "reason": "No complete candidate meets both speed and reference quality thresholds."}

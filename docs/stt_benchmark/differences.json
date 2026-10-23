@@ -1,0 +1,678 @@
+[
+  {
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "you",
+        "candidate": "he"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "i'm"
+      },
+      {
+        "baseline": "doing won't",
+        "candidate": "do and"
+      },
+      {
+        "baseline": "decide",
+        "candidate": "decipher"
+      }
+    ]
+  },
+  {
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "the",
+        "candidate": "your"
+      },
+      {
+        "baseline": "okay if",
+        "candidate": "because"
+      },
+      {
+        "baseline": "haven't been here you'll",
+        "candidate": "don't even"
+      },
+      {
+        "baseline": "brochures",
+        "candidate": "groceries"
+      }
+    ]
+  },
+  {
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "bye",
+        "candidate": "uh"
+      },
+      {
+        "baseline": "and",
+        "candidate": "in"
+      },
+      {
+        "baseline": "ever",
+        "candidate": "never"
+      }
+    ]
+  },
+  {
+    "id": "vod:1633410828:0-600",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "do",
+        "candidate": ""
+      },
+      {
+        "baseline": "more",
+        "candidate": "for"
+      },
+      {
+        "baseline": "a week",
+        "candidate": ""
+      },
+      {
+        "baseline": "and promise you",
+        "candidate": ""
+      }
+    ]
+  },
+  {
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "yeah"
+      },
+      {
+        "baseline": "outta",
+        "candidate": "out of"
+      },
+      {
+        "baseline": "i'm not going to",
+        "candidate": "luloni what"
+      },
+      {
+        "baseline": "that i don't think i'm going to have a chance at this game i don't think i'm going to have a chance at this game i don't think i'm going to have a chance at this game i don't think",
+        "candidate": "you need the owner of the horse is"
+      }
+    ]
+  },
+  {
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "they own",
+        "candidate": "on"
+      },
+      {
+        "baseline": "they've broken",
+        "candidate": "they burnt"
+      },
+      {
+        "baseline": "plane",
+        "candidate": "like"
+      },
+      {
+        "baseline": "",
+        "candidate": "and"
+      }
+    ]
+  },
+  {
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "screams the translating tiches",
+        "candidate": "no is it trans fineating taxes"
+      },
+      {
+        "baseline": "i",
+        "candidate": "it"
+      },
+      {
+        "baseline": "boy",
+        "candidate": "voice"
+      }
+    ]
+  },
+  {
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "candidate": "large-v3-turbo-q5_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "holy"
+      },
+      {
+        "baseline": "i'm on the fucking",
+        "candidate": "motherfucking"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "harmon",
+        "candidate": "carmen"
+      },
+      {
+        "baseline": "you",
+        "candidate": "he"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "doing won't",
+        "candidate": "do and"
+      },
+      {
+        "baseline": "decide",
+        "candidate": "decipher"
+      }
+    ]
+  },
+  {
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "spend",
+        "candidate": "spin"
+      },
+      {
+        "baseline": "savings",
+        "candidate": "face"
+      },
+      {
+        "baseline": "the cash okay if you haven't been here you'll buy",
+        "candidate": ""
+      },
+      {
+        "baseline": "own brochures",
+        "candidate": "check"
+      }
+    ]
+  },
+  {
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "and",
+        "candidate": ""
+      },
+      {
+        "baseline": "and",
+        "candidate": "in"
+      },
+      {
+        "baseline": "i'm",
+        "candidate": "fun"
+      }
+    ]
+  },
+  {
+    "id": "vod:1633410828:0-600",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "knocking",
+        "candidate": "locking"
+      },
+      {
+        "baseline": "do",
+        "candidate": ""
+      },
+      {
+        "baseline": "i was",
+        "candidate": "i'm just"
+      },
+      {
+        "baseline": "a week",
+        "candidate": "we"
+      }
+    ]
+  },
+  {
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "yotei",
+        "candidate": "yote"
+      },
+      {
+        "baseline": "outta",
+        "candidate": "out of"
+      },
+      {
+        "baseline": "going to do that",
+        "candidate": "sure what you're talking about i'm sorry"
+      },
+      {
+        "baseline": "think i'm going to have a chance at this game",
+        "candidate": "know what you're talking about"
+      }
+    ]
+  },
+  {
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "they own",
+        "candidate": "on"
+      },
+      {
+        "baseline": "they've broken",
+        "candidate": "they broke"
+      },
+      {
+        "baseline": "plane",
+        "candidate": "like"
+      },
+      {
+        "baseline": "bobby",
+        "candidate": "bother"
+      }
+    ]
+  },
+  {
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "translating tiches",
+        "candidate": "transylvania texas"
+      }
+    ]
+  },
+  {
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "candidate": "medium.en-q8_0",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "holy"
+      },
+      {
+        "baseline": "i'm on the fucking there",
+        "candidate": "motherfucking bear"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "harmon",
+        "candidate": "harm and"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "just trying to tell me what i doing won't don't want to do with my mouth and ass okay i'll decide",
+        "candidate": ""
+      }
+    ]
+  },
+  {
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "w you"
+      },
+      {
+        "baseline": "let",
+        "candidate": "unless"
+      },
+      {
+        "baseline": "the cash okay if",
+        "candidate": "your check because"
+      },
+      {
+        "baseline": "here you'll",
+        "candidate": "you don't even"
+      }
+    ]
+  },
+  {
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "bye",
+        "candidate": "uh"
+      },
+      {
+        "baseline": "i'm",
+        "candidate": "and"
+      }
+    ]
+  },
+  {
+    "id": "vod:1633410828:0-600",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "knocking",
+        "candidate": "locking"
+      },
+      {
+        "baseline": "em",
+        "candidate": "them"
+      },
+      {
+        "baseline": "places of work when do you want to see me do it",
+        "candidate": "arasaka will cover the case"
+      },
+      {
+        "baseline": "i was",
+        "candidate": "i'm just"
+      }
+    ]
+  },
+  {
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "3",
+        "candidate": "three"
+      },
+      {
+        "baseline": "yotei",
+        "candidate": "yote"
+      },
+      {
+        "baseline": "3",
+        "candidate": "three"
+      },
+      {
+        "baseline": "outta",
+        "candidate": "out of"
+      }
+    ]
+  },
+  {
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "they own",
+        "candidate": "on"
+      },
+      {
+        "baseline": "38",
+        "candidate": "thirty eighth"
+      },
+      {
+        "baseline": "morning",
+        "candidate": "more now"
+      },
+      {
+        "baseline": "had",
+        "candidate": "have"
+      }
+    ]
+  },
+  {
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "screams",
+        "candidate": "yeah"
+      },
+      {
+        "baseline": "translating tiches",
+        "candidate": "transwing taxes"
+      }
+    ]
+  },
+  {
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "candidate": "parakeet-tdt-0.6b-v3",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "holy"
+      },
+      {
+        "baseline": "i'm on the fucking there",
+        "candidate": "motherfucking bear"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "you",
+        "candidate": "he"
+      }
+    ]
+  },
+  {
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "just",
+        "candidate": "putin's"
+      },
+      {
+        "baseline": "doing won't",
+        "candidate": "do and"
+      }
+    ]
+  },
+  {
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "want you"
+      },
+      {
+        "baseline": "the cash okay if",
+        "candidate": "your check because"
+      },
+      {
+        "baseline": "been here you'll",
+        "candidate": "even you don't even"
+      },
+      {
+        "baseline": "brochures",
+        "candidate": "groceries"
+      }
+    ]
+  },
+  {
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "bye",
+        "candidate": "uh"
+      },
+      {
+        "baseline": "and and",
+        "candidate": "in in"
+      },
+      {
+        "baseline": "i'm",
+        "candidate": "and"
+      }
+    ]
+  },
+  {
+    "id": "vod:1633410828:0-600",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "knocking",
+        "candidate": "locking"
+      },
+      {
+        "baseline": "em",
+        "candidate": "them"
+      },
+      {
+        "baseline": "more",
+        "candidate": "for"
+      },
+      {
+        "baseline": "",
+        "candidate": "district i'm from"
+      }
+    ]
+  },
+  {
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "3",
+        "candidate": "three"
+      },
+      {
+        "baseline": "yotei",
+        "candidate": "yoté"
+      },
+      {
+        "baseline": "and",
+        "candidate": ""
+      },
+      {
+        "baseline": "3",
+        "candidate": "three"
+      }
+    ]
+  },
+  {
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "they own",
+        "candidate": "on"
+      },
+      {
+        "baseline": "38",
+        "candidate": "thirty eight"
+      },
+      {
+        "baseline": "went",
+        "candidate": "wanted"
+      },
+      {
+        "baseline": "they've broken",
+        "candidate": "they burnt"
+      }
+    ]
+  },
+  {
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "screams",
+        "candidate": "la"
+      },
+      {
+        "baseline": "translating tiches",
+        "candidate": "transy texas"
+      },
+      {
+        "baseline": "boy",
+        "candidate": "voice"
+      }
+    ]
+  },
+  {
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "candidate": "qwen3-asr-0.6b",
+    "baseline": "small.en with identical VAD",
+    "differences_unverified": [
+      {
+        "baseline": "",
+        "candidate": "holy"
+      },
+      {
+        "baseline": "i'm on the",
+        "candidate": "mother"
+      },
+      {
+        "baseline": "there",
+        "candidate": "bear"
+      }
+    ]
+  }
+]

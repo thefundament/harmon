@@ -1,0 +1,812 @@
+[
+  {
+    "configuration": "small.en",
+    "id": "librispeech-test-other:2414-128292-0007",
+    "dataset": "librispeech-test-other",
+    "reference": "BUT DOTH ZARATHUSTRA NEED TO BE FRIGHTENED BY HIS SHADOW",
+    "current_small": "but those are two straw need to be frightened by shadow",
+    "candidate": "But those Catustra need to be frightened by his shadow.",
+    "current_small_score": {
+      "reference_words": 10,
+      "hypothesis_words": 11,
+      "errors": 5,
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 2,
+      "wer": 0.5
+    },
+    "candidate_score": {
+      "reference_words": 10,
+      "hypothesis_words": 10,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "small.en",
+    "id": "librispeech-test-other:4852-28311-0002",
+    "dataset": "librispeech-test-other",
+    "reference": "KNOW WHO NEEDS A JOB BAD THAT'S JAKEY HARRIS",
+    "current_small": "No one needs a job, Ben! That's Jakey Harris!",
+    "candidate": "Know who needs a job, Ben? That's Jakey Harris!",
+    "current_small_score": {
+      "reference_words": 9,
+      "hypothesis_words": 9,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.3333333333333333
+    },
+    "candidate_score": {
+      "reference_words": 9,
+      "hypothesis_words": 9,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.1111111111111111
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "small.en",
+    "id": "librispeech-test-other:2033-164915-0007",
+    "dataset": "librispeech-test-other",
+    "reference": "SHE SAID IT HATH REACHED ME O AUSPICIOUS KING THAT WHEN THE STOKER GIRTHED HIS ASS FOR FLIGHT AND BESPAKE HIMSELF SAYING OH WOULD I KNEW WHAT IS BECOME OF HIM",
+    "current_small": "She said, \"It hath reached me, O auspicious king, that when the stalker girded his ass for flight, and bespoke himself, saying, 'Oh, would I knew what is become of him,'",
+    "candidate": "She said it hath reached me, O auspicious King, that when the stalker girded his ass for flight, and bespoke himself sane. Or would I knew what is become of him?",
+    "current_small_score": {
+      "reference_words": 31,
+      "hypothesis_words": 31,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.0967741935483871
+    },
+    "candidate_score": {
+      "reference_words": 31,
+      "hypothesis_words": 31,
+      "errors": 5,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.16129032258064516
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "small.en",
+    "id": "fleurs-en_us-test:9804762782045252114.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side",
+    "current_small": "The crust is about 70 kilometer stick on the near side and a hundred kilometer stick on the far side.",
+    "candidate": "The crust is about 70 kilometers thick on the near side and 100 kilometers thick on the far side.",
+    "current_small_score": {
+      "reference_words": 19,
+      "hypothesis_words": 20,
+      "errors": 6,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.3157894736842105
+    },
+    "candidate_score": {
+      "reference_words": 19,
+      "hypothesis_words": 19,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.10526315789473684
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "small.en",
+    "id": "fleurs-en_us-test:3927163358777802368.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "researchers from princeton university in the united states and uppsala university in sweden reported the new species evolved in just two generations though this process had been believed to take much longer due to breeding between an endemic darwin finch geospiza fortes and the immigrant cactus finch geospiza conirostris",
+    "current_small": "Researchers from Princeton University in the United States and Sala University in Sweden reported the new species involved in just two generations, though this process has believed to take much longer due to the breeding between an endemic Darwin finch, Jospica fortes, and the immigrant cactus finch, Jospica coni rostris.",
+    "candidate": "researchers from Princeton University in the United States and Uppsala University in Sweden reported the new species involved in just two generations, though this process has been believed to take much longer due to the breeding between an endemic Darwin finch, Jospica fortes, and the immigrant cactus finch, Jospica coni rostris.",
+    "current_small_score": {
+      "reference_words": 49,
+      "hypothesis_words": 50,
+      "errors": 9,
+      "substitutions": 6,
+      "deletions": 1,
+      "insertions": 2,
+      "wer": 0.1836734693877551
+    },
+    "candidate_score": {
+      "reference_words": 49,
+      "hypothesis_words": 51,
+      "errors": 7,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 2,
+      "wer": 0.14285714285714285
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "small.en",
+    "id": "fleurs-en_us-test:5505398583576174352.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "perry stated that he would return to texas to assess the results of tonight's caucus determine whether there is a path forward for myself in this race but later said that he would remain in the race and compete in the january 21 south carolina primary",
+    "current_small": "Perry stated that he would return to Texas to assess the results of tonight's caucus, determine whether it is a path forward for myself in this race, but later said that he would remain in the race and compete in the January 21 South Carolina primary.",
+    "candidate": "Then he would return to Texas to assess the results of tonight's caucus determine whether is a path forward for myself in this race But later said that you would remain in the race and compete in the January 21 South Carolina primary",
+    "current_small_score": {
+      "reference_words": 46,
+      "hypothesis_words": 46,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.021739130434782608
+    },
+    "candidate_score": {
+      "reference_words": 46,
+      "hypothesis_words": 43,
+      "errors": 5,
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "wer": 0.10869565217391304
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "librispeech-test-other:4852-28312-0017",
+    "dataset": "librispeech-test-other",
+    "reference": "BUT EVEN AS HE SLOWLY TURNED THE THOUGHT PIERCED HIS MIND WHY HAD HE NOT SEEN THE REFLECTION OF THE HEADLIGHTS OF THE CARS MOVING UP AROUND THE CORNER OF WATER STREET AND UP THE HILL TOWARD THE TRAFFIC SIGNALS",
+    "current_small": "But even as he slowly turned, the thought pierced his mind. Why have you not seen the reflection of the headlights of the cars moving up around the corner of Walutter Street, not the hill toward the traffic signals?",
+    "candidate": "but even as he slowly turned the thought pierced his mind why had he not seen the reflection of the headlights of the cars moving up around the corner of walter street and up the hill toward the traffic signals",
+    "current_small_score": {
+      "reference_words": 40,
+      "hypothesis_words": 39,
+      "errors": 5,
+      "substitutions": 4,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.125
+    },
+    "candidate_score": {
+      "reference_words": 40,
+      "hypothesis_words": 40,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.025
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "librispeech-test-other:7105-2330-0029",
+    "dataset": "librispeech-test-other",
+    "reference": "A TELEGRAM WAS BROUGHT IN",
+    "current_small": "I thought the grandma's brought in.",
+    "candidate": "A telegram was brought in.",
+    "current_small_score": {
+      "reference_words": 5,
+      "hypothesis_words": 6,
+      "errors": 4,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.8
+    },
+    "candidate_score": {
+      "reference_words": 5,
+      "hypothesis_words": 5,
+      "errors": 0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.0
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "librispeech-test-other:5442-41168-0008",
+    "dataset": "librispeech-test-other",
+    "reference": "LEVIN DID NOT IN THE LEAST UNDERSTAND WHAT WAS THE MATTER AND HE MARVELED AT THE PASSION WITH WHICH IT WAS DISPUTED WHETHER OR NOT THE DECISION ABOUT FLEROV SHOULD BE PUT TO THE VOTE",
+    "current_small": "Levin did not in the least understand what was the matter, and he marveled at the passion with which it was disputed whether or not the decision about Fleirot should be put to the vote.",
+    "candidate": "lewin did not in the least understand what was the matter and he marvelled at the passion with which it was disputed whether or not the decision about fleiroff should be put to the vote",
+    "current_small_score": {
+      "reference_words": 35,
+      "hypothesis_words": 35,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.02857142857142857
+    },
+    "candidate_score": {
+      "reference_words": 35,
+      "hypothesis_words": 35,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.08571428571428572
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "fleurs-en_us-test:9804762782045252114.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side",
+    "current_small": "The crust is about 70 kilometer stick on the near side and a hundred kilometer stick on the far side.",
+    "candidate": "The crust is about 70 kilometers thick on the near side and 100 kilometers thick on the far side.",
+    "current_small_score": {
+      "reference_words": 19,
+      "hypothesis_words": 20,
+      "errors": 6,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.3157894736842105
+    },
+    "candidate_score": {
+      "reference_words": 19,
+      "hypothesis_words": 19,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.10526315789473684
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "fleurs-en_us-test:11766033532714442721.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+    "current_small": "Since 1966, the Sun Darbuns have been a wildlife sanctuary and is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "candidate": "Since 1966, the Sundarbans have been a wildlife sanctuary and it is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 4,
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 1,
+      "wer": 0.13793103448275862
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 1,
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.034482758620689655
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "fleurs-en_us-test:6817878979697223927.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence",
+    "current_small": "All nouns alongside the word \"see\" for \"you\" always begin with a capital letter, even in the middle of a sentence.",
+    "candidate": "Alongside the word \"C\" for U, always speaking with a capital letter even in the middle of a sentence.",
+    "current_small_score": {
+      "reference_words": 21,
+      "hypothesis_words": 21,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.047619047619047616
+    },
+    "candidate_score": {
+      "reference_words": 21,
+      "hypothesis_words": 19,
+      "errors": 5,
+      "substitutions": 3,
+      "deletions": 2,
+      "insertions": 0,
+      "wer": 0.23809523809523808
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "librispeech-test-other:2414-159411-0014",
+    "dataset": "librispeech-test-other",
+    "reference": "THREE OUT OF THE SIX HAD GIVEN JUDGMENT AGAINST THE BRAHMAN BUT STILL HE DID NOT LOSE ALL HOPE AND DETERMINED TO ASK THE OTHER THREE",
+    "current_small": "3 out of the 6 and giving judgement against the bramblen. But still he did not lose all hope and determined to ask the other 3.",
+    "candidate": "Three out of the six and giving judgement against the Brahmin. But still he did not lose all hope and determined to ask the other three.",
+    "current_small_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 7,
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2692307692307692
+    },
+    "candidate_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 4,
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.15384615384615385
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "librispeech-test-other:1688-142285-0080",
+    "dataset": "librispeech-test-other",
+    "reference": "SUPPOSE I TRY SAID MISTER HALE",
+    "current_small": "\"Sposer try,\" said Mr. Hell.",
+    "candidate": "\"S'pose I try,\" said Mr. Hale.",
+    "current_small_score": {
+      "reference_words": 6,
+      "hypothesis_words": 5,
+      "errors": 4,
+      "substitutions": 3,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.6666666666666666
+    },
+    "candidate_score": {
+      "reference_words": 6,
+      "hypothesis_words": 6,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.3333333333333333
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "librispeech-test-other:5442-41168-0008",
+    "dataset": "librispeech-test-other",
+    "reference": "LEVIN DID NOT IN THE LEAST UNDERSTAND WHAT WAS THE MATTER AND HE MARVELED AT THE PASSION WITH WHICH IT WAS DISPUTED WHETHER OR NOT THE DECISION ABOUT FLEROV SHOULD BE PUT TO THE VOTE",
+    "current_small": "Levin did not in the least understand what was the matter, and he marveled at the passion with which it was disputed whether or not the decision about Fleirot should be put to the vote.",
+    "candidate": "And he marvelled at the passion with which it was disputed whether or not the decision about Fleurot should be put to the vote.",
+    "current_small_score": {
+      "reference_words": 35,
+      "hypothesis_words": 35,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.02857142857142857
+    },
+    "candidate_score": {
+      "reference_words": 35,
+      "hypothesis_words": 24,
+      "errors": 13,
+      "substitutions": 2,
+      "deletions": 11,
+      "insertions": 0,
+      "wer": 0.37142857142857144
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "fleurs-en_us-test:9804762782045252114.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side",
+    "current_small": "The crust is about 70 kilometer stick on the near side and a hundred kilometer stick on the far side.",
+    "candidate": "The crust is about 70 kilometers thick on the near side and 100 kilometers thick on the far side.",
+    "current_small_score": {
+      "reference_words": 19,
+      "hypothesis_words": 20,
+      "errors": 6,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.3157894736842105
+    },
+    "candidate_score": {
+      "reference_words": 19,
+      "hypothesis_words": 19,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.10526315789473684
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "fleurs-en_us-test:11766033532714442721.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+    "current_small": "Since 1966, the Sun Darbuns have been a wildlife sanctuary and is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "candidate": "Since 1966, the Sundarbans have been a wildlife sanctuary and it is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 4,
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 1,
+      "wer": 0.13793103448275862
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 1,
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.034482758620689655
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "fleurs-en_us-test:6817878979697223927.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence",
+    "current_small": "All nouns alongside the word \"see\" for \"you\" always begin with a capital letter, even in the middle of a sentence.",
+    "candidate": "alongside the word C for you, always speaking with a capital letter, even in the middle of a sentence.",
+    "current_small_score": {
+      "reference_words": 21,
+      "hypothesis_words": 21,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.047619047619047616
+    },
+    "candidate_score": {
+      "reference_words": 21,
+      "hypothesis_words": 19,
+      "errors": 4,
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "wer": 0.19047619047619047
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "librispeech-test-other:2414-159411-0014",
+    "dataset": "librispeech-test-other",
+    "reference": "THREE OUT OF THE SIX HAD GIVEN JUDGMENT AGAINST THE BRAHMAN BUT STILL HE DID NOT LOSE ALL HOPE AND DETERMINED TO ASK THE OTHER THREE",
+    "current_small": "3 out of the 6 and giving judgement against the bramblen. But still he did not lose all hope and determined to ask the other 3.",
+    "candidate": "three out of the six had given judgment against the Brahmin. but still he did not lose all hope, and determined to hast the other three.",
+    "current_small_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 7,
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2692307692307692
+    },
+    "candidate_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.07692307692307693
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "librispeech-test-other:3538-163622-0020",
+    "dataset": "librispeech-test-other",
+    "reference": "WHEN THEY HAD TRAVELLED A LONG LONG WAY THE FOAL SAID DOST THOU SEE ANYTHING",
+    "current_small": "When they had traveled a long, long way, the fool said, \"Does not see anything.\"",
+    "candidate": "When they had travelled a long, long way, the foal said, Dost thou see anything?",
+    "current_small_score": {
+      "reference_words": 15,
+      "hypothesis_words": 15,
+      "errors": 4,
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.26666666666666666
+    },
+    "candidate_score": {
+      "reference_words": 15,
+      "hypothesis_words": 15,
+      "errors": 0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.0
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "librispeech-test-other:6128-63240-0024",
+    "dataset": "librispeech-test-other",
+    "reference": "HER VOICE WAS LOW AND AGREEABLE A CULTIVATED VOICE AND SHE EXTENDED A SLENDER WHITE HAND TO HER VISITOR WHO REMARKED WITH SOME SOLEMNITY HE FELT A CERTAIN GUILT OF PARTICIPATION IN MISSUS LUNA'S INDISCRETION THAT HE WAS INTENSELY HAPPY TO MAKE HER ACQUAINTANCE",
+    "current_small": "Her voice was low and agreeable, a cultivated voice, and she extended the slender white hand to her visitor, who remarked with some solemnity (he felt a certain guilt of participation in Mrs. Luna's indiscretion) that he was intensely happy to make her acquaintance.",
+    "candidate": "Her voice was low, an agreeable, a cultivated voice, and she extended the slender white hand to her visitor, who remarked with some solemnity he felt a certain guilt of participation in misses Looner's indiscretion, that he was intensely happy to make her acquaintance.",
+    "current_small_score": {
+      "reference_words": 44,
+      "hypothesis_words": 44,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.045454545454545456
+    },
+    "candidate_score": {
+      "reference_words": 44,
+      "hypothesis_words": 44,
+      "errors": 4,
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.09090909090909091
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "fleurs-en_us-test:9804762782045252114.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side",
+    "current_small": "The crust is about 70 kilometer stick on the near side and a hundred kilometer stick on the far side.",
+    "candidate": "The crust is about 70 km thick on the near side and 100 km thick on the far side.",
+    "current_small_score": {
+      "reference_words": 19,
+      "hypothesis_words": 20,
+      "errors": 6,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.3157894736842105
+    },
+    "candidate_score": {
+      "reference_words": 19,
+      "hypothesis_words": 19,
+      "errors": 0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.0
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "fleurs-en_us-test:11766033532714442721.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+    "current_small": "Since 1966, the Sun Darbuns have been a wildlife sanctuary and is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "candidate": "Since 1966, the Sundarbans have been a wildlife sanctuary, and it is estimated there are now 400 royal Bengal tigers and about 30,000 spotted deer in the area.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 4,
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 1,
+      "wer": 0.13793103448275862
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 1,
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.034482758620689655
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "fleurs-en_us-test:3491234462595391279.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+    "current_small": "We don't know for sure, but I may have had a fork tongue that I'd include turtles, large fish, other mosasaurus, and I may even have been a cannibal.",
+    "candidate": "I don't know for sure, but it may have had a forked tongue.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 29,
+      "errors": 7,
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2413793103448276
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 13,
+      "errors": 17,
+      "substitutions": 1,
+      "deletions": 16,
+      "insertions": 0,
+      "wer": 0.5862068965517241
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "librispeech-test-other:2414-159411-0014",
+    "dataset": "librispeech-test-other",
+    "reference": "THREE OUT OF THE SIX HAD GIVEN JUDGMENT AGAINST THE BRAHMAN BUT STILL HE DID NOT LOSE ALL HOPE AND DETERMINED TO ASK THE OTHER THREE",
+    "current_small": "3 out of the 6 and giving judgement against the bramblen. But still he did not lose all hope and determined to ask the other 3.",
+    "candidate": "Three out of the six had given judgment against the Brahmins. But still, he did not lose all hope, and determined to ask the other three.",
+    "current_small_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 7,
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2692307692307692
+    },
+    "candidate_score": {
+      "reference_words": 26,
+      "hypothesis_words": 26,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.038461538461538464
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "librispeech-test-other:7105-2330-0029",
+    "dataset": "librispeech-test-other",
+    "reference": "A TELEGRAM WAS BROUGHT IN",
+    "current_small": "I thought the grandma's brought in.",
+    "candidate": "A telegram was brought in.",
+    "current_small_score": {
+      "reference_words": 5,
+      "hypothesis_words": 6,
+      "errors": 4,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.8
+    },
+    "candidate_score": {
+      "reference_words": 5,
+      "hypothesis_words": 5,
+      "errors": 0,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.0
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "librispeech-test-other:1998-29455-0019",
+    "dataset": "librispeech-test-other",
+    "reference": "YOU STICK TO THAT SAID BEALE RADIANT WITH DELIGHT YOU'RE A FAIR MASTERPIECE YOU ARE YOU EARNED IT HONEST IF EVER A KID DONE",
+    "current_small": "\"You stick to that,\" said Bea, radiant with delight. \"You are a fair masterpiece, you are. You earned it honest if ever a kid done.\"",
+    "candidate": "You stick to that,\" said B. Radian with delight. \"You are a fair masterpiece. You are—you earned it honest if ever it had done.\"",
+    "current_small_score": {
+      "reference_words": 24,
+      "hypothesis_words": 25,
+      "errors": 3,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.125
+    },
+    "candidate_score": {
+      "reference_words": 24,
+      "hypothesis_words": 25,
+      "errors": 6,
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 1,
+      "wer": 0.25
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "fleurs-en_us-test:11766033532714442721.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+    "current_small": "Since 1966, the Sun Darbuns have been a wildlife sanctuary and is estimated there are now 400 Royal Bengal Tigers and about 30,000 spotted deer in the area.",
+    "candidate": "Since 1966, the Sundarbans have been a wildlife sanctuary, and it is estimated there are now 400 royal Bengal tigers, and about 30,000 spotted deer in the area.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 4,
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 1,
+      "wer": 0.13793103448275862
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 28,
+      "errors": 1,
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "wer": 0.034482758620689655
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "fleurs-en_us-test:3491234462595391279.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+    "current_small": "We don't know for sure, but I may have had a fork tongue that I'd include turtles, large fish, other mosasaurus, and I may even have been a cannibal.",
+    "candidate": "I don't know for sure, but it may have had a forked tongue. It might include turtles, large fish, other mosasaurs, and it may even have been a cannibal.",
+    "current_small_score": {
+      "reference_words": 29,
+      "hypothesis_words": 29,
+      "errors": 7,
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.2413793103448276
+    },
+    "candidate_score": {
+      "reference_words": 29,
+      "hypothesis_words": 29,
+      "errors": 4,
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.13793103448275862
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "fleurs-en_us-test:6817878979697223927.wav",
+    "dataset": "fleurs-en_us-test",
+    "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence",
+    "current_small": "All nouns alongside the word \"see\" for \"you\" always begin with a capital letter, even in the middle of a sentence.",
+    "candidate": "Inside the word C for you, always speaking with the capital letter even in the middle of a sentence.",
+    "current_small_score": {
+      "reference_words": 21,
+      "hypothesis_words": 21,
+      "errors": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "wer": 0.047619047619047616
+    },
+    "candidate_score": {
+      "reference_words": 21,
+      "hypothesis_words": 19,
+      "errors": 6,
+      "substitutions": 4,
+      "deletions": 2,
+      "insertions": 0,
+      "wer": 0.2857142857142857
+    },
+    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"
+  }
+]

@@ -25,18 +25,18 @@ def render(result, source, execution=None, findings=None):
              "and the original inventory commit/hash in the lock preserve that boundary.", "",
              "## Measured quality and throughput", "",
              "Reference WER uses the first complete timed repetition, 100 LibriSpeech test-other recordings and 100 FLEURS English test recordings. "
-             "Throughput uses the median of three complete passes on the same ten corpus sources, including full 600-second VOD "
+             "Throughput uses the median of the recorded complete passes on the same ten corpus sources, including full 600-second VOD "
              "and YouTube windows. A ratio at most 1.5 is eligible. Lower WER is better.", "",
-             "| Configuration | LibriSpeech WER | FLEURS WER | Overall WER | Corpus median s | Time / current Small | Audio / wall | Combined peak GiB | Eligible speed |",
+             "| Configuration (completed passes) | LibriSpeech WER | FLEURS WER | Overall WER | Corpus median s | Time / current Small | Audio / wall | Combined peak GiB | Eligible speed |",
              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |"]
     baseline_seconds = summary.get("small.en-unsegmented", {}).get("corpus_median_seconds")
     for name, row in summary.items():
-        if not row["complete"]:
+        if not row.get("evaluated", row["complete"]):
             lines.append(f"| `{name}` | incomplete | | | | | | | no |")
             continue
         quality = row["quality"]
         ratio = row["corpus_median_seconds"] / baseline_seconds if baseline_seconds else 0
-        lines.append(f"| `{name}` | {quality['librispeech-test-other']['wer']:.2%} | {quality['fleurs-en_us-test']['wer']:.2%} | "
+        lines.append(f"| `{name}` ({row['completed_repetitions']}) | {quality['librispeech-test-other']['wer']:.2%} | {quality['fleurs-en_us-test']['wer']:.2%} | "
                      f"{quality['overall']['wer']:.2%} | {row['corpus_median_seconds']:.3f} | {ratio:.2f} | "
                      f"{row['corpus_realtime_throughput']:.2f}× | {row['peak_combined_bytes'] / 1024**3:.2f} | {'yes' if ratio <= 1.5 else 'no'} |")
     lines += ["", f"Corpus: {len(corpus)} recordings, {duration:.3f} seconds ({duration / 60:.2f} minutes). "
@@ -48,7 +48,7 @@ def render(result, source, execution=None, findings=None):
               "| Configuration | Dataset | Reference words | S | D | I | WER |",
               "| --- | --- | ---: | ---: | ---: | ---: | ---: |"]
     for name, row in summary.items():
-        if row["complete"]:
+        if row.get("evaluated", row["complete"]):
             for dataset, score in row["quality"].items():
                 lines.append(f"| `{name}` | {dataset} | {score['reference_words']} | {score['substitutions']} | {score['deletions']} | {score['insertions']} | {score['wer']:.2%} |")
     lines += ["", "Eligibility requires at least 10% relative overall WER improvement over current unsegmented Small, "
@@ -58,10 +58,12 @@ def render(result, source, execution=None, findings=None):
               "| Configuration | Relative WER improvement | Bootstrap 95% interval | Meets reference threshold | Changed transcripts / subtitles across repeats |",
               "| --- | ---: | --- | --- | ---: |"]
     for name, row in summary.items():
-        if row["complete"] and name != "small.en-unsegmented":
+        if row.get("evaluated", row["complete"]) and name != "small.en-unsegmented":
             low, high = row["paired_bootstrap"]["relative_improvement_95_ci"]
+            consistency = (f"{len(row['changed_transcript_ids'])} / {len(row.get('changed_subtitle_ids', []))} (of {len(samples)})"
+                           if row["completed_repetitions"] > 1 else "not measured (one pass)")
             lines.append(f"| `{name}` | {row['relative_wer_improvement']:.1%} | {low:.1%} to {high:.1%} | "
-                         f"{'yes' if row['quality_eligible'] and row['uncertainty_eligible'] else 'no'} | {len(row['changed_transcript_ids'])} / {len(row.get('changed_subtitle_ids', []))} (of {len(samples)}) |")
+                         f"{'yes' if row['quality_eligible'] and row['uncertainty_eligible'] else 'no'} | {consistency} |")
     lines += ["", "Normalization is `harmon-english-v1`: NFKC, lowercase, canonical apostrophes, remove bracketed ASR event markers, "
               "separate hyphens/slashes, remove other punctuation, collapse whitespace. Numbers remain as written. "
               "This policy applies identically to all references and hypotheses. It can count numeral/spelled-number differences as errors. "
@@ -73,17 +75,22 @@ def render(result, source, execution=None, findings=None):
               "attempt; these are not cold-boot measurements. Each timed repeat includes another CLI load. "
               "Small's unsegmented decoding settings match production; this runner uses JSON plus common TXT/SRT serialization and "
               "retains backend diagnostics instead of production's quiet logging.", "",
-              "| Configuration | Initial reported load s | Startup + smoke s | Process/cgroup peak GiB | GPU delta peak GiB | Corpus three-pass range s |",
+              "| Configuration | Initial reported load s | Startup + smoke s | Process/cgroup peak GiB | GPU delta peak GiB | Corpus observed range s |",
               "| --- | ---: | ---: | ---: | ---: | --- |"]
+    seen_smoke = set()
     for smoke in result["smoke"]:
         name = smoke["configuration"]
+        if name in seen_smoke:
+            continue
+        seen_smoke.add(name)
         row = summary.get(name, {})
-        if smoke["status"] == "complete" and row.get("complete"):
+        if smoke["status"] == "complete" and row.get("evaluated", row.get("complete")):
             load = smoke["timing"].get("reported_model_load_seconds")
             load_text = f"{load:.3f}" if load is not None else "not reported"
             low, high = row["corpus_range_seconds"]
+            observed_range = f"{low:.3f}–{high:.3f}" if row["completed_repetitions"] > 1 else "single pass"
             lines.append(f"| `{name}` | {load_text} | {smoke['initial_startup_and_smoke_seconds']:.3f} | "
-                         f"{row['peak_cgroup_bytes'] / 1024**3:.2f} | {row['peak_gpu_delta_bytes'] / 1024**3:.2f} | {low:.3f}–{high:.3f} |")
+                         f"{row['peak_cgroup_bytes'] / 1024**3:.2f} | {row['peak_gpu_delta_bytes'] / 1024**3:.2f} | {observed_range} |")
         else:
             lines += [f"| `{name}` | failed | {smoke.get('elapsed_seconds', 0):.3f} | | | |"]
     lines += ["", "All model runs use the Radeon 8060S through Vulkan. The existing outer guard enforces a 6 GiB aggregate "
@@ -150,13 +157,14 @@ def render(result, source, execution=None, findings=None):
               "The 127.79-hour inventory projection scales the corpus panel's processing time per audio second. "
               "It includes segmentation and output writing, but excludes download, conversion, publishing and unavailable-source retries. "
               "This small corpus mixes mostly silent/music YouTube audio with commentary; the full inventory's speech density and "
-              "source availability may differ. The range below is the observed three-pass timing range, not a confidence interval.", "",
+              "source availability may differ. The range below is the observed timing range of completed passes, not a confidence interval.", "",
               "| Configuration | Processing hours for 127.79 h | Observed timing range projected h |",
               "| --- | ---: | --- |"]
     for name, row in summary.items():
-        if row["complete"]:
+        if row.get("evaluated", row["complete"]):
             low, high = row["corpus_range_seconds"]
-            lines.append(f"| `{name}` | {row['estimated_127_79_hours_processing_hours']:.2f} | {127.79 * low / duration:.2f}–{127.79 * high / duration:.2f} |")
+            observed_range = f"{127.79 * low / duration:.2f}–{127.79 * high / duration:.2f}" if row["completed_repetitions"] > 1 else "single pass; no range measured"
+            lines.append(f"| `{name}` | {row['estimated_127_79_hours_processing_hours']:.2f} | {observed_range} |")
     download_seconds = sum(s["download_conversion_seconds"] for s in corpus)
     lines += ["", f"Common source download + conversion overhead: **{download_seconds:.3f} s** for the ten successful source attempts "
               f"(ten maximum, no failures), measured once and reused by all configurations. A simple audio-duration projection adds "
@@ -170,14 +178,17 @@ def render(result, source, execution=None, findings=None):
               "measurement. A later shared-VAD Small pass exposed zero-duration native cues in the full YouTube window. "
               "That incomplete attempt remains in the records; after handling the cues explicitly, only unfinished configurations "
               "were resumed. Completed baseline repetitions and the frozen PCM/VAD regions were preserved and verified. "
-              "These are harness failures, not measured model-quality failures.", ""]
+              "These are harness failures, not measured model-quality failures. The user then requested early stopping for conclusively ineligible models; Medium was stopped with two complete passes, and the remaining models use that early-stop policy.", ""]
     failures = [s for s in result["smoke"] if s["status"] != "complete"] + [t for t in result["trials"] if t["status"] != "complete"]
     if failures:
         lines += ["Retained incomplete/failed attempts (excluded from medians and reference scores):", ""]
         lines += [f"- `{f['configuration']}`: {f.get('error', 'incomplete')}" for f in failures]
     else:
-        lines += ["All configurations completed smoke testing and three timed repetitions. At least two additional models completed, "
+        lines += ["Every fully ranked candidate has three timed repetitions. Per the user's later instruction, clearly ineligible models stop early; their observed results are labeled by pass count. At least two additional models were evaluated, "
                   "so the fixed `large-v3-q5_0` fallback was not needed."]
+    lines += ["", "All three additional models produced evaluable full passes. Medium stopped after two passes, "
+              "Parakeet and Qwen after one, following the user's early-stop instruction. The fixed Large fallback was not needed. "
+              "Single-pass timings are indicative; repeat consistency was not measured for those rejected candidates."]
     lines += ["", "Offline checks cover additive scoring and normalization, deterministic sample selection, strict 1.5× eligibility, "
               "per-dataset quality limits and uncertainty, timing boundaries, GPU confirmation, checksum rejection, offset/clamping, "
               "Qwen region timestamps, failure status, timeout cleanup, memory-cap refusal and a restart-safe ten-attempt ledger. "

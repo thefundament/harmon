@@ -1,0 +1,1112 @@
+[
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 35,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 16,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 0,
+        "region_end": 21.8026875,
+        "last_native_text_end": 9.52,
+        "gap_s": 12.282687500000002
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 24,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 92,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 71,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 620,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [
+      {
+        "text": "uh uh uh uh uh",
+        "count": 16
+      },
+      {
+        "text": "when do you want to",
+        "count": 3
+      },
+      {
+        "text": "do you want to see",
+        "count": 3
+      },
+      {
+        "text": "you want to see me",
+        "count": 3
+      },
+      {
+        "text": "want to see me do",
+        "count": 3
+      },
+      {
+        "text": "to see me do it",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 92,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 0,
+        "region_end": 600.0,
+        "last_native_text_end": 543.0,
+        "gap_s": 57.0
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 76,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 22,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en-unsegmented",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 14,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 0,
+        "region_end": 34.4746875,
+        "last_native_text_end": 30.2,
+        "gap_s": 4.274687500000002
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 22,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 16,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 23,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 93,
+    "voiced_regions": 5,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 69,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 641,
+    "voiced_regions": 116,
+    "empty_voiced_regions": 5,
+    "repeated_5grams": [
+      {
+        "text": "when do you want to",
+        "count": 3
+      },
+      {
+        "text": "do you want to see",
+        "count": 3
+      },
+      {
+        "text": "you want to see me",
+        "count": 3
+      },
+      {
+        "text": "want to see me do",
+        "count": 3
+      },
+      {
+        "text": "to see me do it",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 4.98,
+        "region_end": 9.996,
+        "last_native_text_end": 7.98,
+        "gap_s": 2.016
+      },
+      {
+        "region_start": 55.316,
+        "region_end": 65.388,
+        "last_native_text_end": 62.396,
+        "gap_s": 2.9920000000000044
+      },
+      {
+        "region_start": 324.048,
+        "region_end": 329.868,
+        "last_native_text_end": 326.868,
+        "gap_s": 3.0
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 369,
+    "voiced_regions": 33,
+    "empty_voiced_regions": 1,
+    "repeated_5grams": [
+      {
+        "text": "i don't think i'm going",
+        "count": 9
+      },
+      {
+        "text": "don't think i'm going to",
+        "count": 9
+      },
+      {
+        "text": "think i'm going to have",
+        "count": 9
+      },
+      {
+        "text": "i'm going to have a",
+        "count": 9
+      },
+      {
+        "text": "going to have a chance",
+        "count": 9
+      },
+      {
+        "text": "to have a chance at",
+        "count": 9
+      },
+      {
+        "text": "have a chance at this",
+        "count": 9
+      },
+      {
+        "text": "a chance at this game",
+        "count": 9
+      }
+    ],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [
+      {
+        "reason": "zero_duration_native_segment_omitted_from_srt",
+        "native_start": 189.18,
+        "native_end": 189.18,
+        "text": " Have a good day."
+      }
+    ],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 71,
+    "voiced_regions": 7,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 19,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "small.en",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 9,
+    "voiced_regions": 2,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 22,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 16,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 24,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 90,
+    "voiced_regions": 5,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 69,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 675,
+    "voiced_regions": 116,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [
+      {
+        "text": "ah ah ah ah ah",
+        "count": 9
+      },
+      {
+        "text": "you want to see me",
+        "count": 3
+      },
+      {
+        "text": "want to see me do",
+        "count": 3
+      },
+      {
+        "text": "to see me do it",
+        "count": 3
+      },
+      {
+        "text": "oh oh oh oh oh",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 337,
+    "voiced_regions": 33,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [
+      {
+        "text": "a little bit of a",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 71,
+    "voiced_regions": 7,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 21,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "large-v3-turbo-q5_0",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 7,
+    "voiced_regions": 2,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 22,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 16,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 23,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 82,
+    "voiced_regions": 5,
+    "empty_voiced_regions": 1,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 68,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 655,
+    "voiced_regions": 116,
+    "empty_voiced_regions": 1,
+    "repeated_5grams": [
+      {
+        "text": "you want to see me",
+        "count": 3
+      },
+      {
+        "text": "want to see me do",
+        "count": 3
+      },
+      {
+        "text": "to see me do it",
+        "count": 3
+      },
+      {
+        "text": "oh oh oh oh oh",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 4.98,
+        "region_end": 9.996,
+        "last_native_text_end": 7.700000000000001,
+        "gap_s": 2.2959999999999994
+      },
+      {
+        "region_start": 373.076,
+        "region_end": 378.412,
+        "last_native_text_end": 375.916,
+        "gap_s": 2.495999999999981
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 270,
+    "voiced_regions": 33,
+    "empty_voiced_regions": 3,
+    "repeated_5grams": [
+      {
+        "text": "i don't know what you're",
+        "count": 4
+      },
+      {
+        "text": "don't know what you're talking",
+        "count": 4
+      },
+      {
+        "text": "know what you're talking about",
+        "count": 4
+      },
+      {
+        "text": "i'm not sure if i'll",
+        "count": 3
+      },
+      {
+        "text": "not sure if i'll be",
+        "count": 3
+      },
+      {
+        "text": "sure if i'll be able",
+        "count": 3
+      },
+      {
+        "text": "if i'll be able to",
+        "count": 3
+      },
+      {
+        "text": "i'll be able to get",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 288.464,
+        "region_end": 297.644,
+        "last_native_text_end": 290.464,
+        "gap_s": 7.180000000000007
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 70,
+    "voiced_regions": 7,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 19,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "medium.en-q8_0",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 7,
+    "voiced_regions": 2,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 22,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 17,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 2,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 95,
+    "voiced_regions": 5,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 69,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 642,
+    "voiced_regions": 116,
+    "empty_voiced_regions": 3,
+    "repeated_5grams": [
+      {
+        "text": "uh uh uh uh uh",
+        "count": 8
+      }
+    ],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 4.98,
+        "region_end": 9.996,
+        "last_native_text_end": 6.340000000000001,
+        "gap_s": 3.6559999999999997
+      },
+      {
+        "region_start": 14.74,
+        "region_end": 22.7,
+        "last_native_text_end": 20.58,
+        "gap_s": 2.120000000000001
+      },
+      {
+        "region_start": 22.996,
+        "region_end": 25.836,
+        "last_native_text_end": 23.555999999999997,
+        "gap_s": 2.280000000000001
+      },
+      {
+        "region_start": 26.164,
+        "region_end": 31.084,
+        "last_native_text_end": 27.204,
+        "gap_s": 3.879999999999999
+      },
+      {
+        "region_start": 55.316,
+        "region_end": 65.388,
+        "last_native_text_end": 63.316,
+        "gap_s": 2.0720000000000027
+      },
+      {
+        "region_start": 324.048,
+        "region_end": 329.868,
+        "last_native_text_end": 325.408,
+        "gap_s": 4.4599999999999795
+      },
+      {
+        "region_start": 343.732,
+        "region_end": 347.5,
+        "last_native_text_end": 345.012,
+        "gap_s": 2.4879999999999995
+      },
+      {
+        "region_start": 373.076,
+        "region_end": 378.412,
+        "last_native_text_end": 374.276,
+        "gap_s": 4.135999999999967
+      },
+      {
+        "region_start": 396.756,
+        "region_end": 399.244,
+        "last_native_text_end": 397.07599999999996,
+        "gap_s": 2.168000000000063
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 142,
+    "voiced_regions": 33,
+    "empty_voiced_regions": 7,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [
+      {
+        "region_start": 164.692,
+        "region_end": 168.236,
+        "last_native_text_end": 166.05200000000002,
+        "gap_s": 2.183999999999969
+      },
+      {
+        "region_start": 173.78,
+        "region_end": 187.628,
+        "last_native_text_end": 185.14,
+        "gap_s": 2.4879999999999995
+      },
+      {
+        "region_start": 275.988,
+        "region_end": 282.348,
+        "last_native_text_end": 277.188,
+        "gap_s": 5.160000000000025
+      }
+    ],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 72,
+    "voiced_regions": 7,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 19,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "parakeet-tdt-0.6b-v3",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 7,
+    "voiced_regions": 2,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": true,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+    "normalized_words": 22,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+    "normalized_words": 16,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+    "normalized_words": 23,
+    "voiced_regions": 1,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+    "normalized_words": 91,
+    "voiced_regions": 5,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+    "normalized_words": 69,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "vod:1633410828:0-600",
+    "normalized_words": 660,
+    "voiced_regions": 116,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [
+      {
+        "text": "ah ah ah ah ah",
+        "count": 13
+      },
+      {
+        "text": "this is going to be",
+        "count": 4
+      },
+      {
+        "text": "when do you want to",
+        "count": 3
+      },
+      {
+        "text": "do you want to see",
+        "count": 3
+      },
+      {
+        "text": "you want to see me",
+        "count": 3
+      },
+      {
+        "text": "want to see me do",
+        "count": 3
+      },
+      {
+        "text": "to see me do it",
+        "count": 3
+      }
+    ],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "youtube:-4sAT9-sacM:0-600",
+    "normalized_words": 128,
+    "voiced_regions": 33,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+    "normalized_words": 71,
+    "voiced_regions": 7,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+    "normalized_words": 19,
+    "voiced_regions": 3,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  },
+  {
+    "configuration": "qwen3-asr-0.6b",
+    "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+    "normalized_words": 8,
+    "voiced_regions": 2,
+    "empty_voiced_regions": 0,
+    "repeated_5grams": [],
+    "potential_uncovered_native_tails": [],
+    "tail_alignment_assessable": false,
+    "zero_duration_native_cues": [],
+    "speaker_verified": false,
+    "interpretation": "Unverified flags, not measured commentary accuracy. Tails can be silence/VAD false positives; repetition can be spoken."
+  }
+]

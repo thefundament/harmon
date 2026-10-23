@@ -31,6 +31,28 @@ def completed_repetitions(trials, configuration):
     return set(repetitions)
 
 
+def ineligibility_reason(trials, configuration):
+    if configuration == "small.en-unsegmented":
+        return None
+    baseline = [t for t in trials if t["configuration"] == "small.en-unsegmented" and t["status"] == "complete"]
+    passes = [t for t in trials if t["configuration"] == configuration and t["status"] == "complete"]
+    if not baseline or not passes:
+        return None
+    base = metrics.aggregate([s["score"] for s in baseline[0]["samples"] if "score" in s])["wer"]
+    candidate = metrics.aggregate([s["score"] for s in passes[0]["samples"] if "score" in s])["wer"]
+    if base == 0 or (base - candidate) / base < .10:
+        return "First quality pass fails the required 10% relative aggregate WER improvement."
+    for panel in PANELS[:2]:
+        before = metrics.aggregate([s["score"] for s in baseline[0]["samples"] if s["dataset"] == panel])["wer"]
+        after = metrics.aggregate([s["score"] for s in passes[0]["samples"] if s["dataset"] == panel])["wer"]
+        if after > before + .01:
+            return "First quality pass worsens a reference dataset by more than one percentage point."
+    ceiling = 1.5 * statistics.median(t["panels"]["corpus"]["processing_seconds"] for t in baseline)
+    if sum(t["panels"]["corpus"]["processing_seconds"] > ceiling for t in passes) >= 2:
+        return "Two corpus passes exceed the ceiling; a three-pass median cannot meet 1.5x Small."
+    return None
+
+
 def trial(configuration, samples, vad, lock, repetition):
     model = adapters.model_for(configuration, lock)
     result = {"configuration": configuration, "repetition": repetition, "model": model["id"],
@@ -66,9 +88,9 @@ def summarize(trials, samples):
     summary = {}
     for configuration in dict.fromkeys(t["configuration"] for t in trials):
         passes = [t for t in trials if t["configuration"] == configuration and t["status"] == "complete"]
-        row = {"complete": completed_repetitions(trials, configuration) == {1, 2, 3}, "completed_repetitions": len(passes)}
+        row = {"complete": completed_repetitions(trials, configuration) == {1, 2, 3}, "evaluated": bool(passes), "completed_repetitions": len(passes)}
         summary[configuration] = row
-        if not row["complete"]:
+        if not passes:
             continue
         row["quality"] = {}
         # Preregistered quality pass: first timed repetition, never the best repeat.
@@ -156,7 +178,12 @@ def run(resume=False):
         result["shared_vad"] = vads
         save()
         complete = summarize(result["trials"], samples)
-        configurations = [c for c in CONFIGURATIONS if not complete.get(c, {}).get("complete")]
+        result.setdefault("early_stops", {})
+        for name in CONFIGURATIONS:
+            reason = ineligibility_reason(result["trials"], name)
+            if reason:
+                result["early_stops"][name] = reason
+        configurations = [c for c in CONFIGURATIONS if not complete.get(c, {}).get("complete") and c not in result["early_stops"]]
         while configurations:
             configuration = configurations.pop(0)
             model = adapters.model_for(configuration, lock)
@@ -182,11 +209,17 @@ def run(resume=False):
                     measured = trial(configuration, samples, vad, lock, repetition)
                     result["trials"].append(measured)
                     save()
+                    reason = ineligibility_reason(result["trials"], configuration)
+                    if reason:
+                        result["early_stops"][configuration] = reason
+                        print("EARLY STOP", configuration, reason, flush=True)
+                        save()
+                        break
                     if measured["status"] != "complete":
                         break
             if not configurations and configuration != "large-v3-q5_0":
                 complete = summarize(result["trials"], samples)
-                if sum(complete.get(name, {}).get("complete", False) for name in ADDITIONAL) < 2:
+                if sum(complete.get(name, {}).get("evaluated", False) for name in ADDITIONAL) < 2:
                     print("FALLBACK large-v3-q5_0", flush=True)
                     tick = time.monotonic()
                     try:
@@ -200,12 +233,12 @@ def run(resume=False):
         base_pass = next((t for t in result["trials"] if t["configuration"] == "small.en-unsegmented" and t["status"] == "complete"), None)
         if base_pass:
             for name, row in result["summary"].items():
-                if row["complete"] and name != "small.en-unsegmented":
+                if row.get("evaluated") and name != "small.en-unsegmented":
                     candidate = next(t for t in result["trials"] if t["configuration"] == name and t["status"] == "complete")
                     row["paired_bootstrap"] = metrics.paired_bootstrap(base_pass["samples"], candidate["samples"])
         result["selection"] = metrics.choose(result["summary"])
         result["finished_utc"] = inputs.worker.now()
-        result["status"] = "complete" if all(result["summary"].get(c, {}).get("complete") for c in CONFIGURATIONS) else "completed_with_failures"
+        result["status"] = "complete" if all(result["summary"].get(c, {}).get("complete") or c in result["early_stops"] for c in CONFIGURATIONS) else "completed_with_failures"
     except BaseException as exc:
         result.update(status="interrupted_or_failed", error=repr(exc))
         raise

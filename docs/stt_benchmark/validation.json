@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_transcript_records": 2730,
+  "checked_timestamp_cues": 6670,
+  "explicit_timestamp_adjustments": 828,
+  "reference_utterances": 200,
+  "source_attempts": 10,
+  "temporary_media_removed": true,
+  "final_guard_passed": true
+}
