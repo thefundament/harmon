@@ -112,6 +112,21 @@ class LocalWorkerTests(unittest.TestCase):
      worker.process_task(TASK,tools,out,work)
    self.assertFalse(list((work/"tmp").iterdir()))
    self.assertFalse(worker.completed(TASK,out))
+ def test_source_rejected_before_downloading_any_media(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);out=root/"out";work=root/"work"
+   with mock.patch.object(worker,"authorize",side_effect=worker.SourceRejected("youtube_foreign_channel")):
+    with mock.patch.object(worker,"run_command") as downloader:
+     with self.assertRaisesRegex(worker.SourceRejected,"youtube_foreign_channel"):
+      worker.process_task(VOD,{"yt_dlp":"fake-yt-dlp"},out,work)
+     downloader.assert_not_called()
+   self.assertFalse(list((work/"tmp").iterdir()))
+   self.assertFalse(list(out.iterdir()))
+ def test_journal_blocks_rejected_source_permanently(self):
+  with tempfile.TemporaryDirectory() as td:
+   out=pathlib.Path(td)
+   state={VOD["task_id"]:{"source_rejected":True,"reason":"twitch_foreign_vod"}}
+   self.assertEqual(worker.eligible(VOD,state,out),(False,"source_rejected"))
  def test_space_guard_reports_real_disk_space(self):
   with tempfile.TemporaryDirectory() as td:
    self.assertGreater(worker.free_disk_bytes(pathlib.Path(td)),0)
