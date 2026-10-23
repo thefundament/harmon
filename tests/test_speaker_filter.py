@@ -87,6 +87,15 @@ class SpeakerFilterTests(unittest.TestCase):
             self.assertTrue(len(accepted)>2*speaker.RATE)
             self.assertTrue(all(x>0 for x in accepted))
             self.assertLess(len(accepted),len(pcm))
+    def test_compacted_subtitles_map_back_to_original_source_clock(self):
+        mapping=[{"compact_start_s":0.0,"compact_end_s":2.0,
+                  "source_start_s":10.0,"source_end_s":12.0},
+                 {"compact_start_s":2.3,"compact_end_s":5.3,
+                  "source_start_s":80.0,"source_end_s":83.0}]
+        srt="1\n00:00:00,500 --> 00:00:01,500\nFirst phrase\n\n2\n00:00:02,500 --> 00:00:04,000\nSecond phrase\n"
+        mapped=speaker.remap_srt(srt,mapping)
+        self.assertIn("00:00:10,500 --> 00:00:11,500",mapped)
+        self.assertIn("00:01:20,200 --> 00:01:21,700",mapped)
     def test_no_matched_voice_skips_compact_wav(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)
