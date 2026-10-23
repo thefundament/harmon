@@ -1,13 +1,14 @@
 {
-  "generated_utc": "2026-10-23T21:52:44.699631+00:00",
+  "generated_utc": "2026-10-23T22:42:13.273245+00:00",
   "legacy_asr_outputs": 165,
-  "local_window_asr_outputs": 0,
-  "total_asr_outputs": 165,
-  "total_recognized_words_not_deduplicated": 5963,
+  "local_window_asr_outputs": 5,
+  "total_asr_outputs": 170,
+  "total_recognized_words_not_deduplicated": 6207,
   "source_kinds_raw": {
     "clips": 140,
     "vods": 25,
-    "youtube": 5
+    "youtube": 5,
+    "clip": 5
   },
   "warning": "VOD windows can overlap old VOD samples. These counts are NOT unique streamer speech or training-ready words.",
   "speaker_verified_words": 0,
