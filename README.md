@@ -15,7 +15,13 @@ A reproducible text-first dataset project, focused on **genuine attributable spo
 
 ## Run controls
 
-`.github/workflows/harvest.yml` is manual-dispatch plus a single bootstrap push trigger. Its first run is bounded to 30 clips and one VOD sample, 12 minutes max, with no schedule. The existing `probe.yml` is a separate earlier pilot (not scheduled).
+The historical acquisition pilot is `.github/workflows/harvest.yml`. It has **manual dispatch only**: no scheduled recurrence or push-triggered bulk media collection. The workflow is capped at 12 minutes. This keeps the code reproducible without assuming GitHub-hosted runners can be used for recurring media harvesting.
+
+`.github/workflows/ci.yml` is the lightweight, automated QA workflow. It runs offline tests and updates `corpus/quality/review_queue.jsonl` and `corpus/quality/summary.json`; a score means **review priority**, not proof of speaker or transcription accuracy.
+
+`.github/workflows/model-benchmark.yml` is a two-clip Base-vs-Small development test.
+
+See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) for the complete execution map, confidence tiers, speaker-verification plan, and GitHub usage limitations.
 
 ## Data status labels
 
