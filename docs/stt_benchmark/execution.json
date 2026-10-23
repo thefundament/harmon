@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "verified_pending_publication",
+  "status": "published",
   "environment": {
     "platform": "Linux-6.19.14-061914-generic-x86_64-with-glibc2.39",
     "python": "3.12.3",
@@ -228,8 +228,17 @@
     }
   },
   "publishing": {
-    "status": "pending",
-    "excluded_from_model_timing": true
+    "status": "published",
+    "commit_before_rebase": "858c6f5fb580a252600197e08101f53d358604c6",
+    "published_commit": "858c6f5fb580a252600197e08101f53d358604c6",
+    "elapsed_seconds": 2.844662840012461,
+    "excluded_from_model_timing": true,
+    "operations": [
+      "fetch",
+      "rebase",
+      "push"
+    ],
+    "repository": "https://github.com/thefundament/harmon"
   },
   "ten_hour_batch_started": false,
   "production_default": "small.en",

@@ -160,7 +160,7 @@ The launcher is finite, has no discovery or scheduler, and cleans benchmark audi
 
 The runtime archive transfer/unpacking and isolated PyArrow installation were not separately timed. The first input phase includes the aborted non-unique-ID check; the retry reuses the pinned dataset downloads.
 
-Publication timing is pending in execution.json and will be recorded after the benchmark/report push.
+Publication of the benchmark/report commit took 2.845 s for fetch/rebase/push, separate from inference. A subsequent small verification commit records that observation.
 
 Final validation checked 2730 complete transcript records and 6670 timestamp cues; 65 offline tests passed. Temporary benchmark media were removed.
 
