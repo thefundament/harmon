@@ -76,6 +76,18 @@ class TimestampTests(unittest.TestCase):
             self.assertIn("00:01:00,000 --> 00:01:01,100", prefix.with_suffix(".srt").read_text())
             self.assertEqual(hashes["text_sha256"], hashlib.sha256(b"Hello\n").hexdigest())
 
+    def test_parakeet_preserves_raw_native_token_times_with_region_origin(self):
+        sample = dict(id="sample", dataset="corpus", audio_seconds=30, audio_sha256="frozen")
+        vad = {"samples": {"sample": [dict(start=12, end=20, path="unused.wav")]}}
+        native = dict(text="Hello", stop="complete", segments=[dict(start=.2, end=1, text="Hello")],
+                      tokens=[dict(start=.2, end=.8, text="Hello")])
+        with tempfile.TemporaryDirectory() as temp, patch.object(adapters, "recognize", return_value=([native], {"model_process_seconds": 1})):
+            rows, _ = adapters.evaluate_group("parakeet-tdt-0.6b-v3", [sample], vad,
+                {"id": "parakeet-tdt-0.6b-v3"}, {}, Path(temp))
+        self.assertEqual(rows[0]["native_regions"][0]["result"]["tokens"], native["tokens"])
+        self.assertEqual(rows[0]["native_regions"][0]["start"], 12)
+        self.assertEqual(rows[0]["segments"][0]["start"], 12.2)
+
 
 class AdapterTests(unittest.TestCase):
     def test_resumption_retains_only_unique_completed_repetitions(self):

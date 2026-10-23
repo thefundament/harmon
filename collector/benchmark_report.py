@@ -55,13 +55,13 @@ def render(result, source, execution=None, findings=None):
               "no dataset worsening by more than one percentage point, and a positive lower bound in the paired bootstrap "
               "95% interval. The bootstrap resamples 100 paired utterances within each dataset, 2,000 draws with seed 20261023. "
               "Its intervals do not account for shared speakers, repeated sentences, or transfer to gaming commentary.", "",
-              "| Configuration | Relative WER improvement | Bootstrap 95% interval | Meets reference threshold | Changed transcripts across repeats |",
+              "| Configuration | Relative WER improvement | Bootstrap 95% interval | Meets reference threshold | Changed transcripts / subtitles across repeats |",
               "| --- | ---: | --- | --- | ---: |"]
     for name, row in summary.items():
         if row["complete"] and name != "small.en-unsegmented":
             low, high = row["paired_bootstrap"]["relative_improvement_95_ci"]
             lines.append(f"| `{name}` | {row['relative_wer_improvement']:.1%} | {low:.1%} to {high:.1%} | "
-                         f"{'yes' if row['quality_eligible'] and row['uncertainty_eligible'] else 'no'} | {len(row['changed_transcript_ids'])} / {len(samples)} |")
+                         f"{'yes' if row['quality_eligible'] and row['uncertainty_eligible'] else 'no'} | {len(row['changed_transcript_ids'])} / {len(row.get('changed_subtitle_ids', []))} (of {len(samples)}) |")
     lines += ["", "Normalization is `harmon-english-v1`: NFKC, lowercase, canonical apostrophes, remove bracketed ASR event markers, "
               "separate hyphens/slashes, remove other punctuation, collapse whitespace. Numbers remain as written. "
               "This policy applies identically to all references and hypotheses. It can count numeral/spelled-number differences as errors. "
@@ -88,7 +88,8 @@ def render(result, source, execution=None, findings=None):
             lines += [f"| `{name}` | failed | {smoke.get('elapsed_seconds', 0):.3f} | | | |"]
     lines += ["", "All model runs use the Radeon 8060S through Vulkan. The existing outer guard enforces a 6 GiB aggregate "
               "process cap, no job swap, an 8 GiB process-plus-GPU ceiling and a 2 GiB host-available floor. "
-              + result["memory_caveat"] + " Independent peaks are not additive. Raw phase and guard measurements are retained.", "",
+              + result["memory_caveat"] + " Independent peaks are not additive. Table peaks cover timed phases; "
+              "separate startup/smoke memory and complete guard measurements are retained in the JSON records.", "",
               "Shared VAD runs on CPU, six threads, Silero v6.2 F32, threshold 0.5, 300 ms padding, minimum speech 250 ms, "
               "minimum silence 500 ms and maximum speech 30 s. VAD is repeated three times and checked for identical regions; "
               "each candidate is charged the corresponding measured VAD and PCM-slicing cost. "
@@ -119,6 +120,8 @@ def render(result, source, execution=None, findings=None):
     lines += ["", "[Representative token differences](differences.json) compare each candidate with Small using the identical "
               "VAD regions. [Full result records](results.json) retain every timed transcript, subtitle timestamps, content hashes, "
               "per-utterance scores, memory and output-consistency measurements. "
+              "[Reference examples](reference_differences.json) include published gold text and the largest per-utterance "
+              "error reductions/regressions relative to current Small; those examples are illustrative, not a separate score. "
               "A repeated n-gram can be real repeated speech; an empty voiced region can be a VAD false positive.", "",
               "## Runtime limits and provenance", "",
               "- whisper.cpp v1.9.5 uses native segment timestamps. Source commit, build-only shader throttle, linked-library "
@@ -126,7 +129,9 @@ def render(result, source, execution=None, findings=None):
               "- speech.cpp v0.8.11 uses the checksum-verified Linux Vulkan release in `.harmon-tools/speech.cpp-0.8.11`. "
               "Its release and all models are pinned in [lock.json](lock.json). The isolated dataset reader is PyArrow 21.0.0; "
               "production `.venv` dependencies are untouched.",
-              "- Parakeet TDT v3 F16 uses native segment timestamps. Its runtime may lose sentences in long multi-sentence "
+              "- Parakeet TDT v3 F16 retains native segment and token timestamps. Raw token times in `native_regions` "
+              "are relative to each explicitly recorded region start; common subtitle segments use whole-recording offsets. "
+              "Its runtime may lose sentences in long multi-sentence "
               "inputs; the shared VAD bounds regions but does not guarantee correctness.",
               "- Qwen3-ASR 0.6B Q8_0 lacks native timestamps in this runtime. Its subtitles are labeled "
               "`vad_region_no_word_alignment`, spanning the detected region. They are not word alignment. "
@@ -246,6 +251,29 @@ def inspect_corpus(result):
     return rows
 
 
+def reference_examples(result, source):
+    passes = [t for t in result["trials"] if t["status"] == "complete" and t["repetition"] == 1]
+    baseline = next(t for t in passes if t["configuration"] == "small.en-unsegmented")
+    original = {s["id"]: s for s in baseline["samples"] if "score" in s}
+    gold = {s["id"]: s["reference"] for s in source["samples"] if "reference" in s}
+    examples = []
+    for trial in passes:
+        if trial is baseline:
+            continue
+        for dataset in ("librispeech-test-other", "fleurs-en_us-test"):
+            candidates = [s for s in trial["samples"] if s["dataset"] == dataset]
+            ordered = sorted(candidates, key=lambda s: (s["score"]["errors"] - original[s["id"]]["score"]["errors"], s["id"]))
+            improved = [s for s in ordered if s["score"]["errors"] < original[s["id"]]["score"]["errors"]][:2]
+            worsened = [s for s in reversed(ordered) if s["score"]["errors"] > original[s["id"]]["score"]["errors"]][:1]
+            for sample in improved + worsened:
+                before = original[sample["id"]]
+                examples.append({"configuration": trial["configuration"], "id": sample["id"], "dataset": dataset,
+                    "reference": gold[sample["id"]], "current_small": before["text"], "candidate": sample["text"],
+                    "current_small_score": before["score"], "candidate_score": sample["score"],
+                    "selection": "largest error-count reductions (up to two) and regression (up to one) per dataset"})
+    return examples
+
+
 def main():
     result = json.loads((inputs.REPORT / "results.json").read_text())
     source = json.loads((inputs.REPORT / "inputs.json").read_text())
@@ -257,6 +285,7 @@ def main():
     (inputs.REPORT / "REPORT.md").write_text(report)
     inputs.worker.atomic_json(inputs.REPORT / "differences.json", differences)
     inputs.worker.atomic_json(inputs.REPORT / "corpus_inspection.json", inspect_corpus(result))
+    inputs.worker.atomic_json(inputs.REPORT / "reference_differences.json", reference_examples(result, source))
 
 
 if __name__ == "__main__":

@@ -85,6 +85,8 @@ def summarize(trials, samples):
         row["estimated_127_79_hours_processing_hours"] = 127.79 / row["corpus_realtime_throughput"]
         row["changed_transcript_ids"] = [sample["id"] for sample in passes[0]["samples"] if len({
             next(s["text_sha256"] for s in t["samples"] if s["id"] == sample["id"]) for t in passes}) > 1]
+        row["changed_subtitle_ids"] = [sample["id"] for sample in passes[0]["samples"] if len({
+            next(s["srt_sha256"] for s in t["samples"] if s["id"] == sample["id"]) for t in passes}) > 1]
         for key in ("peak_combined_bytes", "peak_cgroup_bytes", "peak_gpu_delta_bytes"):
             row[key] = max(t["panels"][panel]["memory"][key] for t in passes for panel in PANELS)
     return summary
@@ -124,7 +126,7 @@ def run(resume=False):
         if any(model != provenance["models"].get(name) for name, model in result["provenance"]["models"].items()):
             raise RuntimeError("Cannot resume: model provenance changed")
         result.setdefault("resumptions", []).append({"utc": inputs.worker.now(), "previous_status": result.get("status"),
-            "previous_error": result.pop("error", None), "policy": "Keep complete repetitions; retry missing/failed repetitions. Zero-duration native cues retained as defects, omitted from SRT; transcript text retained."})
+            "previous_error": result.pop("error", None), "policy": "Keep complete repetitions; retry missing/failed repetitions on identical PCM and VAD regions. Preserve native segment/token timing and zero-duration defects without dropping transcript text."})
         result["status"] = "resumed"
     def save():
         inputs.worker.atomic_json(output, result)

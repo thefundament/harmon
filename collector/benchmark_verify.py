@@ -45,6 +45,11 @@ def verify(result, source, references, lock, attempts):
             else:
                 for flag in ("speaker_verified", "training_permission_verified", "training_ready"):
                     assert sample[flag] is False
+            if trial["model"] == "parakeet-tdt-0.6b-v3":
+                assert len(sample["native_regions"]) == len(sample["voiced_regions"])
+                for region in sample["native_regions"]:
+                    assert region["runtime_timestamps_relative_to_region"] is True
+                    assert "tokens" in region["result"] and "segments" in region["result"]
             previous_start = -1
             for cue in sample["segments"]:
                 assert math.isfinite(cue["start"] + cue["end"])

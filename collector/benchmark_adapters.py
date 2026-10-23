@@ -204,10 +204,13 @@ def evaluate_group(configuration, group, vad, model, lock, directory):
             paths.append(ROOT / region["path"])
     native, timing = recognize(model, paths, directory, lock)
     output_tick = time.monotonic()
-    by_sample = {s["id"]: {"text": [], "segments": [], "voiced_regions": [], "timestamp_adjustments": []} for s in group}
+    by_sample = {s["id"]: {"text": [], "segments": [], "voiced_regions": [], "native_regions": [], "timestamp_adjustments": []} for s in group}
     qwen = model["id"].startswith("qwen")
     for (sample_id, region), record in zip(mapping, native):
         row, text = by_sample[sample_id], record["text"].strip()
+        row["native_regions"].append({"start": region["start"], "end": region["end"],
+            "runtime_timestamps_relative_to_region": True,
+            "result": {key: value for key, value in record.items() if key != "file"}})
         kind = "vad_region_no_word_alignment" if qwen else "native_segment"
         local = ([dict(start=0, end=region["end"] - region["start"], text=text)] if qwen else record.get("segments", []))
         segments, adjustments = metrics.offset_segments(local, region["start"], region["end"], kind)

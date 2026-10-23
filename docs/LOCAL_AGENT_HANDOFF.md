@@ -18,7 +18,7 @@ HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/bootst
 .venv/bin/python collector/local_worker.py status
 ```
 
-Models are verified against the upstream SHA1 and their SHA256 is printed. `HARMON_MODEL` selects the model for setup and launch; `--model-name` selects a downloaded model for the worker, and explicit `--model /path/to/weights.bin` takes precedence. The live comparison recommends the default `small.en`; see [LOCAL_VALIDATION.md](LOCAL_VALIDATION.md) for measurements and output defects. Quantized Turbo is preferred only if it fits the budget, runs faster than real time, takes at most twice Small's measured time on identical audio, and has no obvious output regression. There are no verified reference transcripts: report differences and defects, never WER or measured accuracy.
+Models are verified against the upstream SHA1 and their SHA256 is printed. `HARMON_MODEL` selects the model for setup and launch; `--model-name` selects a downloaded model for the worker, and explicit `--model /path/to/weights.bin` takes precedence. The original live comparison recommends the default `small.en`; see [LOCAL_VALIDATION.md](LOCAL_VALIDATION.md) for its measurements and output defects. Its original Turbo criterion allowed twice Small's time; the later [additional-model benchmark](stt_benchmark/REPORT.md) uses the stricter **1.5×** ceiling. The corpus has no verified reference transcripts: report its differences and defects without WER or measured commentary accuracy. The separate benchmark measures WER only against the published LibriSpeech/FLEURS references.
 
 ## Memory and logging
 
