@@ -73,8 +73,8 @@ def key_for(url):
 
 source_rows=[]
 discovery={}
-clips,discovery["clips"]=listing("twitch_clips",SOURCE_BASE+"/clips?filter=clips&range=all",180)
-vods,discovery["vods"]=listing("twitch_vods",SOURCE_BASE+"/videos?filter=all&sort=time",30)
+clips,discovery["clips"]=listing("twitch_clips",SOURCE_BASE+"/clips?filter=clips&range=all",350)
+vods,discovery["vods"]=listing("twitch_vods",SOURCE_BASE+"/videos?filter=all&sort=time",70)
 youtube,discovery["youtube"]=listing("youtube", "https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q/videos", 12)
 pool=[]
 if SEEDS.exists():
