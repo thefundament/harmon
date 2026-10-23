@@ -353,13 +353,17 @@ def execute(args):
             if yes:print(t["task_id"])
         return 0
     # Fail closed before network downloads on unattended/full-archive runs.
-    profile_path=(args.speaker_profile if args.speaker_profile is not None
-                  else WORK/"speaker_profile.json")
-    if args.speaker_filter:
-        load_profile(profile_path)  # no media or model loading needed to preflight
-    elif args.command=="run" and args.max_items==0 and not args.allow_unfiltered:
-        raise RuntimeError("Full archive run requires --speaker-filter with reviewed references; "
-                           "only bounded pilots may omit it. Unsafe bypass: --allow-unfiltered.")
+    filtered=bool(getattr(args,"speaker_filter",False))
+    chosen_profile=getattr(args,"speaker_profile",None)
+    profile_path=(chosen_profile if chosen_profile is not None
+                  else args.work_dir/"speaker_profile.json")
+    if filtered:
+        load_profile(profile_path)  # no media or ML model loading for preflight
+    elif (args.command=="run" and args.max_items==0
+          and args.manifest.resolve()==PLAN.resolve()
+          and not getattr(args,"allow_unfiltered",False)):
+        raise RuntimeError("Full historical run requires --speaker-filter and reviewed voice references; "
+                           "bounded pilots remain available without it.")
     if args.push and args.output.resolve() != OUTPUT.resolve():
         raise RuntimeError("Publishing requires the worker-owned default output directory; use --no-push for custom output")
     tools=find_tools(args.model,args.whisper_cli,args.yt_dlp,args.ffmpeg,args.model_name)
@@ -412,8 +416,11 @@ def execute(args):
             if args.max_hours>0 and (time.monotonic()-started)>3600*args.max_hours:break
             processed+=1
             try:
-                record=process_task(task,tools,args.output,args.work_dir,args.threads,
-                                    profile_path if args.speaker_filter else None)
+                if filtered:
+                    record=process_task(task,tools,args.output,args.work_dir,args.threads,
+                                        profile_path)
+                else:
+                    record=process_task(task,tools,args.output,args.work_dir,args.threads)
                 journal.pop(task["task_id"],None)
                 atomic_json(journal_file,journal)
                 completed_count+=1;since_commit+=1
