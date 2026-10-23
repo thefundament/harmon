@@ -93,9 +93,9 @@ def create_inventory(root=ROOT,probe=cmd_rows,max_playlists=12):
     by_id={}
     for name in ("youtube.jsonl","youtube_expanded.jsonl"):
         for obj in read_jsonl(discovery/name):
-            r=normalize(obj,"legacy" if name=="youtube.jsonl" else "previous")
+            r=normalize(obj,"legacy" if name=="youtube.jsonl" else "previous",obj)
             if r:
-                by_id[r["id"]]=normalize(obj,"legacy" if name=="youtube.jsonl" else "previous",by_id.get(r["id"]))
+                by_id[r["id"]]=normalize(obj,"legacy" if name=="youtube.jsonl" else "previous",by_id.get(r["id"],obj))
     diagnostics={}
     playlists=[]
     for tab in TABS:
