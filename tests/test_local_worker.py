@@ -2,6 +2,7 @@ import importlib.util
 import hashlib
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
 import wave
@@ -9,6 +10,7 @@ import subprocess
 from unittest import mock
 
 FILE=pathlib.Path(__file__).resolve().parents[1]/"collector"/"local_worker.py"
+sys.path.insert(0,str(FILE.parent))
 spec=importlib.util.spec_from_file_location("harmon_local_worker",FILE)
 worker=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(worker)
@@ -84,7 +86,7 @@ class LocalWorkerTests(unittest.TestCase):
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg","whisper":"fake-whisper","model":"fake-model"}
    model=root/"ggml-large-v3-turbo-q5_0.bin";model.write_bytes(b"model weights")
    tools["model"]=str(model)
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     result=worker.process_task(VOD,tools,out,work,threads=3)
    self.assertEqual(result["processing_status"],"transcribed")
    self.assertEqual(result["recognition_model"],"whisper.cpp ggml-large-v3-turbo-q5_0")
@@ -105,7 +107,7 @@ class LocalWorkerTests(unittest.TestCase):
     else:
      raise RuntimeError("synthetic failure")
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg","whisper":"fake-whisper","model":"fake-model"}
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     with self.assertRaisesRegex(RuntimeError,"synthetic failure"):
      worker.process_task(TASK,tools,out,work)
    self.assertFalse(list((work/"tmp").iterdir()))
@@ -169,7 +171,7 @@ class LocalWorkerTests(unittest.TestCase):
       audio.setnchannels(1);audio.setsampwidth(2);audio.setframerate(1);audio.writeframes(b"\0"*20)
     else:self.fail("Incomplete audio must never reach transcription")
    tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg"}
-   with mock.patch.object(worker,"run_command",side_effect=fake):
+   with mock.patch.object(worker,"run_command",side_effect=fake), mock.patch.object(worker,"authorize",return_value={"owner_verified":True,"proof":"fixture_channel"}):
     with self.assertRaisesRegex(RuntimeError,"incomplete window"):
      worker.process_task(VOD,tools,root/"out",root/"work")
    self.assertFalse(worker.completed(VOD,root/"out"))
