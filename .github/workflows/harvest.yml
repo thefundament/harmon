@@ -1,0 +1,76 @@
+name: Public video corpus harvest
+on:
+  push:
+    paths:
+      - '.github/workflows/harvest.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: harmon-harvest
+  cancel-in-progress: false
+jobs:
+  harvest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      MAX_CLIPS: '30'
+      MAX_VODS: '1'
+      VOD_SEGMENT: '00:01:00-00:05:00'
+      WHISPER_MODEL: 'base.en'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install binaries and yt-dlp
+        run: |
+          python -m pip install --disable-pip-version-check yt-dlp
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git
+      - name: Cache whisper.cpp build and model
+        uses: actions/cache@v4
+        with:
+          path: |
+            whisper.cpp/build
+            whisper.cpp/models/ggml-base.en.bin
+          key: harmon-whisper-v1.9.5-base-en-linux-1
+      - name: Prepare recognizer
+        run: |
+          if [ ! -x whisper.cpp/build/bin/whisper-cli ]; then
+            cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DWHISPER_BUILD_TESTS=OFF
+            cmake --build whisper.cpp/build --target whisper-cli --parallel 4
+          fi
+          if [ ! -s whisper.cpp/models/ggml-base.en.bin ]; then
+            curl --fail --location --retry 2 -o whisper.cpp/models/ggml-base.en.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin
+          fi
+      - name: Discover accessible videos and transcribe bounded samples
+        run: python collector/harvest.py
+      - name: Remove media immediately
+        if: always()
+        run: rm -rf output/media
+      - name: Preserve text corpus in repository
+        if: success()
+        run: |
+          mkdir -p corpus/unreviewed corpus/discovery
+          cp -a output/text/. corpus/unreviewed/
+          cp -a output/discovery/. corpus/discovery/
+          cp output/summary.json corpus/summary.json
+          cp output/records.jsonl corpus/records.jsonl
+          git config user.name harmon-corpus-bot
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add corpus
+          if ! git diff --cached --quiet; then
+            git commit -m "Add bounded unreviewed public-media transcripts and sources"
+            git push origin HEAD:main
+          fi
+      - name: Export transcript package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: harmon-text-corpus
+          path: |
+            output/summary.json
+            output/records.jsonl
+            output/discovery/
+            output/text/
+          retention-days: 7
+          if-no-files-found: warn
