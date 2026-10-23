@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SincereObeseApeSeemsGood-99vrQvOduqDtONFM",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Just Built Different I Guess",
+  "duration": 27.0,
+  "timestamp": 1727222610,
+  "source_key": "clip_SincereObeseApeSeemsGood-99vrQvOduqDtONFM",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:25.753302+00:00",
+  "word_count_raw": 14,
+  "word_count_nonplaceholder": 14,
+  "srt": "clip_SincereObeseApeSeemsGood-99vrQvOduqDtONFM.srt",
+  "text_file": "clip_SincereObeseApeSeemsGood-99vrQvOduqDtONFM.txt",
+  "text_sha256": "1b9e5f8da11d7cc097e1fc6a21f3cdcd8e20f0a9b7a8b742413d6c649ba2bd5a",
+  "seconds_elapsed": 3.0
+}

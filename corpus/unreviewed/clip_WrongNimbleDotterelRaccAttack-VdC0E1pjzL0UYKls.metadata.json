@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/WrongNimbleDotterelRaccAttack-VdC0E1pjzL0UYKls",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "lmaoooooo",
+  "duration": 5.0,
+  "timestamp": 1697228702,
+  "source_key": "clip_WrongNimbleDotterelRaccAttack-VdC0E1pjzL0UYKls",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:26.549489+00:00",
+  "word_count_raw": 1,
+  "word_count_nonplaceholder": 1,
+  "srt": "clip_WrongNimbleDotterelRaccAttack-VdC0E1pjzL0UYKls.srt",
+  "text_file": "clip_WrongNimbleDotterelRaccAttack-VdC0E1pjzL0UYKls.txt",
+  "text_sha256": "a8ccf7b78b6c5870237da123ef53e6111384020c4d6469bca52442418cedb048",
+  "seconds_elapsed": 2.5
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AbstruseRichFriesKappaWealth-sye89ItoBWWp4xFj",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Anybody else?",
+  "duration": 13.0,
+  "timestamp": 1732576709,
+  "source_key": "clip_AbstruseRichFriesKappaWealth-sye89ItoBWWp4xFj",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:31.962781+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_AbstruseRichFriesKappaWealth-sye89ItoBWWp4xFj.srt",
+  "text_file": "clip_AbstruseRichFriesKappaWealth-sye89ItoBWWp4xFj.txt",
+  "text_sha256": "5a037039481b6301216afc41b125815fd47652d30584f546b0f99ad04bfe6ce7",
+  "seconds_elapsed": 2.7
+}

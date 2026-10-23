@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ThoughtfulTiredPeachTBTacoLeft-8hrdyl_EjHKR5R65",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmons Social Experiment",
+  "duration": 15.0,
+  "timestamp": 1746645321,
+  "source_key": "clip_ThoughtfulTiredPeachTBTacoLeft-8hrdyl_EjHKR5R65",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:53.793943+00:00",
+  "word_count_raw": 36,
+  "word_count_nonplaceholder": 36,
+  "srt": "clip_ThoughtfulTiredPeachTBTacoLeft-8hrdyl_EjHKR5R65.srt",
+  "text_file": "clip_ThoughtfulTiredPeachTBTacoLeft-8hrdyl_EjHKR5R65.txt",
+  "text_sha256": "cd2775870efda1768aec96e49aea29e4bdccbb795548f417971efdcf52ef6eb4",
+  "seconds_elapsed": 3.2
+}

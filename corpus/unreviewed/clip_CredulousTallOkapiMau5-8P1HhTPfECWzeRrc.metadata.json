@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CredulousTallOkapiMau5-8P1HhTPfECWzeRrc",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "zack's new thing",
+  "duration": 17.0,
+  "timestamp": 1718950828,
+  "source_key": "clip_CredulousTallOkapiMau5-8P1HhTPfECWzeRrc",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:22.322585+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_CredulousTallOkapiMau5-8P1HhTPfECWzeRrc.srt",
+  "text_file": "clip_CredulousTallOkapiMau5-8P1HhTPfECWzeRrc.txt",
+  "text_sha256": "1f6d9c952d321c7bc6a1f879a03c9ea03e0ae580cb9c00de015125d2f8ccca3d",
+  "seconds_elapsed": 2.7
+}

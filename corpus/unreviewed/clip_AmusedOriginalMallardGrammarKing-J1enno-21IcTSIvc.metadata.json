@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AmusedOriginalMallardGrammarKing-J1enno-21IcTSIvc",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "i'm goin to bed",
+  "duration": 9.0,
+  "timestamp": 1742703979,
+  "source_key": "clip_AmusedOriginalMallardGrammarKing-J1enno-21IcTSIvc",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:44.166173+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_AmusedOriginalMallardGrammarKing-J1enno-21IcTSIvc.srt",
+  "text_file": "clip_AmusedOriginalMallardGrammarKing-J1enno-21IcTSIvc.txt",
+  "text_sha256": "a7cdcdca50548043ae8a256f611bd797b694b9d16ddf0a98341802bf7d5dee8c",
+  "seconds_elapsed": 2.6
+}

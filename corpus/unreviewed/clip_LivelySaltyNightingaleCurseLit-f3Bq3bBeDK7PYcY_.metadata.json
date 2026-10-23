@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/LivelySaltyNightingaleCurseLit-f3Bq3bBeDK7PYcY_",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "CLOWN MAN",
+  "duration": 5.0,
+  "timestamp": 1755547644,
+  "source_key": "clip_LivelySaltyNightingaleCurseLit-f3Bq3bBeDK7PYcY_",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:48.966484+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_LivelySaltyNightingaleCurseLit-f3Bq3bBeDK7PYcY_.srt",
+  "text_file": "clip_LivelySaltyNightingaleCurseLit-f3Bq3bBeDK7PYcY_.txt",
+  "text_sha256": "e518d93a925a318a3c042d6392ff33d787ffd3331abfbe9248eb90cd830a2bbd",
+  "seconds_elapsed": 2.4
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DiligentPlacidOstrichFloof-gJuE0QGqL3vGeKgQ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmom hurt herself",
+  "duration": 17.0,
+  "timestamp": 1672103686,
+  "source_key": "clip_DiligentPlacidOstrichFloof-gJuE0QGqL3vGeKgQ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:46.727456+00:00",
+  "word_count_raw": 13,
+  "word_count_nonplaceholder": 13,
+  "srt": "clip_DiligentPlacidOstrichFloof-gJuE0QGqL3vGeKgQ.srt",
+  "text_file": "clip_DiligentPlacidOstrichFloof-gJuE0QGqL3vGeKgQ.txt",
+  "text_sha256": "639cb1b56dc4d8826769f52e4ad16003c8f084e9a14c7034260bef404efcba98",
+  "seconds_elapsed": 2.7
+}

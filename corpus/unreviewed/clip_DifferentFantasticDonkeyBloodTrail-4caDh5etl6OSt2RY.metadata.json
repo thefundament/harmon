@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DifferentFantasticDonkeyBloodTrail-4caDh5etl6OSt2RY",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "AAAAAAAAAHAAAAHAAAAHAAAA! (aka The Drool Never Stops)",
+  "duration": 48.0,
+  "timestamp": 1696548945,
+  "source_key": "clip_DifferentFantasticDonkeyBloodTrail-4caDh5etl6OSt2RY",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:00.824755+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_DifferentFantasticDonkeyBloodTrail-4caDh5etl6OSt2RY.srt",
+  "text_file": "clip_DifferentFantasticDonkeyBloodTrail-4caDh5etl6OSt2RY.txt",
+  "text_sha256": "6c87b729b5345ca03cf4100dacec80e806ad0c1f21198ffc680e0db1151d068b",
+  "seconds_elapsed": 4.7
+}

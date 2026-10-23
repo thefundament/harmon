@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/TalentedAmazingCakeBleedPurple-4GFleQTVEzNXyF8p",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Dat Drool Game",
+  "duration": 23.0,
+  "timestamp": 1689629008,
+  "source_key": "clip_TalentedAmazingCakeBleedPurple-4GFleQTVEzNXyF8p",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:58.166737+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_TalentedAmazingCakeBleedPurple-4GFleQTVEzNXyF8p.srt",
+  "text_file": "clip_TalentedAmazingCakeBleedPurple-4GFleQTVEzNXyF8p.txt",
+  "text_sha256": "2989ac510e6098465946d04da6bc355453f531af9b1b781615c5a019e9f7e22c",
+  "seconds_elapsed": 2.7
+}

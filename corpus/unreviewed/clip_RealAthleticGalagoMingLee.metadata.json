@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/RealAthleticGalagoMingLee",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "My autism swimming moment.",
+  "duration": 60.0,
+  "timestamp": 1542758682,
+  "source_key": "clip_RealAthleticGalagoMingLee",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:39.480532+00:00",
+  "word_count_raw": 45,
+  "word_count_nonplaceholder": 45,
+  "srt": "clip_RealAthleticGalagoMingLee.srt",
+  "text_file": "clip_RealAthleticGalagoMingLee.txt",
+  "text_sha256": "e6a2929fb42640cda7139000689db3fde13f15f6184ce79157d8e9999af9a146",
+  "seconds_elapsed": 5.1
+}

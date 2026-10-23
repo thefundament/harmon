@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ExpensiveVenomousWalrusOSsloth-KIcT46ypx_jhesQg",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "BIG BUGS",
+  "duration": 11.0,
+  "timestamp": 1718949825,
+  "source_key": "clip_ExpensiveVenomousWalrusOSsloth-KIcT46ypx_jhesQg",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:13.383158+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_ExpensiveVenomousWalrusOSsloth-KIcT46ypx_jhesQg.srt",
+  "text_file": "clip_ExpensiveVenomousWalrusOSsloth-KIcT46ypx_jhesQg.txt",
+  "text_sha256": "ea1736f3285b2c4df7f974cbf29066d7da9978530a60726355e0fcf2c01f90a7",
+  "seconds_elapsed": 2.7
+}

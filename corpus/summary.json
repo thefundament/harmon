@@ -1,15 +1,15 @@
 {
-  "sources_discovered": {
-    "clips": 87,
-    "vods": 15,
-    "youtube": 12
-  },
-  "attempted": 36,
-  "downloaded": 31,
-  "transcribed": 31,
-  "raw_words": 773,
-  "nonplaceholder_words": 770,
-  "rights": "not verified",
-  "speaker_attribution": "not verified",
-  "model": "base.en"
+  "generated_utc": "2026-10-23T20:22:12.233366+00:00",
+  "unique_sources": 89,
+  "videos_transcribed": 84,
+  "raw_recognized_words": 3006,
+  "nonplaceholder_recognized_words": 3002,
+  "speaker_verified": 0,
+  "training_permission_verified": 0,
+  "corpus_status": "unreviewed ASR / not training-ready",
+  "video_source_types": {
+    "clips": 75,
+    "vods": 9,
+    "youtube": 0
+  }
 }

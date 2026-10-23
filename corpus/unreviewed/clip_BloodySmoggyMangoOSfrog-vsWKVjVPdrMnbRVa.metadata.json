@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BloodySmoggyMangoOSfrog-vsWKVjVPdrMnbRVa",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon and the Real Girl Trailer",
+  "duration": 51.0,
+  "timestamp": 1756503218,
+  "source_key": "clip_BloodySmoggyMangoOSfrog-vsWKVjVPdrMnbRVa",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:05.484735+00:00",
+  "word_count_raw": 24,
+  "word_count_nonplaceholder": 24,
+  "srt": "clip_BloodySmoggyMangoOSfrog-vsWKVjVPdrMnbRVa.srt",
+  "text_file": "clip_BloodySmoggyMangoOSfrog-vsWKVjVPdrMnbRVa.txt",
+  "text_sha256": "a7196b6a20354d6dd66621dded086e58b206d6bddbf16d958d1d012bc4d1a69b",
+  "seconds_elapsed": 4.8
+}

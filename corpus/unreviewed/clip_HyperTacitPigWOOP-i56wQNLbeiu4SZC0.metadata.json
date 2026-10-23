@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/HyperTacitPigWOOP-i56wQNLbeiu4SZC0",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "My business",
+  "duration": 23.0,
+  "timestamp": 1767046706,
+  "source_key": "clip_HyperTacitPigWOOP-i56wQNLbeiu4SZC0",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:56.998947+00:00",
+  "word_count_raw": 77,
+  "word_count_nonplaceholder": 77,
+  "srt": "clip_HyperTacitPigWOOP-i56wQNLbeiu4SZC0.srt",
+  "text_file": "clip_HyperTacitPigWOOP-i56wQNLbeiu4SZC0.txt",
+  "text_sha256": "1141dad8305895b425a39e2ffc3df12014ac70576cd1b0a1f0f9c5b2f7afba3d",
+  "seconds_elapsed": 4.3
+}

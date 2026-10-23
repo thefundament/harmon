@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BloodyObliqueGazelleTBTacoLeft-T3aPKjOozqbofk91",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Poor Jordan",
+  "duration": 60.0,
+  "timestamp": 1662564638,
+  "source_key": "clip_BloodyObliqueGazelleTBTacoLeft-T3aPKjOozqbofk91",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:18.687787+00:00",
+  "word_count_raw": 136,
+  "word_count_nonplaceholder": 136,
+  "srt": "clip_BloodyObliqueGazelleTBTacoLeft-T3aPKjOozqbofk91.srt",
+  "text_file": "clip_BloodyObliqueGazelleTBTacoLeft-T3aPKjOozqbofk91.txt",
+  "text_sha256": "62d3dfb9ef4ab47a6d3d89691973605e6424581ce1690626fc51a7a49f4270b4",
+  "seconds_elapsed": 7.1
+}

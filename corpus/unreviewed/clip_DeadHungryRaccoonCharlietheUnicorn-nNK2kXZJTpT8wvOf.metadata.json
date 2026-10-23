@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DeadHungryRaccoonCharlietheUnicorn-nNK2kXZJTpT8wvOf",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon gonna squirt",
+  "duration": 5.0,
+  "timestamp": 1737497337,
+  "source_key": "clip_DeadHungryRaccoonCharlietheUnicorn-nNK2kXZJTpT8wvOf",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:14.023946+00:00",
+  "word_count_raw": 7,
+  "word_count_nonplaceholder": 7,
+  "srt": "clip_DeadHungryRaccoonCharlietheUnicorn-nNK2kXZJTpT8wvOf.srt",
+  "text_file": "clip_DeadHungryRaccoonCharlietheUnicorn-nNK2kXZJTpT8wvOf.txt",
+  "text_sha256": "9c06871d17ebcb13369b74ceccf1f0d3bb4c071c975507c1eb94d8522f14db30",
+  "seconds_elapsed": 5.4
+}

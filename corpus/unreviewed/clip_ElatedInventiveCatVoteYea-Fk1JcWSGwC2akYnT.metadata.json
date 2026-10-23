@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ElatedInventiveCatVoteYea-Fk1JcWSGwC2akYnT",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "THE BET IS ON!",
+  "duration": 12.0,
+  "timestamp": 1662652379,
+  "source_key": "clip_ElatedInventiveCatVoteYea-Fk1JcWSGwC2akYnT",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:54.859465+00:00",
+  "word_count_raw": 32,
+  "word_count_nonplaceholder": 32,
+  "srt": "clip_ElatedInventiveCatVoteYea-Fk1JcWSGwC2akYnT.srt",
+  "text_file": "clip_ElatedInventiveCatVoteYea-Fk1JcWSGwC2akYnT.txt",
+  "text_sha256": "a3d7d4becf7455439cdac300933dddb66f14922d6148f96b68156d26e7bd3f6b",
+  "seconds_elapsed": 3.5
+}

@@ -1,0 +1,15 @@
+{
+  "sources_discovered": {
+    "clips": 185,
+    "vods": 30,
+    "youtube": 12
+  },
+  "attempted": 53,
+  "downloaded": 53,
+  "transcribed": 53,
+  "raw_words": 2233,
+  "nonplaceholder_words": 2232,
+  "rights": "not verified",
+  "speaker_attribution": "not verified",
+  "model": "base.en"
+}

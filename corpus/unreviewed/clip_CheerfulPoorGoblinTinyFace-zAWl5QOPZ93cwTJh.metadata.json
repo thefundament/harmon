@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CheerfulPoorGoblinTinyFace-zAWl5QOPZ93cwTJh",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harbob finds a girl in game",
+  "duration": 20.0,
+  "timestamp": 1721325365,
+  "source_key": "clip_CheerfulPoorGoblinTinyFace-zAWl5QOPZ93cwTJh",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:33.645252+00:00",
+  "word_count_raw": 35,
+  "word_count_nonplaceholder": 35,
+  "srt": "clip_CheerfulPoorGoblinTinyFace-zAWl5QOPZ93cwTJh.srt",
+  "text_file": "clip_CheerfulPoorGoblinTinyFace-zAWl5QOPZ93cwTJh.txt",
+  "text_sha256": "71b6c9391e3aca599dce5f4ef93a9a548d8fc3060f604b5b4bbc89039ea02a7b",
+  "seconds_elapsed": 3.5
+}

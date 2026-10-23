@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/RoughZealousGoatThisIsSparta-16pmQpk0TisNUg_c",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Green Screen: 1 Harmon: 0",
+  "duration": 8.0,
+  "timestamp": 1734488379,
+  "source_key": "clip_RoughZealousGoatThisIsSparta-16pmQpk0TisNUg_c",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:51.410672+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_RoughZealousGoatThisIsSparta-16pmQpk0TisNUg_c.srt",
+  "text_file": "clip_RoughZealousGoatThisIsSparta-16pmQpk0TisNUg_c.txt",
+  "text_sha256": "10e98c4d7444854b56d5807e47b22b7dc5c7c92157f71049624b5ef6e7423c1d",
+  "seconds_elapsed": 2.4
+}

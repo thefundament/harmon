@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SoftHeadstrongGnatDatSheffy-Ow951mHMjD4XQtnC",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon Cooking Pasta and Fire Safety",
+  "duration": 35.0,
+  "timestamp": 1690840929,
+  "source_key": "clip_SoftHeadstrongGnatDatSheffy-Ow951mHMjD4XQtnC",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:15.448761+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_SoftHeadstrongGnatDatSheffy-Ow951mHMjD4XQtnC.srt",
+  "text_file": "clip_SoftHeadstrongGnatDatSheffy-Ow951mHMjD4XQtnC.txt",
+  "text_sha256": "b768ec35df0f7426e0b46a7535323fa53c7737701f37094334695a44b511b4e6",
+  "seconds_elapsed": 4.2
+}

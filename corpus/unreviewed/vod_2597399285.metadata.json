@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2597399285",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "Highlight: Simple Mans First New Vegas Playthrough. The House Always Tizzes (!sounds, !sr, Tangia)",
+  "duration": 14831.0,
+  "timestamp": null,
+  "source_key": "vod_2597399285",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:20:15.940000+00:00",
+  "word_count_raw": 214,
+  "word_count_nonplaceholder": 214,
+  "srt": "vod_2597399285.srt",
+  "text_file": "vod_2597399285.txt",
+  "text_sha256": "ed2bd897f3924773b84ba5b60793cf4c8d079f103102307cdebc4b7edb940e74",
+  "seconds_elapsed": 27.1
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2597393119",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "Highlight: Continuing New Vegas !sounds !sr !tangia",
+  "duration": 9716.0,
+  "timestamp": null,
+  "source_key": "vod_2597393119",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:21:09.032660+00:00",
+  "word_count_raw": 17,
+  "word_count_nonplaceholder": 17,
+  "srt": "vod_2597393119.srt",
+  "text_file": "vod_2597393119.txt",
+  "text_sha256": "3efd7ecfb74ccb99593c2e4ddb46e9b6542a4752fe7395ada51f1366a79dca52",
+  "seconds_elapsed": 20.0
+}

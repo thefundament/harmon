@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DifficultLitigiousPineapplePMSTwin-JBjfD6kJE2Q6mchq",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Semen Demon",
+  "duration": 21.0,
+  "timestamp": 1736297403,
+  "source_key": "clip_DifficultLitigiousPineapplePMSTwin-JBjfD6kJE2Q6mchq",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:10.278098+00:00",
+  "word_count_raw": 53,
+  "word_count_nonplaceholder": 53,
+  "srt": "clip_DifficultLitigiousPineapplePMSTwin-JBjfD6kJE2Q6mchq.srt",
+  "text_file": "clip_DifficultLitigiousPineapplePMSTwin-JBjfD6kJE2Q6mchq.txt",
+  "text_sha256": "d86c52ac8a0554db1c889516491150686c01e758341557b3992b8b658eb11830",
+  "seconds_elapsed": 3.7
+}

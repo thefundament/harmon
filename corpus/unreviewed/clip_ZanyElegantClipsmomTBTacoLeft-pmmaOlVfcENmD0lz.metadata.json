@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ZanyElegantClipsmomTBTacoLeft-pmmaOlVfcENmD0lz",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon The Gold Standard ",
+  "duration": 51.0,
+  "timestamp": 1699821958,
+  "source_key": "clip_ZanyElegantClipsmomTBTacoLeft-pmmaOlVfcENmD0lz",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:51.860364+00:00",
+  "word_count_raw": 98,
+  "word_count_nonplaceholder": 98,
+  "srt": "clip_ZanyElegantClipsmomTBTacoLeft-pmmaOlVfcENmD0lz.srt",
+  "text_file": "clip_ZanyElegantClipsmomTBTacoLeft-pmmaOlVfcENmD0lz.txt",
+  "text_sha256": "be12e3f9b70db740f99aa9965b2969d4770f9eaa371449110cce605afd266933",
+  "seconds_elapsed": 6.3
+}

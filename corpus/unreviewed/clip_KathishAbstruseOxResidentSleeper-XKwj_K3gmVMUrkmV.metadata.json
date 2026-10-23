@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/KathishAbstruseOxResidentSleeper-XKwj_K3gmVMUrkmV",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harbob drinking Ranch Dressing",
+  "duration": 24.0,
+  "timestamp": 1721936700,
+  "source_key": "clip_KathishAbstruseOxResidentSleeper-XKwj_K3gmVMUrkmV",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:19.380752+00:00",
+  "word_count_raw": 5,
+  "word_count_nonplaceholder": 5,
+  "srt": "clip_KathishAbstruseOxResidentSleeper-XKwj_K3gmVMUrkmV.srt",
+  "text_file": "clip_KathishAbstruseOxResidentSleeper-XKwj_K3gmVMUrkmV.txt",
+  "text_sha256": "c76989bacc73ecd0d570601ed3b4736a0734c131539cf37e7aca2ccf316f50ce",
+  "seconds_elapsed": 2.8
+}

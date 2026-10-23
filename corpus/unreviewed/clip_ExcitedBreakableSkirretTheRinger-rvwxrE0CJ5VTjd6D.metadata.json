@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ExcitedBreakableSkirretTheRinger-rvwxrE0CJ5VTjd6D",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "GOT EM GOOD",
+  "duration": 5.0,
+  "timestamp": 1743727972,
+  "source_key": "clip_ExcitedBreakableSkirretTheRinger-rvwxrE0CJ5VTjd6D",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:34.677513+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_ExcitedBreakableSkirretTheRinger-rvwxrE0CJ5VTjd6D.srt",
+  "text_file": "clip_ExcitedBreakableSkirretTheRinger-rvwxrE0CJ5VTjd6D.txt",
+  "text_sha256": "045c86fa94a4ec1f0257bba4c754fe20dd3d434167ee299cd6dd465c0f88f584",
+  "seconds_elapsed": 2.4
+}

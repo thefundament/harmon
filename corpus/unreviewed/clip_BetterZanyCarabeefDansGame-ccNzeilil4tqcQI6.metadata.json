@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BetterZanyCarabeefDansGame-ccNzeilil4tqcQI6",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Why are you wearing my jeans?",
+  "duration": 41.0,
+  "timestamp": 1666111551,
+  "source_key": "clip_BetterZanyCarabeefDansGame-ccNzeilil4tqcQI6",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:07.741309+00:00",
+  "word_count_raw": 63,
+  "word_count_nonplaceholder": 63,
+  "srt": "clip_BetterZanyCarabeefDansGame-ccNzeilil4tqcQI6.srt",
+  "text_file": "clip_BetterZanyCarabeefDansGame-ccNzeilil4tqcQI6.txt",
+  "text_sha256": "bc416ebc9b8553ef1213cd6335f43a2ac035e90d356e07a3a6ced7d13cc3dbf9",
+  "seconds_elapsed": 5.6
+}

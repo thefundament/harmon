@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/YawningBelovedDunlinBrainSlug-S2dO4Rk9mUDHaWuX",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "HELP",
+  "duration": 5.0,
+  "timestamp": 1738000593,
+  "source_key": "clip_YawningBelovedDunlinBrainSlug-S2dO4Rk9mUDHaWuX",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:37.065350+00:00",
+  "word_count_raw": 4,
+  "word_count_nonplaceholder": 4,
+  "srt": "clip_YawningBelovedDunlinBrainSlug-S2dO4Rk9mUDHaWuX.srt",
+  "text_file": "clip_YawningBelovedDunlinBrainSlug-S2dO4Rk9mUDHaWuX.txt",
+  "text_sha256": "26b241b7f0791ca47522394a6dc9a5e993ee39e65aa861ddf08ad435742ee60b",
+  "seconds_elapsed": 2.4
+}

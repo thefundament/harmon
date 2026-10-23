@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SnappyKnottyLadiesPastaThat-ii_gJwCUnkRmqAiZ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "First Turn, yo.",
+  "duration": 13.0,
+  "timestamp": 1727385003,
+  "source_key": "clip_SnappyKnottyLadiesPastaThat-ii_gJwCUnkRmqAiZ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:04.833384+00:00",
+  "word_count_raw": 18,
+  "word_count_nonplaceholder": 18,
+  "srt": "clip_SnappyKnottyLadiesPastaThat-ii_gJwCUnkRmqAiZ.srt",
+  "text_file": "clip_SnappyKnottyLadiesPastaThat-ii_gJwCUnkRmqAiZ.txt",
+  "text_sha256": "4e394259030fee7a8cdf9c584a4224f1f1691f4051c06f8c66b30af6845082ac",
+  "seconds_elapsed": 2.9
+}

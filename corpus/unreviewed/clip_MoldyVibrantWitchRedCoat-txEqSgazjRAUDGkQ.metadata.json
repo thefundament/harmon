@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/MoldyVibrantWitchRedCoat-txEqSgazjRAUDGkQ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "R2D2",
+  "duration": 5.0,
+  "timestamp": 1754881580,
+  "source_key": "clip_MoldyVibrantWitchRedCoat-txEqSgazjRAUDGkQ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:49.455054+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_MoldyVibrantWitchRedCoat-txEqSgazjRAUDGkQ.srt",
+  "text_file": "clip_MoldyVibrantWitchRedCoat-txEqSgazjRAUDGkQ.txt",
+  "text_sha256": "949a4a08fb4f9343cd1bd1b819ffe6d8ac74fb3d6594d8fb6db40e48915e2d17",
+  "seconds_elapsed": 2.5
+}

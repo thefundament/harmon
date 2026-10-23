@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2597400347",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "Highlight: Our playthrough of Fallout New vegas continues! !sounds !Tangia",
+  "duration": 24618.0,
+  "timestamp": null,
+  "source_key": "vod_2597400347",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:19:33.420867+00:00",
+  "word_count_raw": 147,
+  "word_count_nonplaceholder": 147,
+  "srt": "vod_2597400347.srt",
+  "text_file": "vod_2597400347.txt",
+  "text_sha256": "f3627fc888a19d75499c47192cb91fdc6ca8af8d4fd1f7fdbcf09b707d61c4c4",
+  "seconds_elapsed": 24.0
+}

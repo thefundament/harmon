@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnthusiasticSourMagpieBrokeBack-cIfjr9Kftmy-WKR4",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Fell asleep on duty",
+  "duration": 23.0,
+  "timestamp": 1734237718,
+  "source_key": "clip_EnthusiasticSourMagpieBrokeBack-cIfjr9Kftmy-WKR4",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:01.255782+00:00",
+  "word_count_raw": 29,
+  "word_count_nonplaceholder": 29,
+  "srt": "clip_EnthusiasticSourMagpieBrokeBack-cIfjr9Kftmy-WKR4.srt",
+  "text_file": "clip_EnthusiasticSourMagpieBrokeBack-cIfjr9Kftmy-WKR4.txt",
+  "text_sha256": "28de4c4787c099cede57b192cf39541084319f47f992f00aec4168d6a4628430",
+  "seconds_elapsed": 3.6
+}

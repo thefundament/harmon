@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BlindingTangibleAirGuitarSmoocherZ-lrMumRMcVUnRATi2",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "BHorse pwn",
+  "duration": 60.0,
+  "timestamp": 1742700215,
+  "source_key": "clip_BlindingTangibleAirGuitarSmoocherZ-lrMumRMcVUnRATi2",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:29.270907+00:00",
+  "word_count_raw": 14,
+  "word_count_nonplaceholder": 14,
+  "srt": "clip_BlindingTangibleAirGuitarSmoocherZ-lrMumRMcVUnRATi2.srt",
+  "text_file": "clip_BlindingTangibleAirGuitarSmoocherZ-lrMumRMcVUnRATi2.txt",
+  "text_sha256": "dde971b20cf3005ecf8df59ef28f1ef262bc03d9b25990191433df0cb12a7208",
+  "seconds_elapsed": 4.4
+}

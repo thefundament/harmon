@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FrigidSwissSheepDAESuppy-N-Y1p1pg38JS_kkM",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "It's an ACTION figure not a doll!",
+  "duration": 18.0,
+  "timestamp": 1722107489,
+  "source_key": "clip_FrigidSwissSheepDAESuppy-N-Y1p1pg38JS_kkM",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:17:29.075116+00:00",
+  "word_count_raw": 15,
+  "word_count_nonplaceholder": 15,
+  "srt": "clip_FrigidSwissSheepDAESuppy-N-Y1p1pg38JS_kkM.srt",
+  "text_file": "clip_FrigidSwissSheepDAESuppy-N-Y1p1pg38JS_kkM.txt",
+  "text_sha256": "8c5fb0e57bb8e76eb1ee74254cd82b6f173c862474c93cc311c62b0542134bbc",
+  "seconds_elapsed": 2.9
+}

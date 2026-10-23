@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2593018143",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "Highlight: Fallout New vegas Playthrough Part 5",
+  "duration": 18682.0,
+  "timestamp": null,
+  "source_key": "vod_2593018143",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:21:29.005508+00:00",
+  "word_count_raw": 77,
+  "word_count_nonplaceholder": 77,
+  "srt": "vod_2593018143.srt",
+  "text_file": "vod_2593018143.txt",
+  "text_sha256": "a56e44c2de447832bcf5b9f32e167684e898ae38d68e12843aa261d933619a9f",
+  "seconds_elapsed": 22.0
+}

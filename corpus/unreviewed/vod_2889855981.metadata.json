@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2889855981",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "GOD I LOVE OBLIVION. I LOVE PLAYING IT AND I LOVE MAKING MONEY DOING IT! !Sounds !tangia",
+  "duration": 25046.0,
+  "timestamp": null,
+  "source_key": "vod_2889855981",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:58.320846+00:00",
+  "word_count_raw": 364,
+  "word_count_nonplaceholder": 364,
+  "srt": "vod_2889855981.srt",
+  "text_file": "vod_2889855981.txt",
+  "text_sha256": "5839d08fa8c68ec3f0b8275d001683dd04f9c63379d6aead1d3071c63f34710f",
+  "seconds_elapsed": 35.1
+}

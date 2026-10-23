@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CharmingStupidPepperoniJKanStyle--_oxdzu86cfQyq2W",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "RAAAAAAAAGE! Streaming is Haaaaard!",
+  "duration": 47.0,
+  "timestamp": 1719856342,
+  "source_key": "clip_CharmingStupidPepperoniJKanStyle--_oxdzu86cfQyq2W",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:31.927601+00:00",
+  "word_count_raw": 68,
+  "word_count_nonplaceholder": 68,
+  "srt": "clip_CharmingStupidPepperoniJKanStyle--_oxdzu86cfQyq2W.srt",
+  "text_file": "clip_CharmingStupidPepperoniJKanStyle--_oxdzu86cfQyq2W.txt",
+  "text_sha256": "1794694d8ae540582749659ba852a9b01dba5684044ab12e5879e20dcdbf2d84",
+  "seconds_elapsed": 5.5
+}

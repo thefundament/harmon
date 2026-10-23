@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnchantingFineVanillaTheRinger-uTl5LR3Fv3guF4aZ",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon propositions ShowPig",
+  "duration": 14.0,
+  "timestamp": 1745620894,
+  "source_key": "clip_EnchantingFineVanillaTheRinger-uTl5LR3Fv3guF4aZ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:40.843481+00:00",
+  "word_count_raw": 34,
+  "word_count_nonplaceholder": 34,
+  "srt": "clip_EnchantingFineVanillaTheRinger-uTl5LR3Fv3guF4aZ.srt",
+  "text_file": "clip_EnchantingFineVanillaTheRinger-uTl5LR3Fv3guF4aZ.txt",
+  "text_sha256": "0b395872f4b531904847c2a510b2a3f3bcbfb2287323b86f5d8826324b92af6f",
+  "seconds_elapsed": 3.3
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AntsyComfortableCucumberTheThing-dSWA7QLmZZcl325m",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon has tips for AquaFPS",
+  "duration": 19.0,
+  "timestamp": 1747277469,
+  "source_key": "clip_AntsyComfortableCucumberTheThing-dSWA7QLmZZcl325m",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:37.476912+00:00",
+  "word_count_raw": 35,
+  "word_count_nonplaceholder": 35,
+  "srt": "clip_AntsyComfortableCucumberTheThing-dSWA7QLmZZcl325m.srt",
+  "text_file": "clip_AntsyComfortableCucumberTheThing-dSWA7QLmZZcl325m.txt",
+  "text_sha256": "12fb7a9e8a2b0606f46b2bbad16d4171fb79747c5c8eee150571c60013a41e12",
+  "seconds_elapsed": 3.4
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SnappyTacitRabbitDansGame-KBSRABe48iN406mT",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "infinite wedgie loop",
+  "duration": 13.0,
+  "timestamp": 1717863033,
+  "source_key": "clip_SnappyTacitRabbitDansGame-KBSRABe48iN406mT",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:18:16.052875+00:00",
+  "word_count_raw": 6,
+  "word_count_nonplaceholder": 6,
+  "srt": "clip_SnappyTacitRabbitDansGame-KBSRABe48iN406mT.srt",
+  "text_file": "clip_SnappyTacitRabbitDansGame-KBSRABe48iN406mT.txt",
+  "text_sha256": "80a84e12e46fa269936c70ab690e639de891e77237eb8874de94dc0426361b1f",
+  "seconds_elapsed": 2.6
+}

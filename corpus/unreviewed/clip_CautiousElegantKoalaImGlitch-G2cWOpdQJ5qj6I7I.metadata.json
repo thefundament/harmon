@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CautiousElegantKoalaImGlitch-G2cWOpdQJ5qj6I7I",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Gooning Time",
+  "duration": 23.0,
+  "timestamp": 1737497378,
+  "source_key": "clip_CautiousElegantKoalaImGlitch-G2cWOpdQJ5qj6I7I",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:48.222916+00:00",
+  "word_count_raw": 18,
+  "word_count_nonplaceholder": 18,
+  "srt": "clip_CautiousElegantKoalaImGlitch-G2cWOpdQJ5qj6I7I.srt",
+  "text_file": "clip_CautiousElegantKoalaImGlitch-G2cWOpdQJ5qj6I7I.txt",
+  "text_sha256": "358089da4f336627c2a668a5e7b1a03e9a9c80b026f068c3193bda5fde3859c9",
+  "seconds_elapsed": 3.6
+}

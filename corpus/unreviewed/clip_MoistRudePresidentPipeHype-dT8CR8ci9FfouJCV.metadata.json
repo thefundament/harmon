@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/MoistRudePresidentPipeHype-dT8CR8ci9FfouJCV",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "There Ya Go, Baby",
+  "duration": 36.0,
+  "timestamp": 1726097342,
+  "source_key": "clip_MoistRudePresidentPipeHype-dT8CR8ci9FfouJCV",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:16:25.071273+00:00",
+  "word_count_raw": 19,
+  "word_count_nonplaceholder": 19,
+  "srt": "clip_MoistRudePresidentPipeHype-dT8CR8ci9FfouJCV.srt",
+  "text_file": "clip_MoistRudePresidentPipeHype-dT8CR8ci9FfouJCV.txt",
+  "text_sha256": "83f50a5de7366712dc2a5b3848dc75b9030f54b1d228be1988b0fcd97538bb80",
+  "seconds_elapsed": 4.2
+}
