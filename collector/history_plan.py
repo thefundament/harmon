@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Plan a finite historical pass. This does not download media or start inference."""
-import argparse,json,math,datetime as dt
+import argparse,json,math
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs
 
@@ -72,8 +72,7 @@ def build(root,window=600):
    tasks.append({**obj,"task_id":task_id,"start_s":start,"end_s":end,"state":state,
                  "speaker_verified":False,"training_permission_verified":False})
  counts={st:sum(r["state"]==st for r in tasks) for st in sorted(set(r["state"] for r in tasks))}
- summary={"generated_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
-          "mode":"finite historical snapshot; NO recurrence",
+ summary={"mode":"finite historical snapshot; NO recurrence",
           "sources":{k:sum(a=="%s"%k for a,b in seen) for k in ("clip","vod","youtube")},
           "listed_vod_hours":round(sum(o["duration_s"] or 0 for o in seen.values() if o["kind"]=="vod")/3600,2),
           "listed_youtube_hours":round(sum(o["duration_s"] or 0 for o in seen.values() if o["kind"]=="youtube")/3600,2),
