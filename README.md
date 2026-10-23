@@ -36,3 +36,8 @@ Avoid compiling training JSONL automatically until speaker/rights checks exist. 
 ## Provenance
 
 Each `.txt` has a same-stem `.metadata.json` and usually `.srt` timestamp file. Source discovery files and `corpus/summary.json` preserve the extraction report.
+
+
+## One-time local corpus completion
+
+For a local Linux/WSL agent to process the frozen archive without discovery or human decisions, see [Local Agent Handoff](docs/LOCAL_AGENT_HANDOFF.md). The small.en speech model is downloaded automatically. Original video/WAV are temporary and excluded from Git. Local transcripts are indexed by lightweight CI after push.

@@ -79,23 +79,30 @@ def evaluate(metadata, text, srt=""):
     }
 
 def run(root):
-    source=root/"corpus"/"unreviewed"
+    source_dirs=(root/"corpus"/"unreviewed",root/"corpus"/"local_transcripts")
     out=root/"corpus"/"quality"
     out.mkdir(parents=True,exist_ok=True)
     records=[]
-    for p in sorted(source.glob("*.metadata.json")):
-        try:
-            m=json.loads(p.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError,UnicodeDecodeError):
-            continue
-        stem=p.name[:-len(".metadata.json")]
-        txt=source/(stem+".txt")
-        if not txt.is_file(): continue
-        srt=source/(stem+".srt")
-        row=evaluate(m,txt.read_text(encoding="utf-8",errors="replace"),
-                     srt.read_text(encoding="utf-8",errors="replace") if srt.exists() else "")
-        row["transcript_path"]="corpus/unreviewed/"+txt.name
-        records.append(row)
+    for source in source_dirs:
+        for p in sorted(source.glob("*.metadata.json")):
+            try:
+                m=json.loads(p.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError,UnicodeDecodeError):
+                continue
+            stem=p.name[:-len(".metadata.json")]
+            txt=source/(stem+".txt")
+            if not txt.is_file(): continue
+            srt=source/(stem+".srt")
+            if source.name=="local_transcripts":
+                m["transcription_ok"]=m.get("processing_status") in ("transcribed","no_speech")
+                m["source_key"]="local:"+str(m.get("task_id",stem))
+                if m.get("kind")=="vod":m["kind"]="vods"
+                elif m.get("kind")=="clip":m["kind"]="clips"
+                m["recognition_model"]=m.get("recognition_model","small.en")
+            row=evaluate(m,txt.read_text(encoding="utf-8",errors="replace"),
+                         srt.read_text(encoding="utf-8",errors="replace") if srt.exists() else "")
+            row["transcript_path"]="corpus/"+source.name+"/"+txt.name
+            records.append(row)
     duplicate_groups=collections.defaultdict(list)
     for r in records:
         if r["word_count"]>=5: duplicate_groups[r["normalized_text_sha256"]].append(r["source_key"])
