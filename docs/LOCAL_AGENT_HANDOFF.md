@@ -60,7 +60,7 @@ bash scripts/bootstrap_linux.sh
 - Each unavailable source is logged in `.harmon-work/state.json` with an attempt count and backoff. After three failures it is skipped until `--retry-exhausted` is deliberately used. Other sources continue unaffected.
 - Completed tasks are not re-downloaded. Earlier short VOD samples are **not** counted as proof that the whole VOD was completed; their precise sample offsets were not recorded.
 - Interrupted git pushes retain local files and commits. Retry ` .venv/bin/python collector/local_worker.py publish ` after restoring credentials/network.
-- An active worker uses `.harmon-work/worker.lock`. If a process was killed and the lock remains, first confirm no worker is still running; only then remove this lock and rerun. The worker cleans orphaned media automatically after obtaining its lock.
+- An active worker uses a POSIX advisory lock on `.harmon-work/worker.lock`. The lock is released automatically after crashes; **do not manually delete it**. The worker cleans orphaned media automatically when it starts again.
 
 ## Transcription quality and provenance
 
