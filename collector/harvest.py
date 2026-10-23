@@ -9,8 +9,9 @@ TEXT = OUT / "text"
 DISC = OUT / "discovery"
 for d in (TEXT, DISC):
     d.mkdir(parents=True, exist_ok=True)
-MAX_CLIPS = max(0, min(45, int(os.getenv("MAX_CLIPS", "30"))))
-MAX_VODS = max(0, min(2, int(os.getenv("MAX_VODS", "1"))))
+MAX_CLIPS = max(0, min(70, int(os.getenv("MAX_CLIPS", "45"))))
+MAX_VODS = max(0, min(12, int(os.getenv("MAX_VODS", "8"))))
+MAX_YOUTUBE = max(0, min(10, int(os.getenv("MAX_YOUTUBE", "0"))))
 VOD_SEGMENT = os.getenv("VOD_SEGMENT", "00:01:00-00:05:00")
 MODEL = os.getenv("WHISPER_MODEL", "base.en")
 SOURCE_BASE = "https://www.twitch.tv/simplez4ck"
@@ -58,7 +59,7 @@ def extract_url(o, kind):
         if url.startswith("https://www.twitch.tv/videos/"):
             return url
     if kind == "youtube":
-        if len(id_) == 11 and re.fullmatch("[\w-]+", id_):
+        if len(id_) == 11 and re.fullmatch(r"[\w-]+", id_):
             return "https://www.youtube.com/watch?v=" + id_
     return None
 
@@ -72,8 +73,8 @@ def key_for(url):
 
 source_rows=[]
 discovery={}
-clips,discovery["clips"]=listing("twitch_clips",SOURCE_BASE+"/clips?filter=clips&range=all",80)
-vods,discovery["vods"]=listing("twitch_vods",SOURCE_BASE+"/videos?filter=all&sort=time",15)
+clips,discovery["clips"]=listing("twitch_clips",SOURCE_BASE+"/clips?filter=clips&range=all",180)
+vods,discovery["vods"]=listing("twitch_vods",SOURCE_BASE+"/videos?filter=all&sort=time",30)
 youtube,discovery["youtube"]=listing("youtube", "https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q/videos", 12)
 pool=[]
 if SEEDS.exists():
@@ -95,8 +96,18 @@ for o in pool:
     seen.add(key)
     o["source_key"]=key
     by_kind[o["kind"]].append(o)
-tasks=by_kind["clips"][:MAX_CLIPS]+by_kind["vods"][:MAX_VODS]+by_kind["youtube"][:5]
-(DISC / "discovery_summary.json").write_text(json.dumps({"listing":discovery, "unique":{k:len(v) for k,v in by_kind.items()}, "selected":len(tasks)},indent=2))
+existing=set()
+for metadata in (ROOT/"corpus"/"unreviewed").glob("*.metadata.json"):
+    try:
+        d=json.loads(metadata.read_text())
+        if d.get("transcription_ok"):
+            existing.add(d["source_key"])
+    except (ValueError, KeyError):
+        pass
+tasks=([x for x in by_kind["clips"] if x["source_key"] not in existing][:MAX_CLIPS]
+       +[x for x in by_kind["vods"] if x["source_key"] not in existing][:MAX_VODS]
+       +[x for x in by_kind["youtube"] if x["source_key"] not in existing][:MAX_YOUTUBE])
+(DISC / "discovery_summary.json").write_text(json.dumps({"listing":discovery, "unique":{k:len(v) for k,v in by_kind.items()}, "selected":len(tasks), "previously_transcribed":len(existing)},indent=2))
 print("DISCOVERY:",json.dumps({"listing":{k:v["found"] for k,v in discovery.items()},"selected":len(tasks)}),flush=True)
 if not tasks:
     print("No public sources returned; retaining diagnostics.",flush=True)
