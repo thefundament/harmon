@@ -1,4 +1,4 @@
-name: Public video transcription pilot (pinned dependencies)
+name: Public video transcription pilot (whisper.cpp)
 on:
   push:
     paths:
@@ -12,11 +12,20 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-      - name: Install media and ASR tools
+      - name: Prepare binaries
         run: |
-          python -m pip install --disable-pip-version-check yt-dlp faster-whisper "huggingface_hub<1.0"
+          python -m pip install --disable-pip-version-check yt-dlp
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git
+          cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DWHISPER_BUILD_TESTS=OFF
+          cmake --build whisper.cpp/build --target whisper-cli --parallel 4
+          curl --fail --location --retry 2 -o whisper.cpp/models/ggml-tiny.en.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en.bin
       - name: Fetch and transcribe one short public clip
         run: python collector/collect.py
+      - name: Remove media files
+        if: always()
+        run: rm -f output/*.mp4 output/*.wav
       - name: Upload transcript and diagnostics only
         if: always()
         uses: actions/upload-artifact@v4
@@ -25,5 +34,6 @@ jobs:
           path: |
             output/*.json
             output/*.txt
+            output/*.srt
           retention-days: 1
           if-no-files-found: warn
