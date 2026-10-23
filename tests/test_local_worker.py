@@ -5,6 +5,7 @@ import pathlib
 import tempfile
 import unittest
 import wave
+import subprocess
 from unittest import mock
 
 FILE=pathlib.Path(__file__).resolve().parents[1]/"collector"/"local_worker.py"
@@ -157,5 +158,38 @@ class LocalWorkerTests(unittest.TestCase):
    tools=worker.find_tools(model, __file__, __file__, __file__, "small.en")
    self.assertEqual(tools["model"],str(model))
    self.assertEqual(tools["model_sha256"],hashlib.sha256(model.read_bytes()).hexdigest())
+ def test_short_download_cannot_complete_a_full_window(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td)
+   def fake(argv,timeout,cwd=None):
+    if str(argv[0])=="fake-ytdlp":
+     pathlib.Path(argv[argv.index("-o")+1].replace("%(ext)s","mp4")).write_bytes(b"partial")
+    elif str(argv[0])=="fake-ffmpeg":
+     with wave.open(str(argv[-1]),"wb") as audio:
+      audio.setnchannels(1);audio.setsampwidth(2);audio.setframerate(1);audio.writeframes(b"\0"*20)
+    else:self.fail("Incomplete audio must never reach transcription")
+   tools={"yt_dlp":"fake-ytdlp","ffmpeg":"fake-ffmpeg"}
+   with mock.patch.object(worker,"run_command",side_effect=fake):
+    with self.assertRaisesRegex(RuntimeError,"incomplete window"):
+     worker.process_task(VOD,tools,root/"out",root/"work")
+   self.assertFalse(worker.completed(VOD,root/"out"))
+   self.assertFalse(list((root/"work/tmp").iterdir()))
+ def test_real_git_checkpoint_recovers_after_upload_failure(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);out=root/"corpus/local_transcripts";out.mkdir(parents=True)
+   def git(*args):
+    return subprocess.check_output(["git","-C",str(root),*args],text=True,stderr=subprocess.DEVNULL).strip()
+   git("init","-b","main")
+   git("config","user.name","test");git("config","user.email","test@example.invalid")
+   (root/"README").write_text("fixture");git("add","README");git("commit","-m","initial")
+   with mock.patch.object(worker,"REPO",root),mock.patch.object(worker,"OUTPUT",out):
+    (out/"first.txt").write_text("first result")
+    with self.assertRaisesRegex(RuntimeError,"fetch"):
+     worker.publish() # no origin: the commit must still exist
+    self.assertEqual(git("rev-list","--count","HEAD"),"2")
+    (out/"second.txt").write_text("second result")
+    worker.checkpoint()
+    self.assertEqual(git("rev-list","--count","HEAD"),"3")
+    self.assertEqual(git("status","--porcelain"),"")
 if __name__=="__main__":
  unittest.main()
