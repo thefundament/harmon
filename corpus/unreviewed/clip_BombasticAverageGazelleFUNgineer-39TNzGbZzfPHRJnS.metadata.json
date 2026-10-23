@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BombasticAverageGazelleFUNgineer-39TNzGbZzfPHRJnS",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "zoopy brain is undeveloped",
+  "duration": 26.0,
+  "timestamp": 1666202175,
+  "source_key": "clip_BombasticAverageGazelleFUNgineer-39TNzGbZzfPHRJnS",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:39.499970+00:00",
+  "word_count_raw": 69,
+  "word_count_nonplaceholder": 69,
+  "srt": "clip_BombasticAverageGazelleFUNgineer-39TNzGbZzfPHRJnS.srt",
+  "text_file": "clip_BombasticAverageGazelleFUNgineer-39TNzGbZzfPHRJnS.txt",
+  "text_sha256": "d2d1fc9527735f31b89d9b99d01c7a519b9cf06c22ab81d908be26e982c52c70",
+  "seconds_elapsed": 4.2
+}

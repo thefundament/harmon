@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/HelpfulExquisiteRaccoonBlargNaut-Q-I03HRIpgbXSNpI",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Walking in on Zechs",
+  "duration": 12.0,
+  "timestamp": 1673312937,
+  "source_key": "clip_HelpfulExquisiteRaccoonBlargNaut-Q-I03HRIpgbXSNpI",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:43.724440+00:00",
+  "word_count_raw": 9,
+  "word_count_nonplaceholder": 9,
+  "srt": "clip_HelpfulExquisiteRaccoonBlargNaut-Q-I03HRIpgbXSNpI.srt",
+  "text_file": "clip_HelpfulExquisiteRaccoonBlargNaut-Q-I03HRIpgbXSNpI.txt",
+  "text_sha256": "ff8f0e5046a09cc16932cc968458852eb1f071bd230aa32b1ab79293271fc063",
+  "seconds_elapsed": 2.7
+}

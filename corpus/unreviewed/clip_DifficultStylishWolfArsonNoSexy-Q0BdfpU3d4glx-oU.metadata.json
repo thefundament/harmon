@@ -1,0 +1,19 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/DifficultStylishWolfArsonNoSexy-Q0BdfpU3d4glx-oU",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_DifficultStylishWolfArsonNoSexy-Q0BdfpU3d4glx-oU",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:20.451504+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_DifficultStylishWolfArsonNoSexy-Q0BdfpU3d4glx-oU.srt",
+  "text_file": "clip_DifficultStylishWolfArsonNoSexy-Q0BdfpU3d4glx-oU.txt",
+  "text_sha256": "361168177d3e70cf5ee50cb9898b43cd40bb4da8d377e6c8a01bf9e2365fb305",
+  "seconds_elapsed": 3.2
+}

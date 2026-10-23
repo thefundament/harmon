@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ZealousEmpathicGoblinVoHiYo-pMjjlbk6Yx2UlrPh",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "This is a genuine thought of his...",
+  "duration": 23.0,
+  "timestamp": 1744675192,
+  "source_key": "clip_ZealousEmpathicGoblinVoHiYo-pMjjlbk6Yx2UlrPh",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:32.726494+00:00",
+  "word_count_raw": 47,
+  "word_count_nonplaceholder": 47,
+  "srt": "clip_ZealousEmpathicGoblinVoHiYo-pMjjlbk6Yx2UlrPh.srt",
+  "text_file": "clip_ZealousEmpathicGoblinVoHiYo-pMjjlbk6Yx2UlrPh.txt",
+  "text_sha256": "c6fae405c10796b8429655f0c6ffe10d239f2f72b145ff563bb802e3ad3514c3",
+  "seconds_elapsed": 3.7
+}

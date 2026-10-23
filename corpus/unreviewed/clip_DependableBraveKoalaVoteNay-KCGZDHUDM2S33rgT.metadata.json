@@ -1,0 +1,19 @@
+{
+  "url": "https://clips.twitch.tv/DependableBraveKoalaVoteNay-KCGZDHUDM2S33rgT",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_DependableBraveKoalaVoteNay-KCGZDHUDM2S33rgT",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:34.212140+00:00",
+  "word_count_raw": 42,
+  "word_count_nonplaceholder": 42,
+  "srt": "clip_DependableBraveKoalaVoteNay-KCGZDHUDM2S33rgT.srt",
+  "text_file": "clip_DependableBraveKoalaVoteNay-KCGZDHUDM2S33rgT.txt",
+  "text_sha256": "d2caa7921cc0900d21092c162cd34880aacd0b5c4dae051e3f0df4f9f4e2e335",
+  "seconds_elapsed": 3.4
+}

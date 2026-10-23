@@ -1,0 +1,28 @@
+{
+  "listing": {
+    "clips": {
+      "url": "https://www.twitch.tv/simplez4ck/clips?filter=clips&range=all",
+      "found": 80,
+      "rc": 0,
+      "error": ""
+    },
+    "vods": {
+      "url": "https://www.twitch.tv/simplez4ck/videos?filter=all&sort=time",
+      "found": 15,
+      "rc": 0,
+      "error": ""
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q/videos",
+      "found": 12,
+      "rc": 0,
+      "error": ""
+    }
+  },
+  "unique": {
+    "clips": 87,
+    "vods": 15,
+    "youtube": 12
+  },
+  "selected": 36
+}

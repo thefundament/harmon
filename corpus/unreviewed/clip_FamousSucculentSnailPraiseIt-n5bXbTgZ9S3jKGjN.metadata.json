@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FamousSucculentSnailPraiseIt-n5bXbTgZ9S3jKGjN",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "100000000 hours",
+  "duration": 17.0,
+  "timestamp": 1736639938,
+  "source_key": "clip_FamousSucculentSnailPraiseIt-n5bXbTgZ9S3jKGjN",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:37.638765+00:00",
+  "word_count_raw": 4,
+  "word_count_nonplaceholder": 4,
+  "srt": "clip_FamousSucculentSnailPraiseIt-n5bXbTgZ9S3jKGjN.srt",
+  "text_file": "clip_FamousSucculentSnailPraiseIt-n5bXbTgZ9S3jKGjN.txt",
+  "text_sha256": "e704c944f886bff9d1df43128b1465da6561a64c3218ed9c5e9058798c512fe1",
+  "seconds_elapsed": 2.7
+}

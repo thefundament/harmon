@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CrypticEasyHorseradishTwitchRPG-hEXqhTpPwhF3aiyg",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmon meets Tracer",
+  "duration": 9.0,
+  "timestamp": 1752348267,
+  "source_key": "clip_CrypticEasyHorseradishTwitchRPG-hEXqhTpPwhF3aiyg",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:11.388599+00:00",
+  "word_count_raw": 21,
+  "word_count_nonplaceholder": 21,
+  "srt": "clip_CrypticEasyHorseradishTwitchRPG-hEXqhTpPwhF3aiyg.srt",
+  "text_file": "clip_CrypticEasyHorseradishTwitchRPG-hEXqhTpPwhF3aiyg.txt",
+  "text_sha256": "af25a379df3f8caef67e616eb8ba0d4f2c69430a4e36778dfcf1f7fbce038c65",
+  "seconds_elapsed": 3.1
+}

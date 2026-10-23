@@ -1,0 +1,19 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/CheerfulHotAubergineFreakinStinkin-xoFsSLcT7A7m56gZ",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_CheerfulHotAubergineFreakinStinkin-xoFsSLcT7A7m56gZ",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:13.755610+00:00",
+  "word_count_raw": 5,
+  "word_count_nonplaceholder": 5,
+  "srt": "clip_CheerfulHotAubergineFreakinStinkin-xoFsSLcT7A7m56gZ.srt",
+  "text_file": "clip_CheerfulHotAubergineFreakinStinkin-xoFsSLcT7A7m56gZ.txt",
+  "text_sha256": "b815127314c51f7e2b1eecf3145e20cb2033b23fb58c5aaccca60a6614e1ac45",
+  "seconds_elapsed": 4.1
+}

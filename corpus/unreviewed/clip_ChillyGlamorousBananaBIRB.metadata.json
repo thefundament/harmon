@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/ChillyGlamorousBananaBIRB",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Wasted on 1/2 can of 4 loko = priceless",
+  "duration": 26.0,
+  "timestamp": 1566696998,
+  "source_key": "clip_ChillyGlamorousBananaBIRB",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:02.535265+00:00",
+  "word_count_raw": 8,
+  "word_count_nonplaceholder": 8,
+  "srt": "clip_ChillyGlamorousBananaBIRB.srt",
+  "text_file": "clip_ChillyGlamorousBananaBIRB.txt",
+  "text_sha256": "2176a7adafd5f6f491c1324f5027261c0e9ce1d24de9fb6b8d60bbd86cc0e30a",
+  "seconds_elapsed": 2.7
+}

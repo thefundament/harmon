@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/videos/2890193113",
+  "kind": "vods",
+  "discovery": "yt-dlp",
+  "title": "Im ready to go right now !sounds !tangia",
+  "duration": 4905.0,
+  "timestamp": null,
+  "source_key": "vod_2890193113",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:51.964001+00:00",
+  "word_count_raw": 128,
+  "word_count_nonplaceholder": 128,
+  "srt": "vod_2890193113.srt",
+  "text_file": "vod_2890193113.txt",
+  "text_sha256": "9237dfcb40a6a086d9655fa308608bb68eacc71cb034fe8ae79e5a676b0fd60c",
+  "seconds_elapsed": 22.2
+}

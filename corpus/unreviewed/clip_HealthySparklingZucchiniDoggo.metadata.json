@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/HealthySparklingZucchiniDoggo",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Simple Z4ck Ultimate Rage",
+  "duration": 9.0,
+  "timestamp": 1575174159,
+  "source_key": "clip_HealthySparklingZucchiniDoggo",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:14.495642+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_HealthySparklingZucchiniDoggo.srt",
+  "text_file": "clip_HealthySparklingZucchiniDoggo.txt",
+  "text_sha256": "d04188d9892201ea9cf10bc281437662317ffafd042ec6326c5d512f3b771c0d",
+  "seconds_elapsed": 2.6
+}

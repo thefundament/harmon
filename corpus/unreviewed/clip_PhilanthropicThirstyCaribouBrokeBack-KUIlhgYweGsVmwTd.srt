@@ -1,0 +1,4 @@
+1
+00:00:00,000 --> 00:00:30,000
+ Pan is around here. At least put the middle pole to the side.
+

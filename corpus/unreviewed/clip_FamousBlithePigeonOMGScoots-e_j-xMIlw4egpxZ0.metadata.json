@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FamousBlithePigeonOMGScoots-e_j-xMIlw4egpxZ0",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Prepare for escape",
+  "duration": 5.0,
+  "timestamp": 1737488265,
+  "source_key": "clip_FamousBlithePigeonOMGScoots-e_j-xMIlw4egpxZ0",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:21.736492+00:00",
+  "word_count_raw": 1,
+  "word_count_nonplaceholder": 1,
+  "srt": "clip_FamousBlithePigeonOMGScoots-e_j-xMIlw4egpxZ0.srt",
+  "text_file": "clip_FamousBlithePigeonOMGScoots-e_j-xMIlw4egpxZ0.txt",
+  "text_sha256": "48476f63affc0dbfd01f39726e172198e6e6467eb556d904f285049420972029",
+  "seconds_elapsed": 5.4
+}

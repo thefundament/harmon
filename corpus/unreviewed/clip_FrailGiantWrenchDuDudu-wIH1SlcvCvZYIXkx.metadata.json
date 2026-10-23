@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/FrailGiantWrenchDuDudu-wIH1SlcvCvZYIXkx",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "They took what?",
+  "duration": 31.0,
+  "timestamp": 1727295695,
+  "source_key": "clip_FrailGiantWrenchDuDudu-wIH1SlcvCvZYIXkx",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:17.059664+00:00",
+  "word_count_raw": 30,
+  "word_count_nonplaceholder": 29,
+  "srt": "clip_FrailGiantWrenchDuDudu-wIH1SlcvCvZYIXkx.srt",
+  "text_file": "clip_FrailGiantWrenchDuDudu-wIH1SlcvCvZYIXkx.txt",
+  "text_sha256": "1602e9c1a800d08a200bf725ac4a9bed5a5251f5de7affb7ff475f109cdaae4f",
+  "seconds_elapsed": 4.7
+}

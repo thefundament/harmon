@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AgitatedRelentlessAntTwitchRPG-BiX2Twrz-IKUgiS4",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "harmonStir",
+  "duration": 5.0,
+  "timestamp": 1666100990,
+  "source_key": "clip_AgitatedRelentlessAntTwitchRPG-BiX2Twrz-IKUgiS4",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:43.368019+00:00",
+  "word_count_raw": 1,
+  "word_count_nonplaceholder": 1,
+  "srt": "clip_AgitatedRelentlessAntTwitchRPG-BiX2Twrz-IKUgiS4.srt",
+  "text_file": "clip_AgitatedRelentlessAntTwitchRPG-BiX2Twrz-IKUgiS4.txt",
+  "text_sha256": "13aba52251eda63c172e700633adb37f59ba1bc20629f2f097f59a37937af1bf",
+  "seconds_elapsed": 4.5
+}

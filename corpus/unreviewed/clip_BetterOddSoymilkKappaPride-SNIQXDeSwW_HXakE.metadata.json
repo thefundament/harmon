@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BetterOddSoymilkKappaPride-SNIQXDeSwW_HXakE",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Intrusive Thoughts",
+  "duration": 22.0,
+  "timestamp": 1727741827,
+  "source_key": "clip_BetterOddSoymilkKappaPride-SNIQXDeSwW_HXakE",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:36.400825+00:00",
+  "word_count_raw": 19,
+  "word_count_nonplaceholder": 19,
+  "srt": "clip_BetterOddSoymilkKappaPride-SNIQXDeSwW_HXakE.srt",
+  "text_file": "clip_BetterOddSoymilkKappaPride-SNIQXDeSwW_HXakE.txt",
+  "text_sha256": "1eea627287173af85fabb6f77afa1d43f89c7a66c3092661aacbf635a505af99",
+  "seconds_elapsed": 3.1
+}

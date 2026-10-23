@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/SassyFreezingConsoleMau5-tv47GAZ2a-Sg_fbU",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Cry For Me",
+  "duration": 30.0,
+  "timestamp": 1707188438,
+  "source_key": "clip_SassyFreezingConsoleMau5-tv47GAZ2a-Sg_fbU",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:52.929588+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 22,
+  "srt": "clip_SassyFreezingConsoleMau5-tv47GAZ2a-Sg_fbU.srt",
+  "text_file": "clip_SassyFreezingConsoleMau5-tv47GAZ2a-Sg_fbU.txt",
+  "text_sha256": "4ba95520e83734813da55fcf7d69a6def5c9910c3293b2b652764313076a34b7",
+  "seconds_elapsed": 4.4
+}

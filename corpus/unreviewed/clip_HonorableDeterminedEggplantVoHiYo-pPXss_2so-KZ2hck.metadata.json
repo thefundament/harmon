@@ -1,0 +1,19 @@
+{
+  "url": "https://clips.twitch.tv/HonorableDeterminedEggplantVoHiYo-pPXss_2so-KZ2hck",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_HonorableDeterminedEggplantVoHiYo-pPXss_2so-KZ2hck",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:27.007426+00:00",
+  "word_count_raw": 139,
+  "word_count_nonplaceholder": 139,
+  "srt": "clip_HonorableDeterminedEggplantVoHiYo-pPXss_2so-KZ2hck.srt",
+  "text_file": "clip_HonorableDeterminedEggplantVoHiYo-pPXss_2so-KZ2hck.txt",
+  "text_sha256": "9b6e30bc4826bc7ed4aa90f1d5d23f97d249a7544048fc9d9a91bef6c16d082e",
+  "seconds_elapsed": 7.2
+}

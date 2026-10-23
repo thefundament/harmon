@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/EnchantingColdbloodedMonkeyBIRB",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "HAIR NAIR BURNS!",
+  "duration": 30.0,
+  "timestamp": 1554257511,
+  "source_key": "clip_EnchantingColdbloodedMonkeyBIRB",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:08.199718+00:00",
+  "word_count_raw": 23,
+  "word_count_nonplaceholder": 23,
+  "srt": "clip_EnchantingColdbloodedMonkeyBIRB.srt",
+  "text_file": "clip_EnchantingColdbloodedMonkeyBIRB.txt",
+  "text_sha256": "cc6d3ea4ec2d9e7ff17766739367eee236d15fd5478359f39f9b66b1144b6c7d",
+  "seconds_elapsed": 3.2
+}

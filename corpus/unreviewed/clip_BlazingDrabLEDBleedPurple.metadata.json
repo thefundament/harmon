@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BlazingDrabLEDBleedPurple",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "boy explodes part deus",
+  "duration": 10.0,
+  "timestamp": 1554242051,
+  "source_key": "clip_BlazingDrabLEDBleedPurple",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:59.982136+00:00",
+  "word_count_raw": 2,
+  "word_count_nonplaceholder": 2,
+  "srt": "clip_BlazingDrabLEDBleedPurple.srt",
+  "text_file": "clip_BlazingDrabLEDBleedPurple.txt",
+  "text_sha256": "7e885d429d14ebfa40d8a16d4f37b38b1fdd54e65205cda11040f5b39d64c4ca",
+  "seconds_elapsed": 2.6
+}

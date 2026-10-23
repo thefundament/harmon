@@ -1,0 +1,19 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AthleticDelightfulTurtleTinyFace-WdarsG7rThFWa_Te",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_AthleticDelightfulTurtleTinyFace-WdarsG7rThFWa_Te",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:17.834335+00:00",
+  "word_count_raw": 3,
+  "word_count_nonplaceholder": 3,
+  "srt": "clip_AthleticDelightfulTurtleTinyFace-WdarsG7rThFWa_Te.srt",
+  "text_file": "clip_AthleticDelightfulTurtleTinyFace-WdarsG7rThFWa_Te.txt",
+  "text_sha256": "3454a3ac259a1fb1b5cec4e1f7545e33100e7a4af3f52087aaad97ed15f3cac6",
+  "seconds_elapsed": 2.6
+}

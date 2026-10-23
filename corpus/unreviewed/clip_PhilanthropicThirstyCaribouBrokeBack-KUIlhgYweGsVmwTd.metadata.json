@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/PhilanthropicThirstyCaribouBrokeBack-KUIlhgYweGsVmwTd",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "POV: TurboHobo gets jumpscared and chokes to death",
+  "duration": 13.0,
+  "timestamp": 1746143314,
+  "source_key": "clip_PhilanthropicThirstyCaribouBrokeBack-KUIlhgYweGsVmwTd",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:49.217553+00:00",
+  "word_count_raw": 13,
+  "word_count_nonplaceholder": 13,
+  "srt": "clip_PhilanthropicThirstyCaribouBrokeBack-KUIlhgYweGsVmwTd.srt",
+  "text_file": "clip_PhilanthropicThirstyCaribouBrokeBack-KUIlhgYweGsVmwTd.txt",
+  "text_sha256": "15c6770065b702b08ea0c2e87d08a464ee95389de97dda10f7f7a1be79407a71",
+  "seconds_elapsed": 2.7
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/AnnoyingCallousTubersLitFam-DIYHRiBttvskgqqv",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "keep going?",
+  "duration": 15.0,
+  "timestamp": 1724538710,
+  "source_key": "clip_AnnoyingCallousTubersLitFam-DIYHRiBttvskgqqv",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:27.108603+00:00",
+  "word_count_raw": 16,
+  "word_count_nonplaceholder": 16,
+  "srt": "clip_AnnoyingCallousTubersLitFam-DIYHRiBttvskgqqv.srt",
+  "text_file": "clip_AnnoyingCallousTubersLitFam-DIYHRiBttvskgqqv.txt",
+  "text_sha256": "5dba654100808d86d9826d3245156652a4126665420c0e14b52f528d9a689fc1",
+  "seconds_elapsed": 2.9
+}

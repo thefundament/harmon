@@ -1,0 +1,19 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/BoredBetterStingrayStrawBeary-55MU-s8DDAgR3bPq",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_BoredBetterStingrayStrawBeary-55MU-s8DDAgR3bPq",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:10.104125+00:00",
+  "word_count_raw": 36,
+  "word_count_nonplaceholder": 36,
+  "srt": "clip_BoredBetterStingrayStrawBeary-55MU-s8DDAgR3bPq.srt",
+  "text_file": "clip_BoredBetterStingrayStrawBeary-55MU-s8DDAgR3bPq.txt",
+  "text_sha256": "70949fcdb500445a66477d72885c1ac7f739890403d54ec8d9d168a28edcaf11",
+  "seconds_elapsed": 3.7
+}

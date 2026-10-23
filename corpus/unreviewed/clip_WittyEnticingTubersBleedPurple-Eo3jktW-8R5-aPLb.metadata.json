@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/WittyEnticingTubersBleedPurple-Eo3jktW-8R5-aPLb",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "Harmom poops her pants(real) (gone wrong)",
+  "duration": 10.0,
+  "timestamp": 1674688600,
+  "source_key": "clip_WittyEnticingTubersBleedPurple-Eo3jktW-8R5-aPLb",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:47.840981+00:00",
+  "word_count_raw": 9,
+  "word_count_nonplaceholder": 9,
+  "srt": "clip_WittyEnticingTubersBleedPurple-Eo3jktW-8R5-aPLb.srt",
+  "text_file": "clip_WittyEnticingTubersBleedPurple-Eo3jktW-8R5-aPLb.txt",
+  "text_sha256": "d100c8e2bb20c177c88124e530f8afd3e5ec63973b7ec1aab8514ebd222b9ac8",
+  "seconds_elapsed": 2.6
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/NimbleSpunkyPepperOpieOP-dWgirjoRoxx3mM4g",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "I just can't do it",
+  "duration": 5.0,
+  "timestamp": 1755523675,
+  "source_key": "clip_NimbleSpunkyPepperOpieOP-dWgirjoRoxx3mM4g",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:46.457374+00:00",
+  "word_count_raw": 12,
+  "word_count_nonplaceholder": 12,
+  "srt": "clip_NimbleSpunkyPepperOpieOP-dWgirjoRoxx3mM4g.srt",
+  "text_file": "clip_NimbleSpunkyPepperOpieOP-dWgirjoRoxx3mM4g.txt",
+  "text_sha256": "aa717a349dd2872b6d61ca1385347c2078dec43cb61835279f8080928018dc3f",
+  "seconds_elapsed": 2.8
+}

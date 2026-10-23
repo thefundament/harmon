@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/NeighborlySassyTroutAsianGlow-Lj4Z2DKZCwNBhZ1H",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "He loves League of Legends",
+  "duration": 27.0,
+  "timestamp": 1727205541,
+  "source_key": "clip_NeighborlySassyTroutAsianGlow-Lj4Z2DKZCwNBhZ1H",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:40.311953+00:00",
+  "word_count_raw": 18,
+  "word_count_nonplaceholder": 18,
+  "srt": "clip_NeighborlySassyTroutAsianGlow-Lj4Z2DKZCwNBhZ1H.srt",
+  "text_file": "clip_NeighborlySassyTroutAsianGlow-Lj4Z2DKZCwNBhZ1H.txt",
+  "text_sha256": "79c576e503a51c4b3eafe04b0d01d1468256603aeff51ced427cfa873904fce4",
+  "seconds_elapsed": 3.1
+}

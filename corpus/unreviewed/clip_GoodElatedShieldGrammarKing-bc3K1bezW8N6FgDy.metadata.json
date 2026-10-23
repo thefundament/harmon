@@ -1,0 +1,22 @@
+{
+  "url": "https://www.twitch.tv/simplez4ck/clip/GoodElatedShieldGrammarKing-bc3K1bezW8N6FgDy",
+  "kind": "clips",
+  "discovery": "yt-dlp",
+  "title": "You wanna see that?",
+  "duration": 5.0,
+  "timestamp": 1751676270,
+  "source_key": "clip_GoodElatedShieldGrammarKing-bc3K1bezW8N6FgDy",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:11:30.012095+00:00",
+  "word_count_raw": 11,
+  "word_count_nonplaceholder": 11,
+  "srt": "clip_GoodElatedShieldGrammarKing-bc3K1bezW8N6FgDy.srt",
+  "text_file": "clip_GoodElatedShieldGrammarKing-bc3K1bezW8N6FgDy.txt",
+  "text_sha256": "a1d89f8321b61819bf7741b3091b47f43f703be994f38892885e00580f1f85e5",
+  "seconds_elapsed": 2.7
+}

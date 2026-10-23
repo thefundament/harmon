@@ -1,0 +1,19 @@
+{
+  "url": "https://clips.twitch.tv/TransparentGiftedNikudonFreakinStinkin-pxBRBlbLfLWdC8-c",
+  "kind": "clips",
+  "discovery": "seed",
+  "source_key": "clip_TransparentGiftedNikudonFreakinStinkin-pxBRBlbLfLWdC8-c",
+  "download_ok": true,
+  "transcription_ok": true,
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "recognition_model": "base.en",
+  "curated": false,
+  "retrieved_utc": "2026-10-23T20:10:23.603113+00:00",
+  "word_count_raw": 30,
+  "word_count_nonplaceholder": 30,
+  "srt": "clip_TransparentGiftedNikudonFreakinStinkin-pxBRBlbLfLWdC8-c.srt",
+  "text_file": "clip_TransparentGiftedNikudonFreakinStinkin-pxBRBlbLfLWdC8-c.txt",
+  "text_sha256": "e4b76a5d726a28a71f747a5260a9093cceb13d70d0cbdfb1c510bfad976f18b8",
+  "seconds_elapsed": 3.4
+}
