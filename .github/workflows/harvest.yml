@@ -1,8 +1,7 @@
 name: Public video corpus harvest — historic VODs
+# Manual-only collection prototype: do not schedule bulk transcription on hosted Actions.
+# Github-hosted Actions must be used in connection with software development/testing.
 on:
-  push:
-    paths:
-      - '.github/workflows/harvest.yml'
   workflow_dispatch:
 permissions:
   contents: write
