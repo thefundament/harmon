@@ -19,6 +19,7 @@ import tempfile
 import time
 from urllib.parse import urlparse
 from source_gate import authorize, SourceRejected
+from speaker_filter import filter_wav, load_profile, remap_srt, backend as load_speaker_encoder
 
 REPO = Path(__file__).resolve().parents[1]
 PLAN = REPO / "corpus/history/manifest.jsonl"
@@ -97,15 +98,26 @@ def completed(task, output=OUTPUT):
     try:
         record=json.loads(meta.read_text(encoding="utf-8"))
         return (record.get("task_id")==task["task_id"]
-                and record.get("processing_status") in ("transcribed", "no_speech")
+                and record.get("processing_status") in ("transcribed", "no_speech", "no_target_speech")
                 and hashlib.sha256(txt.read_bytes()).hexdigest() == record.get("text_sha256")
                 and hashlib.sha256(srt.read_bytes()).hexdigest() == record.get("srt_sha256"))
     except (ValueError, OSError):
         return False
 
-def eligible(task, journal, output, include_existing=False, retry_exhausted=False, clock=None):
+def eligible(task, journal, output, include_existing=False, retry_exhausted=False,
+             clock=None, required_speaker_profile_hash=None):
     if completed(task, output):
-        return False, "completed"
+        if required_speaker_profile_hash:
+            meta,_,_=result_paths(task,output)
+            previous=json.loads(meta.read_text(encoding="utf-8"))
+            previous_hash=(previous.get("voice_filter") or {}).get("speaker_profile_sha256")
+            if previous_hash==required_speaker_profile_hash:
+                return False, "completed_voice_filtered"
+            # A previous unfiltered transcript or older profile does not satisfy
+            # current target-voice requirements. Preserve it until replacement
+            # completes; do not misreport that the new profile has been applied.
+        else:
+            return False, "completed"
     if task.get("state")=="asr_completed_unreviewed" and not include_existing:
         return False, "existing_legacy_clip"
     state=journal.get(task["task_id"], {})
@@ -191,7 +203,7 @@ def free_disk_bytes(path):
     path.mkdir(parents=True,exist_ok=True)
     return shutil.disk_usage(path).free
 
-def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
+def process_task(task, tools, output=OUTPUT, work=WORK, threads=4, speaker_profile=None):
     meta, txt, srt=result_paths(task, output)
     output.mkdir(parents=True, exist_ok=True)
     tmpbase=work/"tmp"
@@ -229,24 +241,47 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
             audio_seconds=audio.getnframes()/audio.getframerate()
         if start is not None and audio_seconds < clip_limit - 2:
             raise RuntimeError(f"incomplete window: {audio_seconds:.2f}s audio for {clip_limit:g}s request")
+        # Optional strictly pre-ASR voice gate; no cloud models or LLM calls.
+        # The model-selection pilot may run without it, but a long unattended
+        # run needs a calibrated private reference profile or explicit override.
+        filter_stats=None
+        inference_wav=wav
+        if speaker_profile is not None:
+            filtered=d/"harmon_voice_only.wav"
+            filter_start=time.monotonic()
+            filter_stats=filter_wav(wav,filtered,speaker_profile)
+            filter_stats["voice_filter_elapsed_s"]=round(time.monotonic()-filter_start,3)
+            if not filter_stats["no_match"]:
+                inference_wav=filtered
+
         transcript_prefix=d/"transcript"
-        asr_started=time.monotonic()
-        run_command([tools["whisper"],"-m",tools["model"],"-f",str(wav),
-                     "-t",str(threads),"-otxt","-osrt","-of",str(transcript_prefix),
-                     "-l","en","-np"], timeout=max(240,clip_limit*5))
-        asr_seconds=time.monotonic()-asr_started
-        source_txt=d/"transcript.txt";source_srt=d/"transcript.srt"
-        if not (source_txt.is_file() and source_srt.is_file()):
-            raise RuntimeError("whisper exited successfully but TXT/SRT missing")
-        text_data=source_txt.read_bytes();srt_data=source_srt.read_bytes()
-        raw_text=text_data.decode("utf-8", errors="replace")
-        speech=SPEECH_RE.sub("",raw_text).strip()
+        asr_seconds=0.0
+        if filter_stats is not None and filter_stats["no_match"]:
+            # Empty transcript is a deliberate, hash-verifiable completion.
+            # The source was fetched to inspect the voice, but costly Whisper
+            # was not called and the raw audio will be removed.
+            text_data=b"";srt_data=b"";raw_text="";speech=""
+        else:
+            asr_started=time.monotonic()
+            run_command([tools["whisper"],"-m",tools["model"],"-f",str(inference_wav),
+                         "-t",str(threads),"-otxt","-osrt","-of",str(transcript_prefix),
+                         "-l","en","-np"], timeout=max(240,clip_limit*5))
+            asr_seconds=time.monotonic()-asr_started
+            source_txt=d/"transcript.txt";source_srt=d/"transcript.srt"
+            if not (source_txt.is_file() and source_srt.is_file()):
+                raise RuntimeError("whisper exited successfully but TXT/SRT missing")
+            text_data=source_txt.read_bytes();srt_data=source_srt.read_bytes()
+            if filter_stats is not None:
+                srt_data=remap_srt(srt_data.decode("utf-8",errors="replace"),
+                                   filter_stats.get("time_mapping",[])).encode("utf-8")
+            raw_text=text_data.decode("utf-8", errors="replace")
+            speech=SPEECH_RE.sub("",raw_text).strip()
         record={
             "task_id":task["task_id"],"source_id":task["source_id"],
             "source_url":task["source_url"],"kind":task["kind"],
             "source_window_start_s":start,"source_window_end_s":end,
             "time_alignment":"relative_to_downloaded_section; source cut may start at an earlier keyframe",
-            "processing_status":"transcribed" if speech else "no_speech",
+            "processing_status":("transcribed" if speech else ("no_target_speech" if filter_stats is not None else "no_speech")),
             "recognition_model":"whisper.cpp " + Path(tools["model"]).stem,
             "model_file":Path(tools["model"]).name,
             "model_sha256":tools.get("model_sha256") or sha256_file(tools["model"]),
@@ -260,6 +295,8 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
             "recognized_words":len(raw_text.split()),
             "elapsed_seconds":round(time.monotonic()-started,2),
             "source_provenance":"frozen_manifest",
+            "voice_filter":filter_stats,
+            "srt_timing":"source_section_relative_approximate_from_voice_map" if filter_stats else "relative_to_downloaded_section",
             "source_owner_verified":bool(source_evidence.get("owner_verified")),
             "source_owner_evidence":source_evidence.get("proof"),
         }
@@ -307,10 +344,10 @@ def publish():
     checkpoint()
     return push_commits()
 
-def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False):
+def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False, required_speaker_profile_hash=None):
     counts={}
     for t in tasks:
-        _,reason=eligible(t,journal,output,include_existing,retry_exhausted)
+        _,reason=eligible(t,journal,output,include_existing,retry_exhausted,required_speaker_profile_hash=required_speaker_profile_hash)
         counts[reason]=counts.get(reason,0)+1
     return counts
 
@@ -318,17 +355,33 @@ def execute(args):
     tasks=load_manifest(args.manifest)
     journal_file=args.work_dir/"state.json"
     journal=load_journal(journal_file)
+    filtered=bool(getattr(args,"speaker_filter",False))
+    chosen_profile=getattr(args,"speaker_profile",None)
+    profile_path=(chosen_profile if chosen_profile is not None
+                  else args.work_dir/"speaker_profile.json")
+    required_hash=None
+    if filtered:
+        load_profile(profile_path)
+        required_hash=hashlib.sha256(profile_path.read_bytes()).hexdigest()
     if args.command=="status":
-        print(json.dumps({"total_tasks":len(tasks),"states":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted)},indent=2))
+        print(json.dumps({"total_tasks":len(tasks),"states":summarize(tasks,journal,args.output,args.include_existing,args.retry_exhausted,required_hash)},indent=2))
         return 0
     if args.command=="publish":
         print(publish())
         return 0
     if args.command=="plan":
         for t in tasks:
-            yes,reason=eligible(t,journal,args.output,args.include_existing,args.retry_exhausted)
+            yes,reason=eligible(t,journal,args.output,args.include_existing,args.retry_exhausted,required_speaker_profile_hash=required_hash)
             if yes:print(t["task_id"])
         return 0
+    # Fail closed before network downloads on unattended/full-archive runs.
+    if filtered:
+        load_speaker_encoder()  # fail before ANY downloads if dependencies/weights are absent
+    elif (args.command=="run" and args.max_items==0
+          and args.manifest.resolve()==PLAN.resolve()
+          and not getattr(args,"allow_unfiltered",False)):
+        raise RuntimeError("Full historical run requires --speaker-filter and reviewed voice references; "
+                           "bounded pilots remain available without it.")
     if args.push and args.output.resolve() != OUTPUT.resolve():
         raise RuntimeError("Publishing requires the worker-owned default output directory; use --no-push for custom output")
     tools=find_tools(args.model,args.whisper_cli,args.yt_dlp,args.ffmpeg,args.model_name)
@@ -372,7 +425,7 @@ def execute(args):
     signal.signal(signal.SIGTERM, interrupt)
     try:
         for i,task in enumerate(tasks):
-            yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted)
+            yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted,required_speaker_profile_hash=required_hash)
             if not yes:continue
             if free_disk_bytes(args.work_dir)<args.min_free_gb*1024**3:
                 print("DISK GUARD: insufficient free space; stopping before download",file=sys.stderr,flush=True)
@@ -381,7 +434,11 @@ def execute(args):
             if args.max_hours>0 and (time.monotonic()-started)>3600*args.max_hours:break
             processed+=1
             try:
-                record=process_task(task,tools,args.output,args.work_dir,args.threads)
+                if filtered:
+                    record=process_task(task,tools,args.output,args.work_dir,args.threads,
+                                        profile_path)
+                else:
+                    record=process_task(task,tools,args.output,args.work_dir,args.threads)
                 journal.pop(task["task_id"],None)
                 atomic_json(journal_file,journal)
                 completed_count+=1;since_commit+=1
@@ -445,6 +502,9 @@ def parser():
     p.add_argument("--max-items",type=int,default=0,help="0 processes the full eligible worklist")
     p.add_argument("--max-hours",type=float,default=0,help="0 = no walltime cap")
     p.add_argument("--commit-every",type=int,default=10)
+    p.add_argument("--speaker-filter",action="store_true",help="VAD and calibrated speaker embedding gate before Whisper")
+    p.add_argument("--speaker-profile",type=Path,default=None,help="private JSON profile; default .harmon-work/speaker_profile.json")
+    p.add_argument("--allow-unfiltered",action="store_true",help="explicitly bypass target-voice gate for a full archive run (NOT recommended)")
     p.add_argument("--min-free-gb",type=float,default=2.0,
                    help="refuse new downloads if filesystem free space is below this threshold")
     p.add_argument("--no-push",dest="push",action="store_false",default=True)
