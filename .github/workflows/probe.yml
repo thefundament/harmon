@@ -1,4 +1,4 @@
-name: Public video transcription pilot (whisper.cpp)
+name: Public video transcription pilot (seven clips)
 on:
   push:
     paths:
@@ -21,7 +21,7 @@ jobs:
           cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DWHISPER_BUILD_TESTS=OFF
           cmake --build whisper.cpp/build --target whisper-cli --parallel 4
           curl --fail --location --retry 2 -o whisper.cpp/models/ggml-tiny.en.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en.bin
-      - name: Fetch and transcribe one short public clip
+      - name: Fetch and transcribe seven short public clips
         run: python collector/collect.py
       - name: Remove media files
         if: always()
@@ -30,7 +30,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: harmon-transcript-pilot
+          name: harmon-seven-clip-batch
           path: |
             output/*.json
             output/*.txt
