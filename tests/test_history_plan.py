@@ -38,6 +38,21 @@ class HistoryTests(unittest.TestCase):
    self.assertEqual([r["task_id"] for r in rows if r["kind"]=="vod"],
                     ["vod:99:0-600","vod:99:600-1200","vod:99:1200-1250.0"])
    self.assertEqual(rows[0]["task_id"],"clip:Test-1")
+ def test_expanded_youtube_keeps_old_ids_and_excludes_playlist_foreigners(self):
+  root=p.parents[1]
+  expanded=root/"corpus"/"discovery"/"youtube_expanded.jsonl"
+  if not expanded.exists():
+   self.skipTest("Expanded inventory not checked in yet")
+  candidates=[json.loads(x) for x in expanded.read_text().splitlines() if x.strip()]
+  eligible={x["id"] for x in candidates if not x.get("candidate_only")}
+  rejected={x["id"] for x in candidates if x.get("candidate_only")}
+  self.assertGreaterEqual(len(eligible),450)
+  rows,_=mod.build(root)
+  actual={x["source_id"] for x in rows if x["kind"]=="youtube"}
+  self.assertEqual(actual,eligible)
+  self.assertFalse(actual & rejected)
+  self.assertIn("X12hkzBWoTw",actual)
+  self.assertEqual(len(rows),len({x["task_id"] for x in rows}))
  def test_frozen_inventory_coverage(self):
   root=p.parents[1]
   rows,_=mod.build(root)
