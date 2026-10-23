@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-10-23T22:42:42.452885+00:00",
+  "generated_utc": "2026-10-23T22:43:00.785121+00:00",
   "legacy_asr_outputs": 165,
-  "local_window_asr_outputs": 6,
-  "total_asr_outputs": 171,
-  "total_recognized_words_not_deduplicated": 6827,
+  "local_window_asr_outputs": 7,
+  "total_asr_outputs": 172,
+  "total_recognized_words_not_deduplicated": 6947,
   "source_kinds_raw": {
     "clips": 140,
     "vods": 25,
-    "youtube": 5,
+    "youtube": 6,
     "clip": 5,
     "vod": 1
   },
