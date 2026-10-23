@@ -63,6 +63,25 @@ class SpeakerWorkerIntegration(unittest.TestCase):
    self.assertFalse(row["training_ready"])
    self.assertFalse(list((work/"tmp").iterdir()))
    self.assertFalse(list(out.glob("*.mp4")))
+ def test_refilter_when_profile_changes_but_keep_checkpoint_until_replaced(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td)
+   row={**TASK,"state":"pending"}
+   meta,txt,srt=worker.result_paths(row,root)
+   txt.write_text("Legacy text")
+   srt.write_text("1\n00:00:00,000 --> 00:00:01,000\nlegacy\n")
+   import hashlib
+   worker.atomic_json(meta,{"task_id":row["task_id"],"processing_status":"transcribed",
+         "text_sha256":hashlib.sha256(txt.read_bytes()).hexdigest(),
+         "srt_sha256":hashlib.sha256(srt.read_bytes()).hexdigest()})
+   self.assertEqual(worker.eligible(row,{},root),(False,"completed"))
+   self.assertEqual(worker.eligible(row,{},root,required_speaker_profile_hash="profile2"),
+                    (True,"pending"))
+   previous=json.loads(meta.read_text())
+   previous["voice_filter"]={"speaker_profile_sha256":"profile2"}
+   worker.atomic_json(meta,previous)
+   self.assertEqual(worker.eligible(row,{},root,required_speaker_profile_hash="profile2"),
+                    (False,"completed_voice_filtered"))
  def test_accepted_speech_uses_whisper_and_cleans_media(self):
   self.run_case(True)
  def test_nonmatching_speech_does_not_call_whisper_and_cleans_media(self):
