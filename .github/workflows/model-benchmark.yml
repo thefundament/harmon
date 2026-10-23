@@ -1,0 +1,53 @@
+name: Test Whisper Base versus Small
+on:
+  push:
+    paths:
+      - '.github/workflows/model-benchmark.yml'
+      - 'collector/benchmark_asr.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install test dependencies
+        run: |
+          python -m pip install --disable-pip-version-check yt-dlp
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git
+      - name: Cache model and compiler output
+        uses: actions/cache@v4
+        with:
+          path: |
+            whisper.cpp/build
+            whisper.cpp/models/ggml-base.en.bin
+            whisper.cpp/models/ggml-small.en.bin
+          key: harmon-asr-comparison-v1-base-small
+      - name: Prepare ASR test models
+        run: |
+          if [ ! -x whisper.cpp/build/bin/whisper-cli ]; then
+            cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DWHISPER_BUILD_TESTS=OFF
+            cmake --build whisper.cpp/build --target whisper-cli --parallel 4
+          fi
+          for name in base.en small.en; do
+            if [ ! -s "whisper.cpp/models/ggml-${name}.bin" ]; then
+              curl --fail --location --retry 2 -o "whisper.cpp/models/ggml-${name}.bin" "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-${name}.bin"
+            fi
+          done
+      - name: Compare models on two public short clips
+        run: python collector/benchmark_asr.py
+      - name: Delete temporary audio
+        if: always()
+        run: rm -rf benchmark-output/temp-media
+      - name: Preserve development-test metrics only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: harmon-asr-benchmark-metrics
+          path: benchmark-output/asr_comparison.json
+          retention-days: 3
+          if-no-files-found: warn
