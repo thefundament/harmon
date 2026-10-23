@@ -1,0 +1,830 @@
+{
+  "schema_version": 1,
+  "sampling": "100 smallest SHA256(seed NUL dataset NUL id)",
+  "seed": "harmon-stt-v1",
+  "datasets": [
+    {
+      "id": "librispeech-test-other",
+      "repository": "openslr/librispeech_asr",
+      "revision": "71cacbfb7e2354c4226d01e70d77d5fca3d04ba1",
+      "file": "other/test/0000.parquet",
+      "id_column": "id",
+      "text_column": "text",
+      "parquet_sha256": "38e0c86a8104585c577badd707ca4331e20fa2c645f46180af0b7bcdecff9249",
+      "samples": [
+        {
+          "id": "4350-10919-0028",
+          "reference": "NERVOUS IRRITABILITY HE SAID TO THE PRINCESS WHEN KITTY HAD LEFT THE ROOM HOWEVER I HAD FINISHED"
+        },
+        {
+          "id": "8131-117016-0024",
+          "reference": "GORDON'S EYES POPPED AT THAT"
+        },
+        {
+          "id": "4350-9170-0043",
+          "reference": "THEY ARE NEEDED PRINCIPALLY AGAINST THEIR SUBJECTS AND EVERY MAN UNDER UNIVERSAL MILITARY SERVICE BECOMES AN ACCOMPLICE IN ALL THE ACTS OF VIOLENCE OF THE GOVERNMENT AGAINST THE CITIZENS WITHOUT ANY CHOICE OF HIS OWN"
+        },
+        {
+          "id": "5442-32873-0007",
+          "reference": "WHEN HE CAME BACK TO THE DRAWING ROOM A TOILET BOTTLE OF EAU DE COLOGNE IN HIS HAND WITH HER LACE HANDKERCHIEF HE BATHED HER TEMPLES AND FOREHEAD"
+        },
+        {
+          "id": "6938-70848-0016",
+          "reference": "MEANWHILE THE QUESTION OF THE STATUS OF THE EXECUTIVE COMMITTEE WAS AGITATING ALL MINDS"
+        },
+        {
+          "id": "3538-142836-0018",
+          "reference": "CONFECTIONARY FIFTEEN O EIGHT"
+        },
+        {
+          "id": "8131-117029-0004",
+          "reference": "GORDON CAME TO A ROW OF TEMPORARY BUBBLES INDIVIDUAL DWELLINGS BUILT LIKE THE DOME BUT OPAQUE FOR PRIVACY"
+        },
+        {
+          "id": "4294-35475-0010",
+          "reference": "SCISSORS GROW A GIANT'S HEIGHT AND SAVE US FROM THE OGRE'S MIGHT"
+        },
+        {
+          "id": "8461-278226-0004",
+          "reference": "I REMEMBER ALL THE RUBENSES AT THE LOUVRE FOR I SAW THEM THREE YEARS AGO WHEN I WAS STAYING IN PARIS WITH GRANDPAPA"
+        },
+        {
+          "id": "3528-168669-0063",
+          "reference": "WHERE INTO THE VAULT"
+        },
+        {
+          "id": "3538-163622-0020",
+          "reference": "WHEN THEY HAD TRAVELLED A LONG LONG WAY THE FOAL SAID DOST THOU SEE ANYTHING"
+        },
+        {
+          "id": "5442-41169-0005",
+          "reference": "SHALL WE GO ON YOUR EXCELLENCY FINE CHAMPAGNE"
+        },
+        {
+          "id": "4350-10919-0030",
+          "reference": "AT THE QUESTION SHOULD THEY GO ABROAD THE DOCTOR PLUNGED INTO DEEP MEDITATION AS THOUGH RESOLVING A WEIGHTY PROBLEM"
+        },
+        {
+          "id": "4350-9170-0025",
+          "reference": "THE REASON TO WHICH HE GAVE EXPRESSION IS ESSENTIALLY THE SAME AS THAT WHICH MADE THE FRENCH KINGS AND THE POPES ENGAGE SWISS AND SCOTCH GUARDS AND MAKES THE RUSSIAN AUTHORITIES OF TO DAY SO CAREFULLY DISTRIBUTE THE RECRUITS SO THAT THE REGIMENTS FROM THE FRONTIERS ARE STATIONED IN CENTRAL DISTRICTS AND THE REGIMENTS FROM THE CENTER ARE STATIONED ON THE FRONTIERS"
+        },
+        {
+          "id": "4198-12281-0008",
+          "reference": "HARK YOU MY MASTERS YOU THAT LOVE THE WINE COP'S BODY FOLLOW ME FOR SANCT ANTHONY BURN ME AS FREELY AS A FAGGOT IF THEY GET LEAVE TO TASTE ONE DROP OF THE LIQUOR THAT WILL NOT NOW COME AND FIGHT FOR RELIEF OF THE VINE"
+        },
+        {
+          "id": "6432-63723-0037",
+          "reference": "IT WAS HIGH LARCH"
+        },
+        {
+          "id": "4350-10919-0031",
+          "reference": "FINALLY HIS DECISION WAS PRONOUNCED THEY WERE TO GO ABROAD BUT TO PUT NO FAITH IN FOREIGN QUACKS AND TO APPLY TO HIM IN ANY NEED"
+        },
+        {
+          "id": "3331-159605-0028",
+          "reference": "HE WAS QUICKER TO TAKE A HINT THAN SHE HAD EXPECTED AND BEING BOTH PROUD AND GENEROUS RESOLVED TO SETTLE THE MATTER AT ONCE FOR POLLY'S SAKE AS WELL AS HIS OWN"
+        },
+        {
+          "id": "7902-96594-0009",
+          "reference": "CERTAINLY SIR SMUGGLERS ARE SMUGGLERS INDEED"
+        },
+        {
+          "id": "4294-14317-0009",
+          "reference": "I SAID MY LORD I THANK YOU AND BEG YOU TO CONDESCEND SO FAR AS TO LISTEN TO FOUR WORDS IT IS TRUE THAT HE LENT ME A PAIR OF OLD SCALES TWO ANVILS AND THREE LITTLE HAMMERS WHICH ARTICLES I BEGGED HIS WORKMAN GIORGIO DA CORTONA FIFTEEN DAYS AGO TO FETCH BACK"
+        },
+        {
+          "id": "2414-159411-0014",
+          "reference": "THREE OUT OF THE SIX HAD GIVEN JUDGMENT AGAINST THE BRAHMAN BUT STILL HE DID NOT LOSE ALL HOPE AND DETERMINED TO ASK THE OTHER THREE"
+        },
+        {
+          "id": "2414-128292-0027",
+          "reference": "THEY SLEEP QUIETLY THEY ENJOY THEIR NEW SECURITY"
+        },
+        {
+          "id": "7105-2340-0034",
+          "reference": "MISSUS PETER TURNED TO HER GUEST WITH CONFIDENTIAL COYNESS"
+        },
+        {
+          "id": "4294-14317-0006",
+          "reference": "THEN I THANKED HIM AND SAID I HAD NO GREATER DESIRE THAN TO SHOW THOSE ENVIOUS FOLK THAT I HAD IT IN ME TO EXECUTE THE PROMISED WORK"
+        },
+        {
+          "id": "2414-159411-0003",
+          "reference": "I WILL NEVER BE SO UNGRATEFUL ONLY LET ME OUT THAT I MAY DRINK SOME WATER AND RETURN"
+        },
+        {
+          "id": "6938-70848-0028",
+          "reference": "THE WILL OF MILLIONS OF WORKERS IS NOW CONCENTRATED IN THIS HALL"
+        },
+        {
+          "id": "5764-299665-0014",
+          "reference": "DID INFINITE WISDOM INTENTIONALLY PRODUCE THE MICROSCOPIC BEASTS THAT FEED UPON THE OPTIC NERVE THINK OF BLINDING A MAN TO SATISFY THE APPETITE OF A MICROBE"
+        },
+        {
+          "id": "2033-164915-0007",
+          "reference": "SHE SAID IT HATH REACHED ME O AUSPICIOUS KING THAT WHEN THE STOKER GIRTHED HIS ASS FOR FLIGHT AND BESPAKE HIMSELF SAYING OH WOULD I KNEW WHAT IS BECOME OF HIM"
+        },
+        {
+          "id": "6432-63722-0040",
+          "reference": "DON'T SCRATCH YOURSELF ON IT WHATEVER YOU DO WHY NOT"
+        },
+        {
+          "id": "3528-168669-0087",
+          "reference": "WE LIVE IN TIMES OF TERRIBLE CONFUSION"
+        },
+        {
+          "id": "3528-168669-0017",
+          "reference": "WILL THAT BE ALL NO"
+        },
+        {
+          "id": "5764-299665-0043",
+          "reference": "IN ALL THIS THERE IS NOTHING SUPERNATURAL"
+        },
+        {
+          "id": "7105-2340-0022",
+          "reference": "IT'S THE ONLY THING TO DO"
+        },
+        {
+          "id": "3005-163399-0021",
+          "reference": "I CAN'T IMAGINE SAYS THE OLD GENTLEMAN AND I MUST SAY IT MAKES ME DREADFUL UNEASY"
+        },
+        {
+          "id": "7105-2340-0037",
+          "reference": "BRAVE LITTLE WOMAN SAID PETER WITH A GASP OF RELIEF I COULD NEVER HAVE DONE IT"
+        },
+        {
+          "id": "3528-168669-0109",
+          "reference": "THAT IS WELL FATHER FAUVENT"
+        },
+        {
+          "id": "3080-5032-0021",
+          "reference": "HOW CAN YOU TALK OF DEFYING FORTUNE NOBODY LIVES WITHOUT IT AND THEREFORE WHY SHOULD YOU IMAGINE YOU COULD"
+        },
+        {
+          "id": "8131-117016-0010",
+          "reference": "I'VE GOT A FREE HAND AND WE'RE GOING TO RUN THIS THE WAY WE WOULD ON EARTH"
+        },
+        {
+          "id": "6128-63240-0024",
+          "reference": "HER VOICE WAS LOW AND AGREEABLE A CULTIVATED VOICE AND SHE EXTENDED A SLENDER WHITE HAND TO HER VISITOR WHO REMARKED WITH SOME SOLEMNITY HE FELT A CERTAIN GUILT OF PARTICIPATION IN MISSUS LUNA'S INDISCRETION THAT HE WAS INTENSELY HAPPY TO MAKE HER ACQUAINTANCE"
+        },
+        {
+          "id": "3997-180294-0015",
+          "reference": "IT IS THE SAME WITH THESE UNHAPPY WOMEN WHEN THEY LOVE SERIOUSLY"
+        },
+        {
+          "id": "6432-63722-0056",
+          "reference": "THE OLD ADAGE OF TWO HEADS YOU KNOW"
+        },
+        {
+          "id": "3528-168669-0000",
+          "reference": "THE PRIORESS RETURNED AND SEATED HERSELF ONCE MORE ON HER CHAIR"
+        },
+        {
+          "id": "1998-29455-0031",
+          "reference": "I OPE E'S CLEVER ENOUGH TO DO WOT E'S TOLD KEEP IS MUG SHUT THAT'S ALL"
+        },
+        {
+          "id": "3331-159605-0017",
+          "reference": "A FOOLISH LITTLE SPEECH TO MAKE TO A DOG BUT YOU SEE POLLY WAS ONLY A TENDER HEARTED GIRL TRYING TO DO HER DUTY"
+        },
+        {
+          "id": "8280-266249-0026",
+          "reference": "AND AGAIN I BESEECH YOU THEREFORE BRETHREN BY THE MERCIES OF GOD THAT YE PRESENT YOUR BODIES A LIVING SACRIFICE HOLY ACCEPTABLE UNTO GOD WHICH IS YOUR REASONABLE SERVICE"
+        },
+        {
+          "id": "8188-269288-0017",
+          "reference": "HERE IS A LETTER FOR YOU ANNIE CRIED LESLIE"
+        },
+        {
+          "id": "6432-63723-0023",
+          "reference": "IN A SMALLER PLACE HE WOULD HAVE BEEN CALLED A SALOON KEEPER"
+        },
+        {
+          "id": "4852-28311-0002",
+          "reference": "KNOW WHO NEEDS A JOB BAD THAT'S JAKEY HARRIS"
+        },
+        {
+          "id": "3764-168670-0005",
+          "reference": "I HAVE PERMISSION TO BRING YOU IN BUT BEFORE BRINGING YOU IN YOU MUST BE GOT OUT"
+        },
+        {
+          "id": "2609-156975-0008",
+          "reference": "THE BIBLICAL NARRATIVES APPARENTLY DISAGREE REGARDING THE DURATION OF THE SOJOURN IN EGYPT"
+        },
+        {
+          "id": "1998-29455-0019",
+          "reference": "YOU STICK TO THAT SAID BEALE RADIANT WITH DELIGHT YOU'RE A FAIR MASTERPIECE YOU ARE YOU EARNED IT HONEST IF EVER A KID DONE"
+        },
+        {
+          "id": "8188-274364-0007",
+          "reference": "HOWEVER THESE GENTLEMEN AT THE BAR SAY THEY SPEAK FOR THE COMMONWEALTH AND THEY BELIEVE SO YET UNDER FAVOR IT IS I WHO IN THIS PARTICULAR SPEAK FOR THE COMMONWEALTH"
+        },
+        {
+          "id": "7975-280076-0018",
+          "reference": "WE CROSSED ON THE BRIDGE STAYED IN THE CITY ALL NIGHT AND THE NEXT MORNING WE RODE UP THROUGH THE CITY"
+        },
+        {
+          "id": "3005-163389-0004",
+          "reference": "THE AVERAGE MAN'S A COWARD"
+        },
+        {
+          "id": "1998-29455-0024",
+          "reference": "BUT YOU SAID THE BED WITH THE GREEN CURTAINS URGED DICKIE"
+        },
+        {
+          "id": "4198-12259-0036",
+          "reference": "WHITE WINE HERE WINE BOYS"
+        },
+        {
+          "id": "8188-274364-0005",
+          "reference": "IT IS NOW FULL TWO HUNDRED AND FORTY YEARS SINCE TREASONS WERE DEFINED AND SO LONG HAS IT BEEN SINCE ANY MAN WAS TOUCHED TO THIS EXTENT UPON THIS CRIME BEFORE MYSELF"
+        },
+        {
+          "id": "5442-41169-0020",
+          "reference": "SO THERE'LL BE NO ONE TO KEEP IT UP AND YET ONE DOES IT"
+        },
+        {
+          "id": "4350-9170-0052",
+          "reference": "THE GREAT EXTENSION OF MEANS OF COMMUNICATION AND INTERCHANGE OF IDEAS HAS MADE MEN COMPLETELY ABLE TO DISPENSE WITH STATE AID IN FORMING SOCIETIES ASSOCIATIONS CORPORATIONS AND CONGRESSES FOR SCIENTIFIC ECONOMIC AND POLITICAL OBJECTS"
+        },
+        {
+          "id": "3997-182399-0001",
+          "reference": "THIS SOUNDED LIKE ANOTHER STORY"
+        },
+        {
+          "id": "2609-169640-0008",
+          "reference": "ALTHOUGH THEY WENT THREE FEET TO OUR TWO THIS GAVE US A MOMENT OF BREATHING TIME"
+        },
+        {
+          "id": "5484-24317-0024",
+          "reference": "HE WINKED AT HER AND MADE A SIGNIFICANT GESTURE AS HE SPOKE AND THEN INFORMED THE BLIND ARTIST HOW GRACIOUSLY ARSINOE HAD REMEMBERED HIM WHEN SHE HEARD OF THE REMEDY BY WHOSE AID MANY A WONDERFUL CURE OF BLIND EYES HAD BEEN MADE IN RHODES"
+        },
+        {
+          "id": "5484-24318-0000",
+          "reference": "NOT A SOUND IF YOU VALUE YOUR LIVES"
+        },
+        {
+          "id": "7105-2330-0029",
+          "reference": "A TELEGRAM WAS BROUGHT IN"
+        },
+        {
+          "id": "4350-9170-0035",
+          "reference": "THIS INCONSISTENCY HAS BECOME OBVIOUS IN UNIVERSAL MILITARY SERVICE"
+        },
+        {
+          "id": "5484-24317-0020",
+          "reference": "YOUR UNCLE TOO HAS OFTEN WITH PRAISEWORTHY GENEROSITY HELPED ARSINOE IN MANY AN EMBARRASSMENT"
+        },
+        {
+          "id": "5484-24318-0016",
+          "reference": "DAPHNE AGAIN PLEADED FOR THE LIBERATION OF THE PRISONERS BUT PHILIPPUS SILENCED HER WITH THE GRAVE EXCLAMATION THE ORDER OF THE KING"
+        },
+        {
+          "id": "7018-75788-0013",
+          "reference": "NEXT MORNING AS SOON AS IT WAS LIGHT HE PRAYED THE DAWN PRAYER AND AFTER BLESSING MOHAMMED THE CREAM OF ALL CREATURES BETOOK HIMSELF TO THE HOUSE OF SINDBAD THE SEAMAN AND WISHED HIM A GOOD DAY"
+        },
+        {
+          "id": "1998-29454-0018",
+          "reference": "I GOT TO STICK IT SAID DICKIE SADLY I'D BEST BE GETTING HOME"
+        },
+        {
+          "id": "4852-28312-0017",
+          "reference": "BUT EVEN AS HE SLOWLY TURNED THE THOUGHT PIERCED HIS MIND WHY HAD HE NOT SEEN THE REFLECTION OF THE HEADLIGHTS OF THE CARS MOVING UP AROUND THE CORNER OF WATER STREET AND UP THE HILL TOWARD THE TRAFFIC SIGNALS"
+        },
+        {
+          "id": "8131-117017-0006",
+          "reference": "I'M REFORMED I'M GOING STRAIGHT"
+        },
+        {
+          "id": "6432-63722-0017",
+          "reference": "LOOK HERE COLONEL DO YOU KNOW ANYTHING ABOUT THIS"
+        },
+        {
+          "id": "8280-266249-0023",
+          "reference": "NO SIR WHAT KNOW YE NOT THAT YOUR BODY IS THE TEMPLE OF THE HOLY GHOST WHICH IS IN YOU WHICH YE HAVE OF GOD AND YE ARE NOT YOUR OWN"
+        },
+        {
+          "id": "6128-63241-0010",
+          "reference": "SHE HAD ERECTED IT INTO A SORT OF RULE OF CONDUCT THAT WHENEVER SHE SAW A RISK SHE WAS TO TAKE IT AND SHE HAD FREQUENT HUMILIATIONS AT FINDING HERSELF SAFE AFTER ALL"
+        },
+        {
+          "id": "6938-70848-0014",
+          "reference": "FEARFUL TUMULT CRIES DOWN WITH THE BOLSHEVIKI"
+        },
+        {
+          "id": "3005-163390-0028",
+          "reference": "DOAN YOU HEAR ME SHET DE DO"
+        },
+        {
+          "id": "1998-29455-0038",
+          "reference": "THEY DID NOT STAY THERE BUT WALKED OUT ACROSS THE DOWNS WHERE THE SKYLARKS WERE SINGING AND ON A DIP OF THE DOWNS CAME UPON GREAT STONE WALLS AND TOWERS VERY STRONG AND GRAY"
+        },
+        {
+          "id": "6128-63244-0017",
+          "reference": "IT WAS ONE THING TO CHOOSE FOR HERSELF BUT NOW THE GREAT REPRESENTATIVE OF THE ENFRANCHISEMENT OF THEIR SEX FROM EVERY FORM OF BONDAGE HAD CHOSEN FOR HER"
+        },
+        {
+          "id": "1688-142285-0012",
+          "reference": "NO ONE CAME FORWARDS TO HELP THE MOTHER AND THIS BOY"
+        },
+        {
+          "id": "1998-29455-0012",
+          "reference": "I LIKE YOU NEXTER MY OWN DADDY AND MISTER BAXTER NEXT DOOR"
+        },
+        {
+          "id": "533-1066-0008",
+          "reference": "THE MOST UNUSUAL THING I CAN THINK OF WOULD BE A PEACEFUL NIGHT"
+        },
+        {
+          "id": "3528-168669-0091",
+          "reference": "THEY PERSECUTE THE SAINTS"
+        },
+        {
+          "id": "6432-63723-0046",
+          "reference": "THERE WERE THREE OF THEM THE CENTER FIGURE BEING THAT OF HARRY KING AND HE WAS VERY MUCH INTOXICATED"
+        },
+        {
+          "id": "3005-163390-0013",
+          "reference": "WELL IT DON'T BECAUSE IT'S IN THE BREED I RECKON THEY'RE ALL ALIKE"
+        },
+        {
+          "id": "8280-266249-0002",
+          "reference": "THERE WERE NO SAD LEAVE TAKINGS TO MAR THEIR PLEASURE THE CHILDREN WERE IN WILD SPIRITS AND ALL SEEMED CHEERFUL AND HAPPY AS THEY SAT OR STOOD UPON THE DECK WATCHING THE RECEDING SHORE AS THE VESSEL STEAMED OUT OF THE HARBOR"
+        },
+        {
+          "id": "7105-2340-0016",
+          "reference": "WE FEEL THAT WE MUST LIVE ON CREAM FOR THE REST OF OUR LIVES"
+        },
+        {
+          "id": "367-130732-0012",
+          "reference": "I SAY COME TO SAN FRANCISCO ADVISEDLY FOR WHILE THE CRAB IS FOUND ALL ALONG THE COAST IT IS PREPARED NOWHERE SO DELICIOUSLY AS IN SAN FRANCISCO"
+        },
+        {
+          "id": "2414-159411-0031",
+          "reference": "THEN SHUT AND BOLT IT SAID THE JACKAL"
+        },
+        {
+          "id": "1688-142285-0043",
+          "reference": "AT LAST SHE SAID IN A LOW VOICE"
+        },
+        {
+          "id": "2414-128292-0007",
+          "reference": "BUT DOTH ZARATHUSTRA NEED TO BE FRIGHTENED BY HIS SHADOW"
+        },
+        {
+          "id": "8131-117016-0018",
+          "reference": "HE BEGAN WONDERING ABOUT SECURITY THEN"
+        },
+        {
+          "id": "6128-63240-0025",
+          "reference": "HE OBSERVED THAT MISS CHANCELLOR'S HAND WAS AT ONCE COLD AND LIMP SHE MERELY PLACED IT IN HIS WITHOUT EXERTING THE SMALLEST PRESSURE"
+        },
+        {
+          "id": "1688-142285-0080",
+          "reference": "SUPPOSE I TRY SAID MISTER HALE"
+        },
+        {
+          "id": "8188-269288-0003",
+          "reference": "SHE HAD NO IDEA OF ALLOWING HERSELF TO BREAK DOWN"
+        },
+        {
+          "id": "5442-41168-0008",
+          "reference": "LEVIN DID NOT IN THE LEAST UNDERSTAND WHAT WAS THE MATTER AND HE MARVELED AT THE PASSION WITH WHICH IT WAS DISPUTED WHETHER OR NOT THE DECISION ABOUT FLEROV SHOULD BE PUT TO THE VOTE"
+        },
+        {
+          "id": "4350-9170-0030",
+          "reference": "THIS INCREASE IS CONTAGIOUS AS MONTESQUIEU POINTED OUT ONE HUNDRED FIFTY YEARS AGO"
+        },
+        {
+          "id": "6128-63244-0021",
+          "reference": "THEY WOULD BE NAMES OF WOMEN WEAK INSULTED PERSECUTED BUT DEVOTED IN EVERY PULSE OF THEIR BEING TO THE CAUSE AND ASKING NO BETTER FATE THAN TO DIE FOR IT"
+        },
+        {
+          "id": "2414-128292-0029",
+          "reference": "FOR NOW EVERYTHING THAT IS NARROW AND FIXED SEDUCETH AND TEMPTETH THEE"
+        },
+        {
+          "id": "2414-128291-0019",
+          "reference": "THEY ALSO ABSTAIN FROM ALL HEAVY THOUGHTS WHICH INFLATE THE HEART"
+        },
+        {
+          "id": "7105-2340-0010",
+          "reference": "I SUPPOSE HE'S BRINGING US A PRESENT FOR THE SILVER WEDDING GOOD GRACIOUS"
+        }
+      ]
+    },
+    {
+      "id": "fleurs-en_us-test",
+      "repository": "google/fleurs",
+      "revision": "168de341b3db6859a9bac1c50a2ef5e3b47647e0",
+      "file": "en_us/test/0000.parquet",
+      "id_column": "path",
+      "text_column": "transcription",
+      "id_format": "basename (unique recording; numeric id identifies a sentence shared by several speakers)",
+      "parquet_sha256": "6428a4d04d3aac29e16b45e039bb1470a8bd7aa334cf92f7984c9c520d1f234d",
+      "samples": [
+        {
+          "id": "2437577605225034571.wav",
+          "reference": "while one experimental vaccine appears able to reduce ebola mortality up until now no drugs have been clearly demonstrated suitable for treating existing infection"
+        },
+        {
+          "id": "16824485789160047135.wav",
+          "reference": "australia's mitchell gourley finished eleventh in the men's standing super-g czech competitor oldrich jelinek finished sixteenth in the men's sitting super-g"
+        },
+        {
+          "id": "11265842188315045636.wav",
+          "reference": "vatican city's population is around 800 it is the smallest independent country in the world and the country with the lowest population"
+        },
+        {
+          "id": "9976913881674290440.wav",
+          "reference": "virtual scaffolds are internalized in the software and are meant to question prompt and explain procedures that may have been to challenging for the student to handle alone"
+        },
+        {
+          "id": "17897122138146023259.wav",
+          "reference": "he referred to the rumors as political chatter and silliness"
+        },
+        {
+          "id": "12517884865939916901.wav",
+          "reference": "it states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally see example"
+        },
+        {
+          "id": "11497310594035767755.wav",
+          "reference": "lion prides act much like packs of wolves or dogs animals surprisingly similar to lions but not other big cats in behavior and also very deadly to their prey"
+        },
+        {
+          "id": "3130624662424273953.wav",
+          "reference": "in just two weeks the americans and free french forces had liberated southern france and were turning towards germany"
+        },
+        {
+          "id": "9253409408372025849.wav",
+          "reference": "the tiger's roar is not like the full-voiced roar of a lion but more like a sentence of snarly shouted words"
+        },
+        {
+          "id": "14077379425479054842.wav",
+          "reference": "a simple popular dinner especially during the summer is the pa amb oli bread with olive oil tomato and any available condiments such as cheese tunafish etc"
+        },
+        {
+          "id": "16311865697463361030.wav",
+          "reference": "a search of the internet for hostile environment course' will probably provide the address of a local company"
+        },
+        {
+          "id": "3362263413020550013.wav",
+          "reference": "in particular it is claimed that one can detect whether a person is lying by interpreting micro-expressions correctly"
+        },
+        {
+          "id": "11318597463051480163.wav",
+          "reference": "mrs kirchner announced her intention to run for president at the argentine theatre the same location she used to start her 2005 campaign for the senate as member of the buenos aires province delegation"
+        },
+        {
+          "id": "6351367445025505944.wav",
+          "reference": "lions are the most social cats living in large groups called prides"
+        },
+        {
+          "id": "10550734868852131138.wav",
+          "reference": "on 15 august 1940 the allies invaded southern france the invasion was called operation dragoon"
+        },
+        {
+          "id": "17535235071289984666.wav",
+          "reference": "cancellation policies vary but as of late march most coronavirus-based cancellation policies don't extend to july 2020 when the olympics had been scheduled"
+        },
+        {
+          "id": "3922043533653727350.wav",
+          "reference": "in fact it is not easy to find at all even if one knew it existed once inside the cave it is a total isolation"
+        },
+        {
+          "id": "14944400645209157789.wav",
+          "reference": "built by the egyptians in the third century bce the great pyramid is one of many large pyramid structures built to honor dead pharaoh"
+        },
+        {
+          "id": "2634994688992335656.wav",
+          "reference": "other subjects on the agenda in bali include saving the world's remaining forests and sharing technologies to help developing nations grow in less-polluting ways"
+        },
+        {
+          "id": "11880309600276730497.wav",
+          "reference": "similarly by having a schengen visa you do not need to apply for visas to each of the schengen member countries separately hence saving time money and paperwork"
+        },
+        {
+          "id": "6306322369645218273.wav",
+          "reference": "one can only wonder what the keyboard will become when something newer comes along"
+        },
+        {
+          "id": "4940213511640275250.wav",
+          "reference": "italian is also the everyday language used by most of those who work in the state while latin is often used in religious ceremonies"
+        },
+        {
+          "id": "16725549094651424150.wav",
+          "reference": "it is thinner under the maria and thicker under the highlands"
+        },
+        {
+          "id": "6927296460002744628.wav",
+          "reference": "plants look their best when in a natural environment so resist the temptation to remove even just one specimen"
+        },
+        {
+          "id": "6434859821714227491.wav",
+          "reference": "anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow ice or freezing temperatures"
+        },
+        {
+          "id": "16721823661104667622.wav",
+          "reference": "rip currents are the returning flow from waves breaking off the beach often at a reef or similar"
+        },
+        {
+          "id": "11665346626937246597.wav",
+          "reference": "television reports show white smoke coming from the plant"
+        },
+        {
+          "id": "621925716775998155.wav",
+          "reference": "twentieth century research has shown that there are two pools of genetic variation hidden and expressed"
+        },
+        {
+          "id": "2589557553267364799.wav",
+          "reference": "remember that even though music on the main stages may have finished there may be sections of the festival that will keep playing music until late into the night"
+        },
+        {
+          "id": "16249020005264010985.wav",
+          "reference": "there is no universal definition for which manufactured items are antiques some tax agencies define goods older than 100 years as antiques"
+        },
+        {
+          "id": "8856417737463972790.wav",
+          "reference": "the service is frequently used by shipping including pleasure craft as well as expeditions who have remote data and voice needs"
+        },
+        {
+          "id": "14836289886440749215.wav",
+          "reference": "the photographers later took the place of an aged lady as she needed the lavatory mendoza was gunned down"
+        },
+        {
+          "id": "4562231445388891346.wav",
+          "reference": "nextgen is a system the faa claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions"
+        },
+        {
+          "id": "14337122471415370884.wav",
+          "reference": "television reports show white smoke coming from the plant"
+        },
+        {
+          "id": "15167791612734877902.wav",
+          "reference": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other"
+        },
+        {
+          "id": "1046653381869710616.wav",
+          "reference": "the term safari in popular use refers to overland travel to view the stunning african wildlife particularly on savanna"
+        },
+        {
+          "id": "11766033532714442721.wav",
+          "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area"
+        },
+        {
+          "id": "5505398583576174352.wav",
+          "reference": "perry stated that he would return to texas to assess the results of tonight's caucus determine whether there is a path forward for myself in this race but later said that he would remain in the race and compete in the january 21 south carolina primary"
+        },
+        {
+          "id": "6507390080013738113.wav",
+          "reference": "layton had asked for changes to the conservatives' environmental bill during the meeting with the pm asking for a thorough and complete rewriting of the conservative party's environmental bill"
+        },
+        {
+          "id": "15738179776336088720.wav",
+          "reference": "crossties were introduced fairly early to hold the tracks in place gradually however it was realised that tracks would be more efficient if they had a stip of iron on the top"
+        },
+        {
+          "id": "18080893208509673354.wav",
+          "reference": "current senator and argentine first lady cristina fernandez de kirchner announced her presidential candidacy yesterday evening in la plata a city 50 kilometers 31 miles away from buenos aires"
+        },
+        {
+          "id": "11966709226632417907.wav",
+          "reference": "everything in the universe is made of matter all matter is made of tiny particles called atoms"
+        },
+        {
+          "id": "10768814098664478369.wav",
+          "reference": "the other nominations include best picture director cinematography costume design film-editing original score production design sound editing sound mixing and original screenplay"
+        },
+        {
+          "id": "1116401173651214130.wav",
+          "reference": "during this period of european history the catholic church which had become rich and powerful came under scrutiny"
+        },
+        {
+          "id": "14982964006464846866.wav",
+          "reference": "as a result the performers smoke cannabis joints on stage and the theatre itself is encouraging the audience to join in"
+        },
+        {
+          "id": "10933070083389897676.wav",
+          "reference": "due to the underwater topology the return flow is concentrated at a few deeper sections and a fast current to deep water may form there"
+        },
+        {
+          "id": "12190760535244332971.wav",
+          "reference": "the giza plateau or giza necropolis in the egyptian valley of the dead contains several pyramids of which the great pyramid is the largest several small tombs several temples and the great sphinx"
+        },
+        {
+          "id": "384435163157965470.wav",
+          "reference": "while he was working at the hospital liggins began to investigate premature labor during his spare time"
+        },
+        {
+          "id": "17695442797451759106.wav",
+          "reference": "the most readily accessible plant resources would have been the proteins accessible in leaves and legumes but these are hard for primates like us to digest unless they are cooked"
+        },
+        {
+          "id": "68300966899801601.wav",
+          "reference": "on the other hand icy and snowy conditions are normal in many countries and traffic goes on mostly uninterrupted all year round"
+        },
+        {
+          "id": "9781076737390802637.wav",
+          "reference": "along the same line men are required to wear trousers covering the knees"
+        },
+        {
+          "id": "14115239728007650784.wav",
+          "reference": "on the other hand icy and snowy conditions are normal in many countries and traffic goes on mostly uninterrupted all year round"
+        },
+        {
+          "id": "12442340605801616197.wav",
+          "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2"
+        },
+        {
+          "id": "15228527404193944906.wav",
+          "reference": "it is thinner under the maria and thicker under the highlands"
+        },
+        {
+          "id": "2362130555763646360.wav",
+          "reference": "finland is a great boating destination the land of a thousand lakes has thousands of islands too in the lakes and in the coastal archipelagos"
+        },
+        {
+          "id": "1727490782035998315.wav",
+          "reference": "no tsunami warning has been issued and according to the jakarta geophysics agency no tsunami warning will be issued because the quake did not meet the magnitude 6.5 requirement"
+        },
+        {
+          "id": "11593450817032542587.wav",
+          "reference": "the sundarbans are the largest littoral mangrove belt in the world stretching 80 km 50 mi into the bangladeshi and indian hinterland from the coast"
+        },
+        {
+          "id": "5106380017322065030.wav",
+          "reference": "however that is not true although there is something written on the back of the document it is not a treasure map"
+        },
+        {
+          "id": "10344335557154974057.wav",
+          "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2"
+        },
+        {
+          "id": "14160468372285024125.wav",
+          "reference": "children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion"
+        },
+        {
+          "id": "1724953769276277810.wav",
+          "reference": "these are sometimes-crowded family beaches with a good range of shops lining the shore swimming is safe"
+        },
+        {
+          "id": "4439398069046383836.wav",
+          "reference": "lakkha singh presented the chhappan bhog bhajan as well singer raju khandelwal was accompanying him"
+        },
+        {
+          "id": "4491697341889976683.wav",
+          "reference": "if you're not used to driving on country roads keep your wits about you steep grades narrow lanes and sharp curves predominate"
+        },
+        {
+          "id": "11559094331412401332.wav",
+          "reference": "hydrogen ions are protons that had their electrons stripped off them since hydrogen atoms consist of one proton and one electron"
+        },
+        {
+          "id": "12596571867015231445.wav",
+          "reference": "mosasaurus was the apex predator of its time so it feared nothing except other mosasaurs"
+        },
+        {
+          "id": "6852813781354643345.wav",
+          "reference": "its long jaws were studded with more than 70 razor-sharp teeth along with an extra set in the roof of its mouth meaning that there was no escape for anything that crossed its path"
+        },
+        {
+          "id": "8361417265277853163.wav",
+          "reference": "aristotle a philosopher theorised that everything is made up of a mixture of one or more of four elements they were earth water air and fire"
+        },
+        {
+          "id": "5111153817746112904.wav",
+          "reference": "prior to the arrival of troops haiti had not encountered problems related to the disease since the 1800s"
+        },
+        {
+          "id": "12618421744672029626.wav",
+          "reference": "beyond wednesday's event carpanedo competed in two individual races at the championships"
+        },
+        {
+          "id": "6620311002113327699.wav",
+          "reference": "the number of people present was so large that it was not possible for everybody to gain access to the funeral in st peter's square"
+        },
+        {
+          "id": "10411016628242228511.wav",
+          "reference": "the city is also the base to climb the nyiragongo volcano along with some of the cheapest mountain gorilla tracking in africa"
+        },
+        {
+          "id": "12316410148883063626.wav",
+          "reference": "sharing a field trip virtually is also a great way to reflect a on a trip and share experiences with future classes"
+        },
+        {
+          "id": "3208417939957005389.wav",
+          "reference": "there are of course christian theological explanations for this tradition but it may well be a pre-christian spring and fertility ritual"
+        },
+        {
+          "id": "9794832621341165457.wav",
+          "reference": "at the other end of the spectrum one morphs into an unrecognizable individual that feels he or she must change everything the team has been doing and make it their own"
+        },
+        {
+          "id": "1800879378797955911.wav",
+          "reference": "the hot chocolate is up to belgian standards fruit juices are pricey but excellent"
+        },
+        {
+          "id": "14738234113419638776.wav",
+          "reference": "they have feet with scales and claws they lay eggs and they walk on their two back legs like a t-rex"
+        },
+        {
+          "id": "3491234462595391279.wav",
+          "reference": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal"
+        },
+        {
+          "id": "7783164194712761839.wav",
+          "reference": "a civilization is a singular culture shared by a significant large group of people who live and work co-operatively a society"
+        },
+        {
+          "id": "16010170383637871536.wav",
+          "reference": "people have known about basic chemical elements such as gold silver and copper from antiquity as these can all be discovered in nature in native form and are relatively simple to mine with primitive tools"
+        },
+        {
+          "id": "4937589470390171572.wav",
+          "reference": "aerosmith have cancelled their remaining concerts on their tour"
+        },
+        {
+          "id": "17107523751051309601.wav",
+          "reference": "liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts to perceived washington insiders"
+        },
+        {
+          "id": "10536763405165824117.wav",
+          "reference": "as a result two fish species have become extinct and two others have become endangered including the humpback chub"
+        },
+        {
+          "id": "16989675193715509568.wav",
+          "reference": "their disciplined defence ball handling skills and excellent team work made them stand out and it was clear that this was the team to beat"
+        },
+        {
+          "id": "9804762782045252114.wav",
+          "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side"
+        },
+        {
+          "id": "13896470903695476292.wav",
+          "reference": "sleep interruption is the process of purposefully awakening during your normal sleep period and falling asleep a short time later 10–60 minutes"
+        },
+        {
+          "id": "5866078581108668966.wav",
+          "reference": "so it is likely that the notation was added simply as a label"
+        },
+        {
+          "id": "14648010410081654131.wav",
+          "reference": "do not deface the site by marking or scratching graffiti into structures"
+        },
+        {
+          "id": "17257800930548614745.wav",
+          "reference": "in the archipelagos and lakes you do not necessarily need a yacht"
+        },
+        {
+          "id": "18192639498290469063.wav",
+          "reference": "california governor arnold schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors"
+        },
+        {
+          "id": "5196260640941390313.wav",
+          "reference": "but being placed in the high tropics just a few degrees north of equator you will need to deal with both heat always and strong sun when the sky is clear more rarely"
+        },
+        {
+          "id": "1045619486290403122.wav",
+          "reference": "for example the most common still image photography format in the world is 35mm which was the dominant film size at the close of the analog film era"
+        },
+        {
+          "id": "14693330690944350091.wav",
+          "reference": "between 10:00-11:00 pm mdt a fire was started by the inmates in the yard"
+        },
+        {
+          "id": "517532078886085321.wav",
+          "reference": "appropriate use of blogs can empower students to become more analytical and critical; through actively responding to internet materials students can define their positions in the context of others' writings as well as outline their own perspectives on particular issues oravec 2002"
+        },
+        {
+          "id": "4168260504174612795.wav",
+          "reference": "in many other cities of italy and in the rest of the world particularly in poland similar setups were made which were viewed by a great number of people"
+        },
+        {
+          "id": "3927163358777802368.wav",
+          "reference": "researchers from princeton university in the united states and uppsala university in sweden reported the new species evolved in just two generations though this process had been believed to take much longer due to breeding between an endemic darwin finch geospiza fortes and the immigrant cactus finch geospiza conirostris"
+        },
+        {
+          "id": "970996899856075411.wav",
+          "reference": "on some routes the larger companies have their own planes but for other routes and smaller firms there was a problem"
+        },
+        {
+          "id": "6817878979697223927.wav",
+          "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence"
+        },
+        {
+          "id": "14291047344508554279.wav",
+          "reference": "severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage serious social disruption or loss of human life"
+        },
+        {
+          "id": "3529855487992513201.wav",
+          "reference": "this seems sensible because the earth doesn't feel as if it's moving does it"
+        },
+        {
+          "id": "13732033283623109766.wav",
+          "reference": "by 1976 thirty percent of machu picchu had been restored and restoration continues till today"
+        }
+      ]
+    }
+  ]
+}

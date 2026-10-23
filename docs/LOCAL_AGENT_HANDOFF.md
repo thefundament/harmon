@@ -6,6 +6,8 @@ The inventory is frozen. Do not discover new sources or start recurring jobs. Th
 
 **Do not expand this session's authorization:** the local agent is paused pending these source-list changes. Preserve its current capped pilot, local commits and checkpoints; **do not start the prepared ten-hour/overnight command** until the user separately authorizes it. On resumption, fetch/rebase latest `origin/main` without force or destructive reset, verify `local_worker.py status`, and keep any saved `.harmon-work/pilot.jsonl` if the pilot was already prepared. Historical source discovery was already completed on GitHub; do not repeat it locally.
 
+The separately authorized additional-model comparison has its own **ten-source-attempt maximum**, includes 200 frozen reference recordings, and preserves the production default. Its [report and artifacts](stt_benchmark/REPORT.md) and `scripts/run_stt_benchmark.sh` are separate from archive processing. The benchmark retains ten sources from the original 127.79-hour inventory snapshot; its source ledger counts failed and interrupted attempts across restarts. Neither its launcher nor offline GitHub workflow starts the archive batch.
+
 ## Setup on this host
 
 Ubuntu Linux needs Python 3 with venv, Git, CMake, C++, Make, curl, FFmpeg, Vulkan headers/loader and `glslc`. The host Radeon 8060S supports Vulkan. Bootstrap pins whisper.cpp `v1.9.5`, builds with `GGML_VULKAN=ON` and at most two Make jobs, and caps the upstream shader compiler helper to one subprocess (otherwise it bypasses Make's limit). That build-only throttle does not change inference code. Set `HARMON_VULKAN=OFF` only when deliberately choosing CPU inference.

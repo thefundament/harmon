@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "fleurs-en_us-test:10344335557154974057.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/46831e538275fcc036d5.wav",
+      "audio_seconds": 11.04,
+      "audio_sha256": "a95be816e058edb051c686eeb8362eedd84572085d56139bf9d35a9219eb7899"
+    },
+    {
+      "id": "fleurs-en_us-test:10411016628242228511.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the city is also the base to climb the nyiragongo volcano along with some of the cheapest mountain gorilla tracking in africa",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/49f738d62f3e73157105.wav",
+      "audio_seconds": 11.28,
+      "audio_sha256": "585a67833de9e43e281869fb99b23f95f294ef4400943281bc849753814ef676"
+    },
+    {
+      "id": "fleurs-en_us-test:1045619486290403122.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "for example the most common still image photography format in the world is 35mm which was the dominant film size at the close of the analog film era",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d1fcca379e68d158fa16.wav",
+      "audio_seconds": 13.92,
+      "audio_sha256": "50c2ae2e8caf48b36b3828959aa379cf91b2ec355ee068b298d840b444df0496"
+    },
+    {
+      "id": "fleurs-en_us-test:1046653381869710616.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the term safari in popular use refers to overland travel to view the stunning african wildlife particularly on savanna",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/70354184bd92f770aa41.wav",
+      "audio_seconds": 8.64,
+      "audio_sha256": "bb8e16a46c367d18fcc8a8f4530ff487e82a7bf5c5f1f9bbf7977da1477ef287"
+    },
+    {
+      "id": "fleurs-en_us-test:10536763405165824117.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "as a result two fish species have become extinct and two others have become endangered including the humpback chub",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/0f2ea2e03f36ed9c9b46.wav",
+      "audio_seconds": 11.44,
+      "audio_sha256": "2b60ddac54e689e829b0759050dea7719856b2f7e29f1e1d1bba0febbc4e3590"
+    },
+    {
+      "id": "fleurs-en_us-test:10550734868852131138.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "on 15 august 1940 the allies invaded southern france the invasion was called operation dragoon",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/9e5b302e5d3be46f2bda.wav",
+      "audio_seconds": 10.12,
+      "audio_sha256": "aff508cdb35c0fae22714e2eac81e9b583bb7d1ae4d524455727cdf13d1efb3a"
+    },
+    {
+      "id": "fleurs-en_us-test:10768814098664478369.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the other nominations include best picture director cinematography costume design film-editing original score production design sound editing sound mixing and original screenplay",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/1406cf9e5607a76ad573.wav",
+      "audio_seconds": 14.6,
+      "audio_sha256": "e59942af45c94e7baa08e264c083d8c24da8a180f23084c14ce19f278366fbcb"
+    },
+    {
+      "id": "fleurs-en_us-test:10933070083389897676.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "due to the underwater topology the return flow is concentrated at a few deeper sections and a fast current to deep water may form there",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/1b1ba57d703ff4576370.wav",
+      "audio_seconds": 10.92,
+      "audio_sha256": "eaec7bbc2715ca2775efb3bd172019b552c582c7e48fcfeb50e52276de3d4a4f"
+    },
+    {
+      "id": "fleurs-en_us-test:1116401173651214130.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "during this period of european history the catholic church which had become rich and powerful came under scrutiny",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/3ca7d8b7ee78f05aaa42.wav",
+      "audio_seconds": 11.4,
+      "audio_sha256": "f5af7775167e68c85992ff36a2cedd704eeb82e6215b262befdc4e12e63ca017"
+    },
+    {
+      "id": "fleurs-en_us-test:11265842188315045636.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "vatican city's population is around 800 it is the smallest independent country in the world and the country with the lowest population",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d6d800ae5b87b2b2ff45.wav",
+      "audio_seconds": 10.74,
+      "audio_sha256": "54bc2bbca5f3c5de7cf47ca88bd10ffb59f76d6646cded4a8d3777238a788282"
+    },
+    {
+      "id": "fleurs-en_us-test:11318597463051480163.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "mrs kirchner announced her intention to run for president at the argentine theatre the same location she used to start her 2005 campaign for the senate as member of the buenos aires province delegation",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/b4af14fc28b5ec0b6deb.wav",
+      "audio_seconds": 19.12,
+      "audio_sha256": "a81deea9b6298c45966905b7c70072db438376c386d6acd27cea1d530c7547ed"
+    },
+    {
+      "id": "fleurs-en_us-test:11497310594035767755.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "lion prides act much like packs of wolves or dogs animals surprisingly similar to lions but not other big cats in behavior and also very deadly to their prey",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/55f22077ff3ca20ba310.wav",
+      "audio_seconds": 10.2,
+      "audio_sha256": "bf46ad6ee6f554a977420dbf4386bbdacf6d0d487b2aca2db669af1f8a425b5d"
+    },
+    {
+      "id": "fleurs-en_us-test:11559094331412401332.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "hydrogen ions are protons that had their electrons stripped off them since hydrogen atoms consist of one proton and one electron",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d9225f6a55ed589a5178.wav",
+      "audio_seconds": 7.68,
+      "audio_sha256": "beabbc42b83166c05bddd443167620f4ddc4de280caa7419ce10abec88413b76"
+    },
+    {
+      "id": "fleurs-en_us-test:11593450817032542587.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the sundarbans are the largest littoral mangrove belt in the world stretching 80 km 50 mi into the bangladeshi and indian hinterland from the coast",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/9274c49a731280821864.wav",
+      "audio_seconds": 12.24,
+      "audio_sha256": "aa18899bea66eb53b0f3275e2f2b10615a901d1340fb3b4184b23dbd6613069c"
+    },
+    {
+      "id": "fleurs-en_us-test:11665346626937246597.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "television reports show white smoke coming from the plant",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/51dfc4aacffba7f687de.wav",
+      "audio_seconds": 5.04,
+      "audio_sha256": "b3645419d0713c56fea68c9c1f8c7fa5a9729b3618587c3308e743f285410943"
+    },
+    {
+      "id": "fleurs-en_us-test:11766033532714442721.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "since 1966 the sundarbans have been a wildlife sanctuary and it is estimated that there are now 400 royal bengal tigers and about 30,000 spotted deer in the area",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/04bae8e09c5da06bce8a.wav",
+      "audio_seconds": 17.46,
+      "audio_sha256": "0a9e46ddb5dc5c902cbc5af0784aad961439719e9e6ff1a1de1e7f32ba2e1e3d"
+    },
+    {
+      "id": "fleurs-en_us-test:11880309600276730497.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "similarly by having a schengen visa you do not need to apply for visas to each of the schengen member countries separately hence saving time money and paperwork",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d5959605ca64aea82859.wav",
+      "audio_seconds": 14.88,
+      "audio_sha256": "1f7826f69ce00625f63e137e3f78700b5e26505df624e87e7ed9bcced917de60"
+    },
+    {
+      "id": "fleurs-en_us-test:11966709226632417907.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "everything in the universe is made of matter all matter is made of tiny particles called atoms",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a067202d6b5c9801f9ee.wav",
+      "audio_seconds": 6.42,
+      "audio_sha256": "e86b2dc8c5394c5e91db1af086cf3acbb124615e6493f77730e3878cc8341149"
+    },
+    {
+      "id": "fleurs-en_us-test:12190760535244332971.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the giza plateau or giza necropolis in the egyptian valley of the dead contains several pyramids of which the great pyramid is the largest several small tombs several temples and the great sphinx",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7cdabab86a10612d0274.wav",
+      "audio_seconds": 15.06,
+      "audio_sha256": "f1df07d923cfb919f63bf12905a483b20dfdc51adaf453e29f50f29acde3fd56"
+    },
+    {
+      "id": "fleurs-en_us-test:12316410148883063626.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "sharing a field trip virtually is also a great way to reflect a on a trip and share experiences with future classes",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/503a36f7395fe2946f61.wav",
+      "audio_seconds": 7.68,
+      "audio_sha256": "bc0cc44d854b9185143589a846a8d2dcf9da5a8c1a98b0064c835b14524e0033"
+    },
+    {
+      "id": "fleurs-en_us-test:12442340605801616197.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the aspect ratio of this format dividing by twelve to obtain the simplest whole-number ratio is therefore said to be 3:2",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/cc7c37748a19e1874057.wav",
+      "audio_seconds": 8.76,
+      "audio_sha256": "a1daf476c22ef8007f9c4cf29882711d22ff8f0502e33b19f548217ccf0c8c8e"
+    },
+    {
+      "id": "fleurs-en_us-test:12517884865939916901.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "it states that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally see example",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/aea5483419c29b0369b7.wav",
+      "audio_seconds": 12.8,
+      "audio_sha256": "5088eb1747103408e20ec733a9f83979e6a90f4a01422d030eb67661975b7793"
+    },
+    {
+      "id": "fleurs-en_us-test:12596571867015231445.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "mosasaurus was the apex predator of its time so it feared nothing except other mosasaurs",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/4d8ba672b4b57062f957.wav",
+      "audio_seconds": 6.9,
+      "audio_sha256": "ac54f5acc20ee4ad06208ed36b05c35b15074c397535688277432a4bb30749bf"
+    },
+    {
+      "id": "fleurs-en_us-test:12618421744672029626.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "beyond wednesday's event carpanedo competed in two individual races at the championships",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a2237415fb4c748da322.wav",
+      "audio_seconds": 5.7,
+      "audio_sha256": "d94cd69fcdbe61135ad14ac5fc7fd0e26bcf46dcb68780b6f03491f51bfd7763"
+    },
+    {
+      "id": "fleurs-en_us-test:13732033283623109766.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "by 1976 thirty percent of machu picchu had been restored and restoration continues till today",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/e7dee1e40914cebbe178.wav",
+      "audio_seconds": 6.78,
+      "audio_sha256": "647eeb02bd2c612c1f8ec0a0fc6445eb62541aafc7ed109b89d9a5516cd8a396"
+    },
+    {
+      "id": "fleurs-en_us-test:13896470903695476292.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "sleep interruption is the process of purposefully awakening during your normal sleep period and falling asleep a short time later 10–60 minutes",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a71b3c75f32c79b70092.wav",
+      "audio_seconds": 12.5,
+      "audio_sha256": "26228fccfd173c09060272e9607ee007077ca8d8614db6e2bcb7759ba7f00568"
+    },
+    {
+      "id": "fleurs-en_us-test:14077379425479054842.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "a simple popular dinner especially during the summer is the pa amb oli bread with olive oil tomato and any available condiments such as cheese tunafish etc",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/171ff297ddfc519f4457.wav",
+      "audio_seconds": 12.24,
+      "audio_sha256": "860bbdb9363a991d925fa9101aa32af2505efb142ef855f67593e5b44d300750"
+    },
+    {
+      "id": "fleurs-en_us-test:14115239728007650784.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "on the other hand icy and snowy conditions are normal in many countries and traffic goes on mostly uninterrupted all year round",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/11230a68907df5d99cca.wav",
+      "audio_seconds": 9.72,
+      "audio_sha256": "a42c351987f0b86f62d0e2754bd3a239962cef9942b594ac96cd1de0beb41bf3"
+    },
+    {
+      "id": "fleurs-en_us-test:14160468372285024125.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "children are placed in foster care for a wide variety of reasons that range from neglect to abuse and even to extortion",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/5421dd2fdb77a12b3944.wav",
+      "audio_seconds": 10.72,
+      "audio_sha256": "fd3dc563da3e42d0e394fa401261902ca79b84ed4da0fceae93da176ff3e959a"
+    },
+    {
+      "id": "fleurs-en_us-test:14291047344508554279.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "severe weather is the generic term for any dangerous weather phenomenon with the potential to cause damage serious social disruption or loss of human life",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d46d8778fee2f1ca027a.wav",
+      "audio_seconds": 10.8,
+      "audio_sha256": "bacf651dfd0fa0bb9b979a0819bccc2632141b23f6c38238262dde7f66159f58"
+    },
+    {
+      "id": "fleurs-en_us-test:14337122471415370884.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "television reports show white smoke coming from the plant",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/5e420ffb7284f8eb48c0.wav",
+      "audio_seconds": 3.84,
+      "audio_sha256": "a36562dcd5282121a36978f69a235624b83aa1e7678e1fff45e180157ba444ea"
+    },
+    {
+      "id": "fleurs-en_us-test:14648010410081654131.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "do not deface the site by marking or scratching graffiti into structures",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/1bb1d147d0cfc759a840.wav",
+      "audio_seconds": 4.5,
+      "audio_sha256": "93e6a96375ebf623d51e1147bf84f351a1c6297cf2f880d71d3e1de323b13b53"
+    },
+    {
+      "id": "fleurs-en_us-test:14693330690944350091.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "between 10:00-11:00 pm mdt a fire was started by the inmates in the yard",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/db1692b1363fbf34f266.wav",
+      "audio_seconds": 8.94,
+      "audio_sha256": "95b2baeb7b93655ae7874c45c3384176378ba3589e0b0feca7c32001692a5b7d"
+    },
+    {
+      "id": "fleurs-en_us-test:14738234113419638776.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "they have feet with scales and claws they lay eggs and they walk on their two back legs like a t-rex",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/e6a7c1ce2d81ebf0a1c3.wav",
+      "audio_seconds": 6.6,
+      "audio_sha256": "8d234c54e481f468b516fbe5539cf0104624cd23c6e974a16c38952dbad5e557"
+    },
+    {
+      "id": "fleurs-en_us-test:14836289886440749215.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the photographers later took the place of an aged lady as she needed the lavatory mendoza was gunned down",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/0c0cbf90d7d2969e1d7a.wav",
+      "audio_seconds": 8.62,
+      "audio_sha256": "07d5bce732dce00b6f20bfb3fa1dbe3b7cdb7d2029c15e31c4d03b8640223a8b"
+    },
+    {
+      "id": "fleurs-en_us-test:14944400645209157789.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "built by the egyptians in the third century bce the great pyramid is one of many large pyramid structures built to honor dead pharaoh",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/dc6074309ac1f71aa525.wav",
+      "audio_seconds": 8.46,
+      "audio_sha256": "1d9489e3831e40da83fd3fa1e285d3a8dcbc1177d614adf44a39968e2caff760"
+    },
+    {
+      "id": "fleurs-en_us-test:14982964006464846866.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "as a result the performers smoke cannabis joints on stage and the theatre itself is encouraging the audience to join in",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d7f6a9c6a91fd7fe4041.wav",
+      "audio_seconds": 10.56,
+      "audio_sha256": "d1b3728949f119ab3a3ecf746420c2cb5e5252e5b8a06fd3b628d406da243030"
+    },
+    {
+      "id": "fleurs-en_us-test:15167791612734877902.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "five minutes into the display a wind starts rolling in about a minute later the wind is reaching 70km/h... then the rain comes but so hard and so large that it slaps your skin like a needle then hail fell from the sky people panicking and screaming and running over each other",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/81874d745ebfee0ad194.wav",
+      "audio_seconds": 18.9,
+      "audio_sha256": "4868cb7cbb5130f14cca6e9ee5a48f61b2a03a9e174e3a3dde85c8bd0683378f"
+    },
+    {
+      "id": "fleurs-en_us-test:15228527404193944906.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "it is thinner under the maria and thicker under the highlands",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/c894e4289290cbabf173.wav",
+      "audio_seconds": 7.2,
+      "audio_sha256": "65cdf76403787293a9199a15182d3bf5f0e6c43148fb8089bdbe2123d3eede1d"
+    },
+    {
+      "id": "fleurs-en_us-test:15738179776336088720.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "crossties were introduced fairly early to hold the tracks in place gradually however it was realised that tracks would be more efficient if they had a stip of iron on the top",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/9be2f7b91f5bb425b7ac.wav",
+      "audio_seconds": 10.74,
+      "audio_sha256": "746f384fba8b7623e70cd33ffe52b4d8eac1537a03c7ba61921f9239253c0ff3"
+    },
+    {
+      "id": "fleurs-en_us-test:16010170383637871536.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "people have known about basic chemical elements such as gold silver and copper from antiquity as these can all be discovered in nature in native form and are relatively simple to mine with primitive tools",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/2c790f193cbfdac72dbb.wav",
+      "audio_seconds": 10.8,
+      "audio_sha256": "4c06ffa9503e304830998a25ac3013f491f1ea55c5369ffb65afc21a6111f75b"
+    },
+    {
+      "id": "fleurs-en_us-test:16249020005264010985.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "there is no universal definition for which manufactured items are antiques some tax agencies define goods older than 100 years as antiques",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/e3e22af2d5f8a3c70c19.wav",
+      "audio_seconds": 11.8,
+      "audio_sha256": "fba6b13cc684bda9458c453170bc038a4f65bbf3a42dd9b3dfc640ef7586e5e6"
+    },
+    {
+      "id": "fleurs-en_us-test:16311865697463361030.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "a search of the internet for hostile environment course' will probably provide the address of a local company",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/c51eeb7b456f36831102.wav",
+      "audio_seconds": 7.2,
+      "audio_sha256": "5cb79230c5abeb464cb0c694eab6909f1cdc52d9ad9e6958eda6fb0d1bd4e4a3"
+    },
+    {
+      "id": "fleurs-en_us-test:16721823661104667622.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "rip currents are the returning flow from waves breaking off the beach often at a reef or similar",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/9cc1bd611f6fb35eb9c5.wav",
+      "audio_seconds": 6.42,
+      "audio_sha256": "486d67ddf47d41a1bc7f7294401d9ddb6f8bd62dede68c3daa15078d58db7aaa"
+    },
+    {
+      "id": "fleurs-en_us-test:16725549094651424150.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "it is thinner under the maria and thicker under the highlands",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/44ffda655910c5f7c457.wav",
+      "audio_seconds": 4.92,
+      "audio_sha256": "3f5ec0a5830655c73e3332ad22605398a504c6b132cd3a7b40e9f71a28351920"
+    },
+    {
+      "id": "fleurs-en_us-test:16824485789160047135.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "australia's mitchell gourley finished eleventh in the men's standing super-g czech competitor oldrich jelinek finished sixteenth in the men's sitting super-g",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/58bf9d796585ae915c48.wav",
+      "audio_seconds": 13.98,
+      "audio_sha256": "951b4ddcb8fbc37228c72757d67e338a4204237a3ebbbbd6c2565e7d347dcb55"
+    },
+    {
+      "id": "fleurs-en_us-test:16989675193715509568.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "their disciplined defence ball handling skills and excellent team work made them stand out and it was clear that this was the team to beat",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/25f40b6735173d6e3c8e.wav",
+      "audio_seconds": 7.86,
+      "audio_sha256": "cc84576c45be60eb4c804866ee69d15eaf99e0c9cf9d1f378aaa2caeeb7c95f4"
+    },
+    {
+      "id": "fleurs-en_us-test:17107523751051309601.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts to perceived washington insiders",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7dd87b62ddaee6ba1c69.wav",
+      "audio_seconds": 8.04,
+      "audio_sha256": "047cda39af7c51ab7f2cb11427379d2e31df7043fc2b96bb3e8d5e2d1ead2982"
+    },
+    {
+      "id": "fleurs-en_us-test:1724953769276277810.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "these are sometimes-crowded family beaches with a good range of shops lining the shore swimming is safe",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/65dfb3a9918a3d76e12a.wav",
+      "audio_seconds": 10.5,
+      "audio_sha256": "14aef2abb59f8cf18b6d162fffce3aeb89e101a2db5ff1338dad9cf3dd0d4e1f"
+    },
+    {
+      "id": "fleurs-en_us-test:17257800930548614745.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "in the archipelagos and lakes you do not necessarily need a yacht",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/fa4d692c40c67bdb260c.wav",
+      "audio_seconds": 7.48,
+      "audio_sha256": "65273ede5b3dca4acedd1e2ddcf036647b41a1fe2e36d23c331dd719b041bf71"
+    },
+    {
+      "id": "fleurs-en_us-test:1727490782035998315.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "no tsunami warning has been issued and according to the jakarta geophysics agency no tsunami warning will be issued because the quake did not meet the magnitude 6.5 requirement",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/5bcb1cd7b095517b86ac.wav",
+      "audio_seconds": 11.88,
+      "audio_sha256": "20f00ad5715f8efb91596b2dc00bd0068d8bcb0ef57887984aa9eedf1b371b0f"
+    },
+    {
+      "id": "fleurs-en_us-test:17535235071289984666.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "cancellation policies vary but as of late march most coronavirus-based cancellation policies don't extend to july 2020 when the olympics had been scheduled",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/462e485b8020a80e52d4.wav",
+      "audio_seconds": 9.3,
+      "audio_sha256": "95878bb47d45a4ccd139b1950cbe76efb14ca1059aeaaa4fcfb6fa6100a5c8f9"
+    },
+    {
+      "id": "fleurs-en_us-test:17695442797451759106.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the most readily accessible plant resources would have been the proteins accessible in leaves and legumes but these are hard for primates like us to digest unless they are cooked",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/b48e55c8298501e92c4c.wav",
+      "audio_seconds": 11.04,
+      "audio_sha256": "9953ea615abb05b077e9d5c39fd34de991d0c49ca409697c0419e8c09cca14f9"
+    },
+    {
+      "id": "fleurs-en_us-test:17897122138146023259.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "he referred to the rumors as political chatter and silliness",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/60c2f6a1506e639bd849.wav",
+      "audio_seconds": 3.84,
+      "audio_sha256": "6d469b625864ed6abd96d570540d0f33f10d71dd08462826807319d7eeb0a8c1"
+    },
+    {
+      "id": "fleurs-en_us-test:1800879378797955911.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the hot chocolate is up to belgian standards fruit juices are pricey but excellent",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/2ade0414eae2619be561.wav",
+      "audio_seconds": 6.98,
+      "audio_sha256": "21473a02dfef28dba337e288b78318671218781dec77f3fa7c50854a607887c3"
+    },
+    {
+      "id": "fleurs-en_us-test:18080893208509673354.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "current senator and argentine first lady cristina fernandez de kirchner announced her presidential candidacy yesterday evening in la plata a city 50 kilometers 31 miles away from buenos aires",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/8fbda35769336eec5dc1.wav",
+      "audio_seconds": 12.12,
+      "audio_sha256": "7dfdc4f129bf87243731d4a387538a0729d78f77ec4b052ddeab87bf7f0e5487"
+    },
+    {
+      "id": "fleurs-en_us-test:18192639498290469063.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "california governor arnold schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/c9ae3b142919e1e9bfe0.wav",
+      "audio_seconds": 8.82,
+      "audio_sha256": "3b906500d49012c01f16b5e411726b586fa3a6c2685310e3785a34ed8b80f7aa"
+    },
+    {
+      "id": "fleurs-en_us-test:2362130555763646360.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "finland is a great boating destination the land of a thousand lakes has thousands of islands too in the lakes and in the coastal archipelagos",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/e6140d2c01625ab973d5.wav",
+      "audio_seconds": 9.36,
+      "audio_sha256": "4e33c34deebea426a0627b0546f2b64d1511f4a88a3a4667847b24074497d498"
+    },
+    {
+      "id": "fleurs-en_us-test:2437577605225034571.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "while one experimental vaccine appears able to reduce ebola mortality up until now no drugs have been clearly demonstrated suitable for treating existing infection",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/587c6f6db124bccf7f91.wav",
+      "audio_seconds": 12.0,
+      "audio_sha256": "833d36b306b1672c7084d47ef615da398303b8b68afd26157bb4f0538452256f"
+    },
+    {
+      "id": "fleurs-en_us-test:2589557553267364799.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "remember that even though music on the main stages may have finished there may be sections of the festival that will keep playing music until late into the night",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/881344f6a2f2fd961828.wav",
+      "audio_seconds": 8.94,
+      "audio_sha256": "6246e4c33ff0ba6e8360a7b5492e88489868efbce7259e53daaada23fa0bddbc"
+    },
+    {
+      "id": "fleurs-en_us-test:2634994688992335656.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "other subjects on the agenda in bali include saving the world's remaining forests and sharing technologies to help developing nations grow in less-polluting ways",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a3368619e2940e6e0a86.wav",
+      "audio_seconds": 13.54,
+      "audio_sha256": "db192b5b1c1c7c40817edb69f8f58cb0766bf65b79ce4586b6146aa770dcbeb4"
+    },
+    {
+      "id": "fleurs-en_us-test:3130624662424273953.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "in just two weeks the americans and free french forces had liberated southern france and were turning towards germany",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/8995339084d5ff7131ff.wav",
+      "audio_seconds": 6.84,
+      "audio_sha256": "92378ddc700d3e31a741648a29057e94e41d534fa536caa1308f914d7e1acbbc"
+    },
+    {
+      "id": "fleurs-en_us-test:3208417939957005389.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "there are of course christian theological explanations for this tradition but it may well be a pre-christian spring and fertility ritual",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d3820db201641fa70ae3.wav",
+      "audio_seconds": 9.06,
+      "audio_sha256": "6deea57852a91821d5216c7e82554c9f5e61f32abe8668b941daf98039386047"
+    },
+    {
+      "id": "fleurs-en_us-test:3362263413020550013.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "in particular it is claimed that one can detect whether a person is lying by interpreting micro-expressions correctly",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/2ccf7014cb8fe390a516.wav",
+      "audio_seconds": 7.68,
+      "audio_sha256": "a5b18ddc9648ef35aa03a3ab1373ef47ccf7fadbdcc97450c4d80ddd132dc08b"
+    },
+    {
+      "id": "fleurs-en_us-test:3491234462595391279.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "we don't know for sure but it may have had a forked tongue its diet included turtles large fish other mosasaurs and it may even have been a cannibal",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/f63c3a3dd60ddae6635d.wav",
+      "audio_seconds": 8.34,
+      "audio_sha256": "59e238b40d0090197528c34103518591d894f687de2e5afe15c30b4d0ed21567"
+    },
+    {
+      "id": "fleurs-en_us-test:3529855487992513201.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "this seems sensible because the earth doesn't feel as if it's moving does it",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7a5a8c8cded9bbd11406.wav",
+      "audio_seconds": 5.64,
+      "audio_sha256": "f4d90ea17ed5e4b8b3ad3622cdcaf338eaed5ae45002fe1ea27679b8fc9fb3db"
+    },
+    {
+      "id": "fleurs-en_us-test:384435163157965470.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "while he was working at the hospital liggins began to investigate premature labor during his spare time",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/4067ee6cdf39c2eee809.wav",
+      "audio_seconds": 5.46,
+      "audio_sha256": "ec5e21377fe70cebff36958b2ab4f36ec79a7787aebe7ee9345b1078bc5bf7e9"
+    },
+    {
+      "id": "fleurs-en_us-test:3922043533653727350.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "in fact it is not easy to find at all even if one knew it existed once inside the cave it is a total isolation",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/308ebfaa72e5c4738bcc.wav",
+      "audio_seconds": 7.92,
+      "audio_sha256": "89cbff5d187201ac6efb2b7a5c14f833bda75aee8b6fc7ae199d44426cfe4ab3"
+    },
+    {
+      "id": "fleurs-en_us-test:3927163358777802368.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "researchers from princeton university in the united states and uppsala university in sweden reported the new species evolved in just two generations though this process had been believed to take much longer due to breeding between an endemic darwin finch geospiza fortes and the immigrant cactus finch geospiza conirostris",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/90af068357e94449138f.wav",
+      "audio_seconds": 20.4,
+      "audio_sha256": "1651ce6e929929f26bc2d7e62c924e30eda622f5fd55fbca1a5b685cb7c2d99e"
+    },
+    {
+      "id": "fleurs-en_us-test:4168260504174612795.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "in many other cities of italy and in the rest of the world particularly in poland similar setups were made which were viewed by a great number of people",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/5ae3bce03854479986b7.wav",
+      "audio_seconds": 10.86,
+      "audio_sha256": "0060222297d91065d34952b67a7dc66982af0a0bb5fe62205e2d3115e70bc279"
+    },
+    {
+      "id": "fleurs-en_us-test:4439398069046383836.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "lakkha singh presented the chhappan bhog bhajan as well singer raju khandelwal was accompanying him",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/41fba16591ea5f7eb647.wav",
+      "audio_seconds": 14.74,
+      "audio_sha256": "218058d851dbfcbabea7d95e954e0307099ebbc944d883a655af79b93f35db82"
+    },
+    {
+      "id": "fleurs-en_us-test:4491697341889976683.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "if you're not used to driving on country roads keep your wits about you steep grades narrow lanes and sharp curves predominate",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7fac26ed45d1e1c03468.wav",
+      "audio_seconds": 8.28,
+      "audio_sha256": "6f9a2be18f100676b5c4adcb574c9fbe1b7119091b03a827a77314f722b8a7e6"
+    },
+    {
+      "id": "fleurs-en_us-test:4562231445388891346.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "nextgen is a system the faa claims would allow aircraft to fly shorter routes and save millions of gallons of fuel each year and cut carbon emissions",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a1dc3abe2b33da731917.wav",
+      "audio_seconds": 9.72,
+      "audio_sha256": "056793df7b10cd30935dad7f5bfb10c499e3a1755979289f0679758269baa271"
+    },
+    {
+      "id": "fleurs-en_us-test:4937589470390171572.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "aerosmith have cancelled their remaining concerts on their tour",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/6745571d5d933060eb39.wav",
+      "audio_seconds": 4.38,
+      "audio_sha256": "dda7d88a7c51f8dbf3f5bde9ca4db2223a2be5e0531d027ceff88d97e62f8d4a"
+    },
+    {
+      "id": "fleurs-en_us-test:4940213511640275250.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "italian is also the everyday language used by most of those who work in the state while latin is often used in religious ceremonies",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a4477429db0417634903.wav",
+      "audio_seconds": 7.44,
+      "audio_sha256": "92bae4aeb62dbe9414f22960d874aff6e140aa212d98cd8f8a17b5b791ee0b84"
+    },
+    {
+      "id": "fleurs-en_us-test:5106380017322065030.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "however that is not true although there is something written on the back of the document it is not a treasure map",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/a36ad0d0a7813aa28ef5.wav",
+      "audio_seconds": 8.54,
+      "audio_sha256": "02c1aa98a6f2f48426b7f0926fd2e653280282f36d9c49886709d7212459d4b7"
+    },
+    {
+      "id": "fleurs-en_us-test:5111153817746112904.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "prior to the arrival of troops haiti had not encountered problems related to the disease since the 1800s",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/aaba3bafe37de3b4f366.wav",
+      "audio_seconds": 8.94,
+      "audio_sha256": "41e51ff58540d1062a91fa789dee94e967e9c7bf3e4c5c425dc3bdccfef7e832"
+    },
+    {
+      "id": "fleurs-en_us-test:517532078886085321.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "appropriate use of blogs can empower students to become more analytical and critical; through actively responding to internet materials students can define their positions in the context of others' writings as well as outline their own perspectives on particular issues oravec 2002",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/563c9f387507fe2e1f78.wav",
+      "audio_seconds": 16.32,
+      "audio_sha256": "13e90d7085b2d3dcd42282a25a14606cc5615fb4aa5e9c352052317639cecdbf"
+    },
+    {
+      "id": "fleurs-en_us-test:5196260640941390313.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "but being placed in the high tropics just a few degrees north of equator you will need to deal with both heat always and strong sun when the sky is clear more rarely",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/6db66bd935316fc67c9d.wav",
+      "audio_seconds": 10.44,
+      "audio_sha256": "1bc267e9ebb5b1553bef98344ba3a8a8db07ab9bcb9f7193787ab66d665c23d7"
+    },
+    {
+      "id": "fleurs-en_us-test:5505398583576174352.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "perry stated that he would return to texas to assess the results of tonight's caucus determine whether there is a path forward for myself in this race but later said that he would remain in the race and compete in the january 21 south carolina primary",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/e7f066ee4d03932b40ff.wav",
+      "audio_seconds": 12.6,
+      "audio_sha256": "32a308e45ddfb171b5af06144b137016c73d3d40178cfe848ee6a7cf601f3f69"
+    },
+    {
+      "id": "fleurs-en_us-test:5866078581108668966.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "so it is likely that the notation was added simply as a label",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/3777a497ff5deada7355.wav",
+      "audio_seconds": 5.62,
+      "audio_sha256": "7e2b856565bd926c63316568eedc5fe084eb85ffe6bfec9749b30501c4d1c69e"
+    },
+    {
+      "id": "fleurs-en_us-test:621925716775998155.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "twentieth century research has shown that there are two pools of genetic variation hidden and expressed",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/3936f52c82fe0c830435.wav",
+      "audio_seconds": 5.88,
+      "audio_sha256": "10416a26a52ad381586bd7593d5629d4d0090c7520387908eda25c3be9c41c05"
+    },
+    {
+      "id": "fleurs-en_us-test:6306322369645218273.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "one can only wonder what the keyboard will become when something newer comes along",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7530dd99dee5838a276b.wav",
+      "audio_seconds": 6.98,
+      "audio_sha256": "119c2639d29406d02a6a7ae3cde45ad7d988cd8c3efc9eb9e289e30c3e4b57d9"
+    },
+    {
+      "id": "fleurs-en_us-test:6351367445025505944.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "lions are the most social cats living in large groups called prides",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/081ff885cc592d5c4242.wav",
+      "audio_seconds": 6.6,
+      "audio_sha256": "3adaea9fbce8c1f0b8d6007db08bff13c829e5a669d3a15c666d8b3be4ae775a"
+    },
+    {
+      "id": "fleurs-en_us-test:6434859821714227491.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow ice or freezing temperatures",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/3590325f88256c65e569.wav",
+      "audio_seconds": 11.32,
+      "audio_sha256": "b52c9172b525ebc0a1e5fd2cf8487e949d8109fc8402ed60eca99ac8c62428f4"
+    },
+    {
+      "id": "fleurs-en_us-test:6507390080013738113.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "layton had asked for changes to the conservatives' environmental bill during the meeting with the pm asking for a thorough and complete rewriting of the conservative party's environmental bill",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/cc83d8e7baeb0e7974c4.wav",
+      "audio_seconds": 11.28,
+      "audio_sha256": "2adf4a2292d1b4f9dd0db9d2148a86cf6b1acd575ec1a8427f7da98627affbbb"
+    },
+    {
+      "id": "fleurs-en_us-test:6620311002113327699.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the number of people present was so large that it was not possible for everybody to gain access to the funeral in st peter's square",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/f29ab50f18ede9d0f999.wav",
+      "audio_seconds": 12.36,
+      "audio_sha256": "f5030819d22c3b2481311d4e8621dd1281bf9b84d1292675cc963b38b66ba9b2"
+    },
+    {
+      "id": "fleurs-en_us-test:6817878979697223927.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "all nouns alongside the word sie for you always begin with a capital letter even in the middle of a sentence",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/244798d8a2de0ba8b477.wav",
+      "audio_seconds": 6.6,
+      "audio_sha256": "4a57019a82b817905c7b81eee966af1defc8acceac97f2bbb2ff4703aa5e149d"
+    },
+    {
+      "id": "fleurs-en_us-test:68300966899801601.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "on the other hand icy and snowy conditions are normal in many countries and traffic goes on mostly uninterrupted all year round",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/6eb2354a9628af396db1.wav",
+      "audio_seconds": 12.12,
+      "audio_sha256": "01076103aeab6f2847122a8ffb9a6113f12fbdc590f4ed7c6df7bb11ddab1e78"
+    },
+    {
+      "id": "fleurs-en_us-test:6852813781354643345.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "its long jaws were studded with more than 70 razor-sharp teeth along with an extra set in the roof of its mouth meaning that there was no escape for anything that crossed its path",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/8237b024ad4c10e123c2.wav",
+      "audio_seconds": 10.98,
+      "audio_sha256": "58cbcc0c1086ec923ac09f2b64d631bb2eb51e8c737035df964d2ef549081e92"
+    },
+    {
+      "id": "fleurs-en_us-test:6927296460002744628.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "plants look their best when in a natural environment so resist the temptation to remove even just one specimen",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/88ec3d8fc54421dd493d.wav",
+      "audio_seconds": 9.66,
+      "audio_sha256": "5802384f9e768e3dd941a013a91f9b26644acae65790368a4830cde05b40720a"
+    },
+    {
+      "id": "fleurs-en_us-test:7783164194712761839.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "a civilization is a singular culture shared by a significant large group of people who live and work co-operatively a society",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/44f1623883d9c4c8267f.wav",
+      "audio_seconds": 8.28,
+      "audio_sha256": "e4230bbd5de716bbac9a25ffc45dbbdc073d01a686a114191b3e1eb454e1fd64"
+    },
+    {
+      "id": "fleurs-en_us-test:8361417265277853163.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "aristotle a philosopher theorised that everything is made up of a mixture of one or more of four elements they were earth water air and fire",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d4bf1414b3a41a7371a6.wav",
+      "audio_seconds": 9.48,
+      "audio_sha256": "e878edd5f634fd9e7f72c68ae8d302d78f48e3c7002acf60d7007116540a9585"
+    },
+    {
+      "id": "fleurs-en_us-test:8856417737463972790.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the service is frequently used by shipping including pleasure craft as well as expeditions who have remote data and voice needs",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/cfccadbb1089b7117697.wav",
+      "audio_seconds": 7.2,
+      "audio_sha256": "0fd2ac684a29ab80ef7dbb1bad2041697edafa79ae1edea293f34f73aacafc5d"
+    },
+    {
+      "id": "fleurs-en_us-test:9253409408372025849.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the tiger's roar is not like the full-voiced roar of a lion but more like a sentence of snarly shouted words",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/120b34cfa051dee495f7.wav",
+      "audio_seconds": 6.54,
+      "audio_sha256": "3d5c6ab96eaa5c17747556ed05e5cb1db88a750d5c15895865c32243926e6647"
+    },
+    {
+      "id": "fleurs-en_us-test:970996899856075411.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "on some routes the larger companies have their own planes but for other routes and smaller firms there was a problem",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/9931553919eaf78c0955.wav",
+      "audio_seconds": 5.76,
+      "audio_sha256": "c7908264f2a7eba9924f00822f65a82fa4be3719ce2859c6533d378df99338f0"
+    },
+    {
+      "id": "fleurs-en_us-test:9781076737390802637.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "along the same line men are required to wear trousers covering the knees",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/d8adfd3dd73a8e212fbd.wav",
+      "audio_seconds": 6.28,
+      "audio_sha256": "27b7a1dff106a357a68051688de1c2ec4a40bf0a8e28857798477d5177039350"
+    },
+    {
+      "id": "fleurs-en_us-test:9794832621341165457.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "at the other end of the spectrum one morphs into an unrecognizable individual that feels he or she must change everything the team has been doing and make it their own",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/825ded31a37d84f57368.wav",
+      "audio_seconds": 9.24,
+      "audio_sha256": "381f50e9752bdbcfe2c9e4d12e14bd44ddb2970a4a3dae6f51af39423ea7103a"
+    },
+    {
+      "id": "fleurs-en_us-test:9804762782045252114.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "the crust is about 70 km thick on the near side and 100 km thick on the far side",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/28cbc68f377e384e579b.wav",
+      "audio_seconds": 7.68,
+      "audio_sha256": "0646b8e76bfff177a5a52ba3a880cf822f9535fd3e3f18c847bf9420223b7607"
+    },
+    {
+      "id": "fleurs-en_us-test:9976913881674290440.wav",
+      "dataset": "fleurs-en_us-test",
+      "reference": "virtual scaffolds are internalized in the software and are meant to question prompt and explain procedures that may have been to challenging for the student to handle alone",
+      "path": ".harmon-work/stt-comparison/audio/fleurs-en_us-test/7ef6b485ff5f986a2d44.wav",
+      "audio_seconds": 10.92,
+      "audio_sha256": "a92d22013afdcedfb2933a6b240293437161369dc24bc5cd33b604d7fe399ade"
+    },
+    {
+      "id": "librispeech-test-other:1688-142285-0012",
+      "dataset": "librispeech-test-other",
+      "reference": "NO ONE CAME FORWARDS TO HELP THE MOTHER AND THIS BOY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/806cda41964805e8e41c.wav",
+      "audio_seconds": 3.32,
+      "audio_sha256": "2bbfaf52e14684a470a9f04aa3768ff54f27b41ccf709724df70c92829955de6"
+    },
+    {
+      "id": "librispeech-test-other:1688-142285-0043",
+      "dataset": "librispeech-test-other",
+      "reference": "AT LAST SHE SAID IN A LOW VOICE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9cd217d2fcf266a4726d.wav",
+      "audio_seconds": 3.425,
+      "audio_sha256": "eff7cf1c23092177c8f900a3c1a5e85e2d6dcb8c53e7b056697b21cdac57751a"
+    },
+    {
+      "id": "librispeech-test-other:1688-142285-0080",
+      "dataset": "librispeech-test-other",
+      "reference": "SUPPOSE I TRY SAID MISTER HALE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/19f63b3b1acee56e62be.wav",
+      "audio_seconds": 3.48,
+      "audio_sha256": "a8ef209c64adcac1ccaaf9ee2330d203547a0890ac7fef181b62188bb95c1d75"
+    },
+    {
+      "id": "librispeech-test-other:1998-29454-0018",
+      "dataset": "librispeech-test-other",
+      "reference": "I GOT TO STICK IT SAID DICKIE SADLY I'D BEST BE GETTING HOME",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/831e30a56f84dfdc5925.wav",
+      "audio_seconds": 5.15,
+      "audio_sha256": "108556a3225377a23d3c6278f32d87509fb519e6aa82c20bea285142470a606b"
+    },
+    {
+      "id": "librispeech-test-other:1998-29455-0012",
+      "dataset": "librispeech-test-other",
+      "reference": "I LIKE YOU NEXTER MY OWN DADDY AND MISTER BAXTER NEXT DOOR",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/44d9463e180cb8b59c4a.wav",
+      "audio_seconds": 3.695,
+      "audio_sha256": "0e15bee59921305c52c1c962d5f1f5c0965df3927fe131e4b9fc88d015776150"
+    },
+    {
+      "id": "librispeech-test-other:1998-29455-0019",
+      "dataset": "librispeech-test-other",
+      "reference": "YOU STICK TO THAT SAID BEALE RADIANT WITH DELIGHT YOU'RE A FAIR MASTERPIECE YOU ARE YOU EARNED IT HONEST IF EVER A KID DONE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/415cb341c2ec5a9023f2.wav",
+      "audio_seconds": 7.57,
+      "audio_sha256": "ce314c3cadc8e5346c0fbc955ed135c9bf790845f478bffce9a1bbe7b8829b47"
+    },
+    {
+      "id": "librispeech-test-other:1998-29455-0024",
+      "dataset": "librispeech-test-other",
+      "reference": "BUT YOU SAID THE BED WITH THE GREEN CURTAINS URGED DICKIE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/ee4e5b2b7c75c7ea536b.wav",
+      "audio_seconds": 4.03,
+      "audio_sha256": "1f6ac7fb906f1a0ee0771930596b5d36aa54cf68ccb0a9fa3549d81787a60724"
+    },
+    {
+      "id": "librispeech-test-other:1998-29455-0031",
+      "dataset": "librispeech-test-other",
+      "reference": "I OPE E'S CLEVER ENOUGH TO DO WOT E'S TOLD KEEP IS MUG SHUT THAT'S ALL",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/b33bad040fab0e665cd2.wav",
+      "audio_seconds": 4.96,
+      "audio_sha256": "9c0a7e8d3575a0d8b39a532633607fd925df2bcecd25278f04c243d15438a9cf"
+    },
+    {
+      "id": "librispeech-test-other:1998-29455-0038",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY DID NOT STAY THERE BUT WALKED OUT ACROSS THE DOWNS WHERE THE SKYLARKS WERE SINGING AND ON A DIP OF THE DOWNS CAME UPON GREAT STONE WALLS AND TOWERS VERY STRONG AND GRAY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/63883b275866d32ad3d6.wav",
+      "audio_seconds": 11.05,
+      "audio_sha256": "9bda62ffd0530e0f468acf5f2d91a4454c0687a7213057d5f2d39666b5adc373"
+    },
+    {
+      "id": "librispeech-test-other:2033-164915-0007",
+      "dataset": "librispeech-test-other",
+      "reference": "SHE SAID IT HATH REACHED ME O AUSPICIOUS KING THAT WHEN THE STOKER GIRTHED HIS ASS FOR FLIGHT AND BESPAKE HIMSELF SAYING OH WOULD I KNEW WHAT IS BECOME OF HIM",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/b6cdae75467db890d91b.wav",
+      "audio_seconds": 13.605,
+      "audio_sha256": "bc98086d190afcf66555e177b9b9edc2d62b39adbf57f294320536f9b0a2ba80"
+    },
+    {
+      "id": "librispeech-test-other:2414-128291-0019",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY ALSO ABSTAIN FROM ALL HEAVY THOUGHTS WHICH INFLATE THE HEART",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9f02ce0454c9fd920ee7.wav",
+      "audio_seconds": 6.205,
+      "audio_sha256": "9e9388a99fe1defea63c697795e66e6c58117dec9c95bccee451bc59f333faaf"
+    },
+    {
+      "id": "librispeech-test-other:2414-128292-0007",
+      "dataset": "librispeech-test-other",
+      "reference": "BUT DOTH ZARATHUSTRA NEED TO BE FRIGHTENED BY HIS SHADOW",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/3195296e87ef1ebc8294.wav",
+      "audio_seconds": 4.32,
+      "audio_sha256": "3a73c494fc9ff6612c7bb4f440ab603c906280a6f1796b88588d9894fe696016"
+    },
+    {
+      "id": "librispeech-test-other:2414-128292-0027",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY SLEEP QUIETLY THEY ENJOY THEIR NEW SECURITY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/0d240426da00019700f6.wav",
+      "audio_seconds": 4.79,
+      "audio_sha256": "83da948d0bff7cf66f8a1156e6a66276cfa320ab7a911b252b4d3f792b167a36"
+    },
+    {
+      "id": "librispeech-test-other:2414-128292-0029",
+      "dataset": "librispeech-test-other",
+      "reference": "FOR NOW EVERYTHING THAT IS NARROW AND FIXED SEDUCETH AND TEMPTETH THEE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/c25a9a6f49c4d74a8b65.wav",
+      "audio_seconds": 6.3000625,
+      "audio_sha256": "51e89500c894c7aef5d36bdff13fb651be1d254130b2f75ef8242c834e7ba2ad"
+    },
+    {
+      "id": "librispeech-test-other:2414-159411-0003",
+      "dataset": "librispeech-test-other",
+      "reference": "I WILL NEVER BE SO UNGRATEFUL ONLY LET ME OUT THAT I MAY DRINK SOME WATER AND RETURN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/6bfd1a901b00537dc1e3.wav",
+      "audio_seconds": 7.27,
+      "audio_sha256": "f0a9655614b428fbb0d893704f6e529c10c5bb5ed63d99759c804d7269bc9fe8"
+    },
+    {
+      "id": "librispeech-test-other:2414-159411-0014",
+      "dataset": "librispeech-test-other",
+      "reference": "THREE OUT OF THE SIX HAD GIVEN JUDGMENT AGAINST THE BRAHMAN BUT STILL HE DID NOT LOSE ALL HOPE AND DETERMINED TO ASK THE OTHER THREE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/83e21deab47b468412bc.wav",
+      "audio_seconds": 10.16,
+      "audio_sha256": "8211acd0d396a5915a057f5bf9a7a2feae8926cd83d840c8c2ce03a361d63599"
+    },
+    {
+      "id": "librispeech-test-other:2414-159411-0031",
+      "dataset": "librispeech-test-other",
+      "reference": "THEN SHUT AND BOLT IT SAID THE JACKAL",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/a4f0cd88f27921ef3184.wav",
+      "audio_seconds": 3.3,
+      "audio_sha256": "667a4756dd8c2e74a19964b6b0954800a71cb848bbf38a912e2a7a32eef28474"
+    },
+    {
+      "id": "librispeech-test-other:2609-156975-0008",
+      "dataset": "librispeech-test-other",
+      "reference": "THE BIBLICAL NARRATIVES APPARENTLY DISAGREE REGARDING THE DURATION OF THE SOJOURN IN EGYPT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/6598f1902afd9a3d276e.wav",
+      "audio_seconds": 7.11,
+      "audio_sha256": "7cb1e8d60eadd67ff263e34b9d3808d6e6f45c8b65b5d9ecacd899c419e77841"
+    },
+    {
+      "id": "librispeech-test-other:2609-169640-0008",
+      "dataset": "librispeech-test-other",
+      "reference": "ALTHOUGH THEY WENT THREE FEET TO OUR TWO THIS GAVE US A MOMENT OF BREATHING TIME",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/de807355d9630b55ef1a.wav",
+      "audio_seconds": 6.495,
+      "audio_sha256": "f5060bb78262c47fb264f13293fd2af75bdd1bf41c8df3416cd892807df38fd1"
+    },
+    {
+      "id": "librispeech-test-other:3005-163389-0004",
+      "dataset": "librispeech-test-other",
+      "reference": "THE AVERAGE MAN'S A COWARD",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/4b7b259288ea9e4abc2a.wav",
+      "audio_seconds": 2.47,
+      "audio_sha256": "ea0644290d662a9c8d5fd5192d510453b6c98cf26bf7226ec7ddfdb045b2f9fb"
+    },
+    {
+      "id": "librispeech-test-other:3005-163390-0013",
+      "dataset": "librispeech-test-other",
+      "reference": "WELL IT DON'T BECAUSE IT'S IN THE BREED I RECKON THEY'RE ALL ALIKE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/d5fd5a3315fc527788ef.wav",
+      "audio_seconds": 4.63,
+      "audio_sha256": "2459b45ed3895c6b071f284778bd0989af82a8b18c18e34a79b11cee0a460ad0"
+    },
+    {
+      "id": "librispeech-test-other:3005-163390-0028",
+      "dataset": "librispeech-test-other",
+      "reference": "DOAN YOU HEAR ME SHET DE DO",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9a87af27eeb256c179ac.wav",
+      "audio_seconds": 3.88,
+      "audio_sha256": "cb57c50e47033f472160b771122e8122c5cb4618330e9cd4fe6d673aa1268abb"
+    },
+    {
+      "id": "librispeech-test-other:3005-163399-0021",
+      "dataset": "librispeech-test-other",
+      "reference": "I CAN'T IMAGINE SAYS THE OLD GENTLEMAN AND I MUST SAY IT MAKES ME DREADFUL UNEASY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/c21af0e22381b12c80e9.wav",
+      "audio_seconds": 5.27,
+      "audio_sha256": "56637dd6a7334134e65fc6b563d7a372a8a9830b0045d2e7abe441bfb79af247"
+    },
+    {
+      "id": "librispeech-test-other:3080-5032-0021",
+      "dataset": "librispeech-test-other",
+      "reference": "HOW CAN YOU TALK OF DEFYING FORTUNE NOBODY LIVES WITHOUT IT AND THEREFORE WHY SHOULD YOU IMAGINE YOU COULD",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/cd397dffcd5f5ec80fb9.wav",
+      "audio_seconds": 8.38,
+      "audio_sha256": "5d0aebe605099719cafe22c63c1fd5baa45f34694c8421d8eb2025f58465d5c3"
+    },
+    {
+      "id": "librispeech-test-other:3331-159605-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "A FOOLISH LITTLE SPEECH TO MAKE TO A DOG BUT YOU SEE POLLY WAS ONLY A TENDER HEARTED GIRL TRYING TO DO HER DUTY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/224706a3c638753fd8b0.wav",
+      "audio_seconds": 9.19,
+      "audio_sha256": "997a9bc2f6ba2c053e63b1c2fa482dc70fe1e43e40dab31219c02bde8f46f632"
+    },
+    {
+      "id": "librispeech-test-other:3331-159605-0028",
+      "dataset": "librispeech-test-other",
+      "reference": "HE WAS QUICKER TO TAKE A HINT THAN SHE HAD EXPECTED AND BEING BOTH PROUD AND GENEROUS RESOLVED TO SETTLE THE MATTER AT ONCE FOR POLLY'S SAKE AS WELL AS HIS OWN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/193598bad469be364a8e.wav",
+      "audio_seconds": 10.52,
+      "audio_sha256": "94e1323ce606328563d9c1b87e2cdd57df417cb54ad10df68fcf9f9436ed7a06"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0000",
+      "dataset": "librispeech-test-other",
+      "reference": "THE PRIORESS RETURNED AND SEATED HERSELF ONCE MORE ON HER CHAIR",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/82ec20696d32dba144de.wav",
+      "audio_seconds": 4.05,
+      "audio_sha256": "a5b9bd193e93426a045a101240dae4079785d4429f8a4bfb51f218d008ebc825"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "WILL THAT BE ALL NO",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/d766564985d1f67266b1.wav",
+      "audio_seconds": 2.635,
+      "audio_sha256": "547e260289ea70640dc70dd006f505693a0897bbfb78f74e2b9258ddd8c1546b"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0063",
+      "dataset": "librispeech-test-other",
+      "reference": "WHERE INTO THE VAULT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/36cf4daa6bb70236d258.wav",
+      "audio_seconds": 2.71,
+      "audio_sha256": "13ff9d09e47181b2eefa92d014d76301f308edf67d9bb1ba2c5d7480556afd18"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0087",
+      "dataset": "librispeech-test-other",
+      "reference": "WE LIVE IN TIMES OF TERRIBLE CONFUSION",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/505839355a4d4e99853f.wav",
+      "audio_seconds": 2.445,
+      "audio_sha256": "fdc31c70f6848ae02a7424564eedd147fa38b0f2154d3e52eec3377a7977b334"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0091",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY PERSECUTE THE SAINTS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9acfd5c1dcf7682d7ebe.wav",
+      "audio_seconds": 1.905,
+      "audio_sha256": "56801cdcab0e9808b7976f839f29d1ec48bb96636b5db2dd6fd65e791d2ca63e"
+    },
+    {
+      "id": "librispeech-test-other:3528-168669-0109",
+      "dataset": "librispeech-test-other",
+      "reference": "THAT IS WELL FATHER FAUVENT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9b904c5c7cafd62f2cb3.wav",
+      "audio_seconds": 2.08,
+      "audio_sha256": "b6482aabdf43480a83adc9be7a3a04171e6c8d0d1d09d6c22f760de8bd42044d"
+    },
+    {
+      "id": "librispeech-test-other:3538-142836-0018",
+      "dataset": "librispeech-test-other",
+      "reference": "CONFECTIONARY FIFTEEN O EIGHT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/5334ab1ce0dc89a6eb1d.wav",
+      "audio_seconds": 3.805,
+      "audio_sha256": "d008fc9a613ba71ece6a9217498e04f5f7dd65873110159f0de75e0435cdcca9"
+    },
+    {
+      "id": "librispeech-test-other:3538-163622-0020",
+      "dataset": "librispeech-test-other",
+      "reference": "WHEN THEY HAD TRAVELLED A LONG LONG WAY THE FOAL SAID DOST THOU SEE ANYTHING",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/c2cebd27f52c7a6a0d65.wav",
+      "audio_seconds": 4.785,
+      "audio_sha256": "c5da5dcfec3733a96367181dcf312e6134988e025437fed140524b698589dd7f"
+    },
+    {
+      "id": "librispeech-test-other:367-130732-0012",
+      "dataset": "librispeech-test-other",
+      "reference": "I SAY COME TO SAN FRANCISCO ADVISEDLY FOR WHILE THE CRAB IS FOUND ALL ALONG THE COAST IT IS PREPARED NOWHERE SO DELICIOUSLY AS IN SAN FRANCISCO",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/f0b2dc984f1f47e9e37c.wav",
+      "audio_seconds": 8.44,
+      "audio_sha256": "ad8b36e0d12613753baeefb7071f7d9977b82691585758b6c5bf7ddea3ddde4d"
+    },
+    {
+      "id": "librispeech-test-other:3764-168670-0005",
+      "dataset": "librispeech-test-other",
+      "reference": "I HAVE PERMISSION TO BRING YOU IN BUT BEFORE BRINGING YOU IN YOU MUST BE GOT OUT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/74d3a0788a34eabab769.wav",
+      "audio_seconds": 6.355,
+      "audio_sha256": "d79818200581ab2fcc50f0f6ec550c6be1bb6aaf8eaf7ab91688386a9f6a836a"
+    },
+    {
+      "id": "librispeech-test-other:3997-180294-0015",
+      "dataset": "librispeech-test-other",
+      "reference": "IT IS THE SAME WITH THESE UNHAPPY WOMEN WHEN THEY LOVE SERIOUSLY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/ed6966e4ce24de0553ad.wav",
+      "audio_seconds": 4.89,
+      "audio_sha256": "8eb68b55b227a3585e8ea4c49f39154033f3bd773d69efb054dbe2f15fbd469a"
+    },
+    {
+      "id": "librispeech-test-other:3997-182399-0001",
+      "dataset": "librispeech-test-other",
+      "reference": "THIS SOUNDED LIKE ANOTHER STORY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/308f60c8e8343bc179cb.wav",
+      "audio_seconds": 2.35,
+      "audio_sha256": "55796ba0e110977ada322e5158d1ee3061002125160e5c492610a285fce7cbd4"
+    },
+    {
+      "id": "librispeech-test-other:4198-12259-0036",
+      "dataset": "librispeech-test-other",
+      "reference": "WHITE WINE HERE WINE BOYS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/33731e3fdeebe3cc40d2.wav",
+      "audio_seconds": 2.9,
+      "audio_sha256": "ccbc9aafacf392af6b85db2694814ca3c4040c8786a31edf1ef474035f6a6556"
+    },
+    {
+      "id": "librispeech-test-other:4198-12281-0008",
+      "dataset": "librispeech-test-other",
+      "reference": "HARK YOU MY MASTERS YOU THAT LOVE THE WINE COP'S BODY FOLLOW ME FOR SANCT ANTHONY BURN ME AS FREELY AS A FAGGOT IF THEY GET LEAVE TO TASTE ONE DROP OF THE LIQUOR THAT WILL NOT NOW COME AND FIGHT FOR RELIEF OF THE VINE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/b549e7642a9f11be08c2.wav",
+      "audio_seconds": 18.81,
+      "audio_sha256": "e181d2c6e836e9f1a4a19df527dafdcc2ab33d57d694bf14c11c95d8a38bff50"
+    },
+    {
+      "id": "librispeech-test-other:4294-14317-0006",
+      "dataset": "librispeech-test-other",
+      "reference": "THEN I THANKED HIM AND SAID I HAD NO GREATER DESIRE THAN TO SHOW THOSE ENVIOUS FOLK THAT I HAD IT IN ME TO EXECUTE THE PROMISED WORK",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/0758c1d895facac3de48.wav",
+      "audio_seconds": 7.95,
+      "audio_sha256": "cab6aeea7b9314a3965f364f00728a2424af34f240d875e8ffeaa713be91b040"
+    },
+    {
+      "id": "librispeech-test-other:4294-14317-0009",
+      "dataset": "librispeech-test-other",
+      "reference": "I SAID MY LORD I THANK YOU AND BEG YOU TO CONDESCEND SO FAR AS TO LISTEN TO FOUR WORDS IT IS TRUE THAT HE LENT ME A PAIR OF OLD SCALES TWO ANVILS AND THREE LITTLE HAMMERS WHICH ARTICLES I BEGGED HIS WORKMAN GIORGIO DA CORTONA FIFTEEN DAYS AGO TO FETCH BACK",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/e10f2deded5249e35904.wav",
+      "audio_seconds": 18.065,
+      "audio_sha256": "862f52b38293a91a656fd766618fd915196692b531d8bf0ca9e16bd7dc7c6d35"
+    },
+    {
+      "id": "librispeech-test-other:4294-35475-0010",
+      "dataset": "librispeech-test-other",
+      "reference": "SCISSORS GROW A GIANT'S HEIGHT AND SAVE US FROM THE OGRE'S MIGHT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/67a4c91a03d3f5ce23ef.wav",
+      "audio_seconds": 4.1,
+      "audio_sha256": "cb490d27fa4df5f943136fcfb9c49047e65b13f092de6517bdb819b4246cc73b"
+    },
+    {
+      "id": "librispeech-test-other:4350-10919-0028",
+      "dataset": "librispeech-test-other",
+      "reference": "NERVOUS IRRITABILITY HE SAID TO THE PRINCESS WHEN KITTY HAD LEFT THE ROOM HOWEVER I HAD FINISHED",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/0c6680624fcb19ebe849.wav",
+      "audio_seconds": 5.935,
+      "audio_sha256": "2ff61433c7c38cd70118c505798d504a513d09eabda9983c2d935d41b3c83346"
+    },
+    {
+      "id": "librispeech-test-other:4350-10919-0030",
+      "dataset": "librispeech-test-other",
+      "reference": "AT THE QUESTION SHOULD THEY GO ABROAD THE DOCTOR PLUNGED INTO DEEP MEDITATION AS THOUGH RESOLVING A WEIGHTY PROBLEM",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/707d4b4d6e9af8a3c870.wav",
+      "audio_seconds": 6.34,
+      "audio_sha256": "52525c0bfb4c3aef324d6b397f8e902bdc66c60fa214752816e19803b1ce53ff"
+    },
+    {
+      "id": "librispeech-test-other:4350-10919-0031",
+      "dataset": "librispeech-test-other",
+      "reference": "FINALLY HIS DECISION WAS PRONOUNCED THEY WERE TO GO ABROAD BUT TO PUT NO FAITH IN FOREIGN QUACKS AND TO APPLY TO HIM IN ANY NEED",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/5cbc146f61fc00d373a3.wav",
+      "audio_seconds": 7.76,
+      "audio_sha256": "30bb52046dd4afdba2f94c78794e802ff3ac270a5222b7a58d037926414540be"
+    },
+    {
+      "id": "librispeech-test-other:4350-9170-0025",
+      "dataset": "librispeech-test-other",
+      "reference": "THE REASON TO WHICH HE GAVE EXPRESSION IS ESSENTIALLY THE SAME AS THAT WHICH MADE THE FRENCH KINGS AND THE POPES ENGAGE SWISS AND SCOTCH GUARDS AND MAKES THE RUSSIAN AUTHORITIES OF TO DAY SO CAREFULLY DISTRIBUTE THE RECRUITS SO THAT THE REGIMENTS FROM THE FRONTIERS ARE STATIONED IN CENTRAL DISTRICTS AND THE REGIMENTS FROM THE CENTER ARE STATIONED ON THE FRONTIERS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/e700a93f3b782d493b9f.wav",
+      "audio_seconds": 17.13,
+      "audio_sha256": "5b14a0f65b56e4a694633d9c5efe0c92af24411b821823635c53b9028d5e1149"
+    },
+    {
+      "id": "librispeech-test-other:4350-9170-0030",
+      "dataset": "librispeech-test-other",
+      "reference": "THIS INCREASE IS CONTAGIOUS AS MONTESQUIEU POINTED OUT ONE HUNDRED FIFTY YEARS AGO",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/00c53788f981dea04065.wav",
+      "audio_seconds": 4.245,
+      "audio_sha256": "50dd44e5bd0288343273bda54828dcfed8eb29d5495db837247d8dbba8ba129f"
+    },
+    {
+      "id": "librispeech-test-other:4350-9170-0035",
+      "dataset": "librispeech-test-other",
+      "reference": "THIS INCONSISTENCY HAS BECOME OBVIOUS IN UNIVERSAL MILITARY SERVICE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/ea32c55c89a51cb29923.wav",
+      "audio_seconds": 3.875,
+      "audio_sha256": "2601724d12c28ab6db486635ac1c0bd50ba223d1cf2766f84d4979364f3cf29b"
+    },
+    {
+      "id": "librispeech-test-other:4350-9170-0043",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY ARE NEEDED PRINCIPALLY AGAINST THEIR SUBJECTS AND EVERY MAN UNDER UNIVERSAL MILITARY SERVICE BECOMES AN ACCOMPLICE IN ALL THE ACTS OF VIOLENCE OF THE GOVERNMENT AGAINST THE CITIZENS WITHOUT ANY CHOICE OF HIS OWN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/5808cc253ae5b0cb3257.wav",
+      "audio_seconds": 10.28,
+      "audio_sha256": "e99cf0e734fcea8fb4f5e02a6bd476eead6741c1bc7c3be7ebf471cf76b335d6"
+    },
+    {
+      "id": "librispeech-test-other:4350-9170-0052",
+      "dataset": "librispeech-test-other",
+      "reference": "THE GREAT EXTENSION OF MEANS OF COMMUNICATION AND INTERCHANGE OF IDEAS HAS MADE MEN COMPLETELY ABLE TO DISPENSE WITH STATE AID IN FORMING SOCIETIES ASSOCIATIONS CORPORATIONS AND CONGRESSES FOR SCIENTIFIC ECONOMIC AND POLITICAL OBJECTS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/85c52e2ba25bd2d37924.wav",
+      "audio_seconds": 12.295,
+      "audio_sha256": "ee28fba75579a42d76b727510c7c1793471b7e65cd98b9bc42a2e9d74c93581c"
+    },
+    {
+      "id": "librispeech-test-other:4852-28311-0002",
+      "dataset": "librispeech-test-other",
+      "reference": "KNOW WHO NEEDS A JOB BAD THAT'S JAKEY HARRIS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/cf690692184ffb2417c3.wav",
+      "audio_seconds": 3.885,
+      "audio_sha256": "6e31dae3eca998df369c1fc968a3154dbbd6e80194e6d2d378d71fac77b0e675"
+    },
+    {
+      "id": "librispeech-test-other:4852-28312-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "BUT EVEN AS HE SLOWLY TURNED THE THOUGHT PIERCED HIS MIND WHY HAD HE NOT SEEN THE REFLECTION OF THE HEADLIGHTS OF THE CARS MOVING UP AROUND THE CORNER OF WATER STREET AND UP THE HILL TOWARD THE TRAFFIC SIGNALS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/f80873660037d6605c3b.wav",
+      "audio_seconds": 13.105,
+      "audio_sha256": "c5be211e035a71a306fa1413a7bd3167bb4da7d81f26604e97e5b40234ef7d50"
+    },
+    {
+      "id": "librispeech-test-other:533-1066-0008",
+      "dataset": "librispeech-test-other",
+      "reference": "THE MOST UNUSUAL THING I CAN THINK OF WOULD BE A PEACEFUL NIGHT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/b488ff002f3cd5526d5b.wav",
+      "audio_seconds": 5.0500625,
+      "audio_sha256": "03ee26c49469e90364b00eb8b38eea51dc0596ca3509d05e4300ac7c78e7fc53"
+    },
+    {
+      "id": "librispeech-test-other:5442-32873-0007",
+      "dataset": "librispeech-test-other",
+      "reference": "WHEN HE CAME BACK TO THE DRAWING ROOM A TOILET BOTTLE OF EAU DE COLOGNE IN HIS HAND WITH HER LACE HANDKERCHIEF HE BATHED HER TEMPLES AND FOREHEAD",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/13217fdd0d2512068cd0.wav",
+      "audio_seconds": 9.715,
+      "audio_sha256": "8b9fe117745102aad3da939b85c81b9d3f38a061bdeee522566878c18ca286bf"
+    },
+    {
+      "id": "librispeech-test-other:5442-41168-0008",
+      "dataset": "librispeech-test-other",
+      "reference": "LEVIN DID NOT IN THE LEAST UNDERSTAND WHAT WAS THE MATTER AND HE MARVELED AT THE PASSION WITH WHICH IT WAS DISPUTED WHETHER OR NOT THE DECISION ABOUT FLEROV SHOULD BE PUT TO THE VOTE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/d6e0aa3fc27b6d28fa9c.wav",
+      "audio_seconds": 11.81,
+      "audio_sha256": "6df3d3eacff0b43c04a9441eedf2ccc03fa97ae153570e21961466723b5bcdc7"
+    },
+    {
+      "id": "librispeech-test-other:5442-41169-0005",
+      "dataset": "librispeech-test-other",
+      "reference": "SHALL WE GO ON YOUR EXCELLENCY FINE CHAMPAGNE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/2a18d2ef2e84a5c1059d.wav",
+      "audio_seconds": 4.01,
+      "audio_sha256": "1b919a2a6e760415d0329eb8d9bb780ee9f21fa56508d79eb17298d5149118be"
+    },
+    {
+      "id": "librispeech-test-other:5442-41169-0020",
+      "dataset": "librispeech-test-other",
+      "reference": "SO THERE'LL BE NO ONE TO KEEP IT UP AND YET ONE DOES IT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/e5040ed3a10b00c8e0f0.wav",
+      "audio_seconds": 4.315,
+      "audio_sha256": "9f3a5ebc5e791d78c5f665b9b9b82f19bf87994f05c5f701c54a140727fa2b80"
+    },
+    {
+      "id": "librispeech-test-other:5484-24317-0020",
+      "dataset": "librispeech-test-other",
+      "reference": "YOUR UNCLE TOO HAS OFTEN WITH PRAISEWORTHY GENEROSITY HELPED ARSINOE IN MANY AN EMBARRASSMENT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/73a2873eadc986d8df24.wav",
+      "audio_seconds": 7.555,
+      "audio_sha256": "ec4085574f26a64f08fdc2ec1a8484857621bb80174bba5c9d0febf2f4970ba3"
+    },
+    {
+      "id": "librispeech-test-other:5484-24317-0024",
+      "dataset": "librispeech-test-other",
+      "reference": "HE WINKED AT HER AND MADE A SIGNIFICANT GESTURE AS HE SPOKE AND THEN INFORMED THE BLIND ARTIST HOW GRACIOUSLY ARSINOE HAD REMEMBERED HIM WHEN SHE HEARD OF THE REMEDY BY WHOSE AID MANY A WONDERFUL CURE OF BLIND EYES HAD BEEN MADE IN RHODES",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/cc58fa63e5a3c1bc3fef.wav",
+      "audio_seconds": 13.86,
+      "audio_sha256": "b211fb5a73874dfa580ad209adc24916c626c503378a272158c7669ee923f933"
+    },
+    {
+      "id": "librispeech-test-other:5484-24318-0000",
+      "dataset": "librispeech-test-other",
+      "reference": "NOT A SOUND IF YOU VALUE YOUR LIVES",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/0137301d731159d7d447.wav",
+      "audio_seconds": 2.6399375,
+      "audio_sha256": "57b081acd3eacdb58624678bd1e623771644280579c52fa1727dc204bc7ea790"
+    },
+    {
+      "id": "librispeech-test-other:5484-24318-0016",
+      "dataset": "librispeech-test-other",
+      "reference": "DAPHNE AGAIN PLEADED FOR THE LIBERATION OF THE PRISONERS BUT PHILIPPUS SILENCED HER WITH THE GRAVE EXCLAMATION THE ORDER OF THE KING",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/c8d41ceeefed05881513.wav",
+      "audio_seconds": 8.155,
+      "audio_sha256": "b253fb200cd5c71255ac7314786e486a65f2ab367fe85d835a32dcf98eaebbd2"
+    },
+    {
+      "id": "librispeech-test-other:5764-299665-0014",
+      "dataset": "librispeech-test-other",
+      "reference": "DID INFINITE WISDOM INTENTIONALLY PRODUCE THE MICROSCOPIC BEASTS THAT FEED UPON THE OPTIC NERVE THINK OF BLINDING A MAN TO SATISFY THE APPETITE OF A MICROBE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/867ef639abaf822ac7db.wav",
+      "audio_seconds": 15.41,
+      "audio_sha256": "77c9334f4a46af974263acc44cead9c7ecb4595b7bea2d9f174cd64292dbd0da"
+    },
+    {
+      "id": "librispeech-test-other:5764-299665-0043",
+      "dataset": "librispeech-test-other",
+      "reference": "IN ALL THIS THERE IS NOTHING SUPERNATURAL",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/be75d81a3d63eebb9998.wav",
+      "audio_seconds": 4.635,
+      "audio_sha256": "e2df9ddba145e1e85014dd687c2deb359facfa1a599c5a4489a3f4255c11bd12"
+    },
+    {
+      "id": "librispeech-test-other:6128-63240-0024",
+      "dataset": "librispeech-test-other",
+      "reference": "HER VOICE WAS LOW AND AGREEABLE A CULTIVATED VOICE AND SHE EXTENDED A SLENDER WHITE HAND TO HER VISITOR WHO REMARKED WITH SOME SOLEMNITY HE FELT A CERTAIN GUILT OF PARTICIPATION IN MISSUS LUNA'S INDISCRETION THAT HE WAS INTENSELY HAPPY TO MAKE HER ACQUAINTANCE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/647ff4213c59946a1a2a.wav",
+      "audio_seconds": 17.655,
+      "audio_sha256": "78986f1861573c4cf65ea93465f99375d3a54f926650198f928f2f18a6ab3e0a"
+    },
+    {
+      "id": "librispeech-test-other:6128-63240-0025",
+      "dataset": "librispeech-test-other",
+      "reference": "HE OBSERVED THAT MISS CHANCELLOR'S HAND WAS AT ONCE COLD AND LIMP SHE MERELY PLACED IT IN HIS WITHOUT EXERTING THE SMALLEST PRESSURE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/bf237a3dd71ac53143c0.wav",
+      "audio_seconds": 8.905,
+      "audio_sha256": "faf1655b4fbcc152f1e08545fdb188722cc35e3367a2678fff311b807e89241f"
+    },
+    {
+      "id": "librispeech-test-other:6128-63241-0010",
+      "dataset": "librispeech-test-other",
+      "reference": "SHE HAD ERECTED IT INTO A SORT OF RULE OF CONDUCT THAT WHENEVER SHE SAW A RISK SHE WAS TO TAKE IT AND SHE HAD FREQUENT HUMILIATIONS AT FINDING HERSELF SAFE AFTER ALL",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/bfbeafe47b8cfa140bfd.wav",
+      "audio_seconds": 11.68,
+      "audio_sha256": "809ed3b19eb2f35168b06a649e437b00d8b48a299caf4c10d5e4388739ba6bab"
+    },
+    {
+      "id": "librispeech-test-other:6128-63244-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "IT WAS ONE THING TO CHOOSE FOR HERSELF BUT NOW THE GREAT REPRESENTATIVE OF THE ENFRANCHISEMENT OF THEIR SEX FROM EVERY FORM OF BONDAGE HAD CHOSEN FOR HER",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/3d752b2676ba6a358fb9.wav",
+      "audio_seconds": 9.815,
+      "audio_sha256": "e4e1f16d7fc312521e11d279a2d0a4869462a38fc881da6c098e855d316635ce"
+    },
+    {
+      "id": "librispeech-test-other:6128-63244-0021",
+      "dataset": "librispeech-test-other",
+      "reference": "THEY WOULD BE NAMES OF WOMEN WEAK INSULTED PERSECUTED BUT DEVOTED IN EVERY PULSE OF THEIR BEING TO THE CAUSE AND ASKING NO BETTER FATE THAN TO DIE FOR IT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/315322b9292695a7a72d.wav",
+      "audio_seconds": 10.81,
+      "audio_sha256": "c34e4a8e7aec5b1f29ce1a9e991a40e2936e5997aebded489270158f30c044dd"
+    },
+    {
+      "id": "librispeech-test-other:6432-63722-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "LOOK HERE COLONEL DO YOU KNOW ANYTHING ABOUT THIS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/33c35e6d1b70fe5d7ee1.wav",
+      "audio_seconds": 3.065,
+      "audio_sha256": "9fe1502af9816c377e7cdb13c5abfd816f14ad4ce3c30919d708536889064ecc"
+    },
+    {
+      "id": "librispeech-test-other:6432-63722-0040",
+      "dataset": "librispeech-test-other",
+      "reference": "DON'T SCRATCH YOURSELF ON IT WHATEVER YOU DO WHY NOT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/602cd3a9f8418ab6b60f.wav",
+      "audio_seconds": 4.18,
+      "audio_sha256": "f1335506e39324e1519159741d7a1668af8d64a93f3bfde560e62268279f9df2"
+    },
+    {
+      "id": "librispeech-test-other:6432-63722-0056",
+      "dataset": "librispeech-test-other",
+      "reference": "THE OLD ADAGE OF TWO HEADS YOU KNOW",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/7b8a4d83d97d7a94c3f3.wav",
+      "audio_seconds": 2.32,
+      "audio_sha256": "50c8a4e6346884fb65759c2b350f33d561edff92f584fc326e6889dfc7ec2859"
+    },
+    {
+      "id": "librispeech-test-other:6432-63723-0023",
+      "dataset": "librispeech-test-other",
+      "reference": "IN A SMALLER PLACE HE WOULD HAVE BEEN CALLED A SALOON KEEPER",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/4db82fc695829525b8b4.wav",
+      "audio_seconds": 3.055,
+      "audio_sha256": "7470a9e928c6a896ba4afc68f5502459ecc0d1622dbd091736c1cdca1c2c75ce"
+    },
+    {
+      "id": "librispeech-test-other:6432-63723-0037",
+      "dataset": "librispeech-test-other",
+      "reference": "IT WAS HIGH LARCH",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/b8b777636453a995b986.wav",
+      "audio_seconds": 2.395,
+      "audio_sha256": "6fcd93a8e5d9ef4d2bca5b5f6b459dcb809f2366109909b0f6b10af99cf49a63"
+    },
+    {
+      "id": "librispeech-test-other:6432-63723-0046",
+      "dataset": "librispeech-test-other",
+      "reference": "THERE WERE THREE OF THEM THE CENTER FIGURE BEING THAT OF HARRY KING AND HE WAS VERY MUCH INTOXICATED",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/ceec0d3c239ec5b1e1dc.wav",
+      "audio_seconds": 6.52,
+      "audio_sha256": "d1b497b26d83f348b075ce31f9a2785f6c314b3a0fef03e0c2422efbb4f6513f"
+    },
+    {
+      "id": "librispeech-test-other:6938-70848-0014",
+      "dataset": "librispeech-test-other",
+      "reference": "FEARFUL TUMULT CRIES DOWN WITH THE BOLSHEVIKI",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/50ed837e1de5a61c3fce.wav",
+      "audio_seconds": 3.79,
+      "audio_sha256": "8e79aefd70772512497112395924cef49b7dae484407c792836c5c7657ccc794"
+    },
+    {
+      "id": "librispeech-test-other:6938-70848-0016",
+      "dataset": "librispeech-test-other",
+      "reference": "MEANWHILE THE QUESTION OF THE STATUS OF THE EXECUTIVE COMMITTEE WAS AGITATING ALL MINDS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/5a392c67cde776061308.wav",
+      "audio_seconds": 5.615,
+      "audio_sha256": "54eee80b9bf25affeaf8833c75598fcc687afbce0e6d8ae7cab514792cf783bb"
+    },
+    {
+      "id": "librispeech-test-other:6938-70848-0028",
+      "dataset": "librispeech-test-other",
+      "reference": "THE WILL OF MILLIONS OF WORKERS IS NOW CONCENTRATED IN THIS HALL",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/8335cd2b91b085ccfe45.wav",
+      "audio_seconds": 4.09,
+      "audio_sha256": "89bd19cf9474827f17079eff772b71fa144d911acba1cbdd4ea08b8e800d74a5"
+    },
+    {
+      "id": "librispeech-test-other:7018-75788-0013",
+      "dataset": "librispeech-test-other",
+      "reference": "NEXT MORNING AS SOON AS IT WAS LIGHT HE PRAYED THE DAWN PRAYER AND AFTER BLESSING MOHAMMED THE CREAM OF ALL CREATURES BETOOK HIMSELF TO THE HOUSE OF SINDBAD THE SEAMAN AND WISHED HIM A GOOD DAY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/e6072f0d73ad6892a886.wav",
+      "audio_seconds": 13.605,
+      "audio_sha256": "109d04c0adf398feaf507305cd6b81a6d2ee37e1eac2eb0356022f8b2747bda8"
+    },
+    {
+      "id": "librispeech-test-other:7105-2330-0029",
+      "dataset": "librispeech-test-other",
+      "reference": "A TELEGRAM WAS BROUGHT IN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/752f68e2bbec5ee1bd04.wav",
+      "audio_seconds": 2.42,
+      "audio_sha256": "c6458a62eb88eb16dbc749754e6eea150dd190c8a66fa39f31e5b03bde766ab0"
+    },
+    {
+      "id": "librispeech-test-other:7105-2340-0010",
+      "dataset": "librispeech-test-other",
+      "reference": "I SUPPOSE HE'S BRINGING US A PRESENT FOR THE SILVER WEDDING GOOD GRACIOUS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/456f897728e229476060.wav",
+      "audio_seconds": 5.275,
+      "audio_sha256": "00b2a2a70cbeb52c0aeb8538dc0627166c7cfd43c6200a788cb17277230644ee"
+    },
+    {
+      "id": "librispeech-test-other:7105-2340-0016",
+      "dataset": "librispeech-test-other",
+      "reference": "WE FEEL THAT WE MUST LIVE ON CREAM FOR THE REST OF OUR LIVES",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/e64c9844973397ad1a77.wav",
+      "audio_seconds": 3.87,
+      "audio_sha256": "b735c0c8322d74bd4e5d7f877924335ba7c4049ad3eb261b96c45c7bb7f5b789"
+    },
+    {
+      "id": "librispeech-test-other:7105-2340-0022",
+      "dataset": "librispeech-test-other",
+      "reference": "IT'S THE ONLY THING TO DO",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/ab339474b1bb8b9793a1.wav",
+      "audio_seconds": 2.095,
+      "audio_sha256": "d2d47d73ade5a9a186b0a8df406cca847b7eaa25f9186f00c4376f8554e7ec31"
+    },
+    {
+      "id": "librispeech-test-other:7105-2340-0034",
+      "dataset": "librispeech-test-other",
+      "reference": "MISSUS PETER TURNED TO HER GUEST WITH CONFIDENTIAL COYNESS",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/1518dc28ae41e740e7fe.wav",
+      "audio_seconds": 4.085,
+      "audio_sha256": "05268302fe2b08199622f1e5b18f8523d13631ef2928191879acbea5eca47ed5"
+    },
+    {
+      "id": "librispeech-test-other:7105-2340-0037",
+      "dataset": "librispeech-test-other",
+      "reference": "BRAVE LITTLE WOMAN SAID PETER WITH A GASP OF RELIEF I COULD NEVER HAVE DONE IT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/9e1ba028af8bfcc3b566.wav",
+      "audio_seconds": 6.535,
+      "audio_sha256": "216c94106b5271da8dad2ea4573a222b52ff7da329add428d569fc48bbc2942e"
+    },
+    {
+      "id": "librispeech-test-other:7902-96594-0009",
+      "dataset": "librispeech-test-other",
+      "reference": "CERTAINLY SIR SMUGGLERS ARE SMUGGLERS INDEED",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/65dd8e0f3dc3f0cb25f1.wav",
+      "audio_seconds": 3.3,
+      "audio_sha256": "50d48461b6d01bb7ea06e2ad7c0798e3cff85a84c2b23f6aba828c3ae7ec84a0"
+    },
+    {
+      "id": "librispeech-test-other:7975-280076-0018",
+      "dataset": "librispeech-test-other",
+      "reference": "WE CROSSED ON THE BRIDGE STAYED IN THE CITY ALL NIGHT AND THE NEXT MORNING WE RODE UP THROUGH THE CITY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/f2f567a23a970bc7ce2a.wav",
+      "audio_seconds": 4.88,
+      "audio_sha256": "75549e2a0626d756bbe43789c612637d769a07554c71aec5bb5eb8a7d10242d6"
+    },
+    {
+      "id": "librispeech-test-other:8131-117016-0010",
+      "dataset": "librispeech-test-other",
+      "reference": "I'VE GOT A FREE HAND AND WE'RE GOING TO RUN THIS THE WAY WE WOULD ON EARTH",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/c9c404013522eb7fda52.wav",
+      "audio_seconds": 5.11,
+      "audio_sha256": "345c020fe34bfc5199bc42f5ac8d35501869e14110dfb4817f2ae853f947d703"
+    },
+    {
+      "id": "librispeech-test-other:8131-117016-0018",
+      "dataset": "librispeech-test-other",
+      "reference": "HE BEGAN WONDERING ABOUT SECURITY THEN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/5e2fbfaa981183fe5b05.wav",
+      "audio_seconds": 2.98,
+      "audio_sha256": "2dbaa177628d37024c7182e8369c57cf89472ed0a1d434148bcf7e72ce4be568"
+    },
+    {
+      "id": "librispeech-test-other:8131-117016-0024",
+      "dataset": "librispeech-test-other",
+      "reference": "GORDON'S EYES POPPED AT THAT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/cfbbffc543ea1b16f4fc.wav",
+      "audio_seconds": 2.49,
+      "audio_sha256": "87cd172be85b81fa614191ef1a41d8bb9f252765aed827488a9f6c94f48e19b3"
+    },
+    {
+      "id": "librispeech-test-other:8131-117017-0006",
+      "dataset": "librispeech-test-other",
+      "reference": "I'M REFORMED I'M GOING STRAIGHT",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/14c55e068d10743c0399.wav",
+      "audio_seconds": 2.82,
+      "audio_sha256": "329dac750f86700b66b1c00598348e1e2d8d0a12faf04ed32fd0b4fd8814736e"
+    },
+    {
+      "id": "librispeech-test-other:8131-117029-0004",
+      "dataset": "librispeech-test-other",
+      "reference": "GORDON CAME TO A ROW OF TEMPORARY BUBBLES INDIVIDUAL DWELLINGS BUILT LIKE THE DOME BUT OPAQUE FOR PRIVACY",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/6b374734de6643c05b4f.wav",
+      "audio_seconds": 8.2,
+      "audio_sha256": "752e5b49dc70beaf7ee94cb76b21e49374f3dd033339f21f841801c4ea0c41e0"
+    },
+    {
+      "id": "librispeech-test-other:8188-269288-0003",
+      "dataset": "librispeech-test-other",
+      "reference": "SHE HAD NO IDEA OF ALLOWING HERSELF TO BREAK DOWN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/962aa1d9dc16383fc032.wav",
+      "audio_seconds": 3.14,
+      "audio_sha256": "29ba8e83a1a9c77c401661ad8df4405621710b7ec9caa4a494c3e416f18bbc90"
+    },
+    {
+      "id": "librispeech-test-other:8188-269288-0017",
+      "dataset": "librispeech-test-other",
+      "reference": "HERE IS A LETTER FOR YOU ANNIE CRIED LESLIE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/df70fadc2385c7471371.wav",
+      "audio_seconds": 2.92,
+      "audio_sha256": "c1fdd5d571130c246989d36b68e99be34e613836ab3bf62d491033cd1b54101b"
+    },
+    {
+      "id": "librispeech-test-other:8188-274364-0005",
+      "dataset": "librispeech-test-other",
+      "reference": "IT IS NOW FULL TWO HUNDRED AND FORTY YEARS SINCE TREASONS WERE DEFINED AND SO LONG HAS IT BEEN SINCE ANY MAN WAS TOUCHED TO THIS EXTENT UPON THIS CRIME BEFORE MYSELF",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/d4e8e2575020250e219b.wav",
+      "audio_seconds": 10.13,
+      "audio_sha256": "c000e921ad5f608183ccbd72560d578ec744b0a8e3abc5d18a82464ef3f1d1de"
+    },
+    {
+      "id": "librispeech-test-other:8188-274364-0007",
+      "dataset": "librispeech-test-other",
+      "reference": "HOWEVER THESE GENTLEMEN AT THE BAR SAY THEY SPEAK FOR THE COMMONWEALTH AND THEY BELIEVE SO YET UNDER FAVOR IT IS I WHO IN THIS PARTICULAR SPEAK FOR THE COMMONWEALTH",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/289c0aa93214232d649b.wav",
+      "audio_seconds": 11.57,
+      "audio_sha256": "e66be78a3147c415dd241da1eafd1866b75f07c25f0856085187d301ded95a38"
+    },
+    {
+      "id": "librispeech-test-other:8280-266249-0002",
+      "dataset": "librispeech-test-other",
+      "reference": "THERE WERE NO SAD LEAVE TAKINGS TO MAR THEIR PLEASURE THE CHILDREN WERE IN WILD SPIRITS AND ALL SEEMED CHEERFUL AND HAPPY AS THEY SAT OR STOOD UPON THE DECK WATCHING THE RECEDING SHORE AS THE VESSEL STEAMED OUT OF THE HARBOR",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/7283cc9570b932156473.wav",
+      "audio_seconds": 13.25,
+      "audio_sha256": "24e33c480bffdf4f3a4524345bf6891475554f0144abb33d49fa3e9d9f603dd0"
+    },
+    {
+      "id": "librispeech-test-other:8280-266249-0023",
+      "dataset": "librispeech-test-other",
+      "reference": "NO SIR WHAT KNOW YE NOT THAT YOUR BODY IS THE TEMPLE OF THE HOLY GHOST WHICH IS IN YOU WHICH YE HAVE OF GOD AND YE ARE NOT YOUR OWN",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/f34054b7cff4c9c10407.wav",
+      "audio_seconds": 9.255,
+      "audio_sha256": "05ebba8860d3f72d1950ca4cb6e3dc8b16b64a8ff3d845729519aeb0602aef58"
+    },
+    {
+      "id": "librispeech-test-other:8280-266249-0026",
+      "dataset": "librispeech-test-other",
+      "reference": "AND AGAIN I BESEECH YOU THEREFORE BRETHREN BY THE MERCIES OF GOD THAT YE PRESENT YOUR BODIES A LIVING SACRIFICE HOLY ACCEPTABLE UNTO GOD WHICH IS YOUR REASONABLE SERVICE",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/56531dfb6a5296afb1ea.wav",
+      "audio_seconds": 11.14,
+      "audio_sha256": "414e3c31dd2807d0a71166a1b4eb782a0a93af186df053f331bd53953fb777d5"
+    },
+    {
+      "id": "librispeech-test-other:8461-278226-0004",
+      "dataset": "librispeech-test-other",
+      "reference": "I REMEMBER ALL THE RUBENSES AT THE LOUVRE FOR I SAW THEM THREE YEARS AGO WHEN I WAS STAYING IN PARIS WITH GRANDPAPA",
+      "path": ".harmon-work/stt-comparison/audio/librispeech-test-other/48f301d38794d8fd4822.wav",
+      "audio_seconds": 7.815,
+      "audio_sha256": "259ad54e3751ef49840626ca5a057e46ac248a0d032b0044c26c9a747012d92e"
+    },
+    {
+      "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "source_url": "https://clips.twitch.tv/AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "duration_s": 17.0,
+        "title": "Shut the Fudge Up",
+        "task_id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "4fde9bf17e9a5ac028b793b4a88f1332ce6a01c2c4f17b894d9ee0fdb27a6220",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_5d69f6bc456fd6941ad9.wav",
+      "audio_seconds": 17.9413125,
+      "audio_sha256": "c6328828d3b875fd270d3555acdfdabd97c294bfd692e167ad44f9e7d1032588",
+      "download_conversion_seconds": 0.913611636031419
+    },
+    {
+      "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "source_url": "https://clips.twitch.tv/AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "duration_s": 21.0,
+        "title": "your boy doesn't just have s e x he f u c k s",
+        "task_id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "62ef353491079478896ba02c8c33a81c5a0c574b304b51dca51c2ea038e8c009",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_123d45552f74e758f05b.wav",
+      "audio_seconds": 21.8026875,
+      "audio_sha256": "a3033e6b23f59cf5dcbff7d505269ce93e81d768e5121c754199383706e3b13f",
+      "download_conversion_seconds": 0.8582175669725984
+    },
+    {
+      "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "source_url": "https://clips.twitch.tv/AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "duration_s": 8.0,
+        "title": "He'll decide...",
+        "task_id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "9929666820a14c97e5b7cb63726a00a35a65ae3412441c18ab4279507cd0b1f7",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_c31f8b57296726a2e35b.wav",
+      "audio_seconds": 8.2346875,
+      "audio_sha256": "63a5735c5fa02e03b60d139d8e0c12fdf4125d2ca7fa0654a21a07dd19675ab4",
+      "download_conversion_seconds": 0.8053856110200286
+    },
+    {
+      "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "source_url": "https://clips.twitch.tv/AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "duration_s": 29.0,
+        "title": "Why you talkin' about me like this?",
+        "task_id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "16eb810dd4f35d31f9f772dfd065d95724bec779c4f1cfaa6f28f115b54bcb96",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_3ffc1a4c4931ad39c25a.wav",
+      "audio_seconds": 29.2693125,
+      "audio_sha256": "df92d20f3325cc67d863d4983d0b4936b0273bc4f81e5c7afb90430d8941de47",
+      "download_conversion_seconds": 0.9092939191032201
+    },
+    {
+      "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "source_url": "https://clips.twitch.tv/AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "duration_s": 26.0,
+        "title": "🤨",
+        "task_id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "10d76951ed1a47fdca2e008da53be6f3f5e37b2adec4e5365ae91ea9b908924e",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_d8eee6061bc7fa269fc6.wav",
+      "audio_seconds": 26.0053125,
+      "audio_sha256": "fdd12c49b0ca265c9bcb4a89891531fb68df3ad8b73b940a60085431e545de98",
+      "download_conversion_seconds": 0.8859130651690066
+    },
+    {
+      "id": "vod:1633410828:0-600",
+      "dataset": "corpus",
+      "task": {
+        "kind": "vod",
+        "source_id": "1633410828",
+        "source_url": "https://www.twitch.tv/videos/1633410828",
+        "duration_s": 1099.0,
+        "title": "One Chip Challenge Video",
+        "task_id": "vod:1633410828:0-600",
+        "start_s": 0,
+        "end_s": 600,
+        "state": "legacy_sample_range_unknown",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "b44877994848defb5be13ed892b60817b3dd186713dd26a76e008a0a69f1c643",
+      "path": ".harmon-work/stt-comparison/audio/corpus/vod_d01ee6ba23c20853fe42.wav",
+      "audio_seconds": 600.0,
+      "audio_sha256": "d58082fb452cd408c11fd9a84d752898eda498cecbadcaf1b4f6f58a225111fc",
+      "download_conversion_seconds": 3.3109934099484235
+    },
+    {
+      "id": "youtube:-4sAT9-sacM:0-600",
+      "dataset": "corpus",
+      "task": {
+        "kind": "youtube",
+        "source_id": "-4sAT9-sacM",
+        "source_url": "https://www.youtube.com/watch?v=-4sAT9-sacM",
+        "duration_s": 4189.0,
+        "title": "Ghost of Yotei 1st Playthrough Hard Difficulty Part 3",
+        "task_id": "youtube:-4sAT9-sacM:0-600",
+        "start_s": 0,
+        "end_s": 600,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "383910dd18533dd8eb13c1809e40728e73f1aeaa88bebcb564f03eab0938b3ec",
+      "path": ".harmon-work/stt-comparison/audio/corpus/youtube_eb3448276b0897b37536.wav",
+      "audio_seconds": 600.0,
+      "audio_sha256": "64c2432fba7517e5ce4e4597ea31b4ab81b19af728d8767f6965dfcd5ac30485",
+      "download_conversion_seconds": 6.010678560007364
+    },
+    {
+      "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+        "source_url": "https://clips.twitch.tv/BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+        "duration_s": 60.0,
+        "title": "sandwich ",
+        "task_id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "97eb76b9e7a3c5e42753b558d79582303c1412b96f837f2c1a3fa2d42ab7f428",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_e24331518ec04e969e77.wav",
+      "audio_seconds": 59.9893125,
+      "audio_sha256": "376555901dc437f71cc655a29da5a6e6334b76768aed2066b7e312f6aa0dc918",
+      "download_conversion_seconds": 1.2156392878387123
+    },
+    {
+      "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+        "source_url": "https://clips.twitch.tv/RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+        "duration_s": 13.0,
+        "title": "Zack opens his spectrum of love.",
+        "task_id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+        "start_s": null,
+        "end_s": null,
+        "state": "pending",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "5c4c079669d9d4f6839a4b183aa31d24772777959d07f74916a33c478846f565",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_b4bccdf0545d928a7096.wav",
+      "audio_seconds": 12.9706875,
+      "audio_sha256": "4fe915912b439fab1d44bcccad1c85ba78daf2fa559e70572680a5661552b7ae",
+      "download_conversion_seconds": 1.0255030361004174
+    },
+    {
+      "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+      "dataset": "corpus",
+      "task": {
+        "kind": "clip",
+        "source_id": "GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+        "source_url": "https://clips.twitch.tv/GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+        "duration_s": 34.0,
+        "title": "Dodgin' Bears",
+        "task_id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+        "start_s": null,
+        "end_s": null,
+        "state": "asr_completed_unreviewed",
+        "speaker_verified": false,
+        "training_permission_verified": false
+      },
+      "status": "ok",
+      "speaker_verified": false,
+      "training_permission_verified": false,
+      "training_ready": false,
+      "media_sha256": "4002640e997b3cc59e79e22ec21f9b5bd1c1987fa959f1c99e657c8631b4a4d0",
+      "path": ".harmon-work/stt-comparison/audio/corpus/clip_5b805307bee41d1e4a64.wav",
+      "audio_seconds": 34.4746875,
+      "audio_sha256": "223ae8475f65db37eef310664ffc926b4fb51665fb9bef745c950189eace2465",
+      "download_conversion_seconds": 0.9527642058674246
+    }
+  ],
+  "preparation_seconds_excluded_from_model_timing": 31.119827908929437
+}

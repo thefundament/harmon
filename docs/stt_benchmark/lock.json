@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "runtimes": {
+    "speech.cpp": {
+      "version": "0.8.11",
+      "commit": "c4bdcd0e751bd29460cb1353e6d54499828a1d90",
+      "executable": ".harmon-tools/speech.cpp-0.8.11/speech",
+      "archive_url": "https://github.com/nyosegawa/speech.cpp/releases/download/v0.8.11/speech-0.8.11-linux-x64-vulkan.zip",
+      "archive_sha256": "91925a09ceed23b87197877e744ff763df83262582d195338282121e53e7e6f9",
+      "executable_sha256": "bb859f9c933519c2a7d87600de72442c8ed6528307e8495d1865bd2a8d2f5320"
+    },
+    "whisper.cpp": {
+      "version": "1.9.5",
+      "commit": "d1be6fde11ac6e0407606b4e42fe72d34add8037",
+      "executable": ".harmon-tools/whisper.cpp/build/bin/whisper-cli"
+    }
+  },
+  "models": [
+    {
+      "id": "small.en",
+      "runtime": "whisper.cpp",
+      "path": ".harmon-tools/whisper.cpp/models/ggml-small.en.bin",
+      "sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+      "bytes": 487614201,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small.en.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "fallback": false
+    },
+    {
+      "id": "large-v3-turbo-q5_0",
+      "runtime": "whisper.cpp",
+      "path": ".harmon-tools/whisper.cpp/models/ggml-large-v3-turbo-q5_0.bin",
+      "sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+      "bytes": 574041195,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q5_0.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "fallback": false
+    },
+    {
+      "id": "medium.en-q8_0",
+      "runtime": "whisper.cpp",
+      "path": ".harmon-tools/whisper.cpp/models/ggml-medium.en-q8_0.bin",
+      "sha256": "43fa2cd084de5a04399a896a9a7a786064e221365c01700cea4666005218f11c",
+      "bytes": 823382461,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-medium.en-q8_0.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "fallback": false
+    },
+    {
+      "id": "large-v3-q5_0",
+      "runtime": "whisper.cpp",
+      "path": ".harmon-tools/whisper.cpp/models/ggml-large-v3-q5_0.bin",
+      "sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1",
+      "bytes": 1081140203,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-q5_0.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "fallback": true
+    },
+    {
+      "id": "parakeet-tdt-0.6b-v3",
+      "runtime": "speech.cpp",
+      "path": ".harmon-tools/speech.cpp-0.8.11/models/parakeet-tdt-0.6B-v3-F16.gguf",
+      "sha256": "7b74de31ac48427934104f0d074613f8d759d7d108777c114476346789d94426",
+      "bytes": 1255370688,
+      "url": "https://huggingface.co/sakasegawa/parakeet-tdt-0.6b-v3-GGUF/resolve/b7ed82dbfba6e63da0ef9cf5104f5fc67da44414/parakeet-tdt-0.6B-v3-F16.gguf",
+      "revision": "b7ed82dbfba6e63da0ef9cf5104f5fc67da44414",
+      "fallback": false
+    },
+    {
+      "id": "qwen3-asr-0.6b",
+      "runtime": "speech.cpp",
+      "path": ".harmon-tools/speech.cpp-0.8.11/models/Qwen3-ASR-0.6B-Q8_0.gguf",
+      "sha256": "416e10c15b4a3d9002bd337d18fc450233fdf68502b6e10d1379d2789838afd0",
+      "bytes": 841502336,
+      "url": "https://huggingface.co/sakasegawa/Qwen3-ASR-0.6B-GGUF/resolve/ee78f8709547f39bea3b924a16c72403826cac92/Qwen3-ASR-0.6B-Q8_0.gguf",
+      "revision": "ee78f8709547f39bea3b924a16c72403826cac92",
+      "fallback": false
+    },
+    {
+      "id": "silero-vad",
+      "runtime": "speech.cpp",
+      "path": ".harmon-tools/speech.cpp-0.8.11/models/silero-vad-309K-v6.2-F32.gguf",
+      "sha256": "2fc312514e5fc4fa4ffd02b25c76a4853fa4130e8fb9777d01502183b01238cb",
+      "bytes": 1238624,
+      "url": "https://huggingface.co/sakasegawa/silero-vad-GGUF/resolve/7fcb7aa2a70c312f8579fc987b3e1cdecf9321ca/silero-vad-309K-v6.2-F32.gguf",
+      "revision": "7fcb7aa2a70c312f8579fc987b3e1cdecf9321ca",
+      "fallback": false
+    }
+  ],
+  "datasets": [
+    {
+      "id": "librispeech-test-other",
+      "repository": "openslr/librispeech_asr",
+      "revision": "71cacbfb7e2354c4226d01e70d77d5fca3d04ba1",
+      "file": "other/test/0000.parquet",
+      "id_column": "id",
+      "text_column": "text"
+    },
+    {
+      "id": "fleurs-en_us-test",
+      "repository": "google/fleurs",
+      "revision": "168de341b3db6859a9bac1c50a2ef5e3b47647e0",
+      "file": "en_us/test/0000.parquet",
+      "id_column": "path",
+      "text_column": "transcription",
+      "id_format": "basename (unique recording; numeric id identifies a sentence shared by several speakers)"
+    }
+  ],
+  "corpus": {
+    "manifest": "docs/stt_benchmark/corpus_sources.jsonl",
+    "manifest_sha256": "ba5409bd39c1a2ffcc0a9fae9a6f7c78096c1ac9d47a0b0b9cca37370c1b8cfa",
+    "original_inventory_commit": "02f38ef961976d379e05fe7cd1aea0e954b7eb5e",
+    "original_inventory_sha256": "1afcc818fc1b812a3a52a156f6d2a6885263b0afd9e06f15d30173489c92c911",
+    "listed_hours_for_requested_projection": 127.79
+  }
+}

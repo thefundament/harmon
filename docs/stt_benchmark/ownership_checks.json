@@ -1,0 +1,127 @@
+{
+  "gate_commit": "f543e037bd9108c30a01d12bccb40f444e0b55b3",
+  "timing": "Retrospective metadata validation: upstream gate arrived after the frozen media acquisition; future benchmark acquisitions use the gate before download.",
+  "seconds_excluded_from_model_timing": 7.22667895606719,
+  "checks": [
+    {
+      "id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "Shut the Fudge Up"
+      }
+    },
+    {
+      "id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "your boy doesn't just have s e x he f u c k s"
+      }
+    },
+    {
+      "id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "He'll decide..."
+      }
+    },
+    {
+      "id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "Why you talkin' about me like this?"
+      }
+    },
+    {
+      "id": "clip:AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "AggressiveAggressiveScallionUncleNox-hUlgeP-rAWIkE2gN",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "\ud83e\udd28"
+      }
+    },
+    {
+      "id": "vod:1633410828:0-600",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "vod",
+        "source_id": "1633410828",
+        "owner_id": "simplez4ck",
+        "proof": "vod_uploader_id",
+        "title": "One Chip Challenge Video"
+      }
+    },
+    {
+      "id": "youtube:-4sAT9-sacM:0-600",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "youtube",
+        "source_id": "-4sAT9-sacM",
+        "owner_id": "UCTiP-fGq-Uuzcor4fmp_R2Q",
+        "proof": "video_channel_id",
+        "title": "Ghost of Yotei 1st Playthrough Hard Difficulty Part 3"
+      }
+    },
+    {
+      "id": "clip:BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "BetterEagerBibimbapDoubleRainbow-_F1tRjZcJ4Y90lrp",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "sandwich "
+      }
+    },
+    {
+      "id": "clip:RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "RoughThankfulCrowBrokeBack-Byuq4hIxHMg5LWbA",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "Zack opens his spectrum of love."
+      }
+    },
+    {
+      "id": "clip:GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+      "status": "allowed",
+      "evidence": {
+        "owner_verified": true,
+        "source_kind": "clip",
+        "source_id": "GiantGoldenClintOSkomodo-G3PzGnJGbyXSQV8G",
+        "owner_id": "simplez4ck",
+        "proof": "clip_broadcaster",
+        "title": "Dodgin' Bears"
+      }
+    }
+  ]
+}

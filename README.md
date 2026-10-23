@@ -19,7 +19,9 @@ The historical acquisition pilot is `.github/workflows/harvest.yml`. It has **ma
 
 `.github/workflows/ci.yml` is the lightweight, automated QA workflow. It runs offline tests and updates `corpus/quality/review_queue.jsonl` and `corpus/quality/summary.json`; a score means **review priority**, not proof of speaker or transcription accuracy.
 
-`.github/workflows/model-benchmark.yml` is a two-clip Base-vs-Small development test.
+`.github/workflows/model-benchmark.yml` runs offline checks for the local STT benchmark. Model downloads and inference run only locally.
+
+The additional-model comparison, frozen reference samples and reproducible launcher are documented in [the STT comparison report](docs/stt_benchmark/REPORT.md). It compares Small and Turbo with Medium English, Parakeet TDT v3 and Qwen3-ASR, including quality, subtitle timing and guarded throughput. The production worker still defaults to `small.en`; the ten-hour batch remains unstarted.
 
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) for the complete execution map, confidence tiers, speaker-verification plan, and GitHub usage limitations.
 
