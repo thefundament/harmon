@@ -129,6 +129,11 @@ tune model invocation and selection before a bulk run.
 
 ### Unattended use when validation passes
 
+A filtered run detects earlier completed outputs made without the current
+voice-profile hash, and reprocesses those windows instead of accepting stale
+unfiltered speech as target-only. Existing legacy clip transcripts remain
+unreviewed unless explicitly reconsidered with `--include-existing`.
+
 The existing `collector/local_worker.py` retains all retry, checkpoint,
 resume, media cleanup, disk-space and Git push behavior. The voice encoder is
 cached **once per Python process** to amortize loading. The agent should run
