@@ -7,6 +7,7 @@ No audio is saved by enrollment; the worker's temporary compact WAV is deleted.
 from __future__ import annotations
 
 import argparse
+from functools import lru_cache
 from array import array
 import hashlib
 import json
@@ -95,6 +96,7 @@ def speech_spans(pcm, vad=None, min_voiced_seconds=1.8, max_span_seconds=12,
     min_len=int(min_voiced_seconds*RATE)
     return [(a,b) for a,b in merged if b-a>=min_len]
 
+@lru_cache(maxsize=1)
 def backend():
     """Lazy import: ordinary repository CI has no ML dependencies."""
     try:
@@ -227,8 +229,7 @@ def compact_accepted(pcm,spans,pad_s=.30):
         mapping.append({"compact_start_s":round(cstart/RATE,5),
                         "compact_end_s":round(len(combined)/RATE,5),
                         "source_start_s":round(start/RATE,5),
-                        "source_end_s":round(end/RATE,5),
-                        "similarity":round(float(score),5)})
+                        "source_end_s":round(end/RATE,5)})
     return combined,mapping
 
 def filter_wav(source,out,profile,embedder=None,vad=None):
