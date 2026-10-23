@@ -178,9 +178,8 @@ def build_profile(reference_manifest,output,embedder=None):
              "reference_provenance":labels,"speaker":"likely_harmon",
              "identity_evidence":"human_labeled_reference_clips",
              "note":"Threshold is not an accuracy probability; per-segment attribution remains probabilistic."}
-    out=Path(output);out.parent.mkdir(parents=True,exist_ok=True)
+    out=Path(output);out.parent.mkdir(mode=0o700,parents=True,exist_ok=True)
     # The profile embeds biometric features; NEVER commit reference/profile.
-    os.chmod(out.parent,0o700)
     tmp=out.with_name(out.name+".tmp")
     tmp.write_text(json.dumps(profile,indent=2)+"\n",encoding="utf-8")
     os.chmod(tmp,0o600)
