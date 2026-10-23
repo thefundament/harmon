@@ -1,4 +1,4 @@
-name: Public video corpus harvest — next sources
+name: Public video corpus harvest — expanded sources
 on:
   push:
     paths:
@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     env:
-      MAX_CLIPS: '45'
-      MAX_VODS: '8'
+      MAX_CLIPS: '65'
+      MAX_VODS: '12'
       MAX_YOUTUBE: '0'
-      VOD_SEGMENT: '00:10:00-00:15:00'
+      VOD_SEGMENT: '00:02:00-00:07:00'
       WHISPER_MODEL: 'base.en'
     steps:
       - uses: actions/checkout@v4
