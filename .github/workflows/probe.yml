@@ -1,4 +1,4 @@
-name: Public video transcript pilot
+name: Public video transcription pilot (PyAV)
 on:
   push:
     paths:
