@@ -10,6 +10,8 @@ A one-off metadata-only GitHub runner inventory probes:
 - **Shorts:** `https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q/shorts`
 - **Playlists:** `https://www.youtube.com/channel/UCTiP-fGq-Uuzcor4fmp_R2Q/playlists`; a small bounded selection is inspected
 
+The completed October 23 one-time snapshot found **477 distinct video IDs: 450 eligible creator-channel IDs (351.87 hours of listed recordings) and 27 held-out playlist candidates**. This is metadata, not confirmed successful download. The worklist puts YouTube ahead of Twitch and interleaves the *first* ten-minute section of different YouTube recordings before later sections, improving early language variety.
+
 The result is `corpus/discovery/youtube_expanded.jsonl`, with a separate `youtube_expansion_report.json` documenting blocked surfaces. **The worker does not scrape YouTube.** Its source/offset task list is generated once from the frozen metadata.
 
 ## Correctness and safety
