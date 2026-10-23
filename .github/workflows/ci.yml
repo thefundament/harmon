@@ -27,7 +27,8 @@ concurrency:
 jobs:
   test-and-index:
     runs-on: ubuntu-24.04
-    timeout-minutes: 3
+    # Metadata-only rebuild; large historical inventories are still lightweight.
+    timeout-minutes: 4
     steps:
       - uses: actions/checkout@v4
       - name: Run offline unit tests
