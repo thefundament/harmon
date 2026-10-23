@@ -19,7 +19,7 @@ import tempfile
 import time
 from urllib.parse import urlparse
 from source_gate import authorize, SourceRejected
-from speaker_filter import filter_wav, load_profile
+from speaker_filter import filter_wav, load_profile, remap_srt
 
 REPO = Path(__file__).resolve().parents[1]
 PLAN = REPO / "corpus/history/manifest.jsonl"
@@ -260,6 +260,9 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4, speaker_profi
             if not (source_txt.is_file() and source_srt.is_file()):
                 raise RuntimeError("whisper exited successfully but TXT/SRT missing")
             text_data=source_txt.read_bytes();srt_data=source_srt.read_bytes()
+            if filter_stats is not None:
+                srt_data=remap_srt(srt_data.decode("utf-8",errors="replace"),
+                                   filter_stats.get("time_mapping",[])).encode("utf-8")
             raw_text=text_data.decode("utf-8", errors="replace")
             speech=SPEECH_RE.sub("",raw_text).strip()
         record={
@@ -282,7 +285,7 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4, speaker_profi
             "elapsed_seconds":round(time.monotonic()-started,2),
             "source_provenance":"frozen_manifest",
             "voice_filter":filter_stats,
-            "srt_timing":"filtered_wav_compact_clock; see voice_filter.time_mapping" if filter_stats else "relative_to_downloaded_section",
+            "srt_timing":"source_section_relative_approximate_from_voice_map" if filter_stats else "relative_to_downloaded_section",
             "source_owner_verified":bool(source_evidence.get("owner_verified")),
             "source_owner_evidence":source_evidence.get("proof"),
         }
