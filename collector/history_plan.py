@@ -47,8 +47,12 @@ def build(root,window=600):
   if key not in seen:
    seen[key]={"kind":kind,"source_id":sid,"source_url":url,"duration_s":duration,"title":str(obj.get("title") or "")[:160]}
   elif duration and not seen[key]["duration_s"]:seen[key]["duration_s"]=duration
- for kind,file in [("clip","twitch_clips.jsonl"),("vod","twitch_vods.jsonl"),("youtube","youtube.jsonl")]:
-  for obj in read_jsonl(d/file):add(kind,obj)
+ for kind,file in [("clip","twitch_clips.jsonl"),("vod","twitch_vods.jsonl"),
+                   ("youtube","youtube.jsonl"),("youtube","youtube_expanded.jsonl")]:
+  for obj in read_jsonl(d/file):
+   if obj.get("candidate_only"):
+    continue
+   add(kind,obj)
  completed={"clip":set(),"vod":set(),"youtube":set()}
  for p in metadata.glob("*.metadata.json"):
   try:obj=json.loads(p.read_text(encoding="utf-8"))
