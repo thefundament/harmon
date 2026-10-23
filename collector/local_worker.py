@@ -19,7 +19,7 @@ import tempfile
 import time
 from urllib.parse import urlparse
 from source_gate import authorize, SourceRejected
-from speaker_filter import filter_wav, load_profile, remap_srt
+from speaker_filter import filter_wav, load_profile, remap_srt, backend as load_speaker_encoder
 
 REPO = Path(__file__).resolve().parents[1]
 PLAN = REPO / "corpus/history/manifest.jsonl"
@@ -361,7 +361,8 @@ def execute(args):
     profile_path=(chosen_profile if chosen_profile is not None
                   else args.work_dir/"speaker_profile.json")
     if filtered:
-        load_profile(profile_path)  # no media or ML model loading for preflight
+        load_profile(profile_path)
+        load_speaker_encoder()  # fail before ANY downloads if dependencies/weights are absent
     elif (args.command=="run" and args.max_items==0
           and args.manifest.resolve()==PLAN.resolve()
           and not getattr(args,"allow_unfiltered",False)):
