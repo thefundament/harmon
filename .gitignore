@@ -1,0 +1,24 @@
+# Local worker: never commit original media or tool/model binaries.
+.harmon-work/
+.harmon-tools/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.part
+*.tmp
+*.wav
+*.mp3
+*.m4a
+*.opus
+*.ogg
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.flac
+*.ggml
+*.bin
+*.gguf
+*.log
