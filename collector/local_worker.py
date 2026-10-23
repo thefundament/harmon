@@ -144,6 +144,30 @@ def find_tools(model_dir=None, whisper_cli=None, yt_dlp=None, ffmpeg=None):
         raise RuntimeError("Missing tools: "+", ".join(missing)+". Run scripts/bootstrap_linux.sh or scripts/bootstrap_windows.ps1.")
     return {"yt_dlp":str(yt),"ffmpeg":str(ffmpeg_path),"whisper":str(whisper),"model":str(model)}
 
+def clean_orphaned_media(work_dir):
+    """With the worker lock held, remove abandoned per-task downloads from crashes.
+    Never touch user media or paths outside the worker's own tmp directory.
+    """
+    tmp=work_dir / "tmp"
+    if not tmp.exists():
+        return 0
+    removed=0
+    for candidate in tmp.iterdir():
+        if not re.fullmatch(r"(?:clip|vod|youtube)_[a-f0-9]{20}-.+", candidate.name):
+            continue
+        if candidate.is_symlink():
+            candidate.unlink()
+        elif candidate.is_dir():
+            shutil.rmtree(candidate)
+        else:
+            candidate.unlink()
+        removed+=1
+    return removed
+
+def free_disk_bytes(path):
+    path.mkdir(parents=True,exist_ok=True)
+    return shutil.disk_usage(path).free
+
 def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
     meta, txt, srt=result_paths(task, output)
     output.mkdir(parents=True, exist_ok=True)
@@ -154,7 +178,7 @@ def process_task(task, tools, output=OUTPUT, work=WORK, threads=4):
         filename=str(d/"source.%(ext)s")
         cmd=[tools["yt_dlp"],"--no-playlist","--no-progress","--no-part",
              "--socket-timeout","20","--retries","2","--fragment-retries","2",
-             "--concurrent-fragments","1","--max-filesize","512M",
+             "--concurrent-fragments","1","--max-filesize","384M",
              "-f","worstaudio/worst/bestaudio/best", "-o",filename]
         start,end=task.get("start_s"),task.get("end_s")
         if start is not None and end is not None:
@@ -223,16 +247,18 @@ def publish():
     if foreign:
         raise RuntimeError("Refusing to commit: unrelated staged files: "+str(foreign[:5]))
     git_cmd(["add","--","corpus/local_transcripts"])
-    if not git_cmd(["diff","--cached","--name-only"],capture=True).strip():
-        return "nothing to commit"
-    git_cmd(["-c","user.name=harmon-local-agent","-c",
+    if git_cmd(["diff","--cached","--name-only"],capture=True).strip():
+        git_cmd(["-c","user.name=harmon-local-agent","-c",
              "user.email=harmon-local-agent@users.noreply.github.com",
-             "commit","-m","Add locally transcribed archival work units"])
+                 "commit","-m","Add locally transcribed archival work units"])
     # Avoid losing locally committed results if push or authentication fails.
     git_cmd(["fetch","origin","main"],timeout=120)
     git_cmd(["rebase","origin/main"],timeout=120)
+    ahead=int((git_cmd(["rev-list","--count","origin/main..HEAD"],capture=True) or "0").strip())
+    if ahead==0:
+        return "up to date"
     git_cmd(["push","origin","HEAD:main"],timeout=120)
-    return "pushed"
+    return f"pushed {ahead} commit(s)"
 
 def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhausted=False):
     counts={}
@@ -265,11 +291,17 @@ def execute(args):
             f.write(json.dumps({"pid":os.getpid(),"started_utc":now()})+"\n")
     except FileExistsError:
         raise RuntimeError("Another worker may be running. Check then manually remove "+str(lock))
+    removed=clean_orphaned_media(args.work_dir)
+    if removed:
+        print(f"CLEANUP: removed {removed} stale temporary media directories",flush=True)
     processed=0;completed_count=0;failures=0;since_commit=0;started=time.monotonic()
     try:
         for i,task in enumerate(tasks):
             yes,reason=eligible(task,journal,args.output,args.include_existing,args.retry_exhausted)
             if not yes:continue
+            if free_disk_bytes(args.work_dir)<args.min_free_gb*1024**3:
+                print("DISK GUARD: insufficient free space; stopping before download",file=sys.stderr,flush=True)
+                break
             if args.max_items>0 and processed>=args.max_items:break
             if args.max_hours>0 and (time.monotonic()-started)>3600*args.max_hours:break
             processed+=1
@@ -321,6 +353,8 @@ def parser():
     p.add_argument("--max-items",type=int,default=0,help="0 processes the full eligible worklist")
     p.add_argument("--max-hours",type=float,default=0,help="0 = no walltime cap")
     p.add_argument("--commit-every",type=int,default=10)
+    p.add_argument("--min-free-gb",type=float,default=2.0,
+                   help="refuse new downloads if filesystem free space is below this threshold")
     p.add_argument("--no-push",dest="push",action="store_false",default=True)
     p.add_argument("--include-existing",action="store_true",help="re-transcribe legacy clip sources")
     p.add_argument("--retry-exhausted",action="store_true")
@@ -329,7 +363,7 @@ def parser():
 if __name__=="__main__":
     try:
         options=parser().parse_args()
-        if options.threads<1 or options.threads>64 or options.commit_every<1 or options.max_items<0 or options.max_hours<0:
+        if options.threads<1 or options.threads>64 or options.commit_every<1 or options.max_items<0 or options.max_hours<0 or options.min_free_gb<0:
             raise RuntimeError("invalid threads, commit-every, max-hours, or max-items")
         sys.exit(execute(options))
     except (RuntimeError, OSError, subprocess.TimeoutExpired) as exc:
