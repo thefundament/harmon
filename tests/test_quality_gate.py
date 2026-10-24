@@ -26,6 +26,18 @@ class TestQualityGate(unittest.TestCase):
         r=quality.evaluate({"source_key":"test","transcription_ok":True},"[BLANK_AUDIO]")
         self.assertEqual(r["disposition"],"exclude_pending_review")
         self.assertEqual(r["word_count"],0)
+    def test_no_target_completion_is_not_an_asr_failure(self):
+        r=quality.evaluate({"processing_status":"no_target_speech",
+                            "speaker_status":"probable_channel_primary_speaker"},"")
+        self.assertIn("no_target_speech",r["flags"])
+        self.assertNotIn("asr_failed",r["flags"])
+        self.assertNotIn("missing_timestamps",r["flags"])
+        self.assertEqual(r["speaker_status"],"probable_channel_primary_speaker")
+        self.assertFalse(r["speaker_verified"])
+    def test_invalid_timing_is_exposed_in_the_quality_queue(self):
+        r=quality.evaluate({"transcription_ok":True,"subtitle_timing_issues":[{"cue":1}]},
+                           "Synthetic fixture words",SRT)
+        self.assertIn("invalid_subtitle_timing",r["flags"])
     def test_dedup_and_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp)

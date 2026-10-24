@@ -1,0 +1,182 @@
+{
+  "validated_date_local": "2026-10-23",
+  "production_session_started": false,
+  "scheduler_installed": false,
+  "status": "operational_checks_passed_with_disclosed_subtitle_timing_defects",
+  "offline_tests_passed": 98,
+  "session_defaults": {
+    "model": "large-v3-turbo-q5_0",
+    "threads": 6,
+    "max_hours": 2,
+    "commit_every": 25
+  },
+  "automatic_enrollment": {
+    "candidate_recordings": 20,
+    "source_attempts": 20,
+    "primary_training_recordings": 11,
+    "label": "probable_channel_primary_speaker",
+    "personal_review_required": false,
+    "heldout": {
+      "basis": "unlabelled_withheld_recording_recurrence",
+      "examined_sources": 4,
+      "recurring_voice_sources": 2,
+      "other_or_uncertain_spans": 7,
+      "identity_accuracy_measured": false,
+      "passed": true
+    },
+    "profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "profile_and_embeddings": "private local only"
+  },
+  "pilot": {
+    "attempted": 7,
+    "produced": 7,
+    "failures": 0,
+    "excluded_candidate_recordings": 20,
+    "elapsed_seconds": 71.887,
+    "memory_guard_stop_reason": null,
+    "cgroup_peak_bytes": 472305664,
+    "combined_peak_bytes": 1493848064,
+    "minimum_host_available_bytes": 9823465472,
+    "job_swap_bytes": 0,
+    "cost": {
+      "measured_records": 7,
+      "total_filter_seconds": 3.28,
+      "total_filtered_whisper_seconds": 31.56,
+      "gate_to_filtered_asr_time_ratio": 0.1038,
+      "fraction_audio_sent_to_whisper": 0.3628,
+      "no_target_voice_windows": 4,
+      "subtitle_timing_issue_cues": 3,
+      "model_names": [
+        "whisper.cpp ggml-large-v3-turbo-q5_0"
+      ],
+      "note": "This is observational. Compare against unfiltered runs on identical source windows before claiming total time saved or a 10% overhead target."
+    },
+    "records": [
+      {
+        "task_id": "clip:AbrasiveLivelyGullPraiseIt-QaBGQlP1awQR5kDf",
+        "kind": "clip",
+        "processing_status": "transcribed",
+        "processed_audio_seconds": 17.941,
+        "transcription_seconds": 0.635,
+        "recognized_words": 17,
+        "matched_audio_seconds": 10.44,
+        "subtitle_cues": 2
+      },
+      {
+        "task_id": "clip:AbstemiousChillyGaurCoolCat-YrLySB--6n6UqRFw",
+        "kind": "clip",
+        "processing_status": "no_target_speech",
+        "processed_audio_seconds": 21.803,
+        "transcription_seconds": 0.0,
+        "recognized_words": 0,
+        "matched_audio_seconds": 0,
+        "subtitle_cues": 0
+      },
+      {
+        "task_id": "clip:AbstemiousMoistGrassRaccAttack-Y0NLdtpz8xozAlBS",
+        "kind": "clip",
+        "processing_status": "no_target_speech",
+        "processed_audio_seconds": 8.235,
+        "transcription_seconds": 0.0,
+        "recognized_words": 0,
+        "matched_audio_seconds": 0,
+        "subtitle_cues": 0
+      },
+      {
+        "task_id": "clip:AdorableCulturedDoveFloof-eV2k4pJMheM1xtZc",
+        "kind": "clip",
+        "processing_status": "no_target_speech",
+        "processed_audio_seconds": 29.269,
+        "transcription_seconds": 0.0,
+        "recognized_words": 0,
+        "matched_audio_seconds": 0,
+        "subtitle_cues": 0
+      },
+      {
+        "task_id": "clip:AdventurousTriangularChoughCclamChamp-1a7Pm5_R1imJIdpV",
+        "kind": "clip",
+        "processing_status": "no_target_speech",
+        "processed_audio_seconds": 5.184,
+        "transcription_seconds": 0.0,
+        "recognized_words": 0,
+        "matched_audio_seconds": 0,
+        "subtitle_cues": 0
+      },
+      {
+        "task_id": "vod:1633410828:0-600",
+        "kind": "vod",
+        "processing_status": "transcribed",
+        "processed_audio_seconds": 600.0,
+        "transcription_seconds": 18.119,
+        "recognized_words": 164,
+        "matched_audio_seconds": 191.52,
+        "subtitle_cues": 53
+      },
+      {
+        "task_id": "youtube:12Bj9CYxdRg:0-600",
+        "kind": "youtube",
+        "processing_status": "transcribed",
+        "processed_audio_seconds": 600.0,
+        "transcription_seconds": 12.81,
+        "recognized_words": 422,
+        "matched_audio_seconds": 263.31,
+        "subtitle_cues": 65
+      }
+    ],
+    "subtitle_timing_issues": [
+      {
+        "task_id": "vod:1633410828:0-600",
+        "cue": 36,
+        "start_s": 477.39,
+        "end_s": 477.39,
+        "issues": [
+          "nonpositive_duration"
+        ]
+      },
+      {
+        "task_id": "youtube:12Bj9CYxdRg:0-600",
+        "cue": 38,
+        "start_s": 469.42,
+        "end_s": 469.42,
+        "issues": [
+          "nonpositive_duration"
+        ]
+      },
+      {
+        "task_id": "youtube:12Bj9CYxdRg:0-600",
+        "cue": 41,
+        "start_s": 487.41,
+        "end_s": 487.41,
+        "issues": [
+          "nonpositive_duration"
+        ]
+      }
+    ],
+    "source_media_cleanup_passed": true,
+    "resume": {
+      "attempted": 0,
+      "produced": 0,
+      "skipped_completed": 7,
+      "elapsed_seconds": 1.769
+    }
+  },
+  "session_behavior_tests": {
+    "two_hour_limit_checked_between_sections": true,
+    "current_section_can_finish_after_deadline": true,
+    "hash_corruption_reassessed": true,
+    "real_local_git_upload_completed_counts": [
+      25,
+      50,
+      52
+    ],
+    "failed_upload_retains_files_and_commits": true,
+    "next_session_retries_upload_without_reprocessing": true,
+    "profile_change_stops_session_and_checkpoints_prior_results": true
+  },
+  "limitations": [
+    "No independently labelled speaker or transcript accuracy measured.",
+    "Four no-match clips may include false rejections; automatic cohorts do not measure error rates.",
+    "Three remapped cues have zero duration; their recognizer text is retained without invented timing.",
+    "Filter/ASR timing ratio is observational, not identical-audio net overhead."
+  ]
+}

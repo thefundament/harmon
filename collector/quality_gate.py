@@ -37,11 +37,14 @@ def evaluate(metadata, text, srt=""):
     unique_ratio=len(set(words))/len(words) if words else 0.0
     long_repetition= len(words)>12 and unique_ratio<0.18
     flags=[]
-    if not metadata.get("transcription_ok"): flags.append("asr_failed")
+    no_target=metadata.get("processing_status")=="no_target_speech"
+    if no_target:flags.append("no_target_speech")
+    elif not metadata.get("transcription_ok"): flags.append("asr_failed")
     if not words: flags.append("no_recognized_speech")
     if 0<len(words)<8: flags.append("too_short_for_style")
     if long_repetition: flags.append("possible_asr_loop")
-    if not segments: flags.append("missing_timestamps")
+    if not segments and not no_target: flags.append("missing_timestamps")
+    if metadata.get("subtitle_timing_issues"):flags.append("invalid_subtitle_timing")
     if metadata.get("kind")=="vods" and len(words)<12: flags.append("low_speech_density")
     if not metadata.get("source_url"): flags.append("missing_source")
     if len(words)>0 and len(nonempty)==0: flags.append("no_timed_speech")
@@ -71,7 +74,8 @@ def evaluate(metadata, text, srt=""):
         "review_priority_score_not_accuracy":score,
         "disposition":disposition,
         "flags":flags,
-        "speaker_status":"unknown",
+        "speaker_status":metadata.get("speaker_status","unknown"),
+        "processing_status":metadata.get("processing_status"),
         "speaker_verified":False,
         "transcription_verified":False,
         "training_permission_verified":False,

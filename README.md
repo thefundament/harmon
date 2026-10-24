@@ -21,7 +21,7 @@ The historical acquisition pilot is `.github/workflows/harvest.yml`. It has **ma
 
 `.github/workflows/model-benchmark.yml` runs offline checks for the local STT benchmark. Model downloads and inference run only locally.
 
-The additional-model comparison, frozen reference samples and reproducible launcher are documented in [the STT comparison report](docs/stt_benchmark/REPORT.md). It compares Small and Turbo with Medium English, Parakeet TDT v3 and Qwen3-ASR, including quality, subtitle timing and guarded throughput. The user accepted Turbo's small speed-budget overrun for its reference WER improvement; the local worker now defaults to `large-v3-turbo-q5_0`. The ten-hour batch remains unstarted.
+The additional-model comparison, frozen reference samples and reproducible launcher are documented in [the STT comparison report](docs/stt_benchmark/REPORT.md). It compares Small and Turbo with Medium English, Parakeet TDT v3 and Qwen3-ASR, including quality, subtitle timing and guarded throughput. The user accepted Turbo's small speed-budget overrun for its reference WER improvement; the local worker now defaults to `large-v3-turbo-q5_0`. Archive production sessions remain manually started; none is launched by setup or validation.
 
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) for the complete execution map, confidence tiers, speaker-verification plan, and GitHub usage limitations.
 
@@ -43,3 +43,16 @@ Each `.txt` has a same-stem `.metadata.json` and usually `.srt` timestamp file. 
 ## One-time local corpus completion
 
 For a local Linux/WSL agent to process the frozen archive without discovery, see [Local Agent Handoff](docs/LOCAL_AGENT_HANDOFF.md). The selected Turbo model is downloaded automatically; `HARMON_MODEL=small.en` remains available as an override. Original video/WAV are temporary and excluded from Git. Local transcripts are indexed by lightweight CI after push.
+
+## Resumable local sessions
+
+The local worker defaults to Turbo, six threads, two hours and a checkpoint every
+25 completed sections. It finishes the active section, publishes the remainder,
+and resumes the same frozen inventory and journal on the next manual launch.
+Uploads can recover from preserved local commits. No scheduler is installed.
+
+Automatic voice enrollment uses recurring speech across independent recordings;
+no personal reference review is required. Matches remain labelled as the probable
+channel primary speaker. See [speaker setup and session command](docs/LOCAL_SPEAKER_FILTER.md)
+and [session validation](docs/SESSION_VALIDATION.md). Audio, embeddings and the
+speaker profile remain private/local.

@@ -26,6 +26,8 @@ class LocalWorkerTests(unittest.TestCase):
  def test_accepted_turbo_default_and_model_overrides(self):
   with mock.patch.object(worker.os,"environ",{}):
    self.assertEqual(worker.parser().parse_args(["status"]).model_name,"large-v3-turbo-q5_0")
+   defaults=worker.parser().parse_args(["run"])
+   self.assertEqual((defaults.threads, defaults.max_hours, defaults.commit_every),(6,2,25))
    self.assertEqual(worker.parser().parse_args(["status","--model-name","small.en"]).model_name,"small.en")
   with mock.patch.object(worker.os,"environ",{"HARMON_MODEL":"small.en"}):
    self.assertEqual(worker.parser().parse_args(["status"]).model_name,"small.en")

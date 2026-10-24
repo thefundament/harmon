@@ -1,16 +1,29 @@
 # Harmon finite local transcription handoff
 
-The inventory is frozen. Do not discover new sources or start recurring jobs. This session authorizes setup, a sequential model comparison and a pilot capped at 20 source attempts. **Leave the ten-hour batch unstarted.** Do not use hosted Actions for transcription.
+The inventory is frozen. Do not discover new sources or start recurring jobs.
+The current operating mode is manually started **two-hour sessions**, with Turbo,
+six threads and publishing every **25 completed outputs** plus session end.
+There is no scheduler or overnight batch. The user prefers automatic speaker
+enrollment and validation without personal review; inferred voice matches retain
+explicitly unverified identity labels. See [Local Speaker Filter](LOCAL_SPEAKER_FILTER.md)
+for setup, validation and the standard session command, and
+[SESSION_VALIDATION.md](SESSION_VALIDATION.md) for current verification results.
 
 **Historical source expansion completed:** `corpus/history/manifest.jsonl` now contains **3,404 tasks**: 355 Twitch clips, 31 Twitch VOD entries, and **450 official-channel YouTube videos**. Of these, 140 existing clips were already transcribed, and 682 VOD windows are flagged because old short samples lack exact offsets; these windows are still eligible for full processing. The manifest lists **465.4 hours** of source durations, including **351.87 hours of YouTube**, before overlap, unavailability and non-speech. VOD and YouTube tasks use ten-minute sections (shorter final sections). **Immutable task IDs are preserved.** Newly prioritized YouTube sections are spread across distinct videos before later sections. Unwindowed long-form tasks remain disallowed. The 27 unattributed or duration-unknown playlist candidates are excluded.
 
-**Do not expand this session's authorization:** the local agent is paused pending these source-list changes. Preserve its current capped pilot, local commits and checkpoints; **do not start the prepared ten-hour/overnight command** until the user separately authorizes it. On resumption, fetch/rebase latest `origin/main` without force or destructive reset, verify `local_worker.py status`, and keep any saved `.harmon-work/pilot.jsonl` if the pilot was already prepared. Historical source discovery was already completed on GitHub; do not repeat it locally.
+The original setup/model-comparison pilots are historical. Preserve their
+artifacts and frozen source inventory. Do not start an archive production session
+as part of implementation/validation, or launch another session automatically.
+Historical source discovery was already completed; do not repeat it locally.
 
 The separately authorized additional-model comparison has its own **ten-source-attempt maximum** and includes 200 frozen reference recordings. Its [report and artifacts](stt_benchmark/REPORT.md) and `scripts/run_stt_benchmark.sh` are separate from archive processing. The benchmark retains ten sources from the original 127.79-hour inventory snapshot; its source ledger counts failed and interrupted attempts across restarts. Neither its launcher nor offline GitHub workflow starts the archive batch.
 
 **Accepted ASR choice:** the user approved provisional use of `large-v3-turbo-q5_0`, now the default in setup and local launchers. Its aggregate reference WER was 5.91% versus Small's 7.05%, with 1.54× processing time. The user accepted that narrow exception to the original 1.50× ceiling. [decision.json](stt_benchmark/decision.json) records the acceptance separately from the unchanged benchmark measurements. Commentary accuracy remains unverified.
 
-**Other worker's handoff:** [LOCAL_SPEAKER_FILTER.md on the speaker-gate branch](https://github.com/thefundament/harmon/blob/feat/local-speaker-voice-gate/docs/LOCAL_SPEAKER_FILTER.md) describes the optional CPU speaker filter and remains unmerged. It preserves this ASR choice, requires privately reviewed enrollment references and a bounded validation pilot, and requires a calibrated profile before a full filtered run. Its cost on this host is unmeasured. Do not start the full batch or infer enrollment labels from channel ownership.
+**Speaker integration:** the former speaker-gate branch is now integrated in this
+checkout while retaining Turbo. Automatic enrollment uses recurring voice cohorts
+and a withheld-recording recurrence check; it does not invent human labels or
+certify speaker identity. The profile is private and reused across sessions.
 
 ## Setup on this host
 
@@ -30,7 +43,7 @@ Models are verified against the upstream SHA1 and their SHA256 is printed. `HARM
 
 ## Validation and batch commands
 
-For a validation run, choose a frozen subset manifest under `.harmon-work/` and use `--min-successes`. `--max-items` counts source attempts, including failures. Success requirements count new durable TXT/SRT/metadata outputs, including explicit no-speech results; inspect the requested speech outputs separately.
+For a validation run, choose a frozen subset manifest under `.harmon-work/` and use `--min-successes`. `--max-items` counts source attempts, including failures. Success requirements count new durable TXT/SRT/metadata outputs, including explicit no-speech/no-target-speech results; inspect the requested speech outputs separately.
 
 ```bash
 HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/run_archive.sh \
@@ -39,14 +52,19 @@ HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/run_ar
 
 Pilot acceptance requires five successful clips, one complete VOD window and one YouTube window, using the selected model. Verify hashes, timestamps, durations, cleanup, publishing and resumption. Do not exceed 20 total download attempts across comparison and acceptance. Account for unavailable sources explicitly.
 
-**Prepared ten-hour command; do not execute as part of this session:**
+## Standard resumable session
+
+After automatic enrollment and the bounded speaker pilot pass:
 
 ```bash
-HARMON_MODEL=large-v3-turbo-q5_0 HARMON_LOG="$PWD/.harmon-work/logs/ten-hour.log" \
-  bash scripts/run_limited.sh bash scripts/run_archive.sh --max-hours 10 --commit-every 10
+bash scripts/run_limited.sh bash scripts/run_archive.sh \
+  --max-hours 2 --commit-every 25 \
+  --speaker-filter \
+  --speaker-profile .harmon-work/speaker_profile.json
 ```
 
-Use the final validation report's model selection when running later. The wall-time cap prevents starting another task after ten hours; a task already running can finish and checkpoint afterward.
+Each session is started manually. The limit stops new sections; the current
+section can finish and checkpoint afterward. No overnight command is prepared.
 
 ## Completion, recovery and publishing
 
@@ -54,7 +72,7 @@ One worker may run per checkout, enforced by an advisory lock. A hash-valid TXT/
 
 Media and WAVs live only in `.harmon-work/tmp/`, are removed on success/failure/handled interruption, and orphaned task directories are reclaimed on resumption. No media/model binaries are committed. Downloads are capped at 384 MiB, free disk must stay above 2 GiB, and failures receive backoff and at most three attempts. `--no-push` leaves results as local files without automatic commits. Custom output paths require `--no-push`.
 
-With publishing enabled, completed results are committed every `--commit-every` successes and on graceful SIGINT/SIGTERM. An upload failure disables further network attempts for that run but **local checkpoint commits continue**. The worker refuses to commit unrelated staged files. Commit tested code and handoff changes before validating publishing: dirty tracked files can prevent rebasing. Only `corpus/local_transcripts/` is staged by the worker.
+With publishing enabled, completed results are committed every `--commit-every` successes (25 by default), at session end and on graceful SIGINT/SIGTERM. An upload failure disables further network attempts for that run but **local checkpoint commits continue**. The worker refuses to commit unrelated staged files. Commit tested code and handoff changes before validating publishing: dirty tracked files can prevent rebasing. Only `corpus/local_transcripts/` is staged by the worker.
 
 ```bash
 .venv/bin/python collector/local_worker.py publish

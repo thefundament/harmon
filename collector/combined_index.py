@@ -25,6 +25,9 @@ def run(root: pathlib.Path):
                     "recognized_words":row.get("recognized_words",0),
                     "recognition_model":row.get("recognition_model"),
                     "asr_completed":success,
+                    "processing_status":row.get("processing_status"),
+                    "processing_completed":success or row.get("processing_status")=="no_target_speech",
+                    "speaker_status":row.get("speaker_status","unverified"),
                     "speaker_verified":False,
                     "training_permission_verified":False,
                     "transcript_path":str(path.relative_to(base)).replace(".metadata.json",".txt"),
@@ -50,6 +53,8 @@ def run(root: pathlib.Path):
     for row in entries:
         grouped[row["source_kind"]]=grouped.get(row["source_kind"],0)+1
     summary={
+        "local_completed_outputs":sum(x["key"].startswith("local:") and x.get("processing_completed",False) for x in entries),
+        "local_no_target_speech_outputs":sum(x.get("processing_status")=="no_target_speech" for x in entries),
         "legacy_asr_outputs":sum(x["key"].startswith("legacy:") and x["asr_completed"] for x in entries),
         "local_window_asr_outputs":sum(x["key"].startswith("local:") and x["asr_completed"] for x in entries),
         "total_asr_outputs":sum(x["asr_completed"] for x in entries),

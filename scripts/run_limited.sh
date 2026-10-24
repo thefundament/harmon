@@ -16,5 +16,5 @@ systemd-run --user --wait --pipe --collect --unit="harmon-$STAMP" \
   --setenv="HARMON_VULKAN=${HARMON_VULKAN:-ON}" \
   --setenv="HARMON_BUILD_JOBS=${HARMON_BUILD_JOBS:-2}" \
   --setenv="HARMON_THREADS=${HARMON_THREADS:-6}" \
-  --setenv="HARMON_COMMIT_EVERY=${HARMON_COMMIT_EVERY:-10}" \
+  --setenv="HARMON_COMMIT_EVERY=${HARMON_COMMIT_EVERY:-25}" \
   /usr/bin/python3 "$ROOT/collector/memory_guard.py" --metrics "$METRICS" -- "$@" 2>&1 | tee "$LOG"

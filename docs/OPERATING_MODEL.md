@@ -2,7 +2,7 @@
 
 ## Execution environments
 
-Only the ChatGPT sandbox and GitHub are used. No paid connectors, external server, self-hosted machine, or user workstation are assumed.
+The current archive worker runs locally through `scripts/run_limited.sh`; GitHub performs lightweight offline checks and indexing. See [local sessions](LOCAL_SPEAKER_FILTER.md) and [validation](SESSION_VALIDATION.md). The hosted collection entries below describe the historical acquisition path.
 
 | Activity | Owner / location | Automation status |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ For this reason, `harvest.yml` is currently **manual-only** (no schedule or push
 
 - **ASR complete** means an ASR engine produced text. It does *not* mean the text is accurate.
 - **Review priority score** is a crude heuristic for selecting worthwhile segments; it is *not* accuracy confidence.
-- **Speaker match, automatic** (future): requires at least several high-quality, independently confirmed clips of the speaker as reference. With an embedding model and other-speaker calibration we can assign *probabilistic* likely-match scores. Multiple speakers, TTS, background game dialogue, overlapping speech, and voice acting remain unknown or excluded.
+- **Speaker match, automatic**: the local worker uses VAD and a private embedding profile. The user selected automatic recurring-voice enrollment without personal review. Its `probable_channel_primary_speaker` label is inferred; cohort separation and withheld-recording recurrence do not establish measured identity accuracy. Optional independently reviewed references remain supported. Multiple speakers, TTS, game dialogue, overlaps and effects remain difficult.
 - **High-confidence candidate** (future): strong agreement of independently transcribed speech plus a calibrated speaker match, VAD, reasonable word rate, and source provenance. These remain inferred/automatic rather than human-verified.
 - **Manually verified** means an authorized reviewer listened to the source and confirmed the words and identity.
 - **Training eligible** separately requires proper permission to use or reproduce the material. Public availability is not proof of that permission.
@@ -38,7 +38,7 @@ The existing audio was deliberately deleted after transcription; **speaker verif
 
 ## Model guidance
 
-Current corpus recognizer is `base.en`. `small.en` is the leading accuracy upgrade candidate, subject to timing and transcript comparison. Comparing Base to Small can highlight ambiguous words (like 'sheets' versus 'streets'), but disagreement is *not* a measured word-error rate absent a human-labelled gold transcript.
+The current local recognizer is the user-accepted `large-v3-turbo-q5_0`; older hosted outputs used `base.en`. See [the model comparison](stt_benchmark/REPORT.md) for the accepted tradeoff. `small.en` remains an override. Comparing Base to Small can highlight ambiguous words (like 'sheets' versus 'streets'), but disagreement is *not* a measured word-error rate absent a human-labelled gold transcript.
 
 For a true assessment, compare both models on a small manually checked holdout, report WER against that holdout, and avoid silently changing historical wording. Track `recognition_model`, source key, sample offsets and model version in every new output; preserve older text rather than overwriting it.
 
