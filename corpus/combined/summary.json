@@ -1,4 +1,6 @@
 {
+  "local_completed_outputs": 7,
+  "local_no_target_speech_outputs": 0,
   "legacy_asr_outputs": 165,
   "local_window_asr_outputs": 7,
   "total_asr_outputs": 172,
