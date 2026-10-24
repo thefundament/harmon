@@ -1,0 +1,255 @@
+{
+  "task_id": "youtube:tGCxFlLEhY8:1800-2400",
+  "source_id": "tGCxFlLEhY8",
+  "source_url": "https://www.youtube.com/watch?v=tGCxFlLEhY8",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2400,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 28.49319226667285,
+  "elapsed_seconds": 29.93704355508089,
+  "retrieved_at_utc": "2026-10-24T13:34:56.610213+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 1308,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 4,
+    "other_or_uncertain_regions": 69,
+    "matched_audio_seconds": 47.34,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 12.0,
+        "source_start_s": 26.16,
+        "source_end_s": 38.16
+      },
+      {
+        "compact_start_s": 12.3,
+        "compact_end_s": 23.64,
+        "source_start_s": 551.88,
+        "source_end_s": 563.22
+      },
+      {
+        "compact_start_s": 23.94,
+        "compact_end_s": 35.94,
+        "source_start_s": 566.43,
+        "source_end_s": 578.43
+      },
+      {
+        "compact_start_s": 36.24,
+        "compact_end_s": 48.24,
+        "source_start_s": 580.26,
+        "source_end_s": 592.26
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 1314,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 2,
+    "repeated_5gram_fraction": 0.0015267175572519084,
+    "max_5gram_count": 3,
+    "repeated_5gram_examples": [
+      {
+        "text": "last of us part two",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 526.16,
+    "timestamp_issues": [
+      {
+        "cue": 6,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1829.0,
+        "end": 1834.82
+      },
+      {
+        "cue": 11,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1858.0,
+        "end": 1862.24
+      },
+      {
+        "cue": 17,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1887.0,
+        "end": 1892.36
+      },
+      {
+        "cue": 29,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 1916.0,
+        "end": 1921.0
+      },
+      {
+        "cue": 35,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1945.0,
+        "end": 1950.3600000000001
+      },
+      {
+        "cue": 39,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1974.0,
+        "end": 1981.26
+      },
+      {
+        "cue": 45,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2003.0,
+        "end": 2005.0
+      },
+      {
+        "cue": 52,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2032.0,
+        "end": 2037.28
+      },
+      {
+        "cue": 61,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2061.0,
+        "end": 2067.8
+      },
+      {
+        "cue": 65,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2090.0,
+        "end": 2098.98
+      },
+      {
+        "cue": 69,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2119.0,
+        "end": 2121.86
+      },
+      {
+        "cue": 88,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2177.0,
+        "end": 2178.7
+      },
+      {
+        "cue": 103,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2206.0,
+        "end": 2214.46
+      },
+      {
+        "cue": 108,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2235.0,
+        "end": 2247.0
+      },
+      {
+        "cue": 112,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2264.0,
+        "end": 2270.44
+      },
+      {
+        "cue": 119,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2293.0,
+        "end": 2296.36
+      },
+      {
+        "cue": 131,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2322.0,
+        "end": 2330.5
+      },
+      {
+        "cue": 136,
+        "issues": [
+          "nonpositive_duration"
+        ],
+        "start": 2349.08,
+        "end": 2349.08
+      },
+      {
+        "cue": 138,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2351.0,
+        "end": 2353.0
+      }
+    ]
+  },
+  "original_pcm_sha256": "0b6ab3dfb2ae391083f3d00c44327c68dc9698a4708c2ad78aaae59a9c05b081",
+  "original_wav_sha256": "8f0c1df81b6b4e83ecbcefed08ccdd8da344b3453ab23ad32504ae32b7c3e769",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_5dd031b8e2ecee3d4468/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "846007a416fc177e40f2fbb7d2e2d70323981206b8bfb05d5649e4b1c6f8179e",
+  "srt_sha256": "41faeefe62a4a06fb77a8bbf6cb678601a39ea3f2105b30f056dc2e80dc1edbb",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

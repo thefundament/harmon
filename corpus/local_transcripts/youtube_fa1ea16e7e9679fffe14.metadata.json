@@ -1,0 +1,285 @@
+{
+  "task_id": "youtube:t70PmkCroS8:1800-2400",
+  "source_id": "t70PmkCroS8",
+  "source_url": "https://www.youtube.com/watch?v=t70PmkCroS8",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2400,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 16.925949059659615,
+  "elapsed_seconds": 17.665972266811877,
+  "retrieved_at_utc": "2026-10-24T13:33:39.575777+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 324,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 26,
+    "other_or_uncertain_regions": 21,
+    "matched_audio_seconds": 124.95,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 3.93,
+        "source_start_s": 0.06,
+        "source_end_s": 3.99
+      },
+      {
+        "compact_start_s": 4.23,
+        "compact_end_s": 6.54,
+        "source_start_s": 12.42,
+        "source_end_s": 14.73
+      },
+      {
+        "compact_start_s": 6.84,
+        "compact_end_s": 9.87,
+        "source_start_s": 17.07,
+        "source_end_s": 20.1
+      },
+      {
+        "compact_start_s": 10.17,
+        "compact_end_s": 18.45,
+        "source_start_s": 26.01,
+        "source_end_s": 34.29
+      },
+      {
+        "compact_start_s": 18.75,
+        "compact_end_s": 30.75,
+        "source_start_s": 49.11,
+        "source_end_s": 61.11
+      },
+      {
+        "compact_start_s": 31.05,
+        "compact_end_s": 42.24,
+        "source_start_s": 61.11,
+        "source_end_s": 72.3
+      },
+      {
+        "compact_start_s": 42.54,
+        "compact_end_s": 47.16,
+        "source_start_s": 75.72,
+        "source_end_s": 80.34
+      },
+      {
+        "compact_start_s": 47.46,
+        "compact_end_s": 49.35,
+        "source_start_s": 292.35,
+        "source_end_s": 294.24
+      },
+      {
+        "compact_start_s": 49.65,
+        "compact_end_s": 53.64,
+        "source_start_s": 294.69,
+        "source_end_s": 298.68
+      },
+      {
+        "compact_start_s": 53.94,
+        "compact_end_s": 56.55,
+        "source_start_s": 301.29,
+        "source_end_s": 303.9
+      },
+      {
+        "compact_start_s": 56.85,
+        "compact_end_s": 58.83,
+        "source_start_s": 304.35,
+        "source_end_s": 306.33
+      },
+      {
+        "compact_start_s": 59.13,
+        "compact_end_s": 61.14,
+        "source_start_s": 306.84,
+        "source_end_s": 308.85
+      },
+      {
+        "compact_start_s": 61.44,
+        "compact_end_s": 63.39,
+        "source_start_s": 323.7,
+        "source_end_s": 325.65
+      },
+      {
+        "compact_start_s": 63.69,
+        "compact_end_s": 66.0,
+        "source_start_s": 341.07,
+        "source_end_s": 343.38
+      },
+      {
+        "compact_start_s": 66.3,
+        "compact_end_s": 69.48,
+        "source_start_s": 349.29,
+        "source_end_s": 352.47
+      },
+      {
+        "compact_start_s": 69.78,
+        "compact_end_s": 72.03,
+        "source_start_s": 393.06,
+        "source_end_s": 395.31
+      },
+      {
+        "compact_start_s": 72.33,
+        "compact_end_s": 75.45,
+        "source_start_s": 416.28,
+        "source_end_s": 419.4
+      },
+      {
+        "compact_start_s": 75.75,
+        "compact_end_s": 83.37,
+        "source_start_s": 424.08,
+        "source_end_s": 431.7
+      },
+      {
+        "compact_start_s": 83.67,
+        "compact_end_s": 87.18,
+        "source_start_s": 433.71,
+        "source_end_s": 437.22
+      },
+      {
+        "compact_start_s": 87.48,
+        "compact_end_s": 90.81,
+        "source_start_s": 437.7,
+        "source_end_s": 441.03
+      },
+      {
+        "compact_start_s": 91.11,
+        "compact_end_s": 99.45,
+        "source_start_s": 445.71,
+        "source_end_s": 454.05
+      },
+      {
+        "compact_start_s": 99.75,
+        "compact_end_s": 104.97,
+        "source_start_s": 458.01,
+        "source_end_s": 463.23
+      },
+      {
+        "compact_start_s": 105.27,
+        "compact_end_s": 112.05,
+        "source_start_s": 484.44,
+        "source_end_s": 491.22
+      },
+      {
+        "compact_start_s": 112.35,
+        "compact_end_s": 117.57,
+        "source_start_s": 491.85,
+        "source_end_s": 497.07
+      },
+      {
+        "compact_start_s": 117.87,
+        "compact_end_s": 129.87,
+        "source_start_s": 497.46,
+        "source_end_s": 509.46
+      },
+      {
+        "compact_start_s": 130.17,
+        "compact_end_s": 132.45,
+        "source_start_s": 514.65,
+        "source_end_s": 516.93
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 318,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 18,
+    "repeated_5gram_fraction": 0.05732484076433121,
+    "max_5gram_count": 3,
+    "repeated_5gram_examples": [
+      {
+        "text": "get me get the fuck",
+        "count": 3
+      },
+      {
+        "text": "me get the fuck out",
+        "count": 3
+      },
+      {
+        "text": "get the fuck out of",
+        "count": 3
+      },
+      {
+        "text": "the fuck out of here",
+        "count": 3
+      },
+      {
+        "text": "fuck out of here i'm",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 312.84,
+    "timestamp_issues": [
+      {
+        "cue": 22,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2032.0,
+        "end": 2034.0
+      },
+      {
+        "cue": 24,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2090.0,
+        "end": 2116.5
+      },
+      {
+        "cue": 40,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2206.0,
+        "end": 2235.0
+      },
+      {
+        "cue": 50,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2322.0,
+        "end": 2323.84
+      },
+      {
+        "cue": 57,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2380.0,
+        "end": 2381.4
+      }
+    ]
+  },
+  "original_pcm_sha256": "261ab928efac0688e8b85af10b024ec32c750697a58f236f0d32b6dda24cf22e",
+  "original_wav_sha256": "9eb540ad5f503f205ae3b8dad20da97024c3243b5642b23bb12a343569a9cf8b",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_fa1ea16e7e9679fffe14/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "1eaf95e102995fbdc52e4521c508a1a43d3e20083096d3a2d8e03dff704f5d49",
+  "srt_sha256": "725fcbbdb4e64f5bbe3fa4e0624545674d20cf9a5ba446670c8cfcdb7e4b256e",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}
