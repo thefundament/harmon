@@ -1,0 +1,4 @@
+1
+00:00:17,550 --> 00:00:22,670
+ Hello YouTube, welcome to part 10 of my Ratchet and Clank playthrough.
+
