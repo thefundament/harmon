@@ -1,0 +1,185 @@
+{
+  "task_id": "youtube:nVDnR9MYi4c:1800-2400",
+  "source_id": "nVDnR9MYi4c",
+  "source_url": "https://www.youtube.com/watch?v=nVDnR9MYi4c",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2400,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 21.762266811914742,
+  "elapsed_seconds": 22.279427557019517,
+  "retrieved_at_utc": "2026-10-24T13:20:35.266427+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 789,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 1,
+    "other_or_uncertain_regions": 45,
+    "matched_audio_seconds": 6.09,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 6.09,
+        "source_start_s": 0.12,
+        "source_end_s": 6.21
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 789,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 2,
+    "repeated_5gram_fraction": 0.0025477707006369425,
+    "max_5gram_count": 3,
+    "repeated_5gram_examples": [
+      {
+        "text": "i was in the room",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 364.9,
+    "timestamp_issues": [
+      {
+        "cue": 4,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1858.0,
+        "end": 1886.24
+      },
+      {
+        "cue": 6,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1887.0,
+        "end": 1895.82
+      },
+      {
+        "cue": 10,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1916.0,
+        "end": 1920.08
+      },
+      {
+        "cue": 18,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2003.0,
+        "end": 2004.48
+      },
+      {
+        "cue": 27,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2032.0,
+        "end": 2035.12
+      },
+      {
+        "cue": 31,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2061.0,
+        "end": 2068.82
+      },
+      {
+        "cue": 35,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2090.0,
+        "end": 2092.0
+      },
+      {
+        "cue": 50,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2177.0,
+        "end": 2182.64
+      },
+      {
+        "cue": 55,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2206.0,
+        "end": 2211.76
+      },
+      {
+        "cue": 59,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2235.0,
+        "end": 2237.0
+      },
+      {
+        "cue": 65,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2293.0,
+        "end": 2294.58
+      },
+      {
+        "cue": 72,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2322.0,
+        "end": 2326.0
+      },
+      {
+        "cue": 75,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 2351.14,
+        "end": 2353.36
+      }
+    ]
+  },
+  "original_pcm_sha256": "cf448a1c2aa8af4e0020d7f4d2992cd1efa4a5e261b01e483e0e21c3b2aa2fd5",
+  "original_wav_sha256": "bef1325043584ff20df4cc9039a33b486fc8e21f118622ccdf9ecc3b78562488",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_dfbf14fc1431ea4d4265/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "086fd572cc3b834c12dc9b971173a028d04a991d0b38608a285ea8a6ac4be4e6",
+  "srt_sha256": "420b6e3204d0578ae913e5b544bdd3380f1014f454ae36a7cfbc246e9bc8fa5c",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}
