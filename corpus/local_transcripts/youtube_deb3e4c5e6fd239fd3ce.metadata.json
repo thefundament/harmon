@@ -1,0 +1,52 @@
+{
+  "task_id": "youtube:ENIY7UIxWtY:0-50.0",
+  "source_id": "ENIY7UIxWtY",
+  "source_url": "https://www.youtube.com/watch?v=ENIY7UIxWtY",
+  "kind": "youtube",
+  "source_window_start_s": 0,
+  "source_window_end_s": 50.0,
+  "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "processed_audio_seconds": 49.551,
+  "transcription_seconds": 0.739,
+  "speaker_status": "probable_channel_primary_speaker",
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "training_ready": false,
+  "retrieved_at_utc": "2026-10-24T02:06:48.751424+00:00",
+  "media_sha256_not_retained": "4d7d127f11d6f79e419d8ff35afa232fd31679b7a55d21a05535a3a5867ef008",
+  "text_sha256": "aea7b29330c7bc421aba2e0221105ffb16a64789165b6154eb35e47e950d3f3c",
+  "srt_sha256": "8927003aaaa0f35f6529ba6f8a265c8f0e6364653350fbd3e2f310d5086439f5",
+  "recognized_words": 11,
+  "elapsed_seconds": 3.36,
+  "source_provenance": "frozen_manifest",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 1,
+    "other_or_uncertain_regions": 4,
+    "matched_audio_seconds": 12.0,
+    "examined_audio_seconds": 49.551,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 12.0,
+        "source_start_s": 1.14,
+        "source_end_s": 13.14
+      }
+    ],
+    "no_match": false,
+    "voice_filter_elapsed_s": 0.138
+  },
+  "subtitle_timing_issues": [],
+  "srt_timing": "source_section_relative_approximate_from_voice_map",
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id"
+}
