@@ -1,0 +1,689 @@
+1
+00:00:00,000 --> 00:00:05,260
+So if you have perks to share ammo and you share that on your team, every member of the team can then find more ammo in containers.
+
+2
+00:00:05,940 --> 00:00:12,740
+And these all rank up, so eventually you're getting like huge bonuses on ammo, food you're finding, or your carry rate's a big deal in this game.
+
+3
+00:00:12,980 --> 00:00:16,640
+A lot of interesting back and forth with developers on how much you can carry or not.
+
+4
+00:00:17,300 --> 00:00:22,580
+And, you know, you see those cards at first, you're like, well, that's not as cool as being able to do plus 20% damage with my pistol.
+
+5
+00:00:23,040 --> 00:00:26,480
+But in a survival game, being able to carry more means you'll be able to carry more pistols.
+
+6
+00:00:26,800 --> 00:00:29,000
+So, you know, there's a lot of ways that...
+
+7
+00:00:29,000 --> 00:00:30,000
+So, you know, there's a lot of ways that...
+It's like he's in a circle there.
+
+8
+00:00:30,000 --> 00:00:44,620
+It's like he's in a circle there.
+
+9
+00:00:45,680 --> 00:00:49,400
+I have pistols, but I want more carry so I can carry more pistols.
+
+10
+00:00:50,600 --> 00:00:52,760
+Pistols, carry, circle.
+
+11
+00:00:58,000 --> 00:00:58,560
+So you're really talking about sitting there and having multiple kind of decks.
+
+12
+00:00:58,560 --> 00:00:59,000
+- Oh my God.
+So you're really talking about sitting there and having multiple kind of decks.
+
+13
+00:00:59,000 --> 00:01:03,000
+So you're really talking about sitting there and having multiple kind of decks.
+
+14
+00:01:03,000 --> 00:01:09,000
+You're talking about having more of a baseline and then making little changes here and there quickly and easily.
+
+15
+00:01:09,000 --> 00:01:12,000
+Is that kind of a correct way of putting it?
+
+16
+00:01:12,000 --> 00:01:15,000
+Yeah, your character, you're still progressing the way you would expect in an RPG.
+
+17
+00:01:15,000 --> 00:01:17,000
+And it's kind of growing and growing and growing.
+
+18
+00:01:17,000 --> 00:01:19,000
+So it's kind of what Jeff was saying.
+
+19
+00:01:19,000 --> 00:01:21,000
+You're swapping out a thing here or there.
+
+20
+00:01:21,000 --> 00:01:26,000
+The perk packs can also sometimes give you a perk that is we intentionally do this.
+
+21
+00:01:26,000 --> 00:01:27,000
+You might get one or two.
+
+22
+00:01:27,000 --> 00:01:28,000
+You might get one or two.
+or two that can pack a card that is a higher level than you are.
+
+23
+00:01:28,000 --> 00:01:31,480
+or two that can pack a card that is a higher level than you are.
+
+24
+00:01:31,540 --> 00:01:35,680
+So it's like a few levels in shooting distance, so you say, like, oh, I didn't even know that
+
+25
+00:01:35,680 --> 00:01:41,580
+was a perk. Maybe I want to pick agility on my next level up because the game has given
+
+26
+00:01:41,580 --> 00:01:46,140
+me this other perk, and I just want to try it out. The other thing is, this is the multiplier
+
+27
+00:01:46,140 --> 00:01:51,380
+part of it, that when you hit level 50, you don't get to pick any, you don't get to give
+
+28
+00:01:51,380 --> 00:01:56,000
+out a special point anymore. So that doling out strength and all that stops at level 50
+
+29
+00:01:56,000 --> 00:01:56,860
+out a special point anymore. So that doling out strength and all that stops at level 50
+at level 50 but you still get to pick cards so that gives us a continuing thing where okay i hit level
+
+30
+00:01:56,860 --> 00:01:57,000
+Thank you.
+at level 50 but you still get to pick cards so that gives us a continuing thing where okay i hit level
+
+31
+00:01:57,000 --> 00:02:03,600
+at level 50 but you still get to pick cards so that gives us a continuing thing where okay i hit level
+
+32
+00:02:03,600 --> 00:02:08,880
+73 and i'm still like you know what i never got to pick because again there's hundreds of them
+
+33
+00:02:08,880 --> 00:02:13,360
+i'll go pick that one i want to try it out so you're not but we're still capping the you know
+
+34
+00:02:13,360 --> 00:02:19,760
+the power curve ramp that in our other games like a skyrim or a fallout 4 getting more and more and
+
+35
+00:02:19,760 --> 00:02:25,000
+more and more powerful and we knew we couldn't really have that in this one did you talk about
+
+36
+00:02:25,000 --> 00:02:25,600
+more and more powerful and we knew we couldn't really have that in this one did you talk about
+You talk about the discovery of perks too and how you might discover them in a card pack.
+
+37
+00:02:25,600 --> 00:02:26,000
+about the decision.
+You talk about the discovery of perks too and how you might discover them in a card pack.
+
+38
+00:02:26,000 --> 00:02:29,320
+You talk about the discovery of perks too and how you might discover them in a card pack.
+
+39
+00:02:29,420 --> 00:02:32,380
+You might see your friend using one that you never thought you'd use.
+
+40
+00:02:32,800 --> 00:02:39,400
+Have any of you in your own internal playtesting found a perk that you never thought you would use that you're like, wow, this is really cool?
+
+41
+00:02:40,360 --> 00:02:40,600
+Chris?
+
+42
+00:02:40,800 --> 00:02:41,340
+All the time.
+
+43
+00:02:41,980 --> 00:02:43,200
+Any recent examples?
+
+44
+00:02:43,200 --> 00:02:50,100
+Well, I remember when I first started playing the game, I did exactly what Todd alluded to or Jeff, where I always picked the percentage damage.
+
+45
+00:02:50,980 --> 00:02:52,900
+Because I'm thinking, okay, I just want to do more damage.
+
+46
+00:02:53,460 --> 00:02:54,000
+as I played the game and discovered
+
+47
+00:02:54,000 --> 00:02:55,000
+as I played the game and discovered
+the game and discovered there's a lot of value in doing things like building up your camp
+
+48
+00:02:55,000 --> 00:02:58,320
+the game and discovered there's a lot of value in doing things like building up your camp
+
+49
+00:02:59,440 --> 00:03:03,600
+and doing a lot of exploration and gathering resources i started to take perks i would have
+
+50
+00:03:03,600 --> 00:03:08,320
+never planned oh camp i thought they said building up your champs but i can actually
+
+51
+00:03:08,320 --> 00:03:14,800
+carry more junk um so i can then bring that back to my camp and i find that i'd swap that out a lot
+
+52
+00:03:14,800 --> 00:03:20,080
+um like if i'm playing by myself and doing more exploration i tend to use those kinds of perks
+
+53
+00:03:20,080 --> 00:03:23,000
+but if I play in a group we typically have some objective in
+
+54
+00:03:23,000 --> 00:03:24,000
+but if I play in a group we typically have some objective in
+some objective in mind it's something we want to go and kill and i might swap some of those out
+
+55
+00:03:24,000 --> 00:03:27,320
+some objective in mind it's something we want to go and kill and i might swap some of those out
+
+56
+00:03:27,320 --> 00:03:33,240
+for the more traditional damaged birds yeah jeff anything for you that that emerged recently that
+
+57
+00:03:33,240 --> 00:03:38,840
+you didn't think you would use now you're using um i can't think of anything particular i did get
+
+58
+00:03:38,840 --> 00:03:44,520
+one of those weird mutations the other day though um they're a lot of fun too so i was playing and
+
+59
+00:03:44,520 --> 00:03:48,760
+all of a sudden when you have a lot of rads is when you're susceptible to mutations like in real
+
+60
+00:03:48,760 --> 00:03:52,000
+life and then i got a mutation called bird bone but i didn't realize i had
+
+61
+00:03:52,000 --> 00:03:53,000
+life and then i got a mutation called bird bone but i didn't realize i had
+bone, but I didn't realize I'd gotten it, and all of a sudden I was over-equipped, which
+
+62
+00:03:53,000 --> 00:03:54,520
+bone, but I didn't realize I'd gotten it, and all of a sudden I was over-equipped, which
+
+63
+00:03:54,520 --> 00:03:57,960
+is always a frustrating experience in a game, and I'm like, why am I over-equipped?
+
+64
+00:03:58,000 --> 00:04:02,460
+And I looked, and I had this perk, and it let me jump extra high, but it lowered my strength.
+
+65
+00:04:03,340 --> 00:04:08,340
+So again, like, the way the dynamic systems work is incredible, and you can spend a lot
+
+66
+00:04:08,340 --> 00:04:11,480
+of time in that perk menu, but remember, it is a live game, so make sure you're in a
+
+67
+00:04:11,480 --> 00:04:11,920
+safe place.
+
+68
+00:04:14,500 --> 00:04:15,840
+And then I have another question.
+
+69
+00:04:15,920 --> 00:04:17,680
+Who gets to write the jokes in the gum wrappers?
+
+70
+00:04:18,520 --> 00:04:21,000
+That is Emil Pailirulo, or, you know, he does all of the jokes.
+
+71
+00:04:21,000 --> 00:04:21,280
+That is Emil Pailirulo, or, you know, he does all of the jokes.
+He's done that for us for a long time.
+
+72
+00:04:21,280 --> 00:04:22,000
+master of
+He's done that for us for a long time.
+
+73
+00:04:22,000 --> 00:04:24,680
+He's done that for us for a long time.
+
+74
+00:04:24,800 --> 00:04:25,840
+He wrote The Arrow and the Knee.
+
+75
+00:04:26,020 --> 00:04:26,920
+That wasn't really a joke.
+
+76
+00:04:29,880 --> 00:04:32,300
+It became a joke.
+
+77
+00:04:32,660 --> 00:04:33,280
+It wasn't a joke.
+
+78
+00:04:34,600 --> 00:04:35,640
+That poor guy.
+
+79
+00:04:37,580 --> 00:04:39,360
+So Emil wrote all of those.
+
+80
+00:04:46,080 --> 00:04:47,660
+So let's switch gears.
+
+81
+00:04:47,660 --> 00:04:50,000
+I want to get to some of the questions that we've gathered up
+
+82
+00:04:50,000 --> 00:04:50,740
+I want to get to some of the questions that we've gathered up
+We've gathered up from the community.
+
+83
+00:04:50,740 --> 00:04:51,000
+from the
+We've gathered up from the community.
+
+84
+00:04:51,000 --> 00:04:51,400
+We've gathered up from the community.
+
+85
+00:04:51,960 --> 00:04:53,200
+I'm going to call this the thunder round.
+
+86
+00:04:53,300 --> 00:04:55,960
+Usually we do a lightning round, but we've got a half hour here.
+
+87
+00:04:56,280 --> 00:04:57,340
+We're going to take our time.
+
+88
+00:04:57,460 --> 00:05:01,180
+We're going to thunder through some really tough questions that we gathered up from the community.
+
+89
+00:05:02,980 --> 00:05:05,460
+Let's start with the big one, the beta.
+
+90
+00:05:06,660 --> 00:05:09,240
+Now, you guys want to play, am I right?
+
+91
+00:05:12,120 --> 00:05:14,660
+Why can't you let them play any sooner, Todd?
+
+92
+00:05:19,000 --> 00:05:22,740
+No, what an asshole.
+
+93
+00:05:48,000 --> 00:05:51,340
+So everybody's feedback is really, really important to us.
+
+94
+00:05:51,340 --> 00:05:53,740
+The beta for us, this is an all-new thing, right?
+
+95
+00:05:53,740 --> 00:05:58,160
+So we need to stress test a lot of systems.
+
+96
+00:05:58,160 --> 00:06:01,440
+That's why we called it the Break It Early test application,
+
+97
+00:06:01,440 --> 00:06:03,140
+because this is going to break it.
+
+98
+00:06:03,140 --> 00:06:04,780
+We're pretty sure of that.
+
+99
+00:06:04,780 --> 00:06:08,560
+And get ready.
+
+100
+00:06:08,560 --> 00:06:12,540
+And so it's really-- we need to make sure we're ready for everybody
+
+101
+00:06:12,540 --> 00:06:16,420
+comes in, it all crashes the first moment.
+
+102
+00:06:16,420 --> 00:06:17,000
+See, I make it sound fun, right?
+
+103
+00:06:17,000 --> 00:06:17,680
+See, I make it sound fun, right?
+sound fun, right? It's going to be really fun. And then, you know, making sure we're ready
+
+104
+00:06:17,680 --> 00:06:18,000
+It's going to be really great.
+sound fun, right? It's going to be really fun. And then, you know, making sure we're ready
+
+105
+00:06:18,000 --> 00:06:21,680
+sound fun, right? It's going to be really fun. And then, you know, making sure we're ready
+
+106
+00:06:21,680 --> 00:06:25,780
+to fix that really, really fast. And so that we're in a good loop of, hey, here are the
+
+107
+00:06:25,780 --> 00:06:28,940
+issues. Let's fix them and get everybody else in the game.
+
+108
+00:06:28,940 --> 00:06:34,000
+That's funny. He's basically saying, the solvers are going to crash as soon as we try
+
+109
+00:06:34,000 --> 00:06:41,600
+this. Because I know that that was something that I think some of the community were concerned
+
+110
+00:06:41,600 --> 00:06:46,000
+about. Yes, everybody wants to play it sooner than later, and I'm with you.
+
+111
+00:06:46,000 --> 00:06:46,320
+about. Yes, everybody wants to play it sooner than later, and I'm with you.
+But, you know, you will continue to work on this game, or you have plans to continue to work on this game in a moment. It's not like it's finished and then you're going to take one little round of feedback. You have lots of thoughts and plans. You don't want to get into the roadmap, but...
+
+112
+00:06:46,320 --> 00:07:01,000
+But, you know, you will continue to work on this game, or you have plans to continue to work on this game in a moment. It's not like it's finished and then you're going to take one little round of feedback. You have lots of thoughts and plans. You don't want to get into the roadmap, but...
+
+113
+00:07:01,000 --> 00:07:14,360
+Right. We do have kind of a roadmap in our heads, and this is a game that we think, with the community, is going to be a very different game a year after it's out, two years after it's out, five years after it's out. It's a game in 10 years, 50 years.
+
+114
+00:07:15,000 --> 00:07:20,520
+And so we have big plans and what we can do with the game and with our community.
+
+115
+00:07:21,040 --> 00:07:23,020
+And the beta is just really the first step.
+
+116
+00:07:23,200 --> 00:07:23,720
+The first step.
+
+117
+00:07:24,660 --> 00:07:26,660
+The next big one, PVP.
+
+118
+00:07:26,660 --> 00:07:33,520
+I think everybody is excited, anxious, concerned, highly anticipating, nervous.
+
+119
+00:07:34,300 --> 00:07:38,600
+You've talked about it a little bit here and there, but why don't you just take it from the top?
+
+120
+00:07:38,860 --> 00:07:39,960
+How does it work?
+
+121
+00:07:40,840 --> 00:07:42,440
+What's the deal with griefing?
+
+122
+00:07:42,540 --> 00:07:44,000
+How are we going to be able to enjoy our fallout game?
+
+123
+00:07:44,000 --> 00:07:44,660
+How are we going to be able to enjoy our fallout game?
+fallout game or how am i going to be able to screw up somebody else's fallout game and get
+
+124
+00:07:44,660 --> 00:07:47,760
+fallout game or how am i going to be able to screw up somebody else's fallout game and get
+
+125
+00:07:47,760 --> 00:07:52,520
+away with it or any variation on that i'll just leave it to you this is why i don't go on reddit
+
+126
+00:07:52,520 --> 00:07:59,740
+they said this is why i don't go on reddit
+
+127
+00:07:59,740 --> 00:08:04,560
+we agree with those like we have folks in the office we have that debate you know is it a
+
+128
+00:08:04,560 --> 00:08:10,660
+you know what is it where do we want the the players kind of um driving force is it a pve world
+
+129
+00:08:10,660 --> 00:08:12,420
+thing? Is it the other players?
+
+130
+00:08:12,760 --> 00:08:13,000
+And for us, it is both.
+
+131
+00:08:13,000 --> 00:08:13,840
+And for us, it is both.
+For us, it is both.
+
+132
+00:08:13,840 --> 00:08:14,000
+And for us, it is both.
+
+133
+00:08:14,340 --> 00:08:15,460
+How can we do both?
+
+134
+00:08:16,000 --> 00:08:23,880
+And so, the first thing we'd say is that we want this element of danger, and it sounds
+
+135
+00:08:23,880 --> 00:08:27,560
+weird to say, without griefing, which is like, those things are often in conflict.
+
+136
+00:08:28,120 --> 00:08:32,580
+So right now, and you've seen it in some of the E3 videos, when you shoot somebody, you
+
+137
+00:08:32,580 --> 00:08:33,540
+do a little bit of damage.
+
+138
+00:08:33,620 --> 00:08:34,760
+You don't do full damage.
+
+139
+00:08:35,220 --> 00:08:35,920
+It's like an invitation.
+
+140
+00:08:35,980 --> 00:08:38,400
+It's like slapping somebody in a bar.
+
+141
+00:08:38,400 --> 00:08:40,240
+Like, you want to fight?
+
+142
+00:08:42,000 --> 00:08:42,040
+That's annoying, and eventually you're like, yeah, I think we're going to...
+
+143
+00:08:42,040 --> 00:08:42,840
+That's annoying.
+That's annoying, and eventually you're like, yeah, I think we're going to...
+
+144
+00:08:42,840 --> 00:08:45,940
+That's annoying, and eventually you're like, yeah, I think we're going to...
+
+145
+00:08:45,940 --> 00:08:47,420
+And so you do little bits of damage.
+
+146
+00:08:47,520 --> 00:08:49,420
+If you engage, then you're doing full damage,
+
+147
+00:08:49,800 --> 00:08:52,680
+and there's a cap reward based on the player's level.
+
+148
+00:08:53,180 --> 00:08:56,520
+So if the player's really high level, you're going to get more caps than them if they're low level.
+
+149
+00:08:58,560 --> 00:09:00,720
+If you want to...
+
+150
+00:09:00,720 --> 00:09:06,400
+After each one of them dies, you can seek revenge, which doubles the incentive.
+
+151
+00:09:06,500 --> 00:09:09,020
+So the guy kills you, and you're like, well, that was annoying.
+
+152
+00:09:09,100 --> 00:09:11,000
+Then the game says, hey, if you want to seek revenge, they're going to give you...
+
+153
+00:09:11,000 --> 00:09:12,000
+Then the game says, hey, if you want to seek revenge, they're going to give you...
+revenge are gonna give you the double reward like okay maybe i want to engage in that how does the
+
+154
+00:09:12,000 --> 00:09:16,200
+revenge are gonna give you the double reward like okay maybe i want to engage in that how does the
+
+155
+00:09:16,200 --> 00:09:22,620
+vault system or uh that system work though don't want to engage in it right someone's coming up to
+
+156
+00:09:22,620 --> 00:09:27,920
+you and they're slapping you slapping you um and you're like i really don't want to do this right
+
+157
+00:09:27,920 --> 00:09:33,420
+now um we have a lot of ways you can get away from but we still like it where they do if they
+
+158
+00:09:33,420 --> 00:09:39,160
+keep going at it they have the ability to kill you which sounds terrible right like why would you do
+
+159
+00:09:39,160 --> 00:09:40,000
+I can't do that.
+
+160
+00:09:40,000 --> 00:09:41,000
+I can't do that.
+turn that into a dramatic
+
+161
+00:09:41,000 --> 00:09:43,720
+turn that into a dramatic
+
+162
+00:09:43,720 --> 00:09:45,880
+moment so the player
+
+163
+00:09:45,880 --> 00:09:47,980
+that kills somebody
+
+164
+00:09:47,980 --> 00:09:49,100
+that didn't want to engage
+
+165
+00:09:49,100 --> 00:09:51,980
+then becomes a wanted murderer
+
+166
+00:09:51,980 --> 00:09:53,760
+they get no reward
+
+167
+00:09:53,760 --> 00:10:00,000
+yay for

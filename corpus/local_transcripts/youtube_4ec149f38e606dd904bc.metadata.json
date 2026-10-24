@@ -1,0 +1,317 @@
+{
+  "task_id": "youtube:bLt7YH9OQeY:1800-2179.0",
+  "source_id": "bLt7YH9OQeY",
+  "source_url": "https://www.youtube.com/watch?v=bLt7YH9OQeY",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2179.0,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 378.020875,
+  "transcription_seconds": 13.324637241661549,
+  "elapsed_seconds": 13.945932673988864,
+  "retrieved_at_utc": "2026-10-24T12:56:57.344673+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 252,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 32,
+    "other_or_uncertain_regions": 11,
+    "matched_audio_seconds": 163.11,
+    "examined_audio_seconds": 378.021,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 5.22,
+        "source_start_s": 0.0,
+        "source_end_s": 5.22
+      },
+      {
+        "compact_start_s": 5.52,
+        "compact_end_s": 12.81,
+        "source_start_s": 5.85,
+        "source_end_s": 13.14
+      },
+      {
+        "compact_start_s": 13.11,
+        "compact_end_s": 15.78,
+        "source_start_s": 15.18,
+        "source_end_s": 17.85
+      },
+      {
+        "compact_start_s": 16.08,
+        "compact_end_s": 23.28,
+        "source_start_s": 18.39,
+        "source_end_s": 25.59
+      },
+      {
+        "compact_start_s": 23.58,
+        "compact_end_s": 34.32,
+        "source_start_s": 27.78,
+        "source_end_s": 38.52
+      },
+      {
+        "compact_start_s": 34.62,
+        "compact_end_s": 36.69,
+        "source_start_s": 38.91,
+        "source_end_s": 40.98
+      },
+      {
+        "compact_start_s": 36.99,
+        "compact_end_s": 41.22,
+        "source_start_s": 41.61,
+        "source_end_s": 45.84
+      },
+      {
+        "compact_start_s": 41.52,
+        "compact_end_s": 45.48,
+        "source_start_s": 48.06,
+        "source_end_s": 52.02
+      },
+      {
+        "compact_start_s": 45.78,
+        "compact_end_s": 55.14,
+        "source_start_s": 54.09,
+        "source_end_s": 63.45
+      },
+      {
+        "compact_start_s": 55.44,
+        "compact_end_s": 65.07,
+        "source_start_s": 69.69,
+        "source_end_s": 79.32
+      },
+      {
+        "compact_start_s": 65.37,
+        "compact_end_s": 77.28,
+        "source_start_s": 80.13,
+        "source_end_s": 92.04
+      },
+      {
+        "compact_start_s": 77.58,
+        "compact_end_s": 83.1,
+        "source_start_s": 92.7,
+        "source_end_s": 98.22
+      },
+      {
+        "compact_start_s": 83.4,
+        "compact_end_s": 85.47,
+        "source_start_s": 102.42,
+        "source_end_s": 104.49
+      },
+      {
+        "compact_start_s": 85.77,
+        "compact_end_s": 88.17,
+        "source_start_s": 123.24,
+        "source_end_s": 125.64
+      },
+      {
+        "compact_start_s": 88.47,
+        "compact_end_s": 91.35,
+        "source_start_s": 126.06,
+        "source_end_s": 128.94
+      },
+      {
+        "compact_start_s": 91.65,
+        "compact_end_s": 95.76,
+        "source_start_s": 185.04,
+        "source_end_s": 189.15
+      },
+      {
+        "compact_start_s": 96.06,
+        "compact_end_s": 100.35,
+        "source_start_s": 189.87,
+        "source_end_s": 194.16
+      },
+      {
+        "compact_start_s": 100.65,
+        "compact_end_s": 104.37,
+        "source_start_s": 207.15,
+        "source_end_s": 210.87
+      },
+      {
+        "compact_start_s": 104.67,
+        "compact_end_s": 110.22,
+        "source_start_s": 223.38,
+        "source_end_s": 228.93
+      },
+      {
+        "compact_start_s": 110.52,
+        "compact_end_s": 113.46,
+        "source_start_s": 230.07,
+        "source_end_s": 233.01
+      },
+      {
+        "compact_start_s": 113.76,
+        "compact_end_s": 117.87,
+        "source_start_s": 239.79,
+        "source_end_s": 243.9
+      },
+      {
+        "compact_start_s": 118.17,
+        "compact_end_s": 120.72,
+        "source_start_s": 262.32,
+        "source_end_s": 264.87
+      },
+      {
+        "compact_start_s": 121.02,
+        "compact_end_s": 125.73,
+        "source_start_s": 267.51,
+        "source_end_s": 272.22
+      },
+      {
+        "compact_start_s": 126.03,
+        "compact_end_s": 135.15,
+        "source_start_s": 276.51,
+        "source_end_s": 285.63
+      },
+      {
+        "compact_start_s": 135.45,
+        "compact_end_s": 143.7,
+        "source_start_s": 287.37,
+        "source_end_s": 295.62
+      },
+      {
+        "compact_start_s": 144.0,
+        "compact_end_s": 147.57,
+        "source_start_s": 296.01,
+        "source_end_s": 299.58
+      },
+      {
+        "compact_start_s": 147.87,
+        "compact_end_s": 151.05,
+        "source_start_s": 300.12,
+        "source_end_s": 303.3
+      },
+      {
+        "compact_start_s": 151.35,
+        "compact_end_s": 154.05,
+        "source_start_s": 312.03,
+        "source_end_s": 314.73
+      },
+      {
+        "compact_start_s": 154.35,
+        "compact_end_s": 156.69,
+        "source_start_s": 315.21,
+        "source_end_s": 317.55
+      },
+      {
+        "compact_start_s": 156.99,
+        "compact_end_s": 159.18,
+        "source_start_s": 327.93,
+        "source_end_s": 330.12
+      },
+      {
+        "compact_start_s": 159.48,
+        "compact_end_s": 162.75,
+        "source_start_s": 343.74,
+        "source_end_s": 347.01
+      },
+      {
+        "compact_start_s": 163.05,
+        "compact_end_s": 172.41,
+        "source_start_s": 368.64,
+        "source_end_s": 378.0
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 259,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 0,
+    "repeated_5gram_fraction": 0.0,
+    "max_5gram_count": 2,
+    "repeated_5gram_examples": [],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 378.021,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 391.021,
+    "timed_text_union_seconds": 195.52,
+    "timestamp_issues": [
+      {
+        "cue": 6,
+        "issues": [
+          "nonmonotonic_start",
+          "overlap"
+        ],
+        "start": 1829.0,
+        "end": 1830.74
+      },
+      {
+        "cue": 13,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1887.0,
+        "end": 1893.8
+      },
+      {
+        "cue": 16,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1916.0,
+        "end": 1918.0
+      },
+      {
+        "cue": 22,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1945.0,
+        "end": 1974.76
+      },
+      {
+        "cue": 23,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1974.0,
+        "end": 1976.0
+      },
+      {
+        "cue": 26,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2003.0,
+        "end": 2008.38
+      },
+      {
+        "cue": 43,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2177.0,
+        "end": 2178.02
+      }
+    ]
+  },
+  "original_pcm_sha256": "ddaab543647e15591996be53af6308cdb59f2974bbfbcf2b9159447b01096886",
+  "original_wav_sha256": "ca32a14138cc95bf657f188b2e0a0d38245e544b3bac55e3007d252cd534db92",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_4ec149f38e606dd904bc/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "401cafaca9e2a105270430b4e49eaf79a88a490447f6ae0f276c156b65c9a796",
+  "srt_sha256": "e37bde041692f2bdb6ed207aeb75c76da647a8731d026281a8fc635f52eb17b1",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

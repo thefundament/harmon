@@ -1,0 +1,150 @@
+So if you have perks to share ammo and you share that on your team, every member of the team can then find more ammo in containers.
+And these all rank up, so eventually you're getting like huge bonuses on ammo, food you're finding, or your carry rate's a big deal in this game.
+A lot of interesting back and forth with developers on how much you can carry or not.
+And, you know, you see those cards at first, you're like, well, that's not as cool as being able to do plus 20% damage with my pistol.
+But in a survival game, being able to carry more means you'll be able to carry more pistols.
+So, you know, there's a lot of ways that...
+It's like he's in a circle there.
+I have pistols, but I want more carry so I can carry more pistols.
+Pistols, carry, circle.
+- Oh my God.
+So you're really talking about sitting there and having multiple kind of decks.
+You're talking about having more of a baseline and then making little changes here and there quickly and easily.
+Is that kind of a correct way of putting it?
+Yeah, your character, you're still progressing the way you would expect in an RPG.
+And it's kind of growing and growing and growing.
+So it's kind of what Jeff was saying.
+You're swapping out a thing here or there.
+The perk packs can also sometimes give you a perk that is we intentionally do this.
+You might get one or two.
+or two that can pack a card that is a higher level than you are.
+So it's like a few levels in shooting distance, so you say, like, oh, I didn't even know that
+was a perk. Maybe I want to pick agility on my next level up because the game has given
+me this other perk, and I just want to try it out. The other thing is, this is the multiplier
+part of it, that when you hit level 50, you don't get to pick any, you don't get to give
+out a special point anymore. So that doling out strength and all that stops at level 50
+Thank you.
+at level 50 but you still get to pick cards so that gives us a continuing thing where okay i hit level
+73 and i'm still like you know what i never got to pick because again there's hundreds of them
+i'll go pick that one i want to try it out so you're not but we're still capping the you know
+the power curve ramp that in our other games like a skyrim or a fallout 4 getting more and more and
+more and more powerful and we knew we couldn't really have that in this one did you talk about
+about the decision.
+You talk about the discovery of perks too and how you might discover them in a card pack.
+You might see your friend using one that you never thought you'd use.
+Have any of you in your own internal playtesting found a perk that you never thought you would use that you're like, wow, this is really cool?
+Chris?
+All the time.
+Any recent examples?
+Well, I remember when I first started playing the game, I did exactly what Todd alluded to or Jeff, where I always picked the percentage damage.
+Because I'm thinking, okay, I just want to do more damage.
+as I played the game and discovered
+the game and discovered there's a lot of value in doing things like building up your camp
+and doing a lot of exploration and gathering resources i started to take perks i would have
+never planned oh camp i thought they said building up your champs but i can actually
+carry more junk um so i can then bring that back to my camp and i find that i'd swap that out a lot
+um like if i'm playing by myself and doing more exploration i tend to use those kinds of perks
+but if I play in a group we typically have some objective in
+some objective in mind it's something we want to go and kill and i might swap some of those out
+for the more traditional damaged birds yeah jeff anything for you that that emerged recently that
+you didn't think you would use now you're using um i can't think of anything particular i did get
+one of those weird mutations the other day though um they're a lot of fun too so i was playing and
+all of a sudden when you have a lot of rads is when you're susceptible to mutations like in real
+life and then i got a mutation called bird bone but i didn't realize i had
+bone, but I didn't realize I'd gotten it, and all of a sudden I was over-equipped, which
+is always a frustrating experience in a game, and I'm like, why am I over-equipped?
+And I looked, and I had this perk, and it let me jump extra high, but it lowered my strength.
+So again, like, the way the dynamic systems work is incredible, and you can spend a lot
+of time in that perk menu, but remember, it is a live game, so make sure you're in a
+safe place.
+And then I have another question.
+Who gets to write the jokes in the gum wrappers?
+That is Emil Pailirulo, or, you know, he does all of the jokes.
+master of
+He's done that for us for a long time.
+He wrote The Arrow and the Knee.
+That wasn't really a joke.
+It became a joke.
+It wasn't a joke.
+That poor guy.
+So Emil wrote all of those.
+So let's switch gears.
+I want to get to some of the questions that we've gathered up
+from the
+We've gathered up from the community.
+I'm going to call this the thunder round.
+Usually we do a lightning round, but we've got a half hour here.
+We're going to take our time.
+We're going to thunder through some really tough questions that we gathered up from the community.
+Let's start with the big one, the beta.
+Now, you guys want to play, am I right?
+Why can't you let them play any sooner, Todd?
+No, what an asshole.
+So everybody's feedback is really, really important to us.
+The beta for us, this is an all-new thing, right?
+So we need to stress test a lot of systems.
+That's why we called it the Break It Early test application,
+because this is going to break it.
+We're pretty sure of that.
+And get ready.
+And so it's really-- we need to make sure we're ready for everybody
+comes in, it all crashes the first moment.
+See, I make it sound fun, right?
+It's going to be really great.
+sound fun, right? It's going to be really fun. And then, you know, making sure we're ready
+to fix that really, really fast. And so that we're in a good loop of, hey, here are the
+issues. Let's fix them and get everybody else in the game.
+That's funny. He's basically saying, the solvers are going to crash as soon as we try
+this. Because I know that that was something that I think some of the community were concerned
+about. Yes, everybody wants to play it sooner than later, and I'm with you.
+But, you know, you will continue to work on this game, or you have plans to continue to work on this game in a moment. It's not like it's finished and then you're going to take one little round of feedback. You have lots of thoughts and plans. You don't want to get into the roadmap, but...
+Right. We do have kind of a roadmap in our heads, and this is a game that we think, with the community, is going to be a very different game a year after it's out, two years after it's out, five years after it's out. It's a game in 10 years, 50 years.
+And so we have big plans and what we can do with the game and with our community.
+And the beta is just really the first step.
+The first step.
+The next big one, PVP.
+I think everybody is excited, anxious, concerned, highly anticipating, nervous.
+You've talked about it a little bit here and there, but why don't you just take it from the top?
+How does it work?
+What's the deal with griefing?
+How are we going to be able to enjoy our fallout game?
+fallout game or how am i going to be able to screw up somebody else's fallout game and get
+away with it or any variation on that i'll just leave it to you this is why i don't go on reddit
+they said this is why i don't go on reddit
+we agree with those like we have folks in the office we have that debate you know is it a
+you know what is it where do we want the the players kind of um driving force is it a pve world
+thing? Is it the other players?
+And for us, it is both.
+For us, it is both.
+How can we do both?
+And so, the first thing we'd say is that we want this element of danger, and it sounds
+weird to say, without griefing, which is like, those things are often in conflict.
+So right now, and you've seen it in some of the E3 videos, when you shoot somebody, you
+do a little bit of damage.
+You don't do full damage.
+It's like an invitation.
+It's like slapping somebody in a bar.
+Like, you want to fight?
+That's annoying.
+That's annoying, and eventually you're like, yeah, I think we're going to...
+And so you do little bits of damage.
+If you engage, then you're doing full damage,
+and there's a cap reward based on the player's level.
+So if the player's really high level, you're going to get more caps than them if they're low level.
+If you want to...
+After each one of them dies, you can seek revenge, which doubles the incentive.
+So the guy kills you, and you're like, well, that was annoying.
+Then the game says, hey, if you want to seek revenge, they're going to give you...
+revenge are gonna give you the double reward like okay maybe i want to engage in that how does the
+vault system or uh that system work though don't want to engage in it right someone's coming up to
+you and they're slapping you slapping you um and you're like i really don't want to do this right
+now um we have a lot of ways you can get away from but we still like it where they do if they
+keep going at it they have the ability to kill you which sounds terrible right like why would you do
+I can't do that.
+turn that into a dramatic
+moment so the player
+that kills somebody
+that didn't want to engage
+then becomes a wanted murderer
+they get no reward
+yay for
