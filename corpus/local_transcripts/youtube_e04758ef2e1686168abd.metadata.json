@@ -1,0 +1,130 @@
+{
+  "task_id": "youtube:R6bwUQynojU:0-600",
+  "source_id": "R6bwUQynojU",
+  "source_url": "https://www.youtube.com/watch?v=R6bwUQynojU",
+  "kind": "youtube",
+  "source_window_start_s": 0,
+  "source_window_end_s": 600,
+  "time_alignment": "relative_to_downloaded_section; source cut may start at an earlier keyframe",
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 1.931,
+  "speaker_status": "probable_channel_primary_speaker",
+  "speaker_verified": false,
+  "training_permission_verified": false,
+  "training_ready": false,
+  "retrieved_at_utc": "2026-10-24T02:36:17.896480+00:00",
+  "media_sha256_not_retained": "4a7e0a249b12b2cecb93113fdf32e5725609c3142b61c3d25f0e3d4b99b5b41d",
+  "text_sha256": "116380ec74efc3c8bcc945b67e9c98ea401b33f6cefb66b1d37a3d996f1ad862",
+  "srt_sha256": "eae804fe48fd3a77fa1c67c48a3818173de8346e584204b9ad0eddd3e9748723",
+  "recognized_words": 77,
+  "elapsed_seconds": 8.99,
+  "source_provenance": "frozen_manifest",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 14,
+    "other_or_uncertain_regions": 47,
+    "matched_audio_seconds": 77.4,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 2.76,
+        "source_start_s": 63.42,
+        "source_end_s": 66.18
+      },
+      {
+        "compact_start_s": 3.06,
+        "compact_end_s": 15.06,
+        "source_start_s": 85.41,
+        "source_end_s": 97.41
+      },
+      {
+        "compact_start_s": 15.36,
+        "compact_end_s": 22.59,
+        "source_start_s": 157.35,
+        "source_end_s": 164.58
+      },
+      {
+        "compact_start_s": 22.89,
+        "compact_end_s": 30.48,
+        "source_start_s": 168.57,
+        "source_end_s": 176.16
+      },
+      {
+        "compact_start_s": 30.78,
+        "compact_end_s": 36.06,
+        "source_start_s": 195.87,
+        "source_end_s": 201.15
+      },
+      {
+        "compact_start_s": 36.36,
+        "compact_end_s": 39.9,
+        "source_start_s": 314.19,
+        "source_end_s": 317.73
+      },
+      {
+        "compact_start_s": 40.2,
+        "compact_end_s": 46.77,
+        "source_start_s": 344.7,
+        "source_end_s": 351.27
+      },
+      {
+        "compact_start_s": 47.07,
+        "compact_end_s": 50.76,
+        "source_start_s": 365.28,
+        "source_end_s": 368.97
+      },
+      {
+        "compact_start_s": 51.06,
+        "compact_end_s": 55.68,
+        "source_start_s": 431.76,
+        "source_end_s": 436.38
+      },
+      {
+        "compact_start_s": 55.98,
+        "compact_end_s": 59.58,
+        "source_start_s": 443.4,
+        "source_end_s": 447.0
+      },
+      {
+        "compact_start_s": 59.88,
+        "compact_end_s": 66.36,
+        "source_start_s": 467.49,
+        "source_end_s": 473.97
+      },
+      {
+        "compact_start_s": 66.66,
+        "compact_end_s": 73.2,
+        "source_start_s": 511.29,
+        "source_end_s": 517.83
+      },
+      {
+        "compact_start_s": 73.5,
+        "compact_end_s": 75.9,
+        "source_start_s": 572.13,
+        "source_end_s": 574.53
+      },
+      {
+        "compact_start_s": 76.2,
+        "compact_end_s": 81.3,
+        "source_start_s": 593.61,
+        "source_end_s": 598.71
+      }
+    ],
+    "no_match": false,
+    "voice_filter_elapsed_s": 0.851
+  },
+  "subtitle_timing_issues": [],
+  "srt_timing": "source_section_relative_approximate_from_voice_map",
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id"
+}
