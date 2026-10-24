@@ -1,0 +1,148 @@
+{
+  "task_id": "youtube:kY5_9vWf1vg:1200-1701.0",
+  "source_id": "kY5_9vWf1vg",
+  "source_url": "https://www.youtube.com/watch?v=kY5_9vWf1vg",
+  "kind": "youtube",
+  "source_window_start_s": 1200,
+  "source_window_end_s": 1701.0,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 499.9720625,
+  "transcription_seconds": 15.292880598688498,
+  "elapsed_seconds": 16.2585808171425,
+  "retrieved_at_utc": "2026-10-24T11:12:43.417826+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 253,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 0,
+    "other_or_uncertain_regions": 41,
+    "matched_audio_seconds": 0,
+    "examined_audio_seconds": 499.972,
+    "time_mapping": [],
+    "no_match": true,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 254,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 10,
+    "repeated_5gram_fraction": 0.04,
+    "max_5gram_count": 5,
+    "repeated_5gram_examples": [
+      {
+        "text": "yeah yeah yeah yeah yeah",
+        "count": 5
+      },
+      {
+        "text": "this is the story of",
+        "count": 3
+      },
+      {
+        "text": "is the story of a",
+        "count": 3
+      },
+      {
+        "text": "the story of a girl",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 499.972,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 516.972,
+    "timed_text_union_seconds": 339.792,
+    "timestamp_issues": [
+      {
+        "cue": 2,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1229.0,
+        "end": 1258.98
+      },
+      {
+        "cue": 3,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1258.0,
+        "end": 1285.0
+      },
+      {
+        "cue": 5,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1287.0,
+        "end": 1298.1
+      },
+      {
+        "cue": 8,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1316.0,
+        "end": 1345.98
+      },
+      {
+        "cue": 9,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1345.0,
+        "end": 1374.98
+      },
+      {
+        "cue": 10,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1374.0,
+        "end": 1381.3600000000001
+      },
+      {
+        "cue": 26,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1577.0,
+        "end": 1595.02
+      },
+      {
+        "cue": 36,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1664.0,
+        "end": 1670.32
+      }
+    ]
+  },
+  "original_pcm_sha256": "6b5766de52f23fb1456c9b3edda9a732ee499f50ac15a8434f1250e50b0290a5",
+  "original_wav_sha256": "348806aecb62368381097e6fe2f5317a41dae9ebec4f44a275063bd6c59ba940",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_456e0f273da8058c30e0/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "128fc15dd56bfb16ae8f48af136e8a1b6e7f9e3bf3901d283b59d1a2302545af",
+  "srt_sha256": "4ac057d8801775933ab49ab56ae796ef39fbc81e29b9ad11316adf8cecdf730e",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

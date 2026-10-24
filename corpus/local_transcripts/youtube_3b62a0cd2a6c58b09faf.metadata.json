@@ -1,0 +1,94 @@
+{
+  "task_id": "youtube:SDl9CzyMcqo:1800-1821.0",
+  "source_id": "SDl9CzyMcqo",
+  "source_url": "https://www.youtube.com/watch?v=SDl9CzyMcqo",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 1821.0,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 20.015625,
+  "transcription_seconds": 1.1163822568487376,
+  "elapsed_seconds": 1.1311836519744247,
+  "retrieved_at_utc": "2026-10-24T12:40:04.273562+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 54,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 1,
+    "other_or_uncertain_regions": 0,
+    "matched_audio_seconds": 3.69,
+    "examined_audio_seconds": 20.016,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 3.69,
+        "source_start_s": 0.06,
+        "source_end_s": 3.75
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 54,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 32,
+    "repeated_5gram_fraction": 0.64,
+    "max_5gram_count": 8,
+    "repeated_5gram_examples": [
+      {
+        "text": "going to take a look",
+        "count": 8
+      },
+      {
+        "text": "to take a look i'm",
+        "count": 6
+      },
+      {
+        "text": "take a look i'm going",
+        "count": 6
+      },
+      {
+        "text": "a look i'm going to",
+        "count": 6
+      },
+      {
+        "text": "look i'm going to take",
+        "count": 6
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 20.016,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 20.016,
+    "timed_text_union_seconds": 20.0,
+    "timestamp_issues": []
+  },
+  "original_pcm_sha256": "97de71e5ae4ffcb456f90739d35cb693a267006e5cc735f80a7ea4de7b873ea3",
+  "original_wav_sha256": "1fdf90525fe52959185e2720b8f73db7e16c9cf875b085584a3457d881ac3616",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_3b62a0cd2a6c58b09faf/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "146899de6ec6413580196f57d2286aa32f4f2cea511f5814cbb284805d1a90f7",
+  "srt_sha256": "99e8160959a3b44724e18bc12ff52f94f6758ee449b65e9739c77fa34f2398fb",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

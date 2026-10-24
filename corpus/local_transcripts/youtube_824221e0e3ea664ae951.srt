@@ -1,0 +1,443 @@
+1
+00:00:00,000 --> 00:00:06,200
+For the past year, we have taken what I think is the best digital card game and made it even better.
+
+2
+00:00:06,540 --> 00:00:10,580
+New cards, new modes, new ways to play, and much more.
+
+3
+00:00:11,240 --> 00:00:21,640
+But we wanted to push ourselves even further, so tonight I'm thrilled to announce that we will soon be relaunching The Elder Scrolls Legends with brand new, totally overhauled visuals.
+
+4
+00:00:22,040 --> 00:00:29,000
+I'm also very excited to let you all know that Legends will be available later this year on Nintendo Switch
+
+5
+00:00:29,000 --> 00:00:30,000
+I'm also very excited to let you all know that Legends will be available later this year on Nintendo Switch
+Nintendo Switch, Xbox One, and PlayStation 4!
+
+6
+00:00:30,000 --> 00:00:33,000
+Nintendo Switch, Xbox One, and PlayStation 4!
+
+7
+00:00:38,000 --> 00:00:44,000
+But there's no reason to wait to play the game that Apple awarded best of the year in 2017.
+
+8
+00:00:44,000 --> 00:00:50,000
+Download The Elder Scrolls Legends for free and join me tonight on PC, mobile, or tablet.
+
+9
+00:00:50,000 --> 00:00:57,000
+And any progress you make in the game will be carried over to the console versions through your Bethesda Net account.
+
+10
+00:00:58,000 --> 00:01:07,640
+And now, let's take a look at the future of Legends and see why this isn't just my favorite
+
+11
+00:01:07,640 --> 00:01:09,940
+card game, but will soon be yours as well.
+
+12
+00:01:13,440 --> 00:01:14,860
+It starts small.
+
+13
+00:01:15,340 --> 00:01:17,060
+One game is all it takes.
+
+14
+00:01:17,500 --> 00:01:19,460
+But Legends never stay simple.
+
+15
+00:01:19,960 --> 00:01:21,160
+Never stay small.
+
+16
+00:01:21,980 --> 00:01:22,720
+This is action.
+
+17
+00:01:23,340 --> 00:01:24,440
+This is story.
+
+18
+00:01:24,860 --> 00:01:26,040
+This is competition.
+
+19
+00:01:26,560 --> 00:01:27,000
+This is easy to pick up.
+
+20
+00:01:27,000 --> 00:01:28,000
+This is easy to pick up.
+is easy to pick up. This is hard to put down. This is a five-minute train ride. This is a five-hour marathon. This is for any way you play. This is for anywhere you play. This is for strategy fans. This is for those who want magic at their fingertips. This is for those who want dragons at their command. This is a game where legends are born.
+
+21
+00:01:28,000 --> 00:01:56,000
+is easy to pick up. This is hard to put down. This is a five-minute train ride. This is a five-hour marathon. This is for any way you play. This is for anywhere you play. This is for strategy fans. This is for those who want magic at their fingertips. This is for those who want dragons at their command. This is a game where legends are born.
+
+22
+00:01:56,000 --> 00:01:56,760
+is easy to pick up. This is hard to put down. This is a five-minute train ride. This is a five-hour marathon. This is for any way you play. This is for anywhere you play. This is for strategy fans. This is for those who want magic at their fingertips. This is for those who want dragons at their command. This is a game where legends are born.
+are born. This is for you.
+
+23
+00:01:56,760 --> 00:02:03,000
+are born. This is for you.
+
+24
+00:02:11,280 --> 00:02:14,280
+From Zenimax Online Studios, Matt Fyrrour.
+
+25
+00:02:18,280 --> 00:02:25,000
+Thank you. Thanks everyone. I'm Matt Fyrrour. I'm the game director on the Elder Scrolls Online.
+
+26
+00:02:25,000 --> 00:02:25,280
+Thank you. Thanks everyone. I'm Matt Fyrrour. I'm the game director on the Elder Scrolls Online.
+scrolls online. Thank you. Before I get started tonight, I just want to do a shout out. It
+
+27
+00:02:25,280 --> 00:02:33,760
+scrolls online. Thank you. Before I get started tonight, I just want to do a shout out. It
+
+28
+00:02:33,760 --> 00:02:38,400
+was really great we started the showcase tonight with a video highlighting the really talented
+
+29
+00:02:38,400 --> 00:02:41,740
+people that work behind the scenes to make all of these great games possible.
+
+30
+00:02:48,600 --> 00:02:53,200
+So standing here on stage, I'm representing a whole lot of amazing people at Zenimax Online
+
+31
+00:02:53,200 --> 00:02:54,000
+studios that I go to work with every day.
+
+32
+00:02:54,000 --> 00:02:55,000
+studios that I go to work with every day.
+to work with every day it's a great honor and privilege so i go to work with them every day
+
+33
+00:02:55,000 --> 00:03:00,000
+to work with every day it's a great honor and privilege so i go to work with them every day
+
+34
+00:03:00,000 --> 00:03:05,920
+but at night i go home log into elder scrolls online and i get to play games with you guys
+
+35
+00:03:05,920 --> 00:03:09,280
+the best gaming community in online gaming
+
+36
+00:03:13,920 --> 00:03:18,720
+we are such big fans of what we do we play the games just as uh you know we make them and and we
+
+37
+00:03:18,720 --> 00:03:23,000
+play them just as much as you guys do it's what we do um you know so you might not know it but
+
+38
+00:03:23,000 --> 00:03:23,840
+play them just as much as you guys do it's what we do um you know so you might not know it but
+not know it, but we're right there alongside. I'm playing there with you. I'm running dungeons.
+
+39
+00:03:23,840 --> 00:03:24,000
+But...
+not know it, but we're right there alongside. I'm playing there with you. I'm running dungeons.
+
+40
+00:03:24,000 --> 00:03:27,460
+not know it, but we're right there alongside. I'm playing there with you. I'm running dungeons.
+
+41
+00:03:27,680 --> 00:03:34,800
+I'm exploring Tamriel, questing, crafting, decorating my house, PVPing, stabbing. Yeah,
+
+42
+00:03:34,800 --> 00:03:41,800
+that was me. And I'm really humbled to say that the Elder Scrolls online community just
+
+43
+00:03:41,800 --> 00:03:52,000
+keeps getting bigger. We're over 11 million players now. And over a million of those came
+
+44
+00:03:52,000 --> 00:03:52,240
+keeps getting bigger. We're over 11 million players now. And over a million of those came
+came in just the last year alone.
+
+45
+00:03:52,240 --> 00:03:53,000
+in just the last.
+came in just the last year alone.
+
+46
+00:03:53,000 --> 00:03:53,580
+came in just the last year alone.
+
+47
+00:03:57,680 --> 00:04:00,780
+So last year was really great for us in a whole lot of ways.
+
+48
+00:04:00,920 --> 00:04:06,200
+We were named MMO of the Year for the third straight year.
+
+49
+00:04:09,240 --> 00:04:17,060
+We released Morrowind, a lot of great DLC, and just last week we released Somerset,
+
+50
+00:04:17,060 --> 00:04:18,860
+the latest chapter in The Elder Scrolls Online.
+
+51
+00:04:21,000 --> 00:04:27,860
+it it's been it's been you know received with great critical acclaim everyone loves it you get
+
+52
+00:04:27,860 --> 00:04:32,420
+to travel to the island home of the high elves for the first time in 20 years um it's great for
+
+53
+00:04:32,420 --> 00:04:35,980
+new players if in the off chance you aren't playing elder scrolls online this is a great
+
+54
+00:04:35,980 --> 00:04:40,180
+chance to jump in and play um and of course all you veteran eso fans are already there
+
+55
+00:04:40,180 --> 00:04:47,300
+but we're not done there uh we make we make dlc every quarter for uh for and and chapters you know
+
+56
+00:04:47,680 --> 00:04:50,000
+Content comes out so regularly for Elder Scrolls Online.
+
+57
+00:04:50,000 --> 00:04:50,020
+Content comes out so regularly for Elder Scrolls Online.
+We're already working on our great plans for next year.
+
+58
+00:04:50,020 --> 00:04:50,440
+We're already working on our great plans for next year.
+
+59
+00:04:50,440 --> 00:04:51,000
+We're already working.
+We're already working on our great plans for next year.
+
+60
+00:04:51,000 --> 00:04:52,640
+We're already working on our great plans for next year.
+
+61
+00:04:52,960 --> 00:04:59,600
+But before that, the next DLC coming out is a dungeon DLC named Wolf Hunter, based on werewolves.
+
+62
+00:05:04,640 --> 00:05:08,520
+And later this year, we have a story DLC named Merkmire.
+
+63
+00:05:08,960 --> 00:05:10,420
+We're going back to Black Marsh.
+
+64
+00:05:11,120 --> 00:05:15,520
+So you guys have all been asking for a deeper dive into Argonian lore and culture.
+
+65
+00:05:15,960 --> 00:05:17,400
+You're going to see it later this year.
+
+66
+00:05:19,000 --> 00:05:28,660
+So there's one theme that runs through all of the Elder Scrolls Online's content, and that is great storytelling.
+
+67
+00:05:28,660 --> 00:05:33,900
+From the launch game through all the DLC and chapters, it's really, really what holds the game together.
+
+68
+00:05:34,440 --> 00:05:38,300
+But it's not just the stories that we as developers create for you guys to experience.
+
+69
+00:05:38,880 --> 00:05:42,980
+It's also the stories that you create together when you play this great virtual world.
+
+70
+00:05:43,800 --> 00:05:48,000
+So I'm going to leave you tonight with a video highlighting just some of the amazing stories
+
+71
+00:05:48,000 --> 00:05:49,000
+So I'm going to leave you tonight with a video highlighting just some of the amazing stories
+amazing stories and memorable characters that you'll meet on your ESO journey.
+
+72
+00:05:49,000 --> 00:05:52,100
+amazing stories and memorable characters that you'll meet on your ESO journey.
+
+73
+00:05:52,100 --> 00:05:54,500
+Thanks everyone. See you in Tamriel.
+
+74
+00:06:17,000 --> 00:06:17,840
+Whoa.
+
+75
+00:06:35,720 --> 00:06:36,560
+Whoa.
+
+76
+00:06:46,000 --> 00:07:15,000
+We'll be right back.
+
+77
+00:07:15,000 --> 00:07:15,980
+We'll be right back.
+Thank you.
+
+78
+00:07:15,980 --> 00:07:44,000
+Thank you.
+
+79
+00:07:44,000 --> 00:07:44,980
+Thank you.
+Thank you.
+
+80
+00:07:44,980 --> 00:08:13,000
+Thank you.
+
+81
+00:08:13,000 --> 00:08:13,980
+Thank you.
+*Mario's music*
+
+82
+00:08:13,980 --> 00:08:34,000
+*Mario's music*
+
+83
+00:08:34,000 --> 00:08:36,000
+What's this?
+
+84
+00:08:36,000 --> 00:08:38,000
+Doom?
+
+85
+00:08:42,000 --> 00:08:51,000
+Oh, she's definitely doing the thing.
+
+86
+00:08:51,000 --> 00:08:53,000
+Has to go.
+
+87
+00:08:57,000 --> 00:08:59,000
+That's it.
+
+88
+00:08:59,000 --> 00:09:02,000
+Is it doing shit?
+
+89
+00:09:11,000 --> 00:09:22,000
+oh
+
+90
+00:09:22,000 --> 00:09:23,000
+yeah
+
+91
+00:09:23,000 --> 00:09:33,000
+no
+
+92
+00:09:33,000 --> 00:09:34,000
+no
+
+93
+00:09:34,000 --> 00:09:35,000
+no
+
+94
+00:09:35,000 --> 00:09:36,000
+no
+
+95
+00:09:36,000 --> 00:09:37,000
+no
+
+96
+00:09:37,000 --> 00:09:38,000
+no
+
+97
+00:09:38,000 --> 00:09:39,000
+no
+
+98
+00:09:39,000 --> 00:09:40,000
+no
+
+99
+00:09:40,000 --> 00:09:41,000
+Thank you.
+- What's that?
+
+100
+00:09:41,000 --> 00:09:44,000
+- What's that?
+
+101
+00:09:44,000 --> 00:09:46,000
+That's eternal.
+
+102
+00:09:46,000 --> 00:09:48,000
+- Thank you.
+
+103
+00:09:48,000 --> 00:09:50,000
+Thanks so much.
+
+104
+00:09:50,000 --> 00:09:52,000
+I'm Marty Stratton, executive producer
+
+105
+00:09:52,000 --> 00:09:54,000
+of Doom Eternal.
+
+106
+00:09:54,000 --> 00:09:58,000
+- And I'm Hugo Martin, creative director
+
+107
+00:09:58,000 --> 00:10:00,000
+on Doom Eternal.

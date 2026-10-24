@@ -1,0 +1,160 @@
+{
+  "task_id": "youtube:gLjCCX8FPb0:1200-1800",
+  "source_id": "gLjCCX8FPb0",
+  "source_url": "https://www.youtube.com/watch?v=gLjCCX8FPb0",
+  "kind": "youtube",
+  "source_window_start_s": 1200,
+  "source_window_end_s": 1800,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 15.919942429056391,
+  "elapsed_seconds": 16.645499657141045,
+  "retrieved_at_utc": "2026-10-24T11:02:19.192182+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 287,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 0,
+    "other_or_uncertain_regions": 47,
+    "matched_audio_seconds": 0,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [],
+    "no_match": true,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 285,
+    "empty": false,
+    "empty_chunks": 1,
+    "repeated_5gram_excess": 13,
+    "repeated_5gram_fraction": 0.046263345195729534,
+    "max_5gram_count": 5,
+    "repeated_5gram_examples": [
+      {
+        "text": "go go go go go",
+        "count": 5
+      },
+      {
+        "text": "the night i'm looking for",
+        "count": 4
+      },
+      {
+        "text": "deep in the night i'm",
+        "count": 3
+      },
+      {
+        "text": "in the night i'm looking",
+        "count": 3
+      },
+      {
+        "text": "night i'm looking for some",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 359.42,
+    "timestamp_issues": [
+      {
+        "cue": 8,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1287.0,
+        "end": 1316.98
+      },
+      {
+        "cue": 9,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1316.0,
+        "end": 1325.0
+      },
+      {
+        "cue": 14,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1403.0,
+        "end": 1419.32
+      },
+      {
+        "cue": 17,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1461.0,
+        "end": 1490.98
+      },
+      {
+        "cue": 18,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1490.0,
+        "end": 1519.98
+      },
+      {
+        "cue": 19,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1519.0,
+        "end": 1521.0
+      },
+      {
+        "cue": 27,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1548.0,
+        "end": 1552.74
+      },
+      {
+        "cue": 33,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1577.0,
+        "end": 1579.0
+      },
+      {
+        "cue": 45,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1751.0,
+        "end": 1753.0
+      }
+    ]
+  },
+  "original_pcm_sha256": "92a75a88a8d4fdb75b0699bde112691706fd82db299ceb0d62a4a6157788c0dd",
+  "original_wav_sha256": "e6272e3d76185a93d062253c210fa9057059e309149fda61abf4403ca1efc3ea",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_ebcc2e66c9d4c823c605/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "497702b6cf88f46afb4d0ee9e64be92e41fe385cbd24b38bb2beebc9e7d7564b",
+  "srt_sha256": "d9ad0ed054f11fb1882dabe66f8c7ec850d6983365e0afa0b9077f3ffabb7a80",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

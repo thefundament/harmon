@@ -1,0 +1,333 @@
+1
+00:00:00,000 --> 00:00:02,000
+*Electro-mechanical units*
+
+2
+00:00:29,000 --> 00:00:31,180
+Let's try now, but I'm no pushover.
+
+3
+00:00:33,100 --> 00:00:36,380
+Cooper, get the Ark out of there before it launches! Hurry!
+
+4
+00:00:43,240 --> 00:00:46,920
+Full weapon primal system complete. Deploying the Ark.
+
+5
+00:00:53,440 --> 00:00:58,000
+Injector backblast is over for the load in my critical amount.
+
+6
+00:00:58,000 --> 00:00:59,000
+Injector backblast is over for the load in my critical amount.
+Critical internal systems attempting to restore our ocular systems
+
+7
+00:00:59,000 --> 00:01:03,880
+Critical internal systems attempting to restore our ocular systems
+
+8
+00:01:07,780 --> 00:01:09,780
+Systems restored
+
+9
+00:01:12,720 --> 00:01:14,720
+Throw warning hostile
+
+10
+00:01:23,660 --> 00:01:27,000
+It's your lucky day here. I'm not going to kill you
+
+11
+00:01:27,000 --> 00:01:27,220
+It's your lucky day here. I'm not going to kill you
+kill you. I don't work for free. But you don't get to kill me either. Yeah, you earned this, eh?
+
+12
+00:01:27,220 --> 00:01:42,000
+kill you. I don't work for free. But you don't get to kill me either. Yeah, you earned this, eh?
+
+13
+00:01:42,000 --> 00:01:47,000
+List! That vanguard class Titan is still in there.
+
+14
+00:01:47,000 --> 00:01:53,000
+Not my problem, Arda. Should have put it in my contract. I've got other people with money to see.
+
+15
+00:01:53,000 --> 00:01:56,000
+What are you doing?
+
+16
+00:01:56,000 --> 00:01:57,000
+What are you doing?
+What do you think you are doing?
+
+17
+00:01:57,000 --> 00:01:58,000
+What do you think you are doing?
+
+18
+00:01:58,000 --> 00:02:25,000
+I'll fire your assistance via auto-navigation systems or offline if I can get me into that injector assembly.
+
+19
+00:02:25,000 --> 00:02:26,000
+I'll fire your assistance via auto-navigation systems or offline if I can get me into that injector assembly.
+That injector assembly. We must do this together.
+
+20
+00:02:26,000 --> 00:02:27,780
+That injector assembly. We must do this together.
+
+21
+00:02:31,940 --> 00:02:32,860
+Booster signal!
+
+22
+00:02:33,620 --> 00:02:36,920
+V Team! Cooper! Our ground teams can't make it there in time!
+
+23
+00:02:37,160 --> 00:02:40,460
+You've got to find a way to destroy the full weapon from the inside!
+
+24
+00:02:40,740 --> 00:02:41,880
+There's no other way!
+
+25
+00:02:42,640 --> 00:02:45,080
+Commander Breivix, I believe I have a solution.
+
+26
+00:02:45,080 --> 00:02:51,780
+In its exposed state, my reactor core may be able to destabilize the arc at the center of the full weapon.
+
+27
+00:02:52,520 --> 00:02:53,500
+What are you saying?
+
+28
+00:02:53,940 --> 00:02:54,000
+We can blow it up.
+
+29
+00:02:54,000 --> 00:02:55,000
+We can blow it up.
+We can blow it up. I'm sending you coordinates for a dropship rendezvous.
+
+30
+00:02:55,000 --> 00:02:58,000
+We can blow it up. I'm sending you coordinates for a dropship rendezvous.
+
+31
+00:02:59,000 --> 00:03:02,000
+Coordinates received. We'll be there, but I don't see how you can.
+
+32
+00:03:03,000 --> 00:03:06,000
+Trust me, I have done the math.
+
+33
+00:03:07,000 --> 00:03:12,000
+I sure as hell hope so. We're on our way. Good luck, both of you. Freaks out.
+
+34
+00:03:23,000 --> 00:03:28,000
+Don't worry, B.T. I'm not going anywhere.
+
+35
+00:03:28,000 --> 00:03:30,000
+Copy that, pilot.
+
+36
+00:03:33,000 --> 00:03:36,000
+Protocol 3. Protect the pilot.
+
+37
+00:03:36,000 --> 00:03:38,000
+B.T., what are you doing?
+
+38
+00:03:39,000 --> 00:03:40,000
+Trust me.
+
+39
+00:03:40,000 --> 00:03:42,000
+B.T.!
+
+40
+00:03:50,000 --> 00:03:52,000
+Cooper, we just lost BT's signal.
+
+41
+00:03:52,000 --> 00:03:53,000
+Cooper, we just lost BT's signal.
+PT signal. We're almost there.
+
+42
+00:03:53,000 --> 00:03:54,000
+PT signal. We're almost there.
+
+43
+00:03:54,000 --> 00:03:57,000
+Cooper, I'm marking your hunt with the coordinates.
+
+44
+00:03:57,000 --> 00:03:59,000
+The evac site might be in mid-air.
+
+45
+00:03:59,000 --> 00:04:01,000
+There's nothing we can touch down on here.
+
+46
+00:04:01,000 --> 00:04:05,000
+And if I'm flying through this shit show, you better be there on time, kid.
+
+47
+00:04:05,000 --> 00:04:07,000
+Move, pilot!
+
+48
+00:04:12,000 --> 00:04:14,000
+I'm tracking you. Keep going.
+
+49
+00:04:21,000 --> 00:04:34,780
+Okay, let's try that again.
+
+50
+00:04:36,100 --> 00:04:37,080
+That wasn't supposed to happen.
+
+51
+00:04:37,140 --> 00:04:42,840
+I did it right the first time I uploaded this, but I know I had to do it again.
+
+52
+00:04:50,000 --> 00:05:04,720
+That's it. You're almost there. Move! Move! Cooper, jump for it!
+
+53
+00:05:07,220 --> 00:05:08,180
+We got a visual!
+
+54
+00:05:10,400 --> 00:05:11,100
+Boxer!
+
+55
+00:05:14,440 --> 00:05:15,580
+Come on, pilot!
+
+56
+00:05:17,500 --> 00:05:19,000
+Parker, get us out of here!
+
+57
+00:05:19,000 --> 00:05:19,140
+Parker, get us out of here!
+HANG ON!
+
+58
+00:05:19,140 --> 00:05:19,760
+HANG ON!
+
+59
+00:05:19,760 --> 00:05:20,000
+Hey!
+HANG ON!
+
+60
+00:05:20,000 --> 00:05:21,000
+HANG ON!
+
+61
+00:05:35,000 --> 00:05:37,000
+Was that Harmony that got destroyed?
+
+62
+00:05:37,000 --> 00:05:39,000
+I don't know if it was.
+
+63
+00:05:39,000 --> 00:05:41,000
+He has been in the militia planets.
+
+64
+00:05:48,000 --> 00:05:48,960
+And to B.T.
+
+65
+00:05:50,980 --> 00:05:53,080
+Barker, set a course for Harmony.
+
+66
+00:05:53,560 --> 00:05:54,500
+Take us home.
+
+67
+00:05:55,120 --> 00:05:55,860
+You got it.
+
+68
+00:06:01,340 --> 00:06:03,100
+Ninth Fleet, this is Harmony Manned.
+
+69
+00:06:03,320 --> 00:06:05,080
+Good to have you back. Welcome home.
+
+70
+00:06:06,360 --> 00:06:09,040
+The destruction of Typhon saved the planet Harmony.
+
+71
+00:06:09,780 --> 00:06:12,180
+The militia calls this planet their headquarters.
+
+72
+00:06:13,080 --> 00:06:14,880
+Millions of others call it home.
+
+73
+00:06:16,060 --> 00:06:17,000
+Commander Briggs says I'll be inducted into
+
+74
+00:06:17,000 --> 00:06:18,000
+Commander Briggs says I'll be inducted into
+I'll be inducted into the Marauder Corps and assigned a new Titan after the tech swipe what's
+
+75
+00:06:18,000 --> 00:06:22,560
+I'll be inducted into the Marauder Corps and assigned a new Titan after the tech swipe what's
+
+76
+00:06:22,560 --> 00:06:28,460
+left of my neural link with BT. I don't know what that'll feel like to get assigned a new
+
+77
+00:06:28,460 --> 00:06:38,460
+Titan. I kind of like the old one. This is pilot Jack Cooper signing off.
+
+78
+00:06:44,460 --> 00:06:46,000
+And that was my time to fall to the moon.
+
+79
+00:06:46,000 --> 00:06:47,000
+And that was my time to fall to the moon.
+Thanks for watching everybody.
+
+80
+00:06:47,000 --> 00:06:50,020
+Thanks for watching everybody.
+
+81
+00:06:50,020 --> 00:07:04,000
+If you like this place, make sure you leave a comment on what you want to see me later.

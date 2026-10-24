@@ -1,0 +1,710 @@
+1
+00:00:00,000 --> 00:00:02,000
+What did they say to do?
+
+2
+00:00:19,200 --> 00:00:21,200
+How long do you just kill it?
+
+3
+00:00:29,000 --> 00:00:40,760
+Threat condition elevated.
+
+4
+00:00:58,000 --> 00:01:12,640
+Okay.
+
+5
+00:01:27,000 --> 00:01:53,160
+Oh god!
+
+6
+00:01:56,000 --> 00:01:58,400
+"Cease all hostile activity."
+
+7
+00:02:02,980 --> 00:02:04,880
+"Reported no activity."
+
+8
+00:02:15,980 --> 00:02:19,120
+Today we're taking a look at what might be the best new archetype coming out of Cellar Crown.
+
+9
+00:02:19,120 --> 00:02:25,000
+Tank Terapagos EX. Terapagos EX's attack does 30 damage for each of our benched Pokémon.
+
+10
+00:02:25,000 --> 00:02:25,120
+Tank Terapagos EX. Terapagos EX's attack does 30 damage for each of our benched Pokémon.
+We got four of those, four Bufalant, that makes our colorless Pokemon tankier, a 4-4 Noctowl line for the Engine, two Fan Rotem to help us set up our Noctowl line in the early game, and a 1-1-1 Dusknoor.
+
+11
+00:02:25,120 --> 00:02:26,000
+We got four of those.
+We got four of those, four Bufalant, that makes our colorless Pokemon tankier, a 4-4 Noctowl line for the Engine, two Fan Rotem to help us set up our Noctowl line in the early game, and a 1-1-1 Dusknoor.
+
+12
+00:02:26,000 --> 00:02:35,720
+We got four of those, four Bufalant, that makes our colorless Pokemon tankier, a 4-4 Noctowl line for the Engine, two Fan Rotem to help us set up our Noctowl line in the early game, and a 1-1-1 Dusknoor.
+
+13
+00:02:36,360 --> 00:02:43,400
+For the supporters, we got four Iono, two Penny, two Bosses Orders, one Colors of Tenacity, one Professor Turo, and one Briar.
+
+14
+00:02:43,640 --> 00:02:47,040
+Items, Pokemon Search, we got four Nest Ball, four Ultra Ball.
+
+15
+00:02:47,100 --> 00:02:53,060
+To aggressively draw through our deck, we have four Trekking Shoes, one Scoop Up Cyclone, one Switch, one Night Stretcher, one Countercatcher, one Energy Lotto.
+
+16
+00:02:53,700 --> 00:02:54,000
+And then for the tool cards,
+
+17
+00:02:54,000 --> 00:02:55,000
+And then for the tool cards,
+And then for the tool cards, we have three Bravery Charm to increase the HP of our Terrapagost.
+
+18
+00:02:55,000 --> 00:02:57,920
+And then for the tool cards, we have three Bravery Charm to increase the HP of our Terrapagost.
+
+19
+00:02:58,060 --> 00:03:01,960
+Four Area Zero Stadium card to give us that big bench to swing hard.
+
+20
+00:03:02,060 --> 00:03:03,220
+And then four Double Turbo Energy.
+
+21
+00:03:03,460 --> 00:03:05,780
+That's my first take on Tank Terrapagost EX.
+
+22
+00:03:06,160 --> 00:03:07,780
+If you want to fully...
+
+23
+00:03:07,780 --> 00:03:16,000
+All right, guys. Welcome back to the channel.
+
+24
+00:03:16,180 --> 00:03:20,420
+Welcome. If you are new, thank you for taking time out of your day to check the video out.
+
+25
+00:03:20,580 --> 00:03:23,000
+We are going to discuss what I believe Sony needs to do.
+
+26
+00:03:23,000 --> 00:03:23,980
+We are going to discuss what I believe Sony needs to do.
+needs to do as soon as possible i believe it is absolutely necessary at this point in time
+
+27
+00:03:23,980 --> 00:03:29,480
+needs to do as soon as possible i believe it is absolutely necessary at this point in time
+
+28
+00:03:29,480 --> 00:03:38,080
+and that is to simply reveal new games host some type of show whether it be an actual showcase
+
+29
+00:03:38,080 --> 00:03:45,560
+or stated play focused on revealing new games and i want to specifically emphasize the word
+
+30
+00:03:45,560 --> 00:03:52,000
+new the reason why i want to emphasize this word in particular is because we are just coming off
+
+31
+00:03:52,000 --> 00:03:52,080
+new the reason why i want to emphasize this word in particular is because we are just coming off
+of the PlayStation 5 Pro technical presentation and obviously the elephant in the room is the
+
+32
+00:03:52,080 --> 00:03:53,000
+of the PlayStation 4.
+of the PlayStation 5 Pro technical presentation and obviously the elephant in the room is the
+
+33
+00:03:53,000 --> 00:03:58,300
+of the PlayStation 5 Pro technical presentation and obviously the elephant in the room is the
+
+34
+00:03:58,300 --> 00:04:04,220
+price point which we've talked about at length but there's another in my opinion problem with
+
+35
+00:04:04,220 --> 00:04:11,220
+the way Sony went about showing off this console. It is new hardware and I think a base expectation
+
+36
+00:04:11,220 --> 00:04:20,580
+that people have when new hardware is being shown is new games alongside it. Now that's what made
+
+37
+00:04:20,580 --> 00:04:21,000
+the situation I
+
+38
+00:04:21,000 --> 00:04:22,000
+the situation I
+The situation, I think, even more awkward with the reveal of the PS5 Pro is that the very first game Sony decided to show running on the Pro wasn't even a PlayStation 5 developed game.
+
+39
+00:04:22,000 --> 00:04:32,920
+The situation, I think, even more awkward with the reveal of the PS5 Pro is that the very first game Sony decided to show running on the Pro wasn't even a PlayStation 5 developed game.
+
+40
+00:04:33,480 --> 00:04:37,720
+It was a PlayStation 4 developed game, that being The Last of Us Part 2.
+
+41
+00:04:37,720 --> 00:04:44,100
+Now, don't get me wrong. The Last of Us Part 2 is a very impressive looking game, one of the most impressive looking games.
+
+42
+00:04:44,520 --> 00:04:50,000
+But there's no getting around the fact that this game was developed from the ground up natively for the PlayStation 4.
+
+43
+00:04:50,000 --> 00:04:50,620
+But there's no getting around the fact that this game was developed from the ground up natively for the PlayStation 4.
+4, the last generation machine, not the PlayStation 5. We have yet to actually see a from the ground
+
+44
+00:04:50,620 --> 00:04:58,700
+4, the last generation machine, not the PlayStation 5. We have yet to actually see a from the ground
+
+45
+00:04:58,700 --> 00:05:05,980
+up developed PlayStation 5 title from Naughty Dog. So I think Sony choosing to make that the first
+
+46
+00:05:05,980 --> 00:05:12,480
+game to highlight is a bit of a mistake and just creates an even more awkward situation aside from
+
+47
+00:05:12,480 --> 00:05:17,820
+the pricing of the pro console. But then when you look at the other games that they decided to show,
+
+48
+00:05:18,160 --> 00:05:19,000
+They are certainly all impressive games.
+
+49
+00:05:19,000 --> 00:05:20,000
+They are certainly all impressive games.
+all impressive games games like demon souls games like ratchet and clank repart spider-man 2 but
+
+50
+00:05:20,000 --> 00:05:25,100
+all impressive games games like demon souls games like ratchet and clank repart spider-man 2 but
+
+51
+00:05:25,100 --> 00:05:31,660
+again these are all games that people have likely played already i mean we could look at something
+
+52
+00:05:31,660 --> 00:05:36,600
+like spider-man 2 and say well hey that's a from the ground up ps5 game and while that may be true
+
+53
+00:05:36,600 --> 00:05:43,840
+even what they decided to show was so minimal and so brief it really couldn't get anybody that
+
+54
+00:05:43,840 --> 00:05:48,000
+excited because it's just, again, it's just like a 10-second, like,
+
+55
+00:05:48,000 --> 00:05:49,000
+excited because it's just, again, it's just like a 10-second, like,
+And second, like, here's a comparison, somewhat zoomed in, and now we're going to move on to another game that you probably have already played, right?
+
+56
+00:05:49,000 --> 00:05:57,240
+And second, like, here's a comparison, somewhat zoomed in, and now we're going to move on to another game that you probably have already played, right?
+
+57
+00:05:57,320 --> 00:06:10,880
+And I emphasize probably have already played because the reality is most people tuning into this presentation and tuning in to hear about the same hardware likely are already PS5 owners and have, you know, played most of these titles.
+
+58
+00:06:11,120 --> 00:06:17,000
+So this is why I think right now Sony needs to show some new games.
+
+59
+00:06:17,000 --> 00:06:17,600
+So this is why I think right now Sony needs to show some new games.
+games. I think that it's obvious there's a massive amount of bad flash that someone's
+
+60
+00:06:17,600 --> 00:06:22,040
+games. I think that it's obvious there's a massive amount of bad flash that someone's
+
+61
+00:06:22,040 --> 00:06:28,080
+experiencing right now. And that's understandable. And that's even to be expected with a console
+
+62
+00:06:28,080 --> 00:06:33,640
+being priced at this point with, you know, now including the stand and all that stuff.
+
+63
+00:06:33,640 --> 00:06:40,620
+Of course there's going to be bad flash. But I really do think and believe that most
+
+64
+00:06:40,620 --> 00:06:46,000
+people, if not all people, who currently play on PlayStation, no matter how mad they are
+
+65
+00:06:46,000 --> 00:06:46,060
+people, if not all people, who currently play on PlayStation, no matter how mad they are
+at the Pro. The reason you play on PlayStation is for the game, right? Something that Sony
+
+66
+00:06:46,060 --> 00:06:47,000
+at the throw.
+at the Pro. The reason you play on PlayStation is for the game, right? Something that Sony
+
+67
+00:06:47,000 --> 00:06:53,060
+at the Pro. The reason you play on PlayStation is for the game, right? Something that Sony
+
+68
+00:06:53,060 --> 00:06:57,680
+offered at some point in time, whether it be a first-party exclusive, second-party exclusive,
+
+69
+00:06:58,160 --> 00:07:06,060
+third-party exclusive, or just a third-party multi-title. Something in that category brought
+
+70
+00:07:06,060 --> 00:07:12,880
+you over to the PlayStation. Oh my god, let's go over to see how this is playing out, because
+
+71
+00:07:12,880 --> 00:07:13,640
+what we are basically
+
+72
+00:07:13,640 --> 00:07:14,500
+witnessing is Sony
+
+73
+00:07:14,500 --> 00:07:15,000
+saying here's new
+
+74
+00:07:15,000 --> 00:07:16,000
+saying here's new
+saying here's new hardware the most advanced console ever made the most powerful console ever
+
+75
+00:07:16,000 --> 00:07:18,200
+saying here's new hardware the most advanced console ever made the most powerful console ever
+
+76
+00:07:18,200 --> 00:07:21,480
+made also by far one of the most expensive but we're not going to show you new games and so it
+
+77
+00:07:21,480 --> 00:07:25,300
+just really adds salt to the wound i think and the good news is that apparently next week if
+
+78
+00:07:25,300 --> 00:07:27,840
+rumors are to be believed sony is planning on doing just this they're planning on posting
+
+79
+00:07:27,840 --> 00:07:32,320
+a relatively large state of play where the focus is going to be on showing ps5 pro enhanced games
+
+80
+00:07:32,320 --> 00:07:35,100
+and one rumor in particular that seems to be coming from a pretty credible source claims that
+
+81
+00:07:35,100 --> 00:07:37,960
+this state of play will be big as i said but it will also have some first-party reveals and maybe
+
+82
+00:07:37,960 --> 00:07:41,160
+even one big world premiere which is uh you know again they're saying maybe that'll show up here
+
+83
+00:07:41,160 --> 00:07:44,000
+maybe not but just putting emphasis on this is what sony is going to do and i really hope it's
+
+84
+00:07:44,000 --> 00:07:44,900
+maybe not but just putting emphasis on this is what sony is going to do and i really hope it's
+And I really hope it's true, right?
+
+85
+00:07:44,900 --> 00:07:45,260
+And I really hope it's true, right?
+
+86
+00:07:45,300 --> 00:07:45,880
+It makes sense.
+
+87
+00:07:46,160 --> 00:07:48,340
+I know that no matter what Sony decides to show game-wise,
+
+88
+00:07:48,380 --> 00:07:49,540
+it's not going to win people over.
+
+89
+00:07:49,600 --> 00:07:50,800
+It's not going to win most people over and suddenly say,
+
+90
+00:07:50,840 --> 00:07:52,260
+you know what, actually, I am okay paying $700 for a pro.
+
+91
+00:07:52,380 --> 00:07:52,900
+But that's not the point.
+
+92
+00:07:53,000 --> 00:07:54,500
+The point remains, we need to see the games.
+
+93
+00:07:54,580 --> 00:07:56,160
+The games are what bring people to PlayStation to begin with.
+
+94
+00:07:56,340 --> 00:07:58,100
+The games are why people have PS5s to begin with.
+
+95
+00:07:58,160 --> 00:07:59,220
+And so regardless of our feelings on the pro,
+
+96
+00:07:59,300 --> 00:08:00,360
+or even these games being PS5s don't cancel,
+
+97
+00:08:00,580 --> 00:08:01,420
+we've reached that point where it's like,
+
+98
+00:08:01,420 --> 00:08:03,800
+Sony, now more than ever, you've got to show some kind of roadmap.
+
+99
+00:08:03,900 --> 00:08:05,740
+You've got to have some new game announcements to rejuvenate the fan base
+
+100
+00:08:05,740 --> 00:08:09,260
+and get, most importantly, get people back to talking about what matters the most, the games.
+
+101
+00:08:09,460 --> 00:08:12,100
+I feel like we had a couple of days there where the focus was on just that.
+
+102
+00:08:12,160 --> 00:08:12,600
+It was on the game.
+
+103
+00:08:12,720 --> 00:08:13,000
+It was on Astro Bot.
+
+104
+00:08:13,000 --> 00:08:13,260
+It was on Astro Bot.
+astrobot but just like that the rug was pulled out under from underneath astrobot and suddenly
+
+105
+00:08:13,260 --> 00:08:13,620
+astrobot but just like that the rug was pulled out under from underneath astrobot and suddenly
+
+106
+00:08:13,620 --> 00:08:14,000
+But...
+astrobot but just like that the rug was pulled out under from underneath astrobot and suddenly
+
+107
+00:08:14,000 --> 00:08:16,600
+astrobot but just like that the rug was pulled out under from underneath astrobot and suddenly
+
+108
+00:08:16,600 --> 00:08:20,300
+it's like oh no yes i'm pro and the insane price point is now the focal point and uh i just feel
+
+109
+00:08:20,300 --> 00:08:24,420
+like this is something that can easily be kind of overcome like i said if sony just gives people
+
+110
+00:08:24,420 --> 00:08:26,580
+what it is that they want or they've been waiting for not to make it sound like sony hasn't been
+
+111
+00:08:26,580 --> 00:08:30,040
+delivering games or that you know there hasn't been a myriad of games to play on the playstation
+
+112
+00:08:30,040 --> 00:08:33,100
+5 that would be very disingenuous to claim but we kind of have reached that end point where the
+
+113
+00:08:33,100 --> 00:08:36,340
+only games that are left to release are until gone remake which you know i'm gonna be honest
+
+114
+00:08:36,340 --> 00:08:39,100
+there's not a whole lot of hype around that and also lego verizon which i don't know how much
+
+115
+00:08:39,100 --> 00:08:40,800
+excitement there is around it doesn't seem like there's that much you know some people are
+
+116
+00:08:40,800 --> 00:08:41,380
+interested in it for sure,
+
+117
+00:08:41,420 --> 00:08:42,000
+but it's not really saying much.
+
+118
+00:08:42,000 --> 00:08:42,380
+but it's not really saying much.
+saying much. We know about games like Death Stranding 2 and Wolverine, but beyond that,
+
+119
+00:08:42,380 --> 00:08:42,600
+saying much. We know about games like Death Stranding 2 and Wolverine, but beyond that,
+
+120
+00:08:42,600 --> 00:08:43,000
+We know about games
+saying much. We know about games like Death Stranding 2 and Wolverine, but beyond that,
+
+121
+00:08:43,000 --> 00:08:44,660
+saying much. We know about games like Death Stranding 2 and Wolverine, but beyond that,
+
+122
+00:08:44,840 --> 00:08:46,780
+we don't really know much else. And even with those two games that are just listed, we have yet to
+
+123
+00:08:46,780 --> 00:08:49,240
+see anything from Wolverine that wasn't leaked. We have yet to see anything in some kind of official
+
+124
+00:08:49,240 --> 00:08:51,560
+capacity. And when it comes to Death Stranding 2, you know, the reality is, and I say this as
+
+125
+00:08:51,560 --> 00:08:53,520
+somebody who's extremely excited for it, it's not going to be a game for everybody. I think that's
+
+126
+00:08:53,520 --> 00:08:55,940
+fairly obvious. It doesn't make me less excited to see it. But I just think that Sony needs to do
+
+127
+00:08:55,940 --> 00:08:57,960
+a little bit more now, especially after, you know, seeing what happened with Concord. We had
+
+128
+00:08:57,960 --> 00:09:00,460
+that brief moment in the song with Astro Bot, but now, you know, the backlash is here again
+
+129
+00:09:00,460 --> 00:09:01,300
+with the PS5 Pro.
+
+130
+00:09:01,420 --> 00:09:01,680
+I just think,
+
+131
+00:09:01,780 --> 00:09:02,440
+Sony, the time's come.
+
+132
+00:09:02,620 --> 00:09:02,700
+You know,
+
+133
+00:09:02,740 --> 00:09:03,180
+if your 30th anniversary
+
+134
+00:09:03,180 --> 00:09:03,540
+is coming up
+
+135
+00:09:03,540 --> 00:09:04,180
+in early December,
+
+136
+00:09:04,300 --> 00:09:04,700
+it just feels like
+
+137
+00:09:04,700 --> 00:09:05,520
+now is the time
+
+138
+00:09:05,520 --> 00:09:06,060
+to look,
+
+139
+00:09:06,120 --> 00:09:06,280
+again,
+
+140
+00:09:06,280 --> 00:09:06,520
+if you're not going
+
+141
+00:09:06,520 --> 00:09:07,100
+to put on a big showcase
+
+142
+00:09:07,100 --> 00:09:08,000
+and show like four or five
+
+143
+00:09:08,000 --> 00:09:08,620
+first-party reveals,
+
+144
+00:09:08,920 --> 00:09:09,720
+at least have a big state of play
+
+145
+00:09:09,720 --> 00:09:10,920
+where there is some type
+
+146
+00:09:10,920 --> 00:09:11,000
+of first-party presence.
+
+147
+00:09:11,000 --> 00:09:11,360
+of first-party presence.
+first-party presence, and I want to emphasize that first-party presence should not be,
+
+148
+00:09:11,360 --> 00:09:11,480
+first-party presence, and I want to emphasize that first-party presence should not be,
+
+149
+00:09:11,480 --> 00:09:12,000
+And I want to emphasize
+first-party presence, and I want to emphasize that first-party presence should not be,
+
+150
+00:09:12,000 --> 00:09:13,120
+first-party presence, and I want to emphasize that first-party presence should not be,
+
+151
+00:09:13,540 --> 00:09:16,340
+hey, here's another trailer for The Last of Us Part 2 PS5 Crone Hands or Spider-Man 2 PS5 Crone Hands.
+
+152
+00:09:16,620 --> 00:09:19,160
+We should see new games, right? Like, that's really, I think, what we need to see, but
+
+153
+00:09:19,160 --> 00:09:21,880
+I'm going to temper my expectations, and I recommend you do the same. I just, I feel like it was
+
+154
+00:09:21,880 --> 00:09:25,020
+important to have this discussion because it is unfortunate that as we are seeing this new
+
+155
+00:09:25,020 --> 00:09:27,820
+hardware revealed, the conversation seems to be focused on everything but the games, and that
+
+156
+00:09:27,820 --> 00:09:30,640
+is understandable. Again, that, I think, is Sony's fault in the way that they chose to go about
+
+157
+00:09:30,640 --> 00:09:33,340
+doing this, but it would be great if by the end of next week, Sony were to put on some type of
+
+158
+00:09:33,340 --> 00:09:35,720
+pretty big state of play, have some new game reveals. Of course, they're going to show some
+
+159
+00:09:35,720 --> 00:09:37,160
+older teams, you know, they're going to show teams that have already come out that aren't
+
+160
+00:09:37,160 --> 00:09:37,280
+hands.
+
+161
+00:09:37,460 --> 00:09:39,200
+I think we all expect that, but it can't be the only thing they show.
+
+162
+00:09:39,300 --> 00:09:40,000
+They got to bring the goods, right?
+
+163
+00:09:40,000 --> 00:09:40,400
+They got to bring the goods, right?
+goods right they gotta deliver what people have been asking them to deliver for what feels like
+
+164
+00:09:40,400 --> 00:09:40,420
+goods right they gotta deliver what people have been asking them to deliver for what feels like
+
+165
+00:09:40,420 --> 00:09:41,000
+They got to deliver what?
+goods right they gotta deliver what people have been asking them to deliver for what feels like
+
+166
+00:09:41,000 --> 00:09:42,720
+goods right they gotta deliver what people have been asking them to deliver for what feels like
+
+167
+00:09:42,720 --> 00:09:44,800
+a while now because sure it's great that we've gotten games like the kernel and ratchet and
+
+168
+00:09:44,800 --> 00:09:47,680
+flankers apart and god war ragnarok and horizon and dt7 and all that it's great we've had so many
+
+169
+00:09:47,680 --> 00:09:50,880
+games but we officially have reached that point where it's like you know what what what lies
+
+170
+00:09:50,880 --> 00:09:54,640
+ahead if you want people to be excited to buy pro even for that price point what what lies ahead
+
+171
+00:09:54,640 --> 00:09:57,200
+right we've reached that point it just it has to happen so sony i feel like you got to get on
+
+172
+00:09:57,200 --> 00:10:00,000
+this asap i think it can really only benefit you at this point and i think it would

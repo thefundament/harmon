@@ -1,0 +1,191 @@
+{
+  "task_id": "youtube:xde2WPGGGJI:600-1200",
+  "source_id": "xde2WPGGGJI",
+  "source_url": "https://www.youtube.com/watch?v=xde2WPGGGJI",
+  "kind": "youtube",
+  "source_window_start_s": 600,
+  "source_window_end_s": 1200,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 19.038807468954474,
+  "elapsed_seconds": 19.216155600035563,
+  "retrieved_at_utc": "2026-10-24T09:23:23.442470+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 493,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 1,
+    "other_or_uncertain_regions": 9,
+    "matched_audio_seconds": 6.33,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 6.33,
+        "source_start_s": 0.06,
+        "source_end_s": 6.39
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 491,
+    "empty": false,
+    "empty_chunks": 1,
+    "repeated_5gram_excess": 16,
+    "repeated_5gram_fraction": 0.03285420944558522,
+    "max_5gram_count": 5,
+    "repeated_5gram_examples": [
+      {
+        "text": "i can't believe in my",
+        "count": 5
+      },
+      {
+        "text": "can't believe in my fingers",
+        "count": 5
+      },
+      {
+        "text": "believe in my fingers i",
+        "count": 3
+      },
+      {
+        "text": "in my fingers i can't",
+        "count": 3
+      },
+      {
+        "text": "my fingers i can't believe",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 409.16,
+    "timestamp_issues": [
+      {
+        "cue": 23,
+        "issues": [
+          "overlap"
+        ],
+        "start": 687.0,
+        "end": 716.98
+      },
+      {
+        "cue": 24,
+        "issues": [
+          "overlap"
+        ],
+        "start": 716.0,
+        "end": 745.98
+      },
+      {
+        "cue": 25,
+        "issues": [
+          "overlap"
+        ],
+        "start": 745.0,
+        "end": 762.9
+      },
+      {
+        "cue": 32,
+        "issues": [
+          "overlap"
+        ],
+        "start": 774.0,
+        "end": 781.04
+      },
+      {
+        "cue": 35,
+        "issues": [
+          "overlap"
+        ],
+        "start": 803.0,
+        "end": 832.98
+      },
+      {
+        "cue": 36,
+        "issues": [
+          "overlap"
+        ],
+        "start": 832.0,
+        "end": 861.98
+      },
+      {
+        "cue": 37,
+        "issues": [
+          "overlap"
+        ],
+        "start": 861.0,
+        "end": 890.98
+      },
+      {
+        "cue": 38,
+        "issues": [
+          "overlap"
+        ],
+        "start": 890.0,
+        "end": 893.0
+      },
+      {
+        "cue": 47,
+        "issues": [
+          "overlap"
+        ],
+        "start": 948.0,
+        "end": 952.0
+      },
+      {
+        "cue": 59,
+        "issues": [
+          "overlap"
+        ],
+        "start": 977.0,
+        "end": 979.0
+      },
+      {
+        "cue": 66,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1035.0,
+        "end": 1041.98
+      },
+      {
+        "cue": 85,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1151.0,
+        "end": 1152.24
+      }
+    ]
+  },
+  "original_pcm_sha256": "327c9de0b489aaf84cae7ddede072a9bc3e878c749b4bf26b57d4eb1bc25759c",
+  "original_wav_sha256": "e8f604c7c3e573fad0cf396af9d9d8decd65d3f0c2743c85aa31455e8cbb8979",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_672c4dfbed2a5956a46a/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "a18d92abe5e37a5c54164b7e60fd6b1296608a946c20ebd0d7c046275cc461ba",
+  "srt_sha256": "b20e1b343f3da9fafad3376ded8afd0079fb936e337344e3d04961defdbcf1fc",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

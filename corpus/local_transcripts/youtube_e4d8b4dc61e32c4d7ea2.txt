@@ -1,0 +1,71 @@
+*sad music*
+Here we go.
+This is the 2017 Xbox E3 briefing.
+So, let's go.
+Windows 11.
+Thank you.
+Let's go.
+Ladies and gentlemen, the head of Xbox, Bill Spencer.
+oh my god it's phil spencer
+Okay. Good afternoon. To those of you with us here in person watching on this incredible 4K screen, to the millions watching us around the world or TV, online, and to those of you watching and interacting on Mixer, on behalf of everyone on Team Xbox, welcome to E3 2017.
+When the renegade group of gamers, creators and engineers came together to form the original
+Xbox team and deliver the first Xbox console, we were driven by three principles: empower
+developers, delight gamers, and deliver true hardware and technical innovation.
+The original Xbox team lived by the mantra, there's no power greater than X.
+And today, we are proud to welcome the newest member of the Xbox family, fittingly named
+Xbox One X.
+That's the official name.
+Xbox One X, the most powerful console ever made, sets a new quality standard for gamers
+and game creators.
+Starting on November 7,
+Xbox One
+xbox one x joins the xbox one and the xbox one s when it launches worldwide
+now i'd like to introduce one of our leaders in the xbox engineering team responsible for making
+the xbox one experience great for gamers and developers please welcome my friend kareem chowdhury
+to tell you more
+Thanks Phil. It's an honor to be here at E3 to represent three years of engineering the team has done to bring you Xbox One X.
+From the beginning, our focus on game creators and you the gamer gave us three big goals we needed to hit.
+power, compatibility,
+compatibility, and craftsmanship.
+Let's talk power, which starts with the specs.
+6 tera clock GPU clocked at 1.172 GHz,
+12 GB of GDDR5 memory,
+and 326 GB/s of memory bandwidth.
+These are impressive numbers that are more powerful than any other console,
+other console.
+other console on every dimension, because that's what it takes to give game creators the power
+they need so you can experience true 4K resolution, 4K textures, and 4K assets in your living room.
+And when we say true 4K, we need 8 million pixels, high dynamic range, wide color gamut,
+premium sound like
+Dolby Atmos
+and
+4K U
+4K UHD corporate playback.
+Next.
+Compatibility.
+We knew compatibility was critically important for Xbox One X, and your reaction to 360
+backward compatibility has energized the team even more.
+So right from the start, all of your Xbox One accessories and games will work with Xbox
+One X.
+But we already knew this.
+But, for the team and me, that wasn't good enough. We wanted more.
+The game library you have today will look and play even better on Xbox One X
+with enhanced visual fidelity, an isotropic filtering, and faster load times.
+Even if you haven't made the jump to a 4K TV yet, we designed this product for you as well.
+Since Xbox One X enables a technique called super sampling,
+the new 4K games you see on stage today will look better on your 1080p TV than anything you have seen before.
+And finally, craftsmanship.
+We meticulously paid attention to every detail of design as we crafted our most technically advanced console ever.
+It starts with the Scorpio engine.
+We use 16 nanometer technology to build a 360 square
+860 square millimeter chip with seven billion transistors and a 384-bit wide memory bus.
+This is the fastest, most advanced processor to ever power a console.
+Our premium design means that every millimeter and every component within the console has been architected for maximum power and efficiency.
+Our aspirations were so high, an industry standard approach just wasn't good enough.
+The Scorpio engine is so intense that for the first time ever on a console we're using a liquid cooled vapor chamber normally reserved for servers and high-end PC cards.
+An engineer on the Xbox hardware team invented a new power management system so innovative we named it after him.
+The Hovis method uniquely optimizes every single Xbox One X at the system and component
+and component level to deliver consistent performance efficiently and elegantly.
+Now, it's easy to think all this technology and capability will mean a bigger console,
+but again, we wanted more.
+Not only have we built the most powerful console ever,

@@ -1,0 +1,133 @@
+{
+  "task_id": "youtube:7jkTBSbcglY:600-1117.0",
+  "source_id": "7jkTBSbcglY",
+  "source_url": "https://www.youtube.com/watch?v=7jkTBSbcglY",
+  "kind": "youtube",
+  "source_window_start_s": 600,
+  "source_window_end_s": 1117.0,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 516.9690625,
+  "transcription_seconds": 13.657584476517513,
+  "elapsed_seconds": 14.037820630008355,
+  "retrieved_at_utc": "2026-10-24T07:15:34.375362+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 302,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 2,
+    "other_or_uncertain_regions": 28,
+    "matched_audio_seconds": 7.32,
+    "examined_audio_seconds": 516.969,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 4.62,
+        "source_start_s": 0.09,
+        "source_end_s": 4.71
+      },
+      {
+        "compact_start_s": 4.92,
+        "compact_end_s": 7.62,
+        "source_start_s": 262.05,
+        "source_end_s": 264.75
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 309,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 10,
+    "repeated_5gram_fraction": 0.03278688524590164,
+    "max_5gram_count": 3,
+    "repeated_5gram_examples": [
+      {
+        "text": "boat i'm on a boat",
+        "count": 3
+      },
+      {
+        "text": "i'm going to be on",
+        "count": 3
+      },
+      {
+        "text": "going to be on a",
+        "count": 3
+      },
+      {
+        "text": "to be on a bone",
+        "count": 3
+      },
+      {
+        "text": "m m m m m",
+        "count": 3
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 516.969,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 533.969,
+    "timed_text_union_seconds": 286.92,
+    "timestamp_issues": [
+      {
+        "cue": 11,
+        "issues": [
+          "overlap"
+        ],
+        "start": 745.0,
+        "end": 757.48
+      },
+      {
+        "cue": 17,
+        "issues": [
+          "overlap"
+        ],
+        "start": 832.0,
+        "end": 835.34
+      },
+      {
+        "cue": 29,
+        "issues": [
+          "overlap"
+        ],
+        "start": 919.0,
+        "end": 944.4200000000001
+      },
+      {
+        "cue": 35,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1035.0,
+        "end": 1035.5
+      }
+    ]
+  },
+  "original_pcm_sha256": "8e9b69f4d85c4cdf4d7214824fbbeedd04fde707fc98f481b1d79a36da6393bd",
+  "original_wav_sha256": "0df152e5b4c18e66c7340c832876c6fdc186191804c3a737abbf438957c096a9",
+  "native_artifacts": ".harmon-work/quality-trial-30m/outputs/youtube_e8190980228c05c45c0f/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "d6dc6e2309d9371533179340d7eec148fc8f00f4965e767eb96bfcecb1538dc7",
+  "srt_sha256": "30f71ecebded37cd7dd07fa935d3a1a086144a18fe470b59075194722a1a62e8",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

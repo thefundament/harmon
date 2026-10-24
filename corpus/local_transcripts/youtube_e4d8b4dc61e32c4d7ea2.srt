@@ -1,0 +1,349 @@
+1
+00:00:00,000 --> 00:00:07,000
+*sad music*
+
+2
+00:00:29,000 --> 00:00:44,920
+Here we go.
+
+3
+00:00:58,000 --> 00:01:20,720
+This is the 2017 Xbox E3 briefing.
+
+4
+00:01:27,000 --> 00:01:56,000
+So, let's go.
+
+5
+00:01:56,000 --> 00:01:56,980
+So, let's go.
+Windows 11.
+
+6
+00:01:56,980 --> 00:02:00,700
+Windows 11.
+
+7
+00:02:25,000 --> 00:02:54,000
+Thank you.
+
+8
+00:02:54,000 --> 00:02:54,980
+Thank you.
+Let's go.
+
+9
+00:02:54,980 --> 00:03:23,000
+Let's go.
+
+10
+00:03:23,000 --> 00:03:23,980
+Let's go.
+Ladies and gentlemen, the head of Xbox, Bill Spencer.
+
+11
+00:03:23,980 --> 00:03:38,840
+Ladies and gentlemen, the head of Xbox, Bill Spencer.
+
+12
+00:03:38,840 --> 00:03:52,000
+oh my god it's phil spencer
+
+13
+00:03:52,000 --> 00:03:53,000
+oh my god it's phil spencer
+Okay. Good afternoon. To those of you with us here in person watching on this incredible 4K screen, to the millions watching us around the world or TV, online, and to those of you watching and interacting on Mixer, on behalf of everyone on Team Xbox, welcome to E3 2017.
+
+14
+00:03:53,000 --> 00:04:16,540
+Okay. Good afternoon. To those of you with us here in person watching on this incredible 4K screen, to the millions watching us around the world or TV, online, and to those of you watching and interacting on Mixer, on behalf of everyone on Team Xbox, welcome to E3 2017.
+
+15
+00:04:21,000 --> 00:04:29,560
+When the renegade group of gamers, creators and engineers came together to form the original
+
+16
+00:04:29,560 --> 00:04:37,120
+Xbox team and deliver the first Xbox console, we were driven by three principles: empower
+
+17
+00:04:37,120 --> 00:04:43,520
+developers, delight gamers, and deliver true hardware and technical innovation.
+
+18
+00:04:43,520 --> 00:04:50,000
+The original Xbox team lived by the mantra, there's no power greater than X.
+
+19
+00:04:50,000 --> 00:04:51,000
+The original Xbox team lived by the mantra, there's no power greater than X.
+And today, we are proud to welcome the newest member of the Xbox family, fittingly named
+
+20
+00:04:51,000 --> 00:04:58,740
+And today, we are proud to welcome the newest member of the Xbox family, fittingly named
+
+21
+00:04:58,740 --> 00:05:01,000
+Xbox One X.
+
+22
+00:05:04,800 --> 00:05:06,440
+That's the official name.
+
+23
+00:05:06,800 --> 00:05:14,980
+Xbox One X, the most powerful console ever made, sets a new quality standard for gamers
+
+24
+00:05:14,980 --> 00:05:16,000
+and game creators.
+
+25
+00:05:16,340 --> 00:05:18,300
+Starting on November 7,
+
+26
+00:05:19,000 --> 00:05:19,080
+xbox one x joins the xbox one and the xbox one s when it launches worldwide
+
+27
+00:05:19,080 --> 00:05:20,000
+Xbox One
+xbox one x joins the xbox one and the xbox one s when it launches worldwide
+
+28
+00:05:20,000 --> 00:05:26,200
+xbox one x joins the xbox one and the xbox one s when it launches worldwide
+
+29
+00:05:31,640 --> 00:05:38,440
+now i'd like to introduce one of our leaders in the xbox engineering team responsible for making
+
+30
+00:05:38,440 --> 00:05:46,280
+the xbox one experience great for gamers and developers please welcome my friend kareem chowdhury
+
+31
+00:05:46,280 --> 00:05:48,000
+to tell you more
+
+32
+00:05:48,000 --> 00:05:49,000
+to tell you more
+Thanks Phil. It's an honor to be here at E3 to represent three years of engineering the team has done to bring you Xbox One X.
+
+33
+00:05:49,000 --> 00:06:08,000
+Thanks Phil. It's an honor to be here at E3 to represent three years of engineering the team has done to bring you Xbox One X.
+
+34
+00:06:08,000 --> 00:06:16,000
+From the beginning, our focus on game creators and you the gamer gave us three big goals we needed to hit.
+
+35
+00:06:16,000 --> 00:06:17,000
+power, compatibility,
+
+36
+00:06:17,000 --> 00:06:18,000
+power, compatibility,
+compatibility, and craftsmanship.
+
+37
+00:06:18,000 --> 00:06:20,000
+compatibility, and craftsmanship.
+
+38
+00:06:20,000 --> 00:06:24,000
+Let's talk power, which starts with the specs.
+
+39
+00:06:24,000 --> 00:06:29,000
+6 tera clock GPU clocked at 1.172 GHz,
+
+40
+00:06:29,000 --> 00:06:33,000
+12 GB of GDDR5 memory,
+
+41
+00:06:33,000 --> 00:06:38,000
+and 326 GB/s of memory bandwidth.
+
+42
+00:06:42,000 --> 00:06:46,000
+These are impressive numbers that are more powerful than any other console,
+
+43
+00:06:46,000 --> 00:06:47,000
+other console.
+other console on every dimension, because that's what it takes to give game creators the power
+
+44
+00:06:47,000 --> 00:06:51,380
+other console on every dimension, because that's what it takes to give game creators the power
+
+45
+00:06:51,380 --> 00:07:00,200
+they need so you can experience true 4K resolution, 4K textures, and 4K assets in your living room.
+
+46
+00:07:04,000 --> 00:07:11,460
+And when we say true 4K, we need 8 million pixels, high dynamic range, wide color gamut,
+
+47
+00:07:11,460 --> 00:07:12,900
+premium sound like
+
+48
+00:07:12,900 --> 00:07:13,800
+Dolby Atmos
+
+49
+00:07:13,800 --> 00:07:14,600
+and
+
+50
+00:07:14,600 --> 00:07:15,000
+4K U
+
+51
+00:07:15,000 --> 00:07:16,000
+4K U
+4K UHD corporate playback.
+
+52
+00:07:16,000 --> 00:07:22,600
+4K UHD corporate playback.
+
+53
+00:07:22,600 --> 00:07:23,600
+Next.
+
+54
+00:07:23,600 --> 00:07:24,600
+Compatibility.
+
+55
+00:07:24,600 --> 00:07:30,480
+We knew compatibility was critically important for Xbox One X, and your reaction to 360
+
+56
+00:07:30,480 --> 00:07:34,020
+backward compatibility has energized the team even more.
+
+57
+00:07:34,020 --> 00:07:39,780
+So right from the start, all of your Xbox One accessories and games will work with Xbox
+
+58
+00:07:39,780 --> 00:07:41,780
+One X.
+
+59
+00:07:41,780 --> 00:07:44,000
+But we already knew this.
+
+60
+00:07:44,000 --> 00:07:45,000
+But we already knew this.
+But, for the team and me, that wasn't good enough. We wanted more.
+
+61
+00:07:45,000 --> 00:07:48,420
+But, for the team and me, that wasn't good enough. We wanted more.
+
+62
+00:07:49,140 --> 00:07:54,820
+The game library you have today will look and play even better on Xbox One X
+
+63
+00:07:54,820 --> 00:07:59,980
+with enhanced visual fidelity, an isotropic filtering, and faster load times.
+
+64
+00:08:03,740 --> 00:08:09,300
+Even if you haven't made the jump to a 4K TV yet, we designed this product for you as well.
+
+65
+00:08:09,860 --> 00:08:13,000
+Since Xbox One X enables a technique called super sampling,
+
+66
+00:08:13,000 --> 00:08:14,000
+Since Xbox One X enables a technique called super sampling,
+the new 4K games you see on stage today will look better on your 1080p TV than anything you have seen before.
+
+67
+00:08:14,000 --> 00:08:20,000
+the new 4K games you see on stage today will look better on your 1080p TV than anything you have seen before.
+
+68
+00:08:24,000 --> 00:08:27,000
+And finally, craftsmanship.
+
+69
+00:08:27,000 --> 00:08:35,000
+We meticulously paid attention to every detail of design as we crafted our most technically advanced console ever.
+
+70
+00:08:35,000 --> 00:08:38,000
+It starts with the Scorpio engine.
+
+71
+00:08:38,000 --> 00:08:42,000
+We use 16 nanometer technology to build a 360 square
+
+72
+00:08:42,000 --> 00:08:43,000
+We use 16 nanometer technology to build a 360 square
+860 square millimeter chip with seven billion transistors and a 384-bit wide memory bus.
+
+73
+00:08:43,000 --> 00:08:49,740
+860 square millimeter chip with seven billion transistors and a 384-bit wide memory bus.
+
+74
+00:08:50,640 --> 00:08:55,200
+This is the fastest, most advanced processor to ever power a console.
+
+75
+00:08:56,220 --> 00:09:04,640
+Our premium design means that every millimeter and every component within the console has been architected for maximum power and efficiency.
+
+76
+00:09:05,480 --> 00:09:10,860
+Our aspirations were so high, an industry standard approach just wasn't good enough.
+
+77
+00:09:11,000 --> 00:09:21,900
+The Scorpio engine is so intense that for the first time ever on a console we're using a liquid cooled vapor chamber normally reserved for servers and high-end PC cards.
+
+78
+00:09:25,780 --> 00:09:33,580
+An engineer on the Xbox hardware team invented a new power management system so innovative we named it after him.
+
+79
+00:09:33,580 --> 00:09:40,000
+The Hovis method uniquely optimizes every single Xbox One X at the system and component
+
+80
+00:09:40,000 --> 00:09:41,000
+The Hovis method uniquely optimizes every single Xbox One X at the system and component
+and component level to deliver consistent performance efficiently and elegantly.
+
+81
+00:09:41,000 --> 00:09:46,000
+and component level to deliver consistent performance efficiently and elegantly.
+
+82
+00:09:46,000 --> 00:09:52,000
+Now, it's easy to think all this technology and capability will mean a bigger console,
+
+83
+00:09:52,000 --> 00:09:56,000
+but again, we wanted more.
+
+84
+00:09:56,000 --> 00:10:00,000
+Not only have we built the most powerful console ever,

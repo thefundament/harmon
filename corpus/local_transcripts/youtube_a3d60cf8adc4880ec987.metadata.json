@@ -1,0 +1,128 @@
+{
+  "task_id": "youtube:FvFXmuT2p2M:1800-2400",
+  "source_id": "FvFXmuT2p2M",
+  "source_url": "https://www.youtube.com/watch?v=FvFXmuT2p2M",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2400,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 14.05139890103601,
+  "elapsed_seconds": 14.781354569131508,
+  "retrieved_at_utc": "2026-10-24T12:21:36.406373+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 166,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 2,
+    "other_or_uncertain_regions": 61,
+    "matched_audio_seconds": 17.58,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 12.0,
+        "source_start_s": 0.06,
+        "source_end_s": 12.06
+      },
+      {
+        "compact_start_s": 12.3,
+        "compact_end_s": 17.88,
+        "source_start_s": 62.67,
+        "source_end_s": 68.25
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 169,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 0,
+    "repeated_5gram_fraction": 0.0,
+    "max_5gram_count": 1,
+    "repeated_5gram_examples": [],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 319.38,
+    "timestamp_issues": [
+      {
+        "cue": 12,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1916.0,
+        "end": 1921.82
+      },
+      {
+        "cue": 17,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1945.0,
+        "end": 1951.2
+      },
+      {
+        "cue": 21,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2032.0,
+        "end": 2061.98
+      },
+      {
+        "cue": 22,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2061.0,
+        "end": 2083.7799999999997
+      },
+      {
+        "cue": 25,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2148.0,
+        "end": 2162.82
+      },
+      {
+        "cue": 29,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2206.0,
+        "end": 2234.42
+      }
+    ]
+  },
+  "original_pcm_sha256": "7698098e81724b03b909792050cb3d32f78894ea7a468d879ee1de4dae8e681a",
+  "original_wav_sha256": "f317c3a5ea2ca5706826ebb4eb65c85fbd6c24f0332507686842c714fb1c6d46",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_a3d60cf8adc4880ec987/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "3ff71ed4e7294bafae911aa860dda6c250a67997a631df6d77581be7957307b4",
+  "srt_sha256": "e2f7fe7088c3e6f80796d384c2854e2740d1beb130faf3d90d64ec738fae9b39",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}

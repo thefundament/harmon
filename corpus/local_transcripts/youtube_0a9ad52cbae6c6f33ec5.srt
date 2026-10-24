@@ -1,0 +1,368 @@
+1
+00:00:00,000 --> 00:00:02,000
+Manual activation of the officer.
+
+2
+00:00:29,000 --> 00:00:58,000
+I'm not sure what's going on.
+
+3
+00:00:58,000 --> 00:00:58,980
+I'm not sure what's going on.
+I don't know what to do with it, but I do not know what to do with it.
+
+4
+00:00:58,980 --> 00:01:04,960
+I don't know what to do with it, but I do not know what to do with it.
+
+5
+00:01:04,960 --> 00:01:06,960
+I don't know what to do with it.
+
+6
+00:01:06,960 --> 00:01:09,960
+I don't know what to do with it.
+
+7
+00:01:09,960 --> 00:01:11,960
+I don't know what to do with it.
+
+8
+00:01:11,960 --> 00:01:12,960
+I don't know what to do with it.
+
+9
+00:01:12,960 --> 00:01:13,960
+I don't know what to do with it.
+
+10
+00:01:13,960 --> 00:01:14,960
+I don't know what to do with it.
+
+11
+00:01:14,960 --> 00:01:15,960
+I don't know what to do with it.
+
+12
+00:01:15,960 --> 00:01:16,960
+I don't know what to do with it.
+
+13
+00:01:16,960 --> 00:01:17,960
+I don't know what to do with it.
+
+14
+00:01:17,960 --> 00:01:18,960
+I don't know what to do with it.
+
+15
+00:01:18,960 --> 00:01:19,960
+I don't know what to do with it.
+
+16
+00:01:19,960 --> 00:01:20,960
+I don't know what to do with it.
+
+17
+00:01:20,960 --> 00:01:21,960
+I don't know what to do with it.
+
+18
+00:01:21,960 --> 00:01:22,960
+I don't know what to do with it.
+
+19
+00:01:22,960 --> 00:01:23,960
+I don't know what to do with it.
+
+20
+00:01:23,960 --> 00:01:24,960
+I don't know what to do with it.
+
+21
+00:01:24,960 --> 00:01:27,000
+*Rain*
+
+22
+00:01:27,000 --> 00:01:28,000
+*Rain*
+Heat save temperature at 50%.
+
+23
+00:01:28,000 --> 00:01:39,760
+Heat save temperature at 50%.
+
+24
+00:01:56,000 --> 00:02:04,880
+The sink temperature at 25 percent.
+
+25
+00:02:25,000 --> 00:02:44,000
+Maybe I have to get out there. Oh there we go. Okay.
+
+26
+00:02:54,000 --> 00:03:23,000
+What do you think we're out?
+
+27
+00:03:23,000 --> 00:03:23,980
+What do you think we're out?
+I need to not double-tap my, uh, jumbo helmet.
+
+28
+00:03:23,980 --> 00:03:48,680
+I need to not double-tap my, uh, jumbo helmet.
+
+29
+00:03:48,680 --> 00:03:52,000
+Oh.
+
+30
+00:03:52,000 --> 00:03:52,340
+Oh.
+No.
+
+31
+00:03:52,340 --> 00:03:52,500
+No.
+
+32
+00:04:21,000 --> 00:04:42,140
+Part three, I think, is coming up now.
+
+33
+00:04:50,000 --> 00:04:57,000
+Good work, Pilot Cooper. Now we can jumpstart the power to get the beacon functional.
+
+34
+00:04:57,000 --> 00:04:59,000
+Decayable secure, Captain.
+
+35
+00:04:59,000 --> 00:05:05,000
+Glad you made it back, Cooper. Just in time, too. The system's rewired. Now all we need is some power.
+
+36
+00:05:05,000 --> 00:05:12,000
+Pilot, the power chamber relays are offline. The arc tool should be able to jumpstart them manually.
+
+37
+00:05:12,000 --> 00:05:17,000
+Cooper, let's hope that arc tool was worth all the trouble.
+
+38
+00:05:17,000 --> 00:05:19,000
+Caution. High radiation.
+
+39
+00:05:19,000 --> 00:05:20,000
+Caution. High radiation.
+High radiation levels detected ahead.
+
+40
+00:05:20,000 --> 00:05:21,320
+High radiation levels detected ahead.
+
+41
+00:05:21,840 --> 00:05:25,060
+Your suit will only protect you for a limited time inside the chamber.
+
+42
+00:05:25,620 --> 00:05:26,940
+I suggest you move quickly.
+
+43
+00:05:27,580 --> 00:05:30,580
+I wouldn't stay in there too long unless you want to be burnt to a crisp.
+
+44
+00:05:31,800 --> 00:05:35,740
+Okay, opening the hatch in three, two, one, go!
+
+45
+00:05:48,000 --> 00:06:02,420
+Power 100%. I recommend you exit the chamber immediately.
+
+46
+00:06:03,220 --> 00:06:05,320
+Great job, Cooper. The power is back.
+
+47
+00:06:06,400 --> 00:06:10,700
+Alright, we got power. Open those shutters. Let's get that beacon up and running.
+
+48
+00:06:13,080 --> 00:06:16,200
+Diagnostic complete. Power 100%.
+
+49
+00:06:17,000 --> 00:06:17,100
+Initiate this targeting reset.
+
+50
+00:06:17,100 --> 00:06:18,000
+This is targeted.
+Initiate this targeting reset.
+
+51
+00:06:18,000 --> 00:06:18,460
+Initiate this targeting reset.
+
+52
+00:06:18,900 --> 00:06:21,380
+Uplink targeting module. Reset initiated.
+
+53
+00:06:22,320 --> 00:06:23,200
+60%.
+
+54
+00:06:23,200 --> 00:06:25,000
+70%.
+
+55
+00:06:25,000 --> 00:06:26,780
+80%.
+
+56
+00:06:26,780 --> 00:06:28,460
+90%.
+
+57
+00:06:28,460 --> 00:06:31,300
+Warning. Fault detected. Emergency shutdown.
+
+58
+00:06:32,740 --> 00:06:34,980
+Great. What's going on? Talk to me.
+
+59
+00:06:35,300 --> 00:06:36,940
+Not sure. Some sort of failsafe.
+
+60
+00:06:37,460 --> 00:06:40,160
+Captain, the uplink targeting module is offline.
+
+61
+00:06:40,960 --> 00:06:43,460
+Not good. I bet the IMC are on their way.
+
+62
+00:06:43,860 --> 00:06:45,140
+That is a reasonable assumption.
+
+63
+00:06:45,840 --> 00:06:46,000
+McCord, can we bypass that?
+
+64
+00:06:46,000 --> 00:06:47,000
+McCord, can we bypass that?
+Cork, can we bypass the module?
+
+65
+00:06:47,000 --> 00:06:48,000
+Cork, can we bypass the module?
+
+66
+00:06:48,000 --> 00:06:52,000
+No, sir. Not unless we want to send a message to the entire IMC fleet.
+
+67
+00:06:52,000 --> 00:06:54,000
+Then the module's gonna have to be repaired manually.
+
+68
+00:06:54,000 --> 00:06:58,000
+Pilot, this situation could use your skills.
+
+69
+00:06:58,000 --> 00:07:00,000
+I hope you're up for another trip to hell, Cooper.
+
+70
+00:07:00,000 --> 00:07:04,000
+You'll need to repair the beacon on-site to get back here as fast as possible.
+
+71
+00:07:08,000 --> 00:07:10,000
+Pilot control initiated.
+
+72
+00:07:15,000 --> 00:07:21,480
+Be careful we've already lost a lot of good soldiers over there
+
+73
+00:07:28,620 --> 00:07:36,560
+Scans indicate a fallen pilot my memory recalls this pilot as an exceptional fighter proven well during the fracture operation
+
+74
+00:07:39,300 --> 00:07:43,700
+Fracture sounds familiar my records indicate you received a concussion
+
+75
+00:07:44,000 --> 00:07:51,160
+And suffered some memory loss it was a major combat refueling operation and one of your first assignments as a rifleman
+
+76
+00:08:13,000 --> 00:08:23,500
+My scans detect a functioning uplink targeting module, 428 meters northeast.
+
+77
+00:08:24,040 --> 00:08:26,960
+My analysis indicates a throw is our only option here.
+
+78
+00:08:27,420 --> 00:08:28,920
+I can throw you across the gap.
+
+79
+00:08:33,100 --> 00:08:34,440
+Are you sure about this?
+
+80
+00:08:34,960 --> 00:08:37,220
+There is a 68% chance of success.
+
+81
+00:08:40,440 --> 00:08:42,000
+Wind, three knots, heading 270.
+
+82
+00:08:42,000 --> 00:08:43,000
+Wind, three knots, heading 270.
+Heading 274 range 95 meters projectile mass 89 kilograms
+
+83
+00:08:43,000 --> 00:08:47,920
+Heading 274 range 95 meters projectile mass 89 kilograms
+
+84
+00:08:50,100 --> 00:08:52,100
+Trust me
+
+85
+00:08:58,320 --> 00:09:02,200
+Good throw you're welcome pilot good luck over there
+
+86
+00:09:04,340 --> 00:09:11,000
+Yeah, here's Richter that damn pilot is trying to use the beacon and this I'm counting on you blisk out
+
+87
+00:09:11,000 --> 00:09:11,280
+Yeah, here's Richter that damn pilot is trying to use the beacon and this I'm counting on you blisk out
+Scout. All security units, this is Richter. Get to the beacon now. Find the kleine man and laus mich nicht hängen. Copy that. Zulu-1, Kilo-1, move it. Alpha-2, get soldiers on ground, move it!
+
+88
+00:09:11,280 --> 00:09:25,720
+Scout. All security units, this is Richter. Get to the beacon now. Find the kleine man and laus mich nicht hängen. Copy that. Zulu-1, Kilo-1, move it. Alpha-2, get soldiers on ground, move it!
+
+89
+00:09:32,860 --> 00:09:34,860
+IMC dropships headed to your location.
+
+90
+00:09:40,000 --> 00:10:00,000
+I'm going to go.

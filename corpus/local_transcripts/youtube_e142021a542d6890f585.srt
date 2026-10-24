@@ -1,0 +1,313 @@
+1
+00:00:00,000 --> 00:00:00,880
+Nice.
+
+2
+00:00:16,880 --> 00:00:21,360
+Oh wow.
+
+3
+00:00:22,280 --> 00:00:23,880
+Wasn't expecting there to be that many...
+
+4
+00:00:25,160 --> 00:00:26,280
+Titans, I suck.
+
+5
+00:00:29,000 --> 00:00:31,000
+Cally, engaging bandit.
+
+6
+00:00:58,000 --> 00:01:27,000
+I'm not sure what you're doing.
+
+7
+00:01:27,000 --> 00:01:27,980
+I'm not sure what you're doing.
+"Warning! Our reactor is unstable. Replacement battery required"
+
+8
+00:01:27,980 --> 00:01:32,000
+"Warning! Our reactor is unstable. Replacement battery required"
+
+9
+00:01:44,000 --> 00:01:47,000
+"Get in your last ride, son. This is your stop."
+
+10
+00:01:49,000 --> 00:01:52,000
+"First floor ready. First floor activated."
+
+11
+00:01:52,000 --> 00:01:54,000
+"Target hit. Fog bait."
+
+12
+00:01:56,000 --> 00:02:11,120
+This stuff is so hard.
+
+13
+00:02:25,000 --> 00:02:27,000
+Load the tone box 10!
+
+14
+00:02:30,000 --> 00:02:32,000
+7 percent.
+
+15
+00:02:37,600 --> 00:02:39,600
+Excessive damage. Warning! Warning!
+
+16
+00:02:44,000 --> 00:02:49,000
+Viper-1 taking cover. RAS-4 visual .0923. Move in.
+
+17
+00:02:54,000 --> 00:03:05,320
+Piper's got you in the pipe, 5 by 5.
+
+18
+00:03:11,320 --> 00:03:13,440
+Excessive damage, warning, warning.
+
+19
+00:03:17,920 --> 00:03:20,080
+Bandit hit, moving in for the kill.
+
+20
+00:03:23,000 --> 00:03:40,000
+You're regrouping, 5-3 check when you get to hell, tell all Viber sent you.
+
+21
+00:03:40,000 --> 00:03:43,000
+I'll be right back.
+
+22
+00:03:43,000 --> 00:03:46,000
+Warning, detecting all damage.
+
+23
+00:03:50,000 --> 00:03:52,000
+Overlord is hit, but still in the fight.
+
+24
+00:03:52,000 --> 00:03:53,000
+Overlord is hit, but still in the fight.
+No, this is the toughest Titanfighter I've ever had to do.
+
+25
+00:03:53,000 --> 00:04:09,680
+No, this is the toughest Titanfighter I've ever had to do.
+
+26
+00:04:21,000 --> 00:04:22,000
+Dodge this.
+
+27
+00:04:33,180 --> 00:04:35,320
+Excessive damage. Warning. Warning.
+
+28
+00:04:38,540 --> 00:04:40,260
+Target hit. Box 8.
+
+29
+00:04:47,900 --> 00:04:49,900
+Warning. Detecting all damage.
+
+30
+00:04:50,000 --> 00:04:55,000
+But you hit your last ride, son. This is your stop.
+
+31
+00:05:02,000 --> 00:05:04,000
+Bandits hit. Moving in for the kill.
+
+32
+00:05:08,000 --> 00:05:11,000
+Excessive damage. Warning. Warning.
+
+33
+00:05:16,000 --> 00:05:18,000
+Good tone. Good tone. Fox 10.
+
+34
+00:05:19,000 --> 00:05:33,000
+You need to move a little faster than that sun. Speed is life.
+
+35
+00:05:40,000 --> 00:05:44,000
+Viper's got you in the pipe. 5x5.
+
+36
+00:05:45,000 --> 00:05:48,000
+According. Our reactor is unsafe. Replacement battery required.
+
+37
+00:05:48,000 --> 00:05:49,000
+According. Our reactor is unsafe. Replacement battery required.
+We're quiet. Warning, battery is central.
+
+38
+00:05:49,000 --> 00:05:51,000
+We're quiet. Warning, battery is central.
+
+39
+00:06:03,000 --> 00:06:05,000
+When you get to hell, tell 'em Viper sent you.
+
+40
+00:06:17,000 --> 00:06:19,000
+*Sigh*
+
+41
+00:06:46,000 --> 00:07:01,240
+Target hit, Fox 8.
+
+42
+00:07:07,280 --> 00:07:08,840
+Warning, battery assembled.
+
+43
+00:07:11,700 --> 00:07:13,460
+Warning, I think I've been home there.
+
+44
+00:07:13,940 --> 00:07:15,000
+You hitched your last ride, son.
+
+45
+00:07:15,000 --> 00:07:15,440
+You hitched your last ride, son.
+All right, son, this is your stop.
+
+46
+00:07:15,440 --> 00:07:17,000
+All right, son, this is your stop.
+
+47
+00:07:24,000 --> 00:07:27,000
+Excessive damage. Warning. Warning.
+
+48
+00:07:37,000 --> 00:07:39,000
+Bandits hit. Moving in for the kill.
+
+49
+00:07:44,000 --> 00:07:45,000
+I don't know why.
+Battery required.
+
+50
+00:07:45,000 --> 00:07:46,000
+Battery required.
+
+51
+00:07:46,000 --> 00:07:48,000
+Warning, battery essential.
+
+52
+00:07:55,000 --> 00:07:57,000
+Good tone, good tone, off your head.
+
+53
+00:08:12,000 --> 00:08:13,000
+Time for what it is.
+
+54
+00:08:13,000 --> 00:08:14,000
+Time for what it is.
+Fyper 1 is hit, but still on the move.
+
+55
+00:08:14,000 --> 00:08:15,000
+Fyper 1 is hit, but still on the move.
+
+56
+00:08:15,000 --> 00:08:17,000
+Falco core ready.
+
+57
+00:08:17,000 --> 00:08:19,000
+Battery required.
+
+58
+00:08:19,000 --> 00:08:21,000
+Fyper, Fyper 1 lost control.
+
+59
+00:08:21,000 --> 00:08:23,000
+I'm losing control. Going down.
+
+60
+00:08:23,000 --> 00:08:25,000
+Mayday, mayday, going down.
+
+61
+00:08:25,000 --> 00:08:27,000
+Commander Briggs, this is BT-7274.
+
+62
+00:08:27,000 --> 00:08:29,000
+Fyper is down.
+
+63
+00:08:29,000 --> 00:08:31,000
+Copy that.
+
+64
+00:08:31,000 --> 00:08:33,000
+Aborn to Draconis and secure the arc.
+
+65
+00:08:33,000 --> 00:08:35,000
+We'll prep for transfer.
+
+66
+00:08:35,000 --> 00:08:37,000
+Cooper, ready for fastfall.
+
+67
+00:08:37,000 --> 00:08:39,000
+Recommend you disembark.
+
+68
+00:08:42,000 --> 00:08:44,000
+*Gunshot*
+
+69
+00:09:11,000 --> 00:09:13,000
+Ow!
+
+70
+00:09:18,000 --> 00:09:19,000
+Holy hell!
+
+71
+00:09:24,000 --> 00:09:25,000
+VT!
+
+72
+00:09:29,000 --> 00:09:31,000
+Use some more fish, Vanguard!
+
+73
+00:09:35,000 --> 00:09:36,000
+I'm coming, VT!
+
+74
+00:09:36,000 --> 00:09:37,000
+Cover, cover!
+
+75
+00:09:39,000 --> 00:09:40,000
+Cooper, aim for the cockpit.
+
+76
+00:09:40,000 --> 00:09:45,600
+the cockpit take the shot
+
+77
+00:09:53,440 --> 00:10:00,000
+bt you okay left arm severed however i am still operational
