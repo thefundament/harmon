@@ -1,0 +1,584 @@
+1
+00:00:12,270 --> 00:00:52,040
+ You mu mu mu mu mu mu mu make me happy. Simple Zach. Um, if you need the channel, please consider liking and subscribing and let's get started.
+
+2
+00:01:05,430 --> 00:01:08,430
+ "Report to your nearest intake facility."
+
+3
+00:01:08,430 --> 00:01:15,360
+ Pause. I got a, uh, plug in a different USB cord.
+
+4
+00:01:41,740 --> 00:02:01,860
+ "Immediately. We promise nothing nefarious will fall you on that. We promise."
+
+5
+00:02:01,860 --> 00:02:07,770
+ Uh-oh. We got a, we got a straggler.
+
+6
+00:02:07,770 --> 00:02:11,670
+ "Report to the VIP section of your nearest intake facility."
+
+7
+00:02:19,910 --> 00:02:37,880
+ "Compulsory behavioral modification. It will be fun."
+
+8
+00:02:37,880 --> 00:02:41,880
+ "Your suit seems to be working nicely. Blending right in."
+
+9
+00:02:41,880 --> 00:02:48,910
+ "There is the assistant. And there is the infobot."
+
+10
+00:02:48,910 --> 00:02:55,960
+ Oh, weird. I like that outfit though.
+
+11
+00:02:55,960 --> 00:02:59,960
+ "Masterful work. Now get out of there and decrypt that thing."
+
+12
+00:02:59,960 --> 00:03:01,590
+ What's she decrypting?
+
+13
+00:03:01,590 --> 00:03:03,590
+ "Where is the infobot?"
+
+14
+00:03:09,880 --> 00:03:16,120
+ "Oh gosh. That thing is freaking scary."
+
+15
+00:03:16,120 --> 00:03:18,030
+ "Like all the..."
+
+16
+00:03:27,000 --> 00:03:28,790
+ "Where are you going?"
+
+17
+00:03:28,790 --> 00:03:31,790
+ "I'm trying to save that alien."
+
+18
+00:03:31,790 --> 00:03:32,550
+ "No!"
+
+19
+00:03:33,120 --> 00:03:34,060
+ "Oh gosh. Evil laugh."
+
+20
+00:03:34,060 --> 00:03:35,060
+ "Whoa. That's cool."
+
+21
+00:03:35,060 --> 00:03:36,060
+ "Hey, it's okay. See?"
+
+22
+00:03:36,060 --> 00:03:37,060
+ "I like the little emoji face."
+
+23
+00:03:37,060 --> 00:03:38,180
+ "Just me."
+
+24
+00:03:38,180 --> 00:03:51,630
+ "Don't you think it's weird to throw a celebration for us? I mean, we haven't done anything heroic in years."
+
+25
+00:03:51,630 --> 00:03:58,030
+ "Years?"
+
+26
+00:03:58,030 --> 00:03:59,030
+ "What if everyone thinks we're washed up?"
+
+27
+00:03:59,030 --> 00:04:00,030
+ "What if everyone thinks we're washed up?"
+
+28
+00:04:00,030 --> 00:04:01,030
+ "That long, Ratchet?"
+
+29
+00:04:01,030 --> 00:04:39,060
+ "Luckily, we will not need to perform any heroics. Unless you count smiling and waving."
+
+30
+00:04:39,060 --> 00:04:40,060
+ "Better do some heroics."
+
+31
+00:04:40,060 --> 00:04:41,060
+ "Right."
+
+32
+00:04:41,060 --> 00:04:42,060
+ "Yeah."
+
+33
+00:04:42,060 --> 00:04:42,060
+ "You're ratchet and clink."
+
+34
+00:04:42,060 --> 00:04:43,060
+ "Oh man, the graphics in this are so good."
+
+35
+00:04:43,060 --> 00:04:44,060
+ "Give a big welcome to the grand mars-"
+
+36
+00:04:44,060 --> 00:04:45,060
+ "Ratchet and clink!"
+
+37
+00:04:45,060 --> 00:04:46,060
+ "What does that even mean?"
+
+38
+00:04:46,060 --> 00:04:47,060
+ "What does that even mean?"
+
+39
+00:04:47,060 --> 00:04:48,060
+ "What does that mean?"
+
+40
+00:04:48,060 --> 00:04:49,060
+ "For us?"
+
+41
+00:04:49,060 --> 00:04:52,760
+ "I mean, we haven't done anything heroic in years."
+
+42
+00:04:52,760 --> 00:04:53,760
+ "Years?"
+
+43
+00:04:53,760 --> 00:04:54,760
+ "Years?"
+
+44
+00:04:54,760 --> 00:04:55,760
+ "What if everyone thinks we're washed up?"
+
+45
+00:04:55,760 --> 00:04:56,760
+ "What long, Ratchet?"
+
+46
+00:04:56,760 --> 00:04:57,760
+ "Luckily, we will not need to perform any heroics."
+
+47
+00:04:57,760 --> 00:04:58,760
+ "Unless you count smiling and waving."
+
+48
+00:04:58,760 --> 00:04:59,760
+ "Better do some heroics."
+
+49
+00:04:59,760 --> 00:05:00,760
+ "Right."
+
+50
+00:05:00,760 --> 00:05:03,120
+ "You're ratchet and clink."
+
+51
+00:05:03,120 --> 00:05:05,120
+ "Oh man, the graphics in this are so good."
+
+52
+00:05:05,120 --> 00:05:07,120
+ "Give a big welcome to the grand mars-"
+
+53
+00:05:07,120 --> 00:05:08,120
+ "Ratchet and clink!"
+
+54
+00:05:08,120 --> 00:05:09,120
+ "Grand mars-"
+
+55
+00:05:09,120 --> 00:05:12,130
+ "Ratchet and clink!"
+
+56
+00:05:12,130 --> 00:05:13,130
+ "Grand mars?"
+
+57
+00:05:13,130 --> 00:05:15,130
+ "What does that even mean?"
+
+58
+00:05:15,130 --> 00:05:16,050
+ "Hold a second."
+
+59
+00:05:39,720 --> 00:05:40,500
+ "And..."
+
+60
+00:05:40,500 --> 00:05:41,500
+ "Rusty Pete!"
+
+61
+00:05:41,500 --> 00:05:42,500
+ "Rusty Pete!"
+
+62
+00:05:42,500 --> 00:05:43,500
+ "Rusty Pete!"
+
+63
+00:05:43,500 --> 00:05:44,500
+ "Good old Rusty Pete!"
+
+64
+00:05:44,500 --> 00:05:46,500
+ "Promising to only loot people when Noah is looking."
+
+65
+00:05:46,500 --> 00:06:07,060
+ "That's funny."
+
+66
+00:06:07,060 --> 00:06:08,060
+ "Get that army."
+
+67
+00:06:08,060 --> 00:06:09,060
+ "I'm rude."
+
+68
+00:06:09,060 --> 00:06:10,060
+ "Yes!
+
+69
+00:06:10,060 --> 00:06:11,060
+ Folks, we have a moment."
+
+70
+00:06:11,060 --> 00:06:12,060
+ "Haha!"
+
+71
+00:06:12,060 --> 00:06:13,060
+ "And ending."
+
+72
+00:06:13,060 --> 00:06:14,060
+ "Rise gift!"
+
+73
+00:06:14,060 --> 00:06:15,060
+ "For glad."
+
+74
+00:06:15,060 --> 00:06:16,060
+ "I'm rude!"
+
+75
+00:06:16,060 --> 00:06:17,060
+ "Yes!"
+
+76
+00:06:17,060 --> 00:06:18,060
+ "Folks, we have a moment."
+
+77
+00:06:18,060 --> 00:06:22,150
+ "Haha!"
+
+78
+00:06:22,150 --> 00:06:23,150
+ "And ending."
+
+79
+00:06:23,150 --> 00:06:23,970
+ "Rise gift."
+
+80
+00:06:24,870 --> 00:06:25,750
+ "For glad."
+
+81
+00:06:25,750 --> 00:06:26,750
+ "Shut up, Port."
+
+82
+00:06:26,750 --> 00:06:27,750
+ "Clank to Ratchet!"
+
+83
+00:06:27,750 --> 00:06:32,120
+ "Must he tell the entire galaxy?"
+
+84
+00:06:32,120 --> 00:06:33,120
+ "Yeah."
+
+85
+00:06:33,120 --> 00:06:34,120
+ "Wait, again?"
+
+86
+00:06:34,120 --> 00:06:35,120
+ "Can I fall off this?"
+
+87
+00:06:35,120 --> 00:06:43,560
+ "For what?"
+
+88
+00:06:43,560 --> 00:06:56,090
+ "It all started on planet film."
+
+89
+00:06:56,090 --> 00:06:58,090
+ "Glash shooting and crashing from the night sky."
+
+90
+00:06:58,090 --> 00:07:01,510
+ "Ratchet and friction and effective warbots."
+
+91
+00:07:01,510 --> 00:07:02,510
+ "It's a confetti pin."
+
+92
+00:07:02,510 --> 00:07:03,510
+ "And the red."
+
+93
+00:07:03,510 --> 00:07:15,490
+ "We all know about this as well."
+
+94
+00:07:15,490 --> 00:07:17,490
+ "The ground goes wild!"
+
+95
+00:07:17,490 --> 00:07:19,490
+ "I couldn't play the game too."
+
+96
+00:07:35,550 --> 00:07:37,550
+ "Ooh, I couldn't have to throw it."
+
+97
+00:07:37,550 --> 00:07:38,550
+ "I couldn't have to throw it."
+
+98
+00:07:38,550 --> 00:07:44,280
+ "Some of those world-class sharks."
+
+99
+00:07:44,280 --> 00:07:48,730
+ "Oh damn it."
+
+100
+00:07:48,730 --> 00:07:49,730
+ "Oh, damn it."
+
+101
+00:07:49,730 --> 00:07:58,970
+ "Oh, there's resistance in the trigger."
+
+102
+00:07:58,970 --> 00:08:01,090
+ "Hey, I think I found the bomb-back!"
+
+103
+00:08:01,090 --> 00:08:03,090
+ "Oh, it looks like the resistance gate locked in."
+
+104
+00:08:03,090 --> 00:08:04,090
+ "On the trigger."
+
+105
+00:08:04,090 --> 00:08:07,090
+ "Oh, it looks like the resistance gate locked in."
+
+106
+00:08:07,090 --> 00:08:14,660
+ "On the trigger."
+
+107
+00:08:14,660 --> 00:08:15,660
+ "Oh, it looks like the turret."
+
+108
+00:08:15,660 --> 00:08:16,660
+ "Oh, it looks like the turret."
+
+109
+00:08:16,660 --> 00:08:17,660
+ "Oh, it looks like the turret."
+
+110
+00:08:18,660 --> 00:08:19,660
+ "Oh, it looks like the turret."
+
+111
+00:08:19,660 --> 00:08:20,660
+ "Oh, it looks like the turret."
+
+112
+00:08:20,660 --> 00:08:21,660
+ "Oh, it looks like the turret."
+
+113
+00:08:21,660 --> 00:08:22,620
+ "Oh, it looks like the turret."
+
+114
+00:08:23,040 --> 00:08:23,780
+ "Oh, it looks like the turret."
+
+115
+00:08:23,780 --> 00:08:24,780
+ "Oh, it looks like the turret."
+
+116
+00:08:24,780 --> 00:08:33,100
+ "Oh, it looks like the turret."
+
+117
+00:08:33,100 --> 00:08:34,100
+ "Oh, it looks like the turret."
+
+118
+00:08:34,100 --> 00:08:35,100
+ "Oh, it looks like the turret."
+
+119
+00:08:35,100 --> 00:08:36,100
+ "Oh, it looks like the turret."
+
+120
+00:08:36,100 --> 00:08:36,900
+ "Oh, it looks like the turret."
+
+121
+00:08:44,070 --> 00:08:44,970
+ "Oh, it looks like the turret."
+
+122
+00:08:44,970 --> 00:08:45,970
+ "Oh, it looks like the turret."
+
+123
+00:08:45,970 --> 00:08:46,970
+ "Oh, it looks like the turret."
+
+124
+00:08:46,970 --> 00:08:47,970
+ "Oh, it looks like the turret."
+
+125
+00:08:47,970 --> 00:08:48,970
+ "Oh, it looks like the turret."
+
+126
+00:08:48,970 --> 00:08:49,970
+ "Oh, it looks like the turret."
+
+127
+00:09:09,720 --> 00:09:10,650
+ "Oh, it looks like the turret."
+
+128
+00:09:10,650 --> 00:09:11,650
+ "Oh, it looks like the turret."
+
+129
+00:09:11,650 --> 00:09:12,650
+ "Oh, it looks like the turret."
+
+130
+00:09:12,650 --> 00:09:18,420
+ "Oh, it looks like the turret."
+
+131
+00:09:18,420 --> 00:09:19,420
+ "Oh, it looks like the turret."
+
+132
+00:09:19,420 --> 00:09:20,420
+ "Oh, it looks like the turret."
+
+133
+00:09:20,420 --> 00:09:21,240
+ "Oh, it looks like the turret."
+
+134
+00:09:26,520 --> 00:09:27,400
+ "Oh, it looks like the turret."
+
+135
+00:09:27,400 --> 00:09:28,400
+ "Oh, it looks like the turret."
+
+136
+00:09:28,400 --> 00:09:31,800
+ "Oh, it looks like the turret."
+
+137
+00:09:31,800 --> 00:09:32,800
+ "Oh, it looks like the turret."
+
+138
+00:09:32,800 --> 00:09:33,660
+ "Oh, it looks like the turret."
+
+139
+00:09:36,150 --> 00:09:36,990
+ "Oh, it looks like the turret."
+
+140
+00:09:36,990 --> 00:09:37,990
+ "Oh, it looks like the turret."
+
+141
+00:09:37,990 --> 00:09:38,990
+ "Oh, it looks like the turret."
+
+142
+00:09:38,990 --> 00:09:39,990
+ "Oh, it looks like the turret."
+
+143
+00:09:39,990 --> 00:09:53,330
+ "Oh, it looks like the turret."
+
+144
+00:09:53,330 --> 00:09:55,330
+ "Oh, it looks like the turret."
+
+145
+00:09:55,330 --> 00:09:56,330
+ "Oh, it looks like the turret."
+
+146
+00:09:56,330 --> 00:09:58,330
+ "Oh, it looks like the turret."
+
