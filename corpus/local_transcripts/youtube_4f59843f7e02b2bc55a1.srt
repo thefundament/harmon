@@ -1,0 +1,8 @@
+1
+00:00:49,800 --> 00:00:51,120
+ Echo, stop.
+
+2
+00:02:22,840 --> 00:06:43,800
+ Brian Meyer, strategic tangent, counselor.
+

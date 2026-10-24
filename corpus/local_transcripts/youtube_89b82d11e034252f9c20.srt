@@ -1,0 +1,456 @@
+1
+00:00:00,150 --> 00:00:11,150
+ Hi everybody! Welcome to...
+
+2
+00:00:11,150 --> 00:00:57,850
+ It's been years since the regime fell.
+
+3
+00:00:57,850 --> 00:02:41,250
+ Superman! Superman!
+
+4
+00:02:41,250 --> 00:02:45,250
+ Dinah! Oliver! Thanks for coming on short notice.
+
+5
+00:02:45,250 --> 00:02:48,120
+ You're lucky we found a sitter.
+
+6
+00:03:06,210 --> 00:03:10,210
+ My great-grandfather built the original Gotham Underground.
+
+7
+00:03:10,210 --> 00:03:13,210
+ But these days...
+
+8
+00:03:13,210 --> 00:03:16,910
+ It's the Batcave.
+
+9
+00:03:20,910 --> 00:03:25,680
+ And this is Brother Eye.
+
+10
+00:03:25,680 --> 00:03:28,610
+ More like the Eye of Sauron.
+
+11
+00:03:28,610 --> 00:03:31,610
+ Surveillance hub? More than that.
+
+12
+00:03:31,610 --> 00:03:33,610
+ A communications hub.
+
+13
+00:03:33,610 --> 00:03:36,610
+ Looking at every satellite and server on the planet.
+
+14
+00:03:36,610 --> 00:03:38,310
+ It warns us when trouble's coming.
+
+15
+00:03:38,310 --> 00:03:40,310
+ And guides us when trouble's here.
+
+16
+00:03:40,310 --> 00:03:43,310
+ Must take a real genius to operate.
+
+17
+00:03:43,310 --> 00:03:45,310
+ I don't know about genius.
+
+18
+00:03:45,310 --> 00:03:49,310
+ But I do got a PhD.
+
+19
+00:03:49,310 --> 00:03:52,010
+ The game Terra Strong.
+
+20
+00:03:52,010 --> 00:03:54,010
+ Dinah! Dinah's hubby!
+
+21
+00:03:54,010 --> 00:03:56,010
+ You sure came a long way!
+
+22
+00:03:56,010 --> 00:03:57,010
+ A world away.
+
+23
+00:03:57,010 --> 00:03:59,010
+ But the change of scenery is nice.
+
+24
+00:03:59,010 --> 00:04:01,710
+ I was surprised you called, Bruce.
+
+25
+00:04:01,710 --> 00:04:03,710
+ Things seem to be going well.
+
+26
+00:04:03,710 --> 00:04:04,710
+ So, what's up?
+
+27
+00:04:04,710 --> 00:04:08,710
+ Dismantling the regime created gaps in global security.
+
+28
+00:04:08,710 --> 00:04:10,710
+ We're covering them where we can.
+
+29
+00:04:10,710 --> 00:04:11,710
+ But we're stretched thin.
+
+30
+00:04:11,710 --> 00:04:13,680
+ All vulnerable.
+
+31
+00:04:13,680 --> 00:04:14,410
+ Harleen.
+
+32
+00:04:14,410 --> 00:04:15,410
+ Harleen.
+
+33
+00:04:15,410 --> 00:04:16,410
+ Show them what you found.
+
+34
+00:04:16,410 --> 00:04:18,410
+ Righto, bats!
+
+35
+00:04:22,410 --> 00:04:23,410
+ Gorilla Grod.
+
+36
+00:04:23,410 --> 00:04:26,110
+ Everyone's favorite talking ape.
+
+37
+00:04:26,110 --> 00:04:28,110
+ He's got himself a band of bozos.
+
+38
+00:04:28,110 --> 00:04:31,110
+ Calls them the society.
+
+39
+00:04:31,110 --> 00:04:35,110
+ My mole in Gorilla City says Grod's planning something big.
+
+40
+00:04:35,110 --> 00:04:36,110
+ But what?
+
+41
+00:04:36,110 --> 00:04:37,110
+ Where?
+
+42
+00:04:37,110 --> 00:04:49,810
+ When?
+
+43
+00:04:49,810 --> 00:04:50,810
+ My bug spray.
+
+44
+00:04:50,810 --> 00:04:54,810
+ I need you three to stop that gas before it gets to Grod.
+
+45
+00:04:54,810 --> 00:04:56,810
+ Not joining us for the party?
+
+46
+00:04:56,810 --> 00:05:00,810
+ Unfortunately, I can't leave Gotham without worrying the public.
+
+47
+00:05:00,810 --> 00:05:02,510
+ Don't worry, bats.
+
+48
+00:05:02,510 --> 00:05:05,510
+ With this crew on the job, what could go wrong?
+
+49
+00:05:07,510 --> 00:05:08,510
+ I know I'm the new guy.
+
+50
+00:05:08,510 --> 00:05:10,510
+ But you really trust Harley?
+
+51
+00:05:10,510 --> 00:05:13,510
+ She's a different person since Joker died.
+
+52
+00:05:35,600 --> 00:05:37,600
+ Can they move any faster?
+
+53
+00:05:37,600 --> 00:05:41,600
+ I don't need Grod taking my head off 'cause your boys are too slow.
+
+54
+00:05:41,600 --> 00:05:43,600
+ They're not Deadshot.
+
+55
+00:05:43,600 --> 00:05:46,300
+ We'll be ready for tomorrow's attack.
+
+56
+00:05:46,300 --> 00:05:47,300
+ Tomorrow?
+
+57
+00:05:47,300 --> 00:05:49,300
+ Cheeky monkey.
+
+58
+00:05:57,000 --> 00:06:00,000
+ Fancy meeting you here.
+
+59
+00:06:00,000 --> 00:06:02,000
+ Keep them moving.
+
+60
+00:06:02,000 --> 00:06:04,000
+ I'll see what that's about.
+
+61
+00:06:04,000 --> 00:06:05,000
+ Red!
+
+62
+00:06:05,000 --> 00:06:06,000
+ I ain't seen you in forever!
+
+63
+00:06:06,000 --> 00:06:08,700
+ You here to take down these punks?
+
+64
+00:06:16,700 --> 00:06:17,700
+ Hello.
+
+65
+00:06:17,700 --> 00:06:18,700
+ I'm a cat shivey.
+
+66
+00:06:18,700 --> 00:06:19,700
+ Red?
+
+67
+00:06:19,700 --> 00:06:20,400
+ Go with them.
+
+68
+00:06:20,400 --> 00:06:28,400
+ Your man, Bruce, was supposed to better care for the green.
+
+69
+00:06:28,400 --> 00:06:33,100
+ All he's done is remodeled the concrete symbols of Gotham and Metropolis.
+
+70
+00:06:33,100 --> 00:06:38,100
+ Where I sit, there's not much difference between him and Superman.
+
+71
+00:06:38,100 --> 00:06:44,070
+ You're a few cones short of a pine if you think your new friends care about the green.
+
+72
+00:06:44,800 --> 00:06:48,800
+ Grod will keep his promises or he'll be my next victim.
+
+73
+00:06:49,800 --> 00:06:50,800
+ Oh, Red.
+
+74
+00:06:50,800 --> 00:06:51,800
+ Why are you making me do this?
+
+75
+00:06:51,800 --> 00:06:52,800
+ Oh, Red.
+
+76
+00:06:52,800 --> 00:06:53,800
+ Why are you making me do this?
+
+77
+00:06:53,800 --> 00:06:54,800
+ Oh, Red.
+
+78
+00:06:54,800 --> 00:06:55,800
+ Why are you making me do this?
+
+79
+00:07:01,500 --> 00:07:03,500
+ Let me get you out of here, girls.
+
+80
+00:07:03,500 --> 00:07:04,500
+ We can team up again.
+
+81
+00:07:04,500 --> 00:07:06,500
+ Drive all the boys crazy!
+
+82
+00:07:06,500 --> 00:07:08,200
+ Oh my god, there's a f***ing cute couple.
+
+83
+00:07:08,200 --> 00:07:14,200
+ The old days were fun, but these days I'm all business.
+
+84
+00:07:18,200 --> 00:07:19,200
+ Alright, let me pause this for a second.
+
+85
+00:07:19,200 --> 00:07:20,070
+ I'm c***ing.
+
+86
+00:07:38,960 --> 00:07:39,960
+ Ooh, that kiss, though.
+
+87
+00:07:47,660 --> 00:07:49,660
+ Poison Ivy, Cycle Babe.
+
+88
+00:07:50,660 --> 00:07:52,660
+ I have to say, uh...
+
+89
+00:07:52,660 --> 00:07:55,660
+ Zatanna is always going to be my number one, but...
+
+90
+00:07:56,360 --> 00:07:57,360
+ I have to pick.
+
+91
+00:07:58,360 --> 00:07:59,360
+ My two favorites, you know...
+
+92
+00:08:00,360 --> 00:08:05,360
+ Well, top three are probably Poison Ivy, Zatanna, and...
+
+93
+00:08:09,060 --> 00:08:11,060
+ Uh, I'm not really eating the Harley Quinn.
+
+94
+00:08:12,060 --> 00:08:13,060
+ I don't know.
+
+95
+00:08:13,060 --> 00:08:15,060
+ Definitely Zatanna and Poison Ivy.
+
+96
+00:08:15,060 --> 00:08:17,060
+ There's one I'm forgetting.
+
+97
+00:08:28,760 --> 00:08:29,760
+ I like Black Mary a lot, too.
+
+98
+00:08:29,760 --> 00:08:31,760
+ She's probably doing that Thursday.
+
+99
+00:08:34,460 --> 00:08:35,460
+ I have, like, just blonde.
+
+100
+00:08:44,160 --> 00:08:49,160
+ No more sleepovers for you!
+
+101
+00:08:53,670 --> 00:08:54,670
+ Uh-oh.
+
+102
+00:08:54,670 --> 00:08:55,670
+ Fear throw.
+
+103
+00:08:56,670 --> 00:08:57,670
+ Easy helmet.
+
+104
+00:08:58,670 --> 00:08:59,670
+ Fear.
+
+105
+00:08:59,670 --> 00:09:00,670
+ Breathe it in.
+
+106
+00:09:00,670 --> 00:09:01,670
+ Yes.
+
+107
+00:09:02,550 --> 00:09:03,370
+ Please.
+
+108
+00:09:03,370 --> 00:09:05,370
+ I used to hop this stuff for kicks!
+
+109
+00:09:05,370 --> 00:09:08,370
+ Then you'll appreciate my new formula.
+
+110
+00:09:08,370 --> 00:09:09,370
+ No!
+
+111
+00:09:10,370 --> 00:09:11,370
+ No!
+
+112
+00:09:24,070 --> 00:09:26,070
+ Or you have a high tolerance.
+
+113
+00:09:26,070 --> 00:09:58,470
+ Why is this mission so much easier?
+
+114
+00:09:58,470 --> 00:10:00,000
+ Why is this mission so much easier than me?
+

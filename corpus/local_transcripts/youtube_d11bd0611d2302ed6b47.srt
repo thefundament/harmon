@@ -1,0 +1,480 @@
+1
+00:00:10,170 --> 00:00:40,390
+ I'm not sure how to do this.
+
+2
+00:00:40,410 --> 00:01:12,380
+ I'm not sure how to do this.
+
+3
+00:01:12,380 --> 00:01:42,550
+ If I can't do this soon, I'm going to have to come back to this later.
+
+4
+00:01:42,550 --> 00:01:49,550
+ I'm not sure how to do this.
+
+5
+00:01:49,550 --> 00:01:59,220
+ I'm not sure how to do this.
+
+6
+00:01:59,220 --> 00:02:06,220
+ I'm not sure how to do this.
+
+7
+00:02:06,220 --> 00:02:19,760
+ I'm not sure how to do this.
+
+8
+00:02:19,760 --> 00:02:28,980
+ I'm not sure how to do this.
+
+9
+00:02:28,980 --> 00:02:35,980
+ I'm not sure how to do this.
+
+10
+00:02:35,980 --> 00:02:43,400
+ I'm not sure how to do this.
+
+11
+00:02:43,400 --> 00:02:57,750
+ I'm not sure how to do this.
+
+12
+00:02:57,750 --> 00:03:04,930
+ I'm not sure how to do this.
+
+13
+00:03:04,930 --> 00:03:25,850
+ I'm not sure how to do this.
+
+14
+00:03:25,850 --> 00:03:38,460
+ I'm not sure how to do this.
+
+15
+00:03:38,460 --> 00:03:54,070
+ I'm not sure how to do this.
+
+16
+00:03:54,070 --> 00:04:05,300
+ I'm not sure how to do this.
+
+17
+00:04:05,300 --> 00:04:12,300
+ I'm not sure how to do this.
+
+18
+00:04:12,300 --> 00:04:25,090
+ I'm not sure how to do this.
+
+19
+00:04:25,090 --> 00:04:26,090
+ I'm not sure how to do this.
+
+20
+00:04:26,090 --> 00:04:27,090
+ I'm not sure how to do this.
+
+21
+00:04:27,090 --> 00:04:28,090
+ I'm not sure how to do this.
+
+22
+00:04:28,090 --> 00:04:28,090
+ I'm not sure how to do this.
+
+23
+00:04:28,090 --> 00:04:31,010
+ I'm not sure how to do this.
+
+24
+00:04:31,010 --> 00:04:32,010
+ I'm not sure how to do this.
+
+25
+00:04:32,010 --> 00:04:34,690
+ I'm not sure how to do this.
+
+26
+00:04:34,690 --> 00:04:35,690
+ I'm not sure how to do this.
+
+27
+00:04:35,690 --> 00:04:36,690
+ I'm not sure how to do this.
+
+28
+00:04:36,690 --> 00:04:37,690
+ I don't know how to do this.
+
+29
+00:04:37,690 --> 00:04:38,690
+ I'm not sure how to do this.
+
+30
+00:04:38,690 --> 00:04:39,690
+ I'm not sure how to do this.
+
+31
+00:04:39,690 --> 00:04:43,210
+ I'm not sure how to do this.
+
+32
+00:04:43,210 --> 00:04:44,210
+ I'm not sure how to do this.
+
+33
+00:04:44,210 --> 00:04:45,210
+ I'm not sure how to do this.
+
+34
+00:04:45,210 --> 00:04:46,210
+ I'm not sure how to do this.
+
+35
+00:04:46,210 --> 00:04:47,210
+ I'm not sure how to do this.
+
+36
+00:04:47,210 --> 00:04:52,350
+ I'm not sure how to do this.
+
+37
+00:04:52,350 --> 00:04:53,350
+ I'm not sure how to do this.
+
+38
+00:04:53,350 --> 00:04:54,270
+ I'm not sure how to do this.
+
+39
+00:04:54,900 --> 00:04:55,680
+ I'm not sure how to do this.
+
+40
+00:04:55,680 --> 00:04:56,680
+ I'm not sure how to do this.
+
+41
+00:04:56,680 --> 00:04:57,680
+ I'm not sure how to do this.
+
+42
+00:04:57,680 --> 00:04:58,680
+ I'm not sure how to do this.
+
+43
+00:04:58,680 --> 00:05:05,560
+ I'm not sure how to do this.
+
+44
+00:05:05,560 --> 00:05:06,560
+ I'm not sure how to do this.
+
+45
+00:05:06,560 --> 00:05:07,560
+ I'm not sure how to do this.
+
+46
+00:05:07,560 --> 00:05:08,560
+ I'm not sure how to do this.
+
+47
+00:05:18,800 --> 00:05:19,800
+ I'm not sure how to do this.
+
+48
+00:05:19,800 --> 00:05:20,800
+ I'm not sure how to do this.
+
+49
+00:05:20,800 --> 00:05:21,800
+ I'm not sure how to do this.
+
+50
+00:05:21,800 --> 00:05:51,240
+ I'm not sure how to do this.
+
+51
+00:05:51,240 --> 00:05:52,240
+ I'm not sure how to do this.
+
+52
+00:05:52,240 --> 00:05:53,240
+ I'm not sure how to do this.
+
+53
+00:05:53,240 --> 00:05:54,240
+ I'm not sure how to do this.
+
+54
+00:05:54,240 --> 00:05:57,700
+ I'm not sure how to do this.
+
+55
+00:05:57,700 --> 00:05:58,700
+ I'm not sure how to do this.
+
+56
+00:05:58,700 --> 00:06:10,500
+ I'm not sure how to do this.
+
+57
+00:06:10,500 --> 00:06:11,500
+ I'm not sure how to do this.
+
+58
+00:06:11,500 --> 00:06:12,500
+ I'm not sure how to do this.
+
+59
+00:06:12,500 --> 00:06:13,350
+ I'm not sure how to do this.
+
+60
+00:06:31,320 --> 00:06:33,170
+ I'm not sure how to do this.
+
+61
+00:06:33,170 --> 00:06:34,170
+ I'm not sure how to do this.
+
+62
+00:06:34,170 --> 00:06:35,170
+ I'm not sure how to do this.
+
+63
+00:06:35,170 --> 00:06:37,170
+ I'm not sure how to do this.
+
+64
+00:06:37,170 --> 00:06:40,330
+ I'm not sure how to do this.
+
+65
+00:06:40,330 --> 00:06:42,330
+ I'm not sure how to do this.
+
+66
+00:06:42,330 --> 00:06:43,330
+ I'm not sure how to do this.
+
+67
+00:07:27,590 --> 00:07:28,590
+ I'm not sure how to do this.
+
+68
+00:07:28,590 --> 00:07:29,590
+ I'm not sure how to do this.
+
+69
+00:07:29,590 --> 00:07:30,590
+ I'm not sure how to do this.
+
+70
+00:07:30,590 --> 00:07:31,590
+ I'm not sure how to do this.
+
+71
+00:07:31,590 --> 00:07:34,540
+ I'm not sure how to do this.
+
+72
+00:07:34,540 --> 00:07:35,540
+ I'm not sure how to do this.
+
+73
+00:07:35,540 --> 00:07:36,540
+ I'm not sure how to do this.
+
+74
+00:07:36,540 --> 00:07:37,540
+ I'm not sure how to do this.
+
+75
+00:07:37,540 --> 00:07:38,310
+ I'm not sure how to do this.
+
+76
+00:07:41,340 --> 00:07:42,270
+ I'm not sure how to do this.
+
+77
+00:07:42,270 --> 00:07:43,270
+ I'm not sure how to do this.
+
+78
+00:07:43,270 --> 00:07:44,270
+ I'm not sure how to do this.
+
+79
+00:07:44,270 --> 00:07:53,400
+ I'm not sure how to do this.
+
+80
+00:07:53,400 --> 00:07:54,400
+ I'm not sure how to do this.
+
+81
+00:07:54,400 --> 00:07:55,400
+ I'm not sure how to do this.
+
+82
+00:07:55,400 --> 00:07:56,400
+ I'm not sure how to do this.
+
+83
+00:07:56,400 --> 00:07:57,400
+ I'm not sure how to do this.
+
+84
+00:07:57,400 --> 00:07:58,400
+ I'm not sure how to do this.
+
+85
+00:07:58,400 --> 00:07:59,400
+ I'm not sure how to do this.
+
+86
+00:07:59,400 --> 00:08:00,400
+ I'm not sure how to do this.
+
+87
+00:08:31,160 --> 00:08:32,160
+ I'm not sure how to do this.
+
+88
+00:08:32,160 --> 00:08:33,160
+ I'm not sure how to do this.
+
+89
+00:08:33,160 --> 00:08:34,160
+ I'm not sure how to do this.
+
+90
+00:08:34,160 --> 00:08:35,160
+ I'm not sure how to do this.
+
+91
+00:08:35,160 --> 00:08:38,710
+ I'm not sure how to do this.
+
+92
+00:08:38,710 --> 00:08:39,710
+ I'm not sure how to do this.
+
+93
+00:08:39,710 --> 00:08:41,100
+ I'm not sure how to do this.
+
+94
+00:08:41,100 --> 00:08:42,100
+ I'm not sure how to do this.
+
+95
+00:08:42,100 --> 00:08:43,100
+ I'm not sure how to do this.
+
+96
+00:08:43,100 --> 00:08:44,100
+ I'm not sure how to do this.
+
+97
+00:08:44,100 --> 00:08:45,100
+ I'm not sure how to do this.
+
+98
+00:08:45,100 --> 00:09:18,980
+ I'm not sure how to do this.
+
+99
+00:09:18,980 --> 00:09:19,980
+ I'm not sure how to do this.
+
+100
+00:09:19,980 --> 00:09:20,980
+ I'm not sure how to do this.
+
+101
+00:09:20,980 --> 00:09:21,980
+ I'm not sure how to do this.
+
+102
+00:09:21,980 --> 00:09:22,980
+ I'm not sure how to do this.
+
+103
+00:09:22,980 --> 00:09:23,980
+ I'm not sure how to do this.
+
+104
+00:09:23,980 --> 00:09:24,980
+ I'm not sure how to do this.
+
+105
+00:09:24,980 --> 00:09:25,980
+ I'm not sure how to do this.
+
+106
+00:09:25,980 --> 00:09:26,980
+ I'm not sure how to do this.
+
+107
+00:09:37,040 --> 00:09:38,040
+ I'm not sure how to do this.
+
+108
+00:09:38,040 --> 00:09:39,040
+ I'm not sure how to do this.
+
+109
+00:09:39,040 --> 00:09:40,040
+ I'm not sure how to do this.
+
+110
+00:09:40,040 --> 00:09:41,040
+ I'm not sure how to do this.
+
+111
+00:09:41,040 --> 00:09:42,040
+ I'm not sure how to do this.
+
+112
+00:09:42,040 --> 00:09:47,120
+ I'm not sure how to do this.
+
+113
+00:09:47,120 --> 00:09:48,120
+ I'm not sure how to do this.
+
+114
+00:09:48,120 --> 00:09:49,120
+ I'm not sure how to do this.
+
+115
+00:09:49,120 --> 00:09:50,120
+ I'm not sure how to do this.
+
+116
+00:09:50,120 --> 00:09:51,120
+ I'm not sure how to do this.
+
+117
+00:09:51,120 --> 00:09:52,120
+ I'm not sure how to do this.
+
+118
+00:09:52,120 --> 00:09:53,120
+ I'm not sure how to do this.
+
+119
+00:09:53,120 --> 00:09:54,120
+ I'm not sure how to do this.
+
+120
+00:09:54,120 --> 00:09:54,270
+ I'm not sure how to do this.
+
