@@ -1,0 +1,164 @@
+1
+00:00:03,930 --> 00:00:05,930
+ Who's this?
+
+2
+00:00:23,630 --> 00:00:25,630
+ What the hell?
+
+3
+00:00:25,630 --> 00:00:31,140
+ Oh, Fudge, run!
+
+4
+00:00:31,140 --> 00:00:33,140
+ Run, run, run, run, run!
+
+5
+00:01:30,720 --> 00:01:32,720
+ Why do I do this?
+
+6
+00:01:32,720 --> 00:01:48,580
+ Hmm.
+
+7
+00:01:48,580 --> 00:01:50,580
+ That was interesting.
+
+8
+00:01:50,580 --> 00:02:17,950
+ I probably don't need RPG Maker.
+
+9
+00:02:17,950 --> 00:02:19,950
+ I think you just prefer to use RPG Maker.
+
+10
+00:02:23,950 --> 00:02:25,950
+ But yeah, you're probably right.
+
+11
+00:02:25,950 --> 00:02:27,950
+ I probably can't unpack the essentials and the assets.
+
+12
+00:03:12,750 --> 00:03:14,750
+ At least I think it is.
+
+13
+00:03:18,750 --> 00:03:22,750
+ I mean, getting other mechanics of the game is important too.
+
+14
+00:03:22,750 --> 00:03:24,450
+ That's one of the most important things.
+
+15
+00:03:41,610 --> 00:03:43,610
+ This boss is going to be hard to get too consistently.
+
+16
+00:03:43,610 --> 00:03:55,660
+ I drew way too many out there.
+
+17
+00:03:57,660 --> 00:04:01,560
+ I'm going to make a new command real quick.
+
+18
+00:06:57,560 --> 00:07:04,560
+ So now people will be able to know why I don't have song requests on during boss fights.
+
+19
+00:07:07,100 --> 00:07:09,100
+ Because it'll close the line.
+
+20
+00:07:20,190 --> 00:07:26,160
+ So you and Herrick can pull it up whenever someone asks why I'm not playing song requests right now.
+
+21
+00:07:27,730 --> 00:07:32,550
+ So I don't have to change the title constantly when it's on and when it's off.
+
+22
+00:07:50,370 --> 00:07:51,250
+ So I don't have to change the title of the game.
+
+23
+00:07:51,250 --> 00:07:51,250
+ I don't have to change the title of the game.
+
+24
+00:07:51,250 --> 00:07:52,250
+ I don't have to change the title of the game.
+
+25
+00:07:52,250 --> 00:07:53,250
+ I don't have to change the title of the game.
+
+26
+00:07:53,250 --> 00:07:54,250
+ I don't have to change the title of the game.
+
+27
+00:07:54,250 --> 00:07:55,250
+ I don't have to change the title of the game.
+
+28
+00:07:55,250 --> 00:08:05,070
+ I don't have to change the title of the game.
+
+29
+00:08:05,070 --> 00:08:07,070
+ I don't have to change the title of the game.
+
+30
+00:08:07,070 --> 00:08:08,070
+ I don't have to change the title of the game.
+
+31
+00:08:08,070 --> 00:08:10,060
+ I don't have to change the title of the game.
+
+32
+00:08:10,060 --> 00:08:11,060
+ I don't have to change the title of the game.
+
+33
+00:08:11,060 --> 00:08:12,060
+ I don't have to change the title of the game.
+
+34
+00:08:12,060 --> 00:08:13,060
+ I don't have to change the title of the game.
+
+35
+00:08:13,060 --> 00:08:14,060
+ I don't have to change the title of the game.
+
+36
+00:08:14,060 --> 00:08:15,060
+ I don't have to change the title of the game.
+
+37
+00:08:15,060 --> 00:08:17,060
+ I don't have to change the title of the game.
+
+38
+00:08:17,060 --> 00:08:18,060
+ I don't have to change the title of the game.
+
+39
+00:08:18,060 --> 00:08:19,060
+ I don't have to change the title of the game.
+
+40
+00:08:19,060 --> 00:08:20,060
+ I don't have to change the title of the game.
+
+41
+00:08:20,060 --> 00:08:20,880
+ I don't have to change the title of the game.
+
