@@ -1,14 +1,14 @@
 {
-  "local_completed_outputs": 181,
+  "local_completed_outputs": 206,
   "local_no_target_speech_outputs": 14,
   "legacy_asr_outputs": 165,
-  "local_window_asr_outputs": 167,
-  "total_asr_outputs": 332,
-  "total_recognized_words_not_deduplicated": 48465,
+  "local_window_asr_outputs": 192,
+  "total_asr_outputs": 357,
+  "total_recognized_words_not_deduplicated": 58647,
   "source_kinds_raw": {
     "clips": 140,
     "vods": 25,
-    "youtube": 180,
+    "youtube": 205,
     "clip": 5,
     "vod": 1
   },
