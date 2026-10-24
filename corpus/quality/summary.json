@@ -1,10 +1,10 @@
 {
-  "transcripts_evaluated": 1610,
-  "review_priority_high": 1270,
+  "transcripts_evaluated": 1635,
+  "review_priority_high": 1295,
   "review_priority_manual": 311,
   "excluded_pending_review": 29,
   "exact_duplicate_text": 35,
-  "words_in_queue": 569381,
+  "words_in_queue": 579594,
   "confirmed_speaker_words": 0,
   "training_ready_words": 0,
   "note": "Review priority is heuristic, not a probability of accuracy or speaker identity."
