@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:02,000
+*Sounds of gunshots*
+
+2
+00:00:29,000 --> 00:00:41,020
+PILOT, THE MODULE IS IN THE PROJECTOR OF THAT DISH.
+
+3
+00:00:41,020 --> 00:00:56,520
+PILOT, THE MODULE IS IN THE PROJECTOR OF THAT DISH.
+
+4
+00:00:56,520 --> 00:00:58,000
+"Protocol 2 mission update."
+
+5
+00:00:58,000 --> 00:00:59,000
+"Protocol 2 mission update."
+"Protocol 2 mission update. Uplink module acquired. Standing by for your return, Cooper."
+
+6
+00:00:59,000 --> 00:01:03,400
+"Protocol 2 mission update. Uplink module acquired. Standing by for your return, Cooper."
+
+7
+00:01:03,400 --> 00:01:06,400
+"Caution! Entering maintenance mode."
+
+8
+00:01:27,000 --> 00:01:38,840
+I'm going to do this part right now.
+
+9
+00:01:38,840 --> 00:01:43,000
+Oh yeah.
+
+10
+00:01:43,000 --> 00:01:51,000
+I'm going to do this part right now.
+
+11
+00:01:51,000 --> 00:01:56,000
+Anti-Titan squads have arrived, requesting assistance.
+
+12
+00:01:56,000 --> 00:01:57,000
+Anti-Titan squads have arrived, requesting assistance.
+Sonar pulse activated.
+
+13
+00:01:57,000 --> 00:02:19,120
+Sonar pulse activated.
+
+14
+00:02:19,120 --> 00:02:21,320
+Zipline's out. Go after the zipline!
+
+15
+00:02:22,180 --> 00:02:24,320
+Hit the zipline! Move! Move!
+
+16
+00:02:25,000 --> 00:02:32,400
+I'm engaging hostile infantry.
+
+17
+00:02:32,400 --> 00:02:38,400
+I'm not going to go around the zip line.
+
+18
+00:02:38,400 --> 00:02:54,000
+I'm activating solo.
+
+19
+00:02:54,000 --> 00:02:55,000
+I'm activating solo.
+Welcome back, Cooper.
+
+20
+00:02:55,000 --> 00:03:01,520
+Welcome back, Cooper.
+
+21
+00:03:01,900 --> 00:03:04,980
+Recommend we secure this area before proceeding with the repairs.
+
+22
+00:03:11,840 --> 00:03:12,920
+Rock her down.
+
+23
+00:03:13,100 --> 00:03:13,800
+Let me get her.
+
+24
+00:03:17,280 --> 00:03:18,760
+Pilot on the page.
+
+25
+00:03:21,280 --> 00:03:22,220
+Excessive damage.
+
+26
+00:03:22,480 --> 00:03:22,740
+Warning.
+
+27
+00:03:23,060 --> 00:03:23,340
+Warning.
+
+28
+00:03:32,900 --> 00:03:33,900
+We're down.
+
+29
+00:03:52,000 --> 00:03:52,900
+Good shot.
+Good shot!
+
+30
+00:03:52,900 --> 00:03:54,000
+Good shot!
+
+31
+00:04:18,000 --> 00:04:20,000
+All threats eliminated. Area secure.
+
+32
+00:04:21,000 --> 00:04:22,000
+Are you okay?
+Are you okay, pilot?
+
+33
+00:04:22,000 --> 00:04:22,520
+Are you okay, pilot?
+
+34
+00:04:25,320 --> 00:04:27,920
+Hell yeah. I'm on a hot streak.
+
+35
+00:04:28,480 --> 00:04:34,540
+Your vitals do not indicate a temperature problem. Do you wish for me to investigate this hot streak sensation further?
+
+36
+00:04:37,660 --> 00:04:41,660
+It's just an expression, BT. It means I've been killing a lot of enemies quickly.
+
+37
+00:04:42,260 --> 00:04:49,920
+Understood. I have added hot streak to my vocabulary. I have had numerous hot streaks within the past 38 standard hours.
+
+38
+00:04:50,000 --> 00:05:00,800
+Protocol 2 mission update: Replace the uplink module.
+
+39
+00:05:00,800 --> 00:05:03,360
+The socket for the module is at the top of this dish.
+
+40
+00:05:03,360 --> 00:05:06,620
+A throw combined with additional climbing is required.
+
+41
+00:05:19,000 --> 00:05:21,000
+*Gunshot*
+
+42
+00:05:48,000 --> 00:06:00,820
+This is Sloan go ahead Kane and ash and dead
+
+43
+00:06:01,720 --> 00:06:07,560
+Someone's been killing your mercs, and it looks like one of our radios has been nicked knew you shouldn't avoid those tosses
+
+44
+00:06:10,920 --> 00:06:17,000
+Oi, pilot. This is Cuban Blisk. You've been listening to us, eh? You want to be a hero, yeah?
+
+45
+00:06:17,000 --> 00:06:18,000
+Oi, pilot. This is Cuban Blisk. You've been listening to us, eh? You want to be a hero, yeah?
+Should I, yeah? Okay. Keep coming, Edmi. Keep coming.
+
+46
+00:06:18,000 --> 00:06:21,080
+Should I, yeah? Okay. Keep coming, Edmi. Keep coming.
+
+47
+00:06:21,080 --> 00:06:26,460
+But if I were you, I'd stop trying so hard to be a hero and live longer.
+
+48
+00:06:46,000 --> 00:07:15,000
+The Dish will automatically reorient itself once the new module is installed.
+
+49
+00:07:15,000 --> 00:07:15,480
+The Dish will automatically reorient itself once the new module is installed.
+installed.
+
+50
+00:07:15,480 --> 00:07:16,000
+installed.
+
+51
+00:07:16,000 --> 00:07:17,000
+B.T!
+
+52
+00:07:17,000 --> 00:07:22,000
+Got you.
+
+53
+00:07:44,000 --> 00:07:51,980
+Cooper the dish is back online get back here and we'll send this message to the fleet
+
+54
+00:07:51,980 --> 00:07:53,440
+outstanding work
+
+55
+00:07:53,440 --> 00:08:02,320
+Fricka, this is bliss. Yeah, I'm already on my way Richter out
+
+56
+00:08:11,440 --> 00:08:13,000
+This is Richter intercept and destroy
+
+57
+00:08:13,000 --> 00:08:14,000
+This is Richter intercept and destroy
+Intercept and destroy their pilot, then execute the remaining militia troops.
+
+58
+00:08:14,000 --> 00:08:17,140
+Intercept and destroy their pilot, then execute the remaining militia troops.
+
+59
+00:08:17,520 --> 00:08:18,360
+Reapers inbound.
+
+60
+00:08:20,960 --> 00:08:24,560
+Militia forces, lock down the control room. Threats detected.
+
+61
+00:08:25,140 --> 00:08:27,460
+Copy that, locking down. We will assist from here.
+
+62
+00:08:42,000 --> 00:09:11,000
+Let's go.
+
+63
+00:09:11,000 --> 00:09:11,980
+Let's go.
+Caution. Anomaly detected. Possible hostile Titans.
+
+64
+00:09:11,980 --> 00:09:19,820
+Caution. Anomaly detected. Possible hostile Titans.
+
+65
+00:09:20,860 --> 00:09:26,640
+IMC ground squads. I'm looking for someone to promote. I'm also looking for someone to kill.
+
+66
+00:09:27,020 --> 00:09:30,820
+You get to choose which one you wish to be on the X-Mark infection.
+
+67
+00:09:35,740 --> 00:09:37,580
+Not let him leave you alive.
+
+68
+00:09:40,000 --> 00:09:47,000
+No turning around now, Alnor! I'm gonna chase you down!
+
+69
+00:09:56,000 --> 00:10:00,000
+Ah, you all deserve to die!
