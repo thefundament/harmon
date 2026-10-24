@@ -21,10 +21,12 @@ eight-hour hard runtime cap, existing 6 GiB process/zero-swap and combined GPU
 memory guards, no restart policy, and no recurring schedule. The shared archive
 lock prevents concurrent workers. A frozen pending-only manifest preserves all
 existing completed production outputs and the completed private experiments.
-This eight-hour launcher passes `--no-push`: each completed TXT/SRT/metadata set
-is saved durably in the production corpus, with no automatic remote upload or
-Git checkpoint commit. Automatic approval review did not authorize publication
-to the configured remote destination. Publishing can be approved separately.
+The user explicitly authorized publishing to the configured repository remote,
+`github.com/thefundament/harmon`. The launcher publishes every 25 completed
+outputs and at exit, retaining durable local results if publication fails.
+For the already running session launched with `--no-push`, a separate bounded
+publisher stages only complete, hash-valid TXT/SRT/metadata sets and publishes
+them without interrupting transcription or extending its original deadline.
 The source inventory is not expanded.
 
 The service cleans temporary audio and writes its final report automatically.

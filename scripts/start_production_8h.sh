@@ -17,7 +17,7 @@ systemd-run --user --collect --no-block --unit="$UNIT" \
   --working-directory="$ROOT" \
   --setenv=HARMON_MODEL=large-v3-turbo-q5_0 --setenv=HARMON_THREADS=6 --setenv=HARMON_COMMIT_EVERY=25 \
   /usr/bin/python3 "$ROOT/collector/memory_guard.py" --metrics "$SESSION/memory.json" -- \
-  bash "$ROOT/scripts/run_archive.sh" --max-hours 8 --commit-every 25 --min-successes 1 --no-push \
+  bash "$ROOT/scripts/run_archive.sh" --max-hours 8 --commit-every 25 --min-successes 1 \
   --manifest "$SESSION/manifest.jsonl" --speaker-profile "$ROOT/.harmon-work/speaker_profile.json"
 systemctl --user show "$UNIT.service" -p ActiveState -p SubState -p RuntimeMaxUSec -p Restart
 printf '%s\n' "$SESSION" > .harmon-work/last-production-session
