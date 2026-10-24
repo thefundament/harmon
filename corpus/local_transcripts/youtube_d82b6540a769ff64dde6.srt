@@ -1,0 +1,76 @@
+1
+00:00:03,270 --> 00:00:33,160
+ I'll see you next time.
+
+2
+00:00:33,180 --> 00:01:02,800
+ I'll see you next time.
+
+3
+00:01:02,820 --> 00:01:32,140
+ I'll see you next time.
+
+4
+00:01:32,140 --> 00:02:01,760
+ I'll see you next time.
+
+5
+00:02:01,760 --> 00:02:31,440
+ I'll see you next time.
+
+6
+00:02:31,440 --> 00:03:03,190
+ I'll see you next time.
+
+7
+00:03:03,190 --> 00:03:35,240
+ I'll see you next time.
+
+8
+00:03:35,240 --> 00:04:07,410
+ I'll see you next time.
+
+9
+00:04:07,430 --> 00:04:41,760
+ I'll see you next time.
+
+10
+00:04:41,760 --> 00:05:14,140
+ I'll see you next time.
+
+11
+00:05:14,140 --> 00:05:46,310
+ I'll see you next time.
+
+12
+00:05:46,310 --> 00:06:18,390
+ I'll see you next time.
+
+13
+00:06:18,390 --> 00:06:50,620
+ I'll see you next time.
+
+14
+00:06:50,620 --> 00:07:24,950
+ I'll see you next time.
+
+15
+00:07:24,950 --> 00:07:59,010
+ I'll see you next time.
+
+16
+00:07:59,030 --> 00:08:37,650
+ I'll see you next time.
+
+17
+00:08:37,650 --> 00:09:12,220
+ I'll see you next time.
+
+18
+00:09:12,220 --> 00:09:48,290
+ I'll see you next time.
+
+19
+00:09:48,290 --> 00:09:50,290
+ I'll see you next time.
+

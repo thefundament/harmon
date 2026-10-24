@@ -1,0 +1,36 @@
+1
+00:00:18,420 --> 00:01:02,920
+ I'm not going to be able to do this.
+
+2
+00:01:02,940 --> 00:01:48,550
+ I'm not going to be able to do this.
+
+3
+00:01:48,570 --> 00:02:50,530
+ I'm not going to be able to do this.
+
+4
+00:02:50,530 --> 00:03:42,080
+ I'm not going to be able to do this.
+
+5
+00:03:42,080 --> 00:04:50,580
+ I'm not going to be able to do this.
+
+6
+00:04:50,580 --> 00:05:41,800
+ I'm not going to be able to do this.
+
+7
+00:05:41,800 --> 00:07:18,500
+ I'm not going to be able to do this.
+
+8
+00:07:18,500 --> 00:08:45,000
+ I'm not going to be able to do this.
+
+9
+00:08:45,020 --> 00:10:00,000
+ I'm not going to be able to do this.
+
