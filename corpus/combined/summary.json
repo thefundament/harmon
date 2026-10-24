@@ -1,14 +1,14 @@
 {
-  "local_completed_outputs": 156,
-  "local_no_target_speech_outputs": 10,
+  "local_completed_outputs": 181,
+  "local_no_target_speech_outputs": 14,
   "legacy_asr_outputs": 165,
-  "local_window_asr_outputs": 146,
-  "total_asr_outputs": 311,
-  "total_recognized_words_not_deduplicated": 43733,
+  "local_window_asr_outputs": 167,
+  "total_asr_outputs": 332,
+  "total_recognized_words_not_deduplicated": 48465,
   "source_kinds_raw": {
     "clips": 140,
     "vods": 25,
-    "youtube": 155,
+    "youtube": 180,
     "clip": 5,
     "vod": 1
   },
