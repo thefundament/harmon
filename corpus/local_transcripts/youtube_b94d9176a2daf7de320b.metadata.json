@@ -1,0 +1,215 @@
+{
+  "task_id": "youtube:wJ2OmG_HASI:1800-2400",
+  "source_id": "wJ2OmG_HASI",
+  "source_url": "https://www.youtube.com/watch?v=wJ2OmG_HASI",
+  "kind": "youtube",
+  "source_window_start_s": 1800,
+  "source_window_end_s": 2400,
+  "processing_status": "transcribed",
+  "recognition_model": "whisper.cpp ggml-large-v3-turbo-q5_0",
+  "pipeline": "original-audio-independent-30s-v1",
+  "model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "model_file": "ggml-large-v3-turbo-q5_0.bin",
+  "processed_audio_seconds": 600.0,
+  "transcription_seconds": 20.384223740082234,
+  "elapsed_seconds": 21.193550643045455,
+  "retrieved_at_utc": "2026-10-24T13:40:04.617713+00:00",
+  "source_provenance": "frozen_manifest",
+  "recognized_words": 499,
+  "speaker_status": "all_speakers_with_unverified_profile_overlap",
+  "voice_filter": {
+    "speaker_gate": "calibrated_reference_embedding",
+    "speaker_status": "probable_channel_primary_speaker",
+    "identity_evidence": "recurring_voice_across_independent_recordings",
+    "speaker_profile_sha256": "51491a6d899df9b98034431e598e5e6ff392db268bd1c4fa9007ecb7d3b27f65",
+    "speaker_model": "resemblyzer_voiceencoder_pretrained_v1",
+    "speaker_threshold": 0.73021,
+    "matched_regions": 9,
+    "other_or_uncertain_regions": 40,
+    "matched_audio_seconds": 73.08,
+    "examined_audio_seconds": 600.0,
+    "time_mapping": [
+      {
+        "compact_start_s": 0.0,
+        "compact_end_s": 5.88,
+        "source_start_s": 159.81,
+        "source_end_s": 165.69
+      },
+      {
+        "compact_start_s": 6.18,
+        "compact_end_s": 10.92,
+        "source_start_s": 318.21,
+        "source_end_s": 322.95
+      },
+      {
+        "compact_start_s": 11.22,
+        "compact_end_s": 23.13,
+        "source_start_s": 351.72,
+        "source_end_s": 363.63
+      },
+      {
+        "compact_start_s": 23.43,
+        "compact_end_s": 33.15,
+        "source_start_s": 374.31,
+        "source_end_s": 384.03
+      },
+      {
+        "compact_start_s": 33.45,
+        "compact_end_s": 45.45,
+        "source_start_s": 399.15,
+        "source_end_s": 411.15
+      },
+      {
+        "compact_start_s": 45.75,
+        "compact_end_s": 54.09,
+        "source_start_s": 411.15,
+        "source_end_s": 419.49
+      },
+      {
+        "compact_start_s": 54.39,
+        "compact_end_s": 59.1,
+        "source_start_s": 419.97,
+        "source_end_s": 424.68
+      },
+      {
+        "compact_start_s": 59.4,
+        "compact_end_s": 71.4,
+        "source_start_s": 425.22,
+        "source_end_s": 437.22
+      },
+      {
+        "compact_start_s": 71.7,
+        "compact_end_s": 75.48,
+        "source_start_s": 440.16,
+        "source_end_s": 443.94
+      }
+    ],
+    "no_match": false,
+    "applied_to_decoder_input": false,
+    "usage": "post_decode_overlap_annotation"
+  },
+  "raw_transcript_preserved": true,
+  "repetition_removed": false,
+  "repetition_metrics": {
+    "words": 500,
+    "empty": false,
+    "empty_chunks": 0,
+    "repeated_5gram_excess": 18,
+    "repeated_5gram_fraction": 0.036290322580645164,
+    "max_5gram_count": 4,
+    "repeated_5gram_examples": [
+      {
+        "text": "i know that you'll never",
+        "count": 4
+      },
+      {
+        "text": "know that you'll never know",
+        "count": 4
+      },
+      {
+        "text": "that you'll never know what",
+        "count": 4
+      },
+      {
+        "text": "you'll never know what they",
+        "count": 4
+      },
+      {
+        "text": "never know what they ever",
+        "count": 4
+      }
+    ],
+    "repeated_line_flag": true,
+    "processed_source_seconds": 600.0,
+    "processed_source_fraction": 1.0,
+    "decoder_input_seconds_including_overlap": 620.0,
+    "timed_text_union_seconds": 320.82,
+    "timestamp_issues": [
+      {
+        "cue": 6,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1829.0,
+        "end": 1858.98
+      },
+      {
+        "cue": 7,
+        "issues": [
+          "overlap"
+        ],
+        "start": 1858.0,
+        "end": 1860.0
+      },
+      {
+        "cue": 24,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2003.0,
+        "end": 2009.24
+      },
+      {
+        "cue": 32,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2032.0,
+        "end": 2038.66
+      },
+      {
+        "cue": 35,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2090.0,
+        "end": 2092.0
+      },
+      {
+        "cue": 39,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2177.0,
+        "end": 2182.0
+      },
+      {
+        "cue": 51,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2264.0,
+        "end": 2293.98
+      },
+      {
+        "cue": 52,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2293.0,
+        "end": 2299.6
+      },
+      {
+        "cue": 57,
+        "issues": [
+          "overlap"
+        ],
+        "start": 2351.0,
+        "end": 2357.8
+      }
+    ]
+  },
+  "original_pcm_sha256": "b365af5c754cbfac1f6a8736812d67cd8d6ef506bf9959f085e1da47be140310",
+  "original_wav_sha256": "23f1f400ddf9804088e4ed8587d5844b406d68d06229c87587810f7b3e6f2e58",
+  "native_artifacts": ".harmon-work/production-candidate/outputs/youtube_b94d9176a2daf7de320b/result.json",
+  "time_alignment": "relative_to_downloaded_section; source cut approximate; native timestamps preserved privately",
+  "srt_timing": "section_relative_nonoverlapping_presentation; not improved speech alignment",
+  "subtitle_timing_issues": [],
+  "source_owner_verified": true,
+  "source_owner_evidence": "video_channel_id",
+  "text_sha256": "905e4f64e9236759986db4e7642478d985aadf0936a16ed3708dfc76da608fa3",
+  "srt_sha256": "3bb9cffddb9aee40ba12f643fcc9b5cb30ea869c7ad7dd87fee11436f9f2a2fe",
+  "speaker_verified": false,
+  "training_ready": false,
+  "training_permission_verified": false
+}
