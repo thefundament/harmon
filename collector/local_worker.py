@@ -363,7 +363,8 @@ def summarize(tasks, journal, output=OUTPUT, include_existing=False, retry_exhau
         counts[reason]=counts.get(reason,0)+1
     return counts
 
-def execute(args):
+def execute(args, processor=None):
+    process = processor or process_task
     tasks=load_manifest(args.manifest)
     journal_file=args.work_dir/"state.json"
     journal=load_journal(journal_file)
@@ -456,10 +457,10 @@ def execute(args):
             processed+=1
             try:
                 if filtered:
-                    record=process_task(task,tools,args.output,args.work_dir,args.threads,
+                    record=process(task,tools,args.output,args.work_dir,args.threads,
                                         profile_path,required_hash)
                 else:
-                    record=process_task(task,tools,args.output,args.work_dir,args.threads)
+                    record=process(task,tools,args.output,args.work_dir,args.threads)
                 journal.pop(task["task_id"],None)
                 atomic_json(journal_file,journal)
                 completed_count+=1;since_commit+=1

@@ -1,5 +1,14 @@
 # Harmon finite local transcription handoff
 
+**Latest user authorization:** Promote the original-audio chunked candidate as
+an unverified first pass, retain raw repetition for later cleanup, and start one
+unattended **eight-hour production session**. This supersedes the earlier
+two-hour/no-overnight operating limit for this requested session. Use
+`scripts/start_production_8h.sh`; see [production candidate](PRODUCTION_CANDIDATE.md).
+There is no recurring schedule or automatic restart. Completed pilot/follow-up
+artifacts and existing production completions remain preserved; historical
+integrity snapshots predate this authorized production/code change.
+
 The inventory is frozen. Do not discover new sources or start recurring jobs.
 The current operating mode is manually started **two-hour sessions**, with Turbo,
 six threads and publishing every **25 completed outputs** plus session end.
