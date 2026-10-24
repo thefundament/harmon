@@ -21,8 +21,11 @@ eight-hour hard runtime cap, existing 6 GiB process/zero-swap and combined GPU
 memory guards, no restart policy, and no recurring schedule. The shared archive
 lock prevents concurrent workers. A frozen pending-only manifest preserves all
 existing completed production outputs and the completed private experiments.
-The worker publishes every 25 completed outputs and at session exit, retaining
-local checkpoints if upload fails. The source inventory is not expanded.
+This eight-hour launcher passes `--no-push`: each completed TXT/SRT/metadata set
+is saved durably in the production corpus, with no automatic remote upload or
+Git checkpoint commit. Automatic approval review did not authorize publication
+to the configured remote destination. Publishing can be approved separately.
+The source inventory is not expanded.
 
 The service cleans temporary audio and writes its final report automatically.
 Its private directory is recorded in `.harmon-work/last-production-session` and

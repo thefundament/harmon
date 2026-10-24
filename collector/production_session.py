@@ -28,7 +28,7 @@ def prepare(directory):
     (directory/"manifest.jsonl").write_text("".join(pilot.json.dumps(t)+"\n" for t in tasks))
     record=dict(created_utc=worker.now(),started_unix=time.time(),max_seconds=28800,
         pipeline=candidate.PIPELINE,pending_windows=len(tasks),profile_sha256=loaded["_loaded_sha256"],
-        raw_transcripts_preserved=True,repetition_cleanup_deferred=True,
+        raw_transcripts_preserved=True,repetition_cleanup_deferred=True,remote_publishing_enabled=False,
         authorization="User approved production promotion as an unverified first pass, accepting later repetition cleanup, and requested one unattended eight-hour run.",
         preserved_sha256=preserved, **followup.FLAGS)
     worker.atomic_json(directory/"session.json",record)

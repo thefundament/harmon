@@ -35,7 +35,7 @@ class ProductionSessionTests(unittest.TestCase):
     def test_detached_launcher_has_hard_stop_guards_and_no_restart(self):
         source=(session.worker.REPO/'scripts/start_production_8h.sh').read_text()
         for text in ('--no-block','RuntimeMaxSec=8h','Restart=no','MemoryMax=6G','MemorySwapMax=0',
-                     'ExecStopPost=','collector/memory_guard.py','--max-hours 8','--commit-every 25'):
+                     'ExecStopPost=','collector/memory_guard.py','--max-hours 8','--commit-every 25','--no-push'):
             self.assertIn(text,source)
         self.assertNotIn('--wait',source)
 
