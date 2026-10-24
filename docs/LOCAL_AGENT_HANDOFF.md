@@ -6,7 +6,11 @@ The inventory is frozen. Do not discover new sources or start recurring jobs. Th
 
 **Do not expand this session's authorization:** the local agent is paused pending these source-list changes. Preserve its current capped pilot, local commits and checkpoints; **do not start the prepared ten-hour/overnight command** until the user separately authorizes it. On resumption, fetch/rebase latest `origin/main` without force or destructive reset, verify `local_worker.py status`, and keep any saved `.harmon-work/pilot.jsonl` if the pilot was already prepared. Historical source discovery was already completed on GitHub; do not repeat it locally.
 
-The separately authorized additional-model comparison has its own **ten-source-attempt maximum**, includes 200 frozen reference recordings, and preserves the production default. Its [report and artifacts](stt_benchmark/REPORT.md) and `scripts/run_stt_benchmark.sh` are separate from archive processing. The benchmark retains ten sources from the original 127.79-hour inventory snapshot; its source ledger counts failed and interrupted attempts across restarts. Neither its launcher nor offline GitHub workflow starts the archive batch.
+The separately authorized additional-model comparison has its own **ten-source-attempt maximum** and includes 200 frozen reference recordings. Its [report and artifacts](stt_benchmark/REPORT.md) and `scripts/run_stt_benchmark.sh` are separate from archive processing. The benchmark retains ten sources from the original 127.79-hour inventory snapshot; its source ledger counts failed and interrupted attempts across restarts. Neither its launcher nor offline GitHub workflow starts the archive batch.
+
+**Accepted ASR choice:** the user approved provisional use of `large-v3-turbo-q5_0`, now the default in setup and local launchers. Its aggregate reference WER was 5.91% versus Small's 7.05%, with 1.54× processing time. The user accepted that narrow exception to the original 1.50× ceiling. [decision.json](stt_benchmark/decision.json) records the acceptance separately from the unchanged benchmark measurements. Commentary accuracy remains unverified.
+
+**Other worker's handoff:** [LOCAL_SPEAKER_FILTER.md on the speaker-gate branch](https://github.com/thefundament/harmon/blob/feat/local-speaker-voice-gate/docs/LOCAL_SPEAKER_FILTER.md) describes the optional CPU speaker filter and remains unmerged. It preserves this ASR choice, requires privately reviewed enrollment references and a bounded validation pilot, and requires a calibrated profile before a full filtered run. Its cost on this host is unmeasured. Do not start the full batch or infer enrollment labels from channel ownership.
 
 ## Setup on this host
 
@@ -18,7 +22,7 @@ HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/bootst
 .venv/bin/python collector/local_worker.py status
 ```
 
-Models are verified against the upstream SHA1 and their SHA256 is printed. `HARMON_MODEL` selects the model for setup and launch; `--model-name` selects a downloaded model for the worker, and explicit `--model /path/to/weights.bin` takes precedence. The original live comparison recommends the default `small.en`; see [LOCAL_VALIDATION.md](LOCAL_VALIDATION.md) for its measurements and output defects. Its original Turbo criterion allowed twice Small's time; the later [additional-model benchmark](stt_benchmark/REPORT.md) uses the stricter **1.5×** ceiling. The corpus has no verified reference transcripts: report its differences and defects without WER or measured commentary accuracy. The separate benchmark measures WER only against the published LibriSpeech/FLEURS references.
+Models are verified against the upstream SHA1 and their SHA256 is printed. `HARMON_MODEL` selects the model for setup and launch; `--model-name` selects a downloaded model for the worker, and explicit `--model /path/to/weights.bin` takes precedence. The original live comparison recommended `small.en`; see [LOCAL_VALIDATION.md](LOCAL_VALIDATION.md) for its historical measurements and output defects. The later benchmark retained Small under its strict **1.5×** screen, after which the user accepted Turbo's 1.54× tradeoff. The corpus has no verified reference transcripts: report its differences and defects without WER or measured commentary accuracy. The separate benchmark measures WER only against the published LibriSpeech/FLEURS references.
 
 ## Memory and logging
 
@@ -29,7 +33,7 @@ Models are verified against the upstream SHA1 and their SHA256 is printed. `HARM
 For a validation run, choose a frozen subset manifest under `.harmon-work/` and use `--min-successes`. `--max-items` counts source attempts, including failures. Success requirements count new durable TXT/SRT/metadata outputs, including explicit no-speech results; inspect the requested speech outputs separately.
 
 ```bash
-HARMON_MODEL=small.en bash scripts/run_limited.sh bash scripts/run_archive.sh \
+HARMON_MODEL=large-v3-turbo-q5_0 bash scripts/run_limited.sh bash scripts/run_archive.sh \
   --manifest .harmon-work/pilot.jsonl --max-items 20 --min-successes 7 --commit-every 1
 ```
 
@@ -38,7 +42,7 @@ Pilot acceptance requires five successful clips, one complete VOD window and one
 **Prepared ten-hour command; do not execute as part of this session:**
 
 ```bash
-HARMON_MODEL=small.en HARMON_LOG="$PWD/.harmon-work/logs/ten-hour.log" \
+HARMON_MODEL=large-v3-turbo-q5_0 HARMON_LOG="$PWD/.harmon-work/logs/ten-hour.log" \
   bash scripts/run_limited.sh bash scripts/run_archive.sh --max-hours 10 --commit-every 10
 ```
 

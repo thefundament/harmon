@@ -23,6 +23,13 @@ VOD={"kind":"vod","task_id":"vod:1234:600-1200","source_id":"1234",
      "state":"legacy_sample_range_unknown"}
 
 class LocalWorkerTests(unittest.TestCase):
+ def test_accepted_turbo_default_and_model_overrides(self):
+  with mock.patch.object(worker.os,"environ",{}):
+   self.assertEqual(worker.parser().parse_args(["status"]).model_name,"large-v3-turbo-q5_0")
+   self.assertEqual(worker.parser().parse_args(["status","--model-name","small.en"]).model_name,"small.en")
+  with mock.patch.object(worker.os,"environ",{"HARMON_MODEL":"small.en"}):
+   self.assertEqual(worker.parser().parse_args(["status"]).model_name,"small.en")
+
  def test_manifest_rejects_bad_host_and_duplicates(self):
   with tempfile.TemporaryDirectory() as td:
    p=pathlib.Path(td)/"manifest.jsonl"

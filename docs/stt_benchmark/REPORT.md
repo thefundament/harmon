@@ -1,8 +1,10 @@
 # Additional STT comparison — 2026-10-23
 
-Provisional recommendation: **`small.en`**. No complete candidate meets both speed and reference quality thresholds.
+Provisional recommendation: **`large-v3-turbo-q5_0`**. The user accepted Turbo’s narrow speed-budget overrun in exchange for the measured reference WER improvement. Commentary accuracy remains unverified.
 
-The production default remains `small.en`. The ten-hour archive batch has not been started. Existing corpus transcripts and their verification flags are preserved.
+The production default is `large-v3-turbo-q5_0`. The ten-hour archive batch has not been started. Existing corpus transcripts and their verification flags are preserved.
+
+**User acceptance after the benchmark:** Turbo's measured 1.54× time is accepted as a narrow exception to the original 1.50× ceiling for its 16.1% relative reference WER improvement. The original strict screen selected Small; its scores, eligibility flags and frozen protocol below remain unchanged. This acceptance does not establish measured commentary accuracy or authorize the batch. See [decision.json](decision.json) and the [speaker-filter worker handoff](https://github.com/thefundament/harmon/blob/feat/local-speaker-voice-gate/docs/LOCAL_SPEAKER_FILTER.md).
 
 The upstream inventory expanded to 465.4 listed hours while this run was in progress. This comparison retains its original ten frozen sources and the explicitly requested 127.79-hour projection; it does not sample or start the expanded inventory. [corpus_sources.jsonl](corpus_sources.jsonl) and the original inventory commit/hash in the lock preserve that boundary.
 
@@ -147,7 +149,7 @@ The launcher is finite, has no discovery or scheduler, and cleans benchmark audi
 - In the first commentary clip, Medium, Parakeet and Qwen agree on “Hey Google” and the response about not knowing what is playing. Their agreement is unverified; the full reference-free differences are retained rather than scored as WER.
 - The game window produces mixed-language/background-dialogue output in Parakeet and Qwen despite English request settings. Qwen retains Japanese text; Parakeet includes phonetic/multilingual fragments. Channel ownership does not establish the speaker or correctness.
 - Corpus inspection flags 12 potentially uncovered native-timestamp tails and 10 empty voiced regions for Parakeet; Medium has three such tails and five empty regions. These can reflect silence/VAD false positives or omissions. Qwen’s region-only timestamps cannot support the same tail-alignment test.
-- All repeated configurations had identical transcript and subtitle hashes. Repetition consistency is unmeasured for the single-pass rejected Parakeet/Qwen candidates. Retain unsegmented Small; the production default is unchanged.
+- All repeated configurations had identical transcript and subtitle hashes. Repeat consistency is unmeasured for the single-pass rejected Parakeet/Qwen candidates. The strict screen retained unsegmented Small; the user subsequently accepted Turbo’s 1.54× time for its 16.1% relative reference WER improvement, making Turbo the provisional production default.
 
 [Per-source coverage and truncation flags](corpus_inspection.json) retain the automatic inspection. Examples above are unverified transcript differences, not adjudicated commentary accuracy.
 

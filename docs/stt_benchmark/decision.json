@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "accepted_at_utc": "2026-10-24T00:19:39.298006+00:00",
+  "status": "user_accepted_provisional",
+  "model": "large-v3-turbo-q5_0",
+  "production_default": "large-v3-turbo-q5_0",
+  "reason": "The user accepted Turbo’s narrow speed-budget overrun in exchange for the measured reference WER improvement. Commentary accuracy remains unverified.",
+  "original_protocol_selection": {
+    "model": "small.en",
+    "reason": "No complete candidate meets both speed and reference quality thresholds."
+  },
+  "original_time_limit_ratio": 1.5,
+  "measured_time_ratio_to_small": 1.5385993050829903,
+  "over_budget_relative": 0.025732870055326762,
+  "relative_reference_wer_improvement": 0.16140350877192983,
+  "projected_processing_hours_for_127_79_audio_hours": 5.971311805286149,
+  "benchmark_results_sha256": "6d91c4645b6b31a49f546f200d952cc4c9c031ca71d9ec657e1e3027cc11d9ec",
+  "speaker_filter_handoff": {
+    "branch": "feat/local-speaker-voice-gate",
+    "commit": "38a00bdb964bf3329f4a1f376f6af2025c317125",
+    "path": "docs/LOCAL_SPEAKER_FILTER.md",
+    "integration": "unmerged; preserved",
+    "requirements": "Private reviewed references and bounded voice-filter validation before full filtered operation; cost unmeasured."
+  },
+  "ten_hour_batch_started": false,
+  "validation": {
+    "offline_tests_passed": 66,
+    "shell_syntax": "passed",
+    "default_and_small_override_launcher_dry_runs": "passed; no jobs started",
+    "turbo_model_sha256": "verified against lock.json",
+    "existing_transcripts_and_archive_journal": "unchanged"
+  }
+}

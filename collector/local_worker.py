@@ -30,7 +30,7 @@ WORK = REPO / ".harmon-work"
 ALLOWED = {"www.twitch.tv", "twitch.tv", "clips.twitch.tv",
            "youtube.com", "www.youtube.com", "youtu.be"}
 KINDS = {"clip", "vod", "youtube"}
-MODEL_NAME = "small.en"
+MODEL_NAME = "large-v3-turbo-q5_0"
 SPEECH_RE = re.compile(r"\[(?:BLANK_AUDIO|MUSIC|SILENCE|APPLAUSE)\]", re.I)
 MAX_ATTEMPTS = 3
 
@@ -439,7 +439,7 @@ def parser():
     p.add_argument("--output",type=Path,default=OUTPUT)
     p.add_argument("--work-dir",type=Path,default=WORK)
     p.add_argument("--model",type=Path,help="explicit GGML model path; overrides --model-name")
-    p.add_argument("--model-name",default=os.environ.get("HARMON_MODEL",MODEL_NAME),help="GGML model name (default: HARMON_MODEL or small.en)")
+    p.add_argument("--model-name",default=os.environ.get("HARMON_MODEL",MODEL_NAME),help="GGML model name (default: HARMON_MODEL or large-v3-turbo-q5_0)")
     p.add_argument("--min-successes",type=int,default=0,help="fail validation unless this many new results are produced")
     p.add_argument("--whisper-cli",help="path to whisper-cli")
     p.add_argument("--yt-dlp",help="path to yt-dlp executable")

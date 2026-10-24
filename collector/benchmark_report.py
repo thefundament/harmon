@@ -10,14 +10,16 @@ except ImportError:
     import benchmark_metrics as metrics
 
 
-def render(result, source, execution=None, findings=None):
+def render(result, source, execution=None, findings=None, decision=None):
     summary = result["summary"]
     samples = source["samples"]
     corpus = [s for s in samples if s["dataset"] == "corpus"]
     duration = sum(s["audio_seconds"] for s in corpus)
+    selected = decision or result["selection"]
+    default = decision["production_default"] if decision else "small.en"
     lines = ["# Additional STT comparison — 2026-10-23", "",
-             f"Provisional recommendation: **`{result['selection']['model']}`**. {result['selection']['reason']}", "",
-             "The production default remains `small.en`. The ten-hour archive batch has not been started. "
+             f"Provisional recommendation: **`{selected['model']}`**. {selected['reason']}", "",
+             f"The production default is `{default}`. The ten-hour archive batch has not been started. "
              "Existing corpus transcripts and their verification flags are preserved.", "",
              "The upstream inventory expanded to 465.4 listed hours while this run was in progress. "
              "This comparison retains its original ten frozen sources and the explicitly requested 127.79-hour projection; "
@@ -29,6 +31,12 @@ def render(result, source, execution=None, findings=None):
              "and YouTube windows. A ratio at most 1.5 is eligible. Lower WER is better.", "",
              "| Configuration (completed passes) | LibriSpeech WER | FLEURS WER | Overall WER | Corpus median s | Time / current Small | Audio / wall | Combined peak GiB | Eligible speed |",
              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |"]
+    if decision:
+        lines[6:6] = ["**User acceptance after the benchmark:** Turbo's measured 1.54× time is accepted as a narrow exception "
+            "to the original 1.50× ceiling for its 16.1% relative reference WER improvement. The original strict screen selected "
+            "Small; its scores, eligibility flags and frozen protocol below remain unchanged. This acceptance does not establish "
+            "measured commentary accuracy or authorize the batch. See [decision.json](decision.json) and the "
+            "[speaker-filter worker handoff](https://github.com/thefundament/harmon/blob/feat/local-speaker-voice-gate/docs/LOCAL_SPEAKER_FILTER.md).", ""]
     baseline_seconds = summary.get("small.en-unsegmented", {}).get("corpus_median_seconds")
     for name, row in summary.items():
         if not row.get("evaluated", row["complete"]):
@@ -290,9 +298,11 @@ def main():
     source = json.loads((inputs.REPORT / "inputs.json").read_text())
     execution_path = inputs.REPORT / "execution.json"
     findings_path = inputs.REPORT / "findings.json"
+    decision_path = inputs.REPORT / "decision.json"
     report, differences = render(result, source,
         json.loads(execution_path.read_text()) if execution_path.exists() else None,
-        json.loads(findings_path.read_text()) if findings_path.exists() else None)
+        json.loads(findings_path.read_text()) if findings_path.exists() else None,
+        json.loads(decision_path.read_text()) if decision_path.exists() else None)
     (inputs.REPORT / "REPORT.md").write_text(report)
     inputs.worker.atomic_json(inputs.REPORT / "differences.json", differences)
     inputs.worker.atomic_json(inputs.REPORT / "corpus_inspection.json", inspect_corpus(result))

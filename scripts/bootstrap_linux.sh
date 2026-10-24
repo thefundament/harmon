@@ -3,7 +3,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
-MODEL_NAME="${HARMON_MODEL:-small.en}"
+MODEL_NAME="${HARMON_MODEL:-large-v3-turbo-q5_0}"
 case "$MODEL_NAME" in
   small.en) MODEL_MIN=480000000; MODEL_SHA1=db8a495a91d927739e50b3fc1cc4c6b8f6c2d022 ;;
   large-v3-turbo-q5_0) MODEL_MIN=570000000; MODEL_SHA1=e050f7970618a659205450ad97eb95a18d69c9ee ;;

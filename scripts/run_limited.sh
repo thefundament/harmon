@@ -12,7 +12,7 @@ set -o pipefail
 systemd-run --user --wait --pipe --collect --unit="harmon-$STAMP" \
   -p MemoryMax=6G -p MemorySwapMax=0 -p MemoryAccounting=yes -p OOMPolicy=stop \
   --working-directory="$ROOT" \
-  --setenv="HARMON_MODEL=${HARMON_MODEL:-small.en}" \
+  --setenv="HARMON_MODEL=${HARMON_MODEL:-large-v3-turbo-q5_0}" \
   --setenv="HARMON_VULKAN=${HARMON_VULKAN:-ON}" \
   --setenv="HARMON_BUILD_JOBS=${HARMON_BUILD_JOBS:-2}" \
   --setenv="HARMON_THREADS=${HARMON_THREADS:-6}" \

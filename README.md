@@ -21,7 +21,7 @@ The historical acquisition pilot is `.github/workflows/harvest.yml`. It has **ma
 
 `.github/workflows/model-benchmark.yml` runs offline checks for the local STT benchmark. Model downloads and inference run only locally.
 
-The additional-model comparison, frozen reference samples and reproducible launcher are documented in [the STT comparison report](docs/stt_benchmark/REPORT.md). It compares Small and Turbo with Medium English, Parakeet TDT v3 and Qwen3-ASR, including quality, subtitle timing and guarded throughput. The production worker still defaults to `small.en`; the ten-hour batch remains unstarted.
+The additional-model comparison, frozen reference samples and reproducible launcher are documented in [the STT comparison report](docs/stt_benchmark/REPORT.md). It compares Small and Turbo with Medium English, Parakeet TDT v3 and Qwen3-ASR, including quality, subtitle timing and guarded throughput. The user accepted Turbo's small speed-budget overrun for its reference WER improvement; the local worker now defaults to `large-v3-turbo-q5_0`. The ten-hour batch remains unstarted.
 
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) for the complete execution map, confidence tiers, speaker-verification plan, and GitHub usage limitations.
 
@@ -42,4 +42,4 @@ Each `.txt` has a same-stem `.metadata.json` and usually `.srt` timestamp file. 
 
 ## One-time local corpus completion
 
-For a local Linux/WSL agent to process the frozen archive without discovery or human decisions, see [Local Agent Handoff](docs/LOCAL_AGENT_HANDOFF.md). The small.en speech model is downloaded automatically. Original video/WAV are temporary and excluded from Git. Local transcripts are indexed by lightweight CI after push.
+For a local Linux/WSL agent to process the frozen archive without discovery, see [Local Agent Handoff](docs/LOCAL_AGENT_HANDOFF.md). The selected Turbo model is downloaded automatically; `HARMON_MODEL=small.en` remains available as an override. Original video/WAV are temporary and excluded from Git. Local transcripts are indexed by lightweight CI after push.

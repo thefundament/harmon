@@ -6,6 +6,6 @@
     "In the first commentary clip, Medium, Parakeet and Qwen agree on “Hey Google” and the response about not knowing what is playing. Their agreement is unverified; the full reference-free differences are retained rather than scored as WER.",
     "The game window produces mixed-language/background-dialogue output in Parakeet and Qwen despite English request settings. Qwen retains Japanese text; Parakeet includes phonetic/multilingual fragments. Channel ownership does not establish the speaker or correctness.",
     "Corpus inspection flags 12 potentially uncovered native-timestamp tails and 10 empty voiced regions for Parakeet; Medium has three such tails and five empty regions. These can reflect silence/VAD false positives or omissions. Qwen’s region-only timestamps cannot support the same tail-alignment test.",
-    "All repeated configurations had identical transcript and subtitle hashes. Repetition consistency is unmeasured for the single-pass rejected Parakeet/Qwen candidates. Retain unsegmented Small; the production default is unchanged."
+    "All repeated configurations had identical transcript and subtitle hashes. Repeat consistency is unmeasured for the single-pass rejected Parakeet/Qwen candidates. The strict screen retained unsegmented Small; the user subsequently accepted Turbo’s 1.54× time for its 16.1% relative reference WER improvement, making Turbo the provisional production default."
   ]
 }
